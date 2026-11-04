@@ -1,0 +1,22 @@
+{
+  "my_marker_cell": "하단-좌",
+  "my_part": "마커가 상자 좌측 테두리의 하단에 걸쳐 있음. 상자 내부는 균일한 자홍색이며 화면 좌측 가장자리(상자 밖)에 주황색 온난 영역이 있어 외부 열원 영향 가능. 가시광(백색 캐비닛·케이블 트레이·루버 환기구)과 정렬 불가. 케이블 접속부 하단 좌측 가장자리 또는 인접 부품과의 경계로 추정",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "A는 원인(정상 부하 발열)·메모(판단 유보)가 L0·형제 대비 -0.8°C·장면 대비 1.5°C와 일치함. B는 근거 없는 '육안 특이·정상 분포 대비'로 접촉면 오염·절연 열화를 들어 자기모순이고, 정상 범위 설비에 처리 지시까지 내림.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "둘 다 추가 정보 없음",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 접촉면 오염, 절연 열화   근거: 육안 특이, 정상 분포 대비 (육안 특이 서술 없음; 형제 대비 -0.8°C·장면 대비 1.5°C로 정상 분포 내라는 자체 수치와 모순)",
+    "현장 작업자에게는 접촉면 오염이나 절연 열화를 확인하고 처리해 주시기 바랍니다. (판정 정상 범위·단일 프레임에 열적 이상 근거 없음과 어긋나는 작업 지시)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "열점 위치 '하단 좌측'은 양쪽 모두 내 판독과 일치. 마커가 상자 좌측 경계에 있고 바로 왼쪽 바깥(상자 밖)이 더 따뜻해 보여 peak_on_box_border·반사 의심 플래그와 부합. 상자 내부에 뚜렷한 열점이 보이지 않아 '다점형' 서술은 검증 불가."
+}

@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "마커는 세로로 긴 상자의 오른쪽 변 위쪽(상·중 경계에 가까운 상단)에 걸쳐 있음. 열화상은 균일하게 어두워 세부 열 분포가 없고, 비정렬 가시광에서는 흰 표식 슬리브가 감긴 검은 케이블이 붉은 절연 단자·부싱 쪽으로 올라가는 접속부 근처로 보임",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 상자 오른쪽 변 위쪽에 걸쳐 있다는 점, 가시광의 케이블·붉은 단자, 열화상의 균일한 암색을 그대로 기술해 내 판독과 일치하고 현장 확인 항목(각도 변경 재촬영, 부하 기록)도 제시한다. B는 조회표 기반 부위 추정뿐이며 현장 확인 항목이 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "A",
+  "notes": "마커의 세로 위치는 상단과 중단 경계 부근이라 '상단 우측' 판독은 두 보고서 모두 허용 범위. B의 '조회표상 상부 단자 접속부'는 가시광 정황과 모순되지는 않으나 이미지 근거가 아니다. A의 이미지 판독 문장은 말미가 잘려 있다."
+}

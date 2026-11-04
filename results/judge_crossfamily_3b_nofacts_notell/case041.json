@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "마커가 긴 세로 상자의 상부, 가로로는 중앙~우측 경계 부근에 있음. 열화상 상자 내부는 균일하고 뚜렷한 열점이 없으며 상자 우측 바깥에 희미한 온난 영역이 있음. 가시광은 회색 패널·힌지·수평 바(부스바 추정)로 상자와 정렬 불가. 수직 케이블/부스 접속 구간 상부로 추정",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "B는 원인(정상 부하 발열)·메모(판단 유보)가 L0·장면 대비 ΔT 1.2°C와 일치함. A는 '육안 특이·정상 분포 대비'를 근거로 접촉면 오염·절연 열화를 들어 자기모순이고, 작업자 메모가 문장 중간에서 끊겨 실행 불가.",
+  "usefulness_A_1to5": 2,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 추가 정보 없음",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "원인 후보(추정): 접촉면 오염, 절연 열화   근거: 육안 특이, 정상 분포 대비 (보고서 어디에도 육안 특이 서술이 없고, 장면 대비 ΔT 1.2°C·형제 대비 -3.8°C로 정상 분포 내라는 자체 수치와 모순)"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "두 보고서의 '상단 우측'은 내 판독(상단-중, 우측 경계 근접)과 한 칸 차이이나 마커가 경계선에 걸쳐 있어 오류로 집계하지 않음. A의 작업자 메모 '현장 작업자에게 다음과 같이 확인해 주시기 바랍니다:'는 내용 없이 끝나 결함."
+}

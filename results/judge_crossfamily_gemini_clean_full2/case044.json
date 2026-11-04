@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "함체 외부 프레임 또는 배선 덕트 부위로 추정되며, 명확한 전자접촉기 본체 부위 특정은 어려움",
+ "my_part_confidence": "low",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 낮고 부위 식별이 어려운 상황을 솔직하게 인정하고 보수적으로 서술한 반면, 보고서 B는 모호한 이미지에서 근거 없는 단자 부위나 정상 부하 발열을 단정하여 신뢰성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 하부 단자 부위로 추정됩니다.",
+  "원인 후보(추정): 정상 부하 발열 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 및 가시광 화질이 불확실할 때, 과도하게 구체적인 추정(B)을 피하고 한계를 명시하는 보고서(A)가 현장 작업자에게 훨씬 안전하고 유용합니다.",
+ "case_id": "case044"
+}

@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "차축베어링 및 인접 휠 림",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독에서 시각적 상태(화질 보통, 가시광 흐림 등)를 더 구체적으로 기술하고 작업자 메모에 실질적인 현장 조치 가이드를 제공함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "두 보고서의 계측 및 소견 데이터는 동일하나, B보고서의 이미지 분석 및 작업자 권고 사항이 현장 엔지니어에게 더 직관적인 지침을 제공함.",
+ "case_id": "case006"
+}

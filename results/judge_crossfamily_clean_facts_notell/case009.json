@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "하단-중",
+  "my_part": "화면 우측 가장자리에 세로로 길게 선 따뜻한(주황색) 띠 모양 구조물의 하단 중앙, 아래쪽의 넓은 가로 발열면(전동기 본체로 보임)과 만나는 부근. 열이 띠 전체에 고르게 퍼져 있어 특정 부품(베어링 등)으로 특정 불가. 가시광은 회색 평면과 표지판만 보여 도움이 안 됨",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A의 시각 묘사(오른쪽 가장자리의 세로 띠 아래쪽 가운데)는 내 판독과 일치하고 부위를 확인 불가로 두었으며 냉각·통풍 확인 항목을 더했다. B는 조회표로 '구동측 베어링 하우징'을 붙였으나 열점이 상자 83%를 덮는 면형이라 베어링 국부 발열로 볼 이미지 근거가 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "최고온 지점은 대상 하단 중앙에 있으며 조회표상 구동측 베어링 하우징 부위로 추정됩니다."
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "계측 사실(cell 7, x_norm 0.394, y_norm 0.878, hotspot_area_frac 0.833, 형제 대비 1.2°C)과 내 판독이 일치한다. 두 보고서의 원인 후보는 모두 추정 수준이며, A가 '동종 부품 대비'를 근거로 든 것은 1.2°C 차이라 약한 근거이지만 모순은 아니다."
+}

@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "애자 상단 볼트 체결부 및 케이블 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 가시광 이미지를 참고하여 구체적인 부위(애자 상단 클램프 및 케이블 연결부)를 더 정확하게 유추하였고, 현장 확인 및 추적 관리를 위한 실효성 있는 권고 조치를 제시하였습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "두 보고서 모두 계측 수치와 판정 결과는 동일하나, 이미지 판독 및 가시광 활용 능력에서 보고서 B가 현장 작업자에게 더 구체적인 맥락을 제공합니다.",
+ "case_id": "case046"
+}

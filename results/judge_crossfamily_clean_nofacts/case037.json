@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "마커는 상자 중간 높이에서 왼쪽 칸과 가운데 칸의 경계에 거의 걸쳐 있다(가운데 칸 쪽으로 약간). 상자 내부는 균일한 자주색이라 열점 형태를 읽을 수 없고, 가시광은 어두운 곡면 하우징(차축 베어링 하우징 또는 차륜 하부로 보임)을 근접 촬영한 흐린 사진이라 대응 부위를 특정할 수 없다.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 부위 확인 불가·화질 보통 등 이미지에 근거한 판독 값을 제시하고, 세션 8프레임 중 5프레임 플래그라는 비일관성을 작업자 메모에 반영해 각도 변경 재촬영을 구체적으로 지시했다. B는 조회표 부위 추정에 그치고 메모가 '정상 감시 유지'뿐이어서 세션 비일관성을 작업자에게 전달하지 못한다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "A",
+  "notes": "두 보고서의 '중단 좌측'은 내 판독(중단-중, 좌측 경계 근접)과 한 칸 인접하며, ROI가 작아 마커가 크게 확대된 점을 감안하면 사실상 일치로 보아 모순으로 세지 않았다. B의 '차축 본체' 부위, '열 형태 면형', '원인 후보 정상 운전 발열(근거: 열 형태)'은 이미지에서 확인할 수 없고, 세션 5/8 플래그·신뢰도 low와 어울리지 않는 낙관적 서술이다."
+}

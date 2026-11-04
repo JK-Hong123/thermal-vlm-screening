@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "마커는 세로로 긴 상자의 오른쪽 테두리 위, 위쪽 1/3 높이에 있다. 열화상은 전체가 균일한 보라색이라 구조가 전혀 구분되지 않는다. 가시광에서는 판넬 문 안쪽 오른쪽 위에 붉은 단자 클램프 부품과 초록 케이블이 보이므로 단로기 단자 접속부 상단일 가능성이 있으나 정렬이 되지 않아 추정에 그친다.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 상자 오른쪽 위 가장자리와 판넬 문틀 안쪽의 붉은 단자 부품, 열화상에서 구조가 구분되지 않는다는 점을 실제 이미지와 일치하게 기술했고 메모도 세션·형제 수치와 정합한다. A는 조회표 부위 추정만 있고 신뢰도 문구가 자체 게이트 확률과 모순된다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "신뢰도: low — 단일 영상 근거 부족/반사 의심 (게이트 확률 자체는 높으나 위 사유로 신뢰도를 낮춤) — 같은 보고서의 게이트 확률은 0.022로 낮음"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "열점 위치(상단 우측)는 두 보고서 모두 내 판독과 일치. A의 '접촉부(블레이드·클립)'와 '열 형태 점형', '원인 후보 정상 부하 발열(근거: 열 형태)'은 균일한 열화상에서 확인할 수 없는 조회표/계측 복사값이다. B의 '단자 접속부'도 추정이지만 가시광 근거를 명시했다."
+}

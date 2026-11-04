@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "상자 안 희미하게 따뜻한 세로 몸체의 좌측 중앙부. 열화상 전체가 어둡고 가시광도 거의 검게 나와 액슬박스인지 차축 본체인지 구분 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서 모두 열점 위치(중단 좌측)는 제 판독과 일치합니다. A는 L0 정상 판정에 맞게 '정상 운전 발열'과 추세 기록으로 서술이 일관되지만, B의 메모는 '원인을 찾으라'고 지시해 같은 보고서의 정상 범위 판정과 어긋납니다. 다만 A의 '차축 본체' 부위는 이미지로 확인되지 않습니다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": ["현장 작업자는 윤활 상태와 측정 장비를 확인하여 원인을 찾으시기 바랍니다."],
+  "trustworthy_for_operator": "A",
+  "notes": "최고온 31.3°C로 동종 정상 중앙값(41.7°C)보다 낮고 게이트 확률 0.067이라 정상 판정은 수치와 부합합니다. B의 현장 확인(각도 바꿔 재촬영)은 '신뢰도 낮음 — 재촬영 권고'와 맞지만 메모의 '원인을 찾으라'는 표현이 과합니다. A의 '차축 본체'와 B의 '차축 베어링(액슬박스)' 중 어느 쪽이 맞는지는 어두운 이미지로는 판정할 수 없고, 화면 최고온 97.6°C가 상자 밖에 있어 상자 범위 확인이 더 중요합니다. '상시 고온 설비'라는 메모 문구는 31.3°C인 이 사례에는 어색합니다."
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "기어박스 출력축 베어링부 주변",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 이미지 판독에서 부위명을 추정하여 서술하려 했으나 실제 검증 결과와 마찰이 생겼고, 보고서 A는 불합격 판정 후 계측 기반 기본값으로 안전하게 대체하여 환각을 줄였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 출력축 베어링부 / 열점 위치 판독 하단 우측 (계측 exact) / 열 형태 점형 / 육안 가시광 미판독 / 화질 확인 불가 — 최고온 지점은 대상 하단 우측에 있으며 조회표상 출력축 베어링부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "외부 열원 오염 의심 상황에서 기계 검증을 거쳐 불합격 처리된 항목에 대해 원문 그대로 신뢰성 있게 처리한 보고서 A가 현장 작업자에게 더 안전합니다.",
+ "case_id": "case001"
+}

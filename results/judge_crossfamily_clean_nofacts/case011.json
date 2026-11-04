@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "세로로 긴 상자의 왼쪽 가장자리 중간 높이, 희미하게만 따뜻한 어두운 자주색 영역. 뚜렷한 부품 윤곽이 없어 부위 특정 불가(차축/액슬박스 표면 어딘가로 추정만 가능). 가시광은 거의 전부 검게 나와 참고 불가.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 이미지를 실제로 읽어 희미한 열과 불량 화질을 정직하게 서술하고 재촬영·부하 기록 등 확인 항목을 제시한다. A의 '차축 본체'는 조회표 추정으로 이미지 근거가 없고 확인 항목도 없다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "A의 '차축 본체'는 내 판독과 직접 모순되지는 않으나 이미지 검증 없는 조회표 라벨. B의 '육안 특이 없음'은 가시광이 거의 검게 나와 사실상 판독 불가인 상태라 '육안 판독 불가'가 더 정확한 표현(모순으로 세지는 않음). 정상 판정(L0) 사례라 두 보고서 모두 조치 수준은 낮으며, 화면 최고온(97.6°C)이 상자 밖 우측에 있다는 유의사항은 이미지 우측 가장자리의 밝은 점과 일치."
+}

@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-좌",
+  "my_part": "마커가 상자 좌상단 모서리의 테두리 위에 걸쳐 있고, 상자 내부는 매끈한 밝은 면(차체 하부 또는 기어박스 하우징 외면)으로 보이나 입력축/출력축 같은 세부 부위는 식별 불가; 가시광은 야간 암부라 참고 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "열점 위치는 두 보고서 모두 계측과 일치하지만, B는 같은 셀(상단 좌측)을 읽고도 '계측 mismatch'라고 표기해 자기모순이 있고 부위 근거도 없는 반면, A는 조회표 기반임을 명시하고 현장 확인 항목과 메모가 권고 조치(부하 조건 기록 후 재촬영)와 일관됨.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "열점 위치 판독 상단 좌측 (계측 mismatch) (열 소견의 계측 위치도 '상단 좌측'이라 mismatch 표기가 자기모순)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "A의 '입력축 베어링부'와 B의 '출력축 베어링부'는 어느 쪽도 이미지로 검증할 수 없음. 마커가 상자 테두리 모서리에 걸쳐 있고 상자 밖 좌상단도 같은 밝기의 면이라 상자 범위 자체가 의심되며, 화면 최고온 129.1°C(차륜·제동부로 보이는 노란 영역)가 상자 밖이라는 공통 유의사항이 더 중요함. B가 추가한 '윤활 상태·유량 확인'은 기어박스에 무해하나 검토 큐 판정과 직접 연결되지는 않음."
+}

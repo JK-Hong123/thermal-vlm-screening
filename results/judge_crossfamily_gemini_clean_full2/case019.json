@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "철도차량 기어박스 전경 모서리 및 차륜 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지의 실제 시각적 상태(초점 흐림, 전경 물체)를 더 구체적으로 묘사하여 현장 상황을 충실히 반영함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "두 보고서 모두 기계 검증 규칙에 따라 동일한 측정 수치를 공유하나, 이미지 판독과 현장 조치 권고 구체성 측면에서 보고서 B가 더 설득력 있음.",
+ "case_id": "case019"
+}

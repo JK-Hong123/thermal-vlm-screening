@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "세로로 긴 상자의 왼쪽 가장자리 중간 높이, 주변 전체가 어두운 자주색인 가운데 희미하게만 밝은 넓은 영역. 뚜렷한 부품 윤곽이 없어 부위 특정 불가(차축·베어링 하우징 표면 추정만 가능). 가시광은 거의 검게 나와 식별 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B의 시각 묘사(왼쪽 가장자리 중간 높이, 희미하게만 따뜻한 어두운 영역)는 내 판독과 일치하고 부위를 확인 불가로 솔직히 두면서 재촬영·부하 기록 항목을 더했다. A는 이미지 근거 없이 조회표로 '차축 본체'를 붙였고 현장 확인 항목이 없다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "최고온 지점은 대상 중단 좌측에 있으며 조회표상 차축 본체 부위로 추정됩니다."
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "계측 사실(cell 3, x_norm 0.179, y_norm 0.596, 면형, 열점 70개 분산)과 내 판독이 일치한다. B의 '열 형태 불명'은 같은 보고서의 '면형' 계측과 다르지만 육안 판독의 한계를 밝힌 것이어서 모순으로 세지 않았다. 두 보고서 공통의 '상시 고온 설비' 메모는 31.3°C 차축베어링에는 어색하나 코드 생성 공통 문구라 비교 대상에서 제외."
+}

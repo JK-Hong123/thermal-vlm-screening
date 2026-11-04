@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "마커는 세로로 긴 상자의 오른쪽 변 위쪽 1/3 지점에 걸쳐 있음. 열화상은 균일하게 어둡고 상자 안팎에 희미한 밝기 차이만 있어 뚜렷한 열점은 없음. 가시광에서는 흰 표식 슬리브가 감긴 검은 케이블이 위쪽 붉은 절연 단자(부싱) 쪽으로 올라가는 모습이 보여, 케이블-단자 접속 부근으로 추정되나 정렬이 되지 않아 확신은 낮음.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 상자 오른쪽 변 위쪽에 걸쳐 있다는 점, 가시광의 슬리브 감긴 케이블과 붉은 절연 단자, 열화상이 균일해 열 분포가 없다는 점을 실제 이미지대로 서술했고 현장 확인 항목도 구체적이다. B는 조회표 추정과 형식적 메모에 그치고 현장 확인 항목이 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": ["이미지 판독: 부위 상부 단자 접속부 / 열점 위치 판독 상단 우측 (계측 exact) / 열 형태 다점형"],
+  "trustworthy_for_operator": "A",
+  "notes": "ΔT 1.4°C, 게이트 확률 0.002로 정상 범위 판정은 양쪽 동일. 열화상에 식별 가능한 열 형태가 없으므로 B의 '열 형태 다점형'과 이를 근거로 한 '정상 부하 발열' 추정은 이미지로 뒷받침되지 않는다(B의 '상부 단자 접속부' 자체는 가시광과 대략 부합). A의 서술은 문장이 중간에 잘려 있으나 내용은 정확하고 peak_on_box_border 한계와도 정합한다."
+}

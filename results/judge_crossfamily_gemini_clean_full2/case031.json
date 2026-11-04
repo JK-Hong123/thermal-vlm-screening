@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "일차 단자 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 가시광 이미지와 열화상 마커 위치를 정확히 대조하여 단자 접속부의 구체적인 부위와 점검 항목을 충실히 작성하였습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 정밀한 이미지 판독을 바탕으로 현장 작업자에게 유용한 구체적 점검 항목을 제시하여 실효성이 높습니다.",
+ "case_id": "case031"
+}

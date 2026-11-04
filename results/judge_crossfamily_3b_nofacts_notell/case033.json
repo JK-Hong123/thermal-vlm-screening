@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "마커가 상자 좌측 테두리의 중간 높이에 정확히 걸쳐 있음. 열화상은 거의 균일한 보라색으로 상자 내부 구조가 구분되지 않고, 가시광(단자대·청색 배선이 보이는 회색 패널)과 정렬도 불가. 전자접촉기 본체 좌측 가장자리(하우징/코일부 경계) 또는 인접 부품과의 경계로 추정",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "B는 부위 추정이 조회표 기반임을 명시하고 권고(정상 감시·재촬영)가 L0 판정 및 경계 외부 열원 의심과 일치함. A는 정상 범위·원인 확인 불가라고 해놓고 작업자 메모에서 체결 토크·접촉저항 측정을 지시해 판정과 어긋남.",
+  "usefulness_A_1to5": 2,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 추가 정보 없음",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "현장 작업자는 접촉부의 체결 상태와 접촉면의 오염을 확인하고, 필요시 체결 토크와 접촉저항을 측정하여 확인해야 합니다. (판정 L0 정상 범위·원인 후보 확인 불가·최고온이 외부 열원 번짐 의심이라는 같은 보고서의 서술과 모순)"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "두 보고서 모두 열점 위치 '중단 좌측'은 내 판독과 일치. 마커가 상자 좌측 경계에 정확히 놓여 있어 '최고온 지점이 상자 테두리에 있고 바깥이 더 뜨겁다'는 서술이 이미지와 부합. A의 '계측 mismatch' 태그는 본문 위치 서술과 상충해 보이나 의미가 불명확해 집계하지 않음. 두 보고서 모두 부위 식별(접점부/코일·본체)은 이미지로 검증 불가."
+}

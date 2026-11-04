@@ -1,0 +1,23 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "상자 우측 위 모서리, 밝게 달아오른 차륜 림(답면) 띠의 안쪽 가장자리. 상자 왼쪽 절반은 차가운 자주색이고 우측 띠 부분만 밝아 열원은 베어링보다 차륜 림으로 보임. 가시광은 원통형 구조물 위주의 미정렬 화면이라 부위 확인 불가.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B의 이미지 서술(우상단 모서리, 차륜 림 띠 안쪽 가장자리, 좌측 절반 어둡고 우측 띠만 밝음)이 내 판독과 정확히 일치하고 작업자 메모가 열원 위치 확정을 위한 재촬영으로 연결된다. A의 '액슬박스' 부위는 조회표 추정으로 이미지와 맞지 않는다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "최고온 지점은 대상 상단 우측에 있으며 조회표상 차축 베어링(액슬박스) 부위로 추정됩니다."
+  ],
+  "ungrounded_examples_B": [
+    "열점이 베어링보다 휠 림·답면 쪽에 선형으로 나타나고 세션 내 판정이 혼재하므로 각도를 바꿔 재촬영해 열원 위치를 확정하고 베어링 윤활 상태도 함께 점검해 주십시오."
+  ],
+  "trustworthy_for_operator": "B",
+  "notes": "B 메모의 '선형'은 같은 보고서의 열 형태 항목(다점형)과 불일치해 자기모순으로 1건 셌으나, 실제 이미지는 세로 띠 형태라 메모 쪽이 시각적으로는 맞음. '세션 내 판정이 혼재'는 세션 증거(5프레임 중 3프레임 플래그)와 정합. A는 가시광 미판독·화질 확인 불가 상태에서 조회표 라벨을 부위로 제시했고, 마커가 차륜 림 띠 위에 있다는 점을 작업자에게 전달하지 못함."
+}

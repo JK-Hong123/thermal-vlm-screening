@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 """assemble_frontier.py — build full GTD-v2 reports for the frontier-VLM condition from the saved raw pass-1/pass-2
 outputs (same validators/assembly as the 3B runs), write results/vlm_out/v2frontier/v2/<case>.{json,txt}."""
-import json, os, sys, io, re
+import json, os, sys, io, re, argparse
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', line_buffering=True)
 import protocol_v2 as P
+_keep = sys.stdout
 from render_report import render
-L = r"<PROJECT_ROOT>\results\cases_lock"; F = r"<PROJECT_ROOT>\results\vlm_out\frontier"
-O = r"<PROJECT_ROOT>\results\vlm_out\v2frontier\v2"; os.makedirs(O, exist_ok=True)
+ap = argparse.ArgumentParser(); ap.add_argument('--src', default='frontier', help="raw-output directory under results/vlm_out (frontier = September run; frontier_clean = tool-free re-run)")
+ap.add_argument('--out', default='v2frontier', help="assembled-report directory under results/vlm_out"); a = ap.parse_args()
+L = r"<PROJECT_ROOT>\results\cases_lock"; F = os.path.join(r"<PROJECT_ROOT>\results\vlm_out", a.src)
+O = os.path.join(r"<PROJECT_ROOT>\results\vlm_out", a.out, 'v2'); os.makedirs(O, exist_ok=True)
 def parse_json(txt):
     m = re.search(r'\{.*\}', txt or '', re.S)
     if not m: return None

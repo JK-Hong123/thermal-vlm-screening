@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "상자가 차축 베어링(액슬박스) 영역이고 마커가 그 중간 높이, 중앙에서 약간 좌측(좌/중 경계 근처)에 있음. 상자 내부는 넓게 미온인 면형 영역이며 뚜렷한 점형 열점은 없음. 가시광의 어두운 원통형 물체(액슬박스 또는 차륜 측면)와 대응되는 것으로 보여 액슬박스 하우징 측면으로 추정",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A의 부위(차축 베어링/액슬박스)가 설비명과 내 판독에 부합하고, 세션 비일관(8프레임 중 5 플래그)을 반영한 재촬영·윤활 확인 권고가 신뢰도 서술과 일치함. B는 조회표 기반 '차축 본체'를 부위로 적어 상자가 베어링이라는 설비 정의와 어긋남.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "최고온 지점은 대상 중단 좌측에 있으며 조회표상 차축 본체 부위로 추정됩니다. (상자는 차축베어링 영역이며 마커는 베어링 하우징 중앙부에 있어 '차축 본체'와 맞지 않음)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "열점 위치 '중단 좌측'은 양쪽 모두 내 판독과 일치하나 마커가 좌/중 경계에 가까움. 열 형태 '면형'도 이미지의 확산된 미온 영역과 부합. 화면 우하단의 검은 저온 물체는 상자 밖이며 화면 최고온(113.4°C)도 상자 밖이라는 서술과 모순 없음."
+}

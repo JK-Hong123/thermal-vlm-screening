@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "전동기 본체(고정자 프레임) 표면 — 열화상에서 상자 안에 사선 냉각핀 결이 보이고 가시광도 연녹색 도장 하우징과 곡면 리브가 보임; 마커는 핀이 있는 하우징 위쪽 가운데에 위치",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 냉각핀이 비스듬히 보이는 하우징 위쪽의 넓게 퍼진 온기와 아래로 옅어지는 구배를 영상과 일치하게 서술했으나, B는 조회표 기본값 '단자함'을 부위로 적어 실제 마커 위치(핀 하우징)와 맞지 않는다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "최고온 지점은 대상 상단 중앙에 있으며 조회표상 단자함 부위로 추정됩니다. — 마커는 냉각핀이 있는 전동기 하우징 표면에 있고 단자함 형상은 마커 위치에 없음"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "A의 원인 후보 '냉각 불량, 과부하 운전'은 L0 정상 판정·세션 0/8 플래그와 비교하면 과한 추정이나 '추정'으로 표시되어 있고 기계 검증에서 근거·메모가 기본값으로 대체됨. B의 '정상 운전 발열'이 판정과는 더 부합한다."
+}

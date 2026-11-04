@@ -1,0 +1,22 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "마커가 좁고 긴 세로 상자의 우측 테두리 상단에 걸쳐 있음. 열화상은 거의 균일한 암보라색으로 상자 내부에 구조나 뚜렷한 열점이 보이지 않고, 가시광의 적색 애자·단자류, 녹색 케이블과 정렬 불가. 단로기 상부 단자/접촉부 또는 인접 구조물과의 경계로 추정",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "A는 부위 추정이 조회표 기반임을 밝히고 원인·권고가 L0·반사 의심과 일치함. B는 형제 대비 ΔT 2.4°C(정상)를 근거로 접촉저항 증가·오염을 원인으로 들어 자기모순이며, 정상 범위 설비에 접촉저항 측정·토크 점검을 지시함.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "둘 다 추가 정보 없음",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 접촉부 접촉저항 증가(체결 이완·산화), 접촉면 오염   근거: 동종 부품 대비, 정상 분포 대비 (같은 보고서의 형제 대비 ΔT 2.4°C 정상·판정 정상 범위·원인 근거 수치와 모순)",
+    "현장 작업자는 접촉부의 접촉저항을 측정하고, 체결 토크를 점검하여 접촉부의 상태를 확인해야 합니다. (L0 정상 범위·단일 영상 근거 부족이라는 자체 서술과 어긋나는 작업 지시)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "열점 위치 '상단 우측'은 양쪽 모두 내 판독과 일치. 마커가 상자 우측 경계에 있어 peak_on_box_border 플래그와 부합. 열화상 상자 내부에 뚜렷한 열점이 보이지 않아 '점형' 서술은 양쪽 모두 이미지로 검증 불가."
+}

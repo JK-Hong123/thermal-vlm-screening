@@ -1,25 +1,25 @@
 [
  {
-  "group": "Judge given the facts (same model as the subject)",
+  "group": "Same-model judge told which report is model-written, facts given (September protocol)",
   "label": "Qwen2.5-VL-3B, zero-shot (n=34)",
   "k": 0,
   "n": 34,
   "lo": 0.0,
-  "hi": 0.0,
+  "hi": 0.103,
   "color": "#d62728"
  },
  {
-  "group": "Judge given the facts (same model as the subject)",
+  "group": "Same-model judge told which report is model-written, facts given (September protocol)",
   "label": "3B + marker-reading adapter (n=32)",
   "k": 0,
   "n": 32,
   "lo": 0.0,
-  "hi": 0.0,
+  "hi": 0.109,
   "color": "#ff7f0e"
  },
  {
-  "group": "Judge given the facts (same model as the subject)",
-  "label": "Frontier, model-written report identifiable (n=32)",
+  "group": "Same-model judge told which report is model-written, facts given (September protocol)",
+  "label": "Frontier, September reports (n=32)",
   "k": 21,
   "n": 32,
   "lo": 0.5,
@@ -27,16 +27,43 @@
   "color": "#9467bd"
  },
  {
-  "group": "Judge given the facts (same model as the subject)",
-  "label": "Frontier, identifying strings removed (n=32)",
-  "k": 32,
+  "group": "Same-model judge, anonymised reports",
+  "label": "Qwen2.5-VL-3B, zero-shot, no facts (n=32)",
+  "k": 7,
   "n": 32,
-  "lo": 1.0,
+  "lo": 0.094,
+  "hi": 0.375,
+  "color": "#d62728"
+ },
+ {
+  "group": "Same-model judge, anonymised reports",
+  "label": "3B + adapter, no facts (n=32)",
+  "k": 1,
+  "n": 32,
+  "lo": 0.0,
+  "hi": 0.094,
+  "color": "#ff7f0e"
+ },
+ {
+  "group": "Same-model judge, anonymised reports",
+  "label": "Frontier, facts given (n=32)",
+  "k": 30,
+  "n": 32,
+  "lo": 0.844,
   "hi": 1.0,
   "color": "#9467bd"
  },
  {
-  "group": "Judge without the facts, same model",
+  "group": "Same-model judge, anonymised reports",
+  "label": "Frontier, no facts (n=32)",
+  "k": 32,
+  "n": 32,
+  "lo": 0.891,
+  "hi": 1.0,
+  "color": "#9467bd"
+ },
+ {
+  "group": "Same-model judge, no facts, identifying strings present",
   "label": "Frontier, image-based (n=32)",
   "k": 31,
   "n": 32,
@@ -45,16 +72,7 @@
   "color": "#9467bd"
  },
  {
-  "group": "Judge without the facts, same model",
-  "label": "Frontier, identifying strings removed (n=32)",
-  "k": 31,
-  "n": 32,
-  "lo": 0.906,
-  "hi": 1.0,
-  "color": "#9467bd"
- },
- {
-  "group": "Judge without the facts, same model",
+  "group": "Same-model judge, no facts, identifying strings present",
   "label": "Frontier, NO image, facts only (n=32)",
   "k": 26,
   "n": 32,
@@ -63,16 +81,16 @@
   "color": "#c5b0d5"
  },
  {
-  "group": "Judge without the facts, cross-vendor (Gemini)",
+  "group": "Cross-vendor judge (Gemini), no facts",
   "label": "Frontier, image-based (n=80)",
-  "k": 68,
+  "k": 75,
   "n": 80,
-  "lo": 0.762,
-  "hi": 0.925,
+  "lo": 0.875,
+  "hi": 0.988,
   "color": "#9467bd"
  },
  {
-  "group": "Judge without the facts, cross-vendor (Gemini)",
+  "group": "Cross-vendor judge (Gemini), no facts",
   "label": "Frontier, NO image, facts only (n=80)",
   "k": 53,
   "n": 80,

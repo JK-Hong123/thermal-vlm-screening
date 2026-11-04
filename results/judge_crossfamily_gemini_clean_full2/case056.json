@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "계기용변압기 본체 또는 단자부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 이미지가 불명확하여 세부 부위를 특정할 수 없다고 솔직하게 기술한 반면, 보고서 B는 근거가 부족함에도 구체적인 부위와 원인을 단정적으로 서술하여 신뢰성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 본체(절연 몰드) / 육안 가시광 미판독 상태에서 임의로 부위를 특정함"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "산업 현장 진단 보고서 특성상 과장되거나 추정된 판독보다는 불확실성을 솔직히 밝히는 보고서가 현장 작업자의 오진을 방지하는 데 더 유용합니다.",
+ "case_id": "case056"
+}

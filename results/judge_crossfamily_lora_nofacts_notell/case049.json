@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "열화상이 거의 균일한 보라색으로 상자 내부 구조가 전혀 구분되지 않음. 마커는 상자 우하단 모서리(테두리 바로 안쪽)에 있어 MOF 본체 하부 또는 인접 구조물과의 경계로 추정되며, 가시광(배전반 내부, 계기·패널)과의 대응도 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "두 보고서 모두 열점 위치(하단 우측)는 내 판독과 일치하나, B는 부위 추정이 조회표 기반임을 명시하고 정상 판정·세션 증거(46프레임 중 0 플래그)와 일관된 원인 후보(정상 부하 발열)를 제시함. A의 '단자 접속부'는 근거 없이 단정적이고, 신뢰도 high인 정상 사례에 반사 확인 재촬영을 붙인 것은 실익이 낮음.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열화상 크롭의 대비가 극히 낮아 '다점형' 열 형태나 부위(단자 접속부/이차 단자함)는 이미지로 검증 불가. 두 보고서의 부위 명칭이 서로 다르지만 어느 쪽도 이미지 근거를 보이지 않으므로 독립 판독과 모순으로 세지는 않음. A의 '(계측 adjacent)' 표기는 판독 위치와 계측 위치가 동일(하단 우측)한 것과 어긋나 보이나 파이프라인 표기 문제로 보여 미집계."
+}

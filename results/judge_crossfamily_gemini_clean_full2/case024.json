@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "단로기 접촉부 또는 블레이드 중앙",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 및 세로형 상자의 구조를 상세히 묘사하고 불합격 처리(계측 기반 대체)를 투명하게 드러낸 반면, B는 모순적인 기술을 포함하고 있음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "통과(모든 서술 항목이 계측과 정합)이나 신뢰도 낮음 및 재촬영 권고가 공존함"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A가 이미지 판독 내용과 검증 실패에 대한 상세한 기록 면에서 더 신뢰할 만합니다.",
+ "case_id": "case024"
+}

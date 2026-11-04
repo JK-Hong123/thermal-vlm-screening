@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "단자 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 가시광 이미지와 열화상 상자 내의 위치를 결합하여 구체적인 부위(단자 접속부)를 더 타당하게 판독하였고, 현장 작업자를 위한 권고 조치 및 작업자 메모가 더 구체적이고 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "두 보고서 모두 계측 수치와 진단 기준은 동일하나, 이미지 판독의 상세함과 현장 조치 가이드 측면에서 보고서 B가 더 우수함.",
+ "case_id": "case035"
+}

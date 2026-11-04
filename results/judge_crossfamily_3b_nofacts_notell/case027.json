@@ -1,0 +1,22 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "마커가 상자 상단 테두리 중앙에 있고 열화상 상자 내부는 균일한 색으로 구조가 보이지 않음; 가시광은 제어반 단자대·DIN 레일·배선으로 6.6kV 부스 접속부와 정렬되지 않아 부위 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "열점 위치는 둘 다 계측과 일치; A는 정상 판정·재촬영 권고와 일관된 서술인 반면 B는 형제보다 낮은 온도(-0.7°C)와 무관한 가시광을 근거로 접촉면 오염·절연 열화를 추정하고, 작업자 메모가 콜론에서 끊겨 내용이 없음.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 1,
+  "adds_value_relative_to_other": "둘 다 추가 정보 없음",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 접촉면 오염, 절연 열화   근거: 동종 부품 대비, 육안 특이, 정상 분포 대비 (형제 대비 ΔT -0.7°C이고 형제 기준 무효로 적혀 있으며, 가시광에 특이점이 없고 판정은 정상 범위)",
+    "현장 확인 항목: 각도 바꿔 재촬영(반사 확인), 체결 토크 점검, 접촉면 청소·산화 확인 (권고 조치 '정상 감시 유지; 재촬영 권고'를 넘어서는 점검 확대)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "B의 작업자 메모는 '현장 작업자에게 다음과 같이 확인해 주시기 바랍니다:' 뒤에 내용이 없어 현장에서 쓸 수 없음. A의 '부스바 접속부'와 B의 '볼트 체결부'는 모두 이미지로 검증 불가(열화상에 구조 없음, 가시광 미정렬). 마커가 상자 상단 테두리에 있고 상자 밖 우상단에 별도의 희미한 열원이 보이므로 재촬영 권고는 타당함."
+}

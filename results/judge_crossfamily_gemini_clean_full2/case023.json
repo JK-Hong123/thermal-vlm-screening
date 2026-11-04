@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차륜/차축 주변 하우징 또는 기어박스 하단부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 신뢰도가 낮고 경계면 외부 열원 간섭 가능성을 정확히 파악하여 보수적이고 합리적인 권고를 제시한 반면, 보고서 B는 불확실한 상황에서 과도하게 구체적인 점검 항목을 나열하여 신뢰성이 떨어진다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "작업자 메모: 하우징 본체 하단 좌측의 국부 열점이 세션 내내 주변보다 매우 높게 보이므로 윤활·씰 상태와 진동을 점검하고 각도를 바꿔 재촬영해 주십시오."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 상자의 마커가 외부 고온부와 인접하여 경계 오염 가능성이 높은 상태이므로, 보고서 A와 같이 신중하게 재촬영을 유도하는 방식이 현장 작업자에게 훨씬 안전하고 유익함.",
+ "case_id": "case023"
+}

@@ -1,0 +1,22 @@
+{
+  "my_marker_cell": "상단-좌",
+  "my_part": "상자 좌측 경계선 상단 — 차단기 상부 단자/접속부로 추정되나 열화상에 특징이 없고, 가시광(백색 패널·청색 장치)과의 대응은 불명",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서의 위치·부위는 동일하고 내 판독과 일치하나, B는 정상 범위·세션 0/3 플래그·정상 분포 범위 내라는 자체 수치와 모순되는 원인 후보(접촉면 오염·절연 열화)를 제시하고 작업자 메모에 지시문 템플릿이 그대로 노출된 반면 A는 판정과 일관됨.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 접촉면 오염, 절연 열화   근거: 육안 특이, 세션 증거, 정상 분포 대비 — 세션 3프레임 중 0프레임 플래그, 판정 근거 '정상 분포 범위 내', 형제 대비 ΔT -0.0°C와 모순",
+    "작업자 메모: 현장 작업자에게 전할 한 문장(숫자 없이, 판정과 모순되지 않게): '현장 확인을 통해 접촉면 오염이나 절연 열화를 확인할 수 있습니다.' — 정상 범위 판정과 모순되며 지시문 템플릿이 노출됨"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "장면 대비 ΔT 1.4°C, 형제 대비 0.0°C, 게이트 0.003의 명백한 정상 사례. B의 현장 확인 항목(부하 전류·불평형률 측정, 체결 토크 점검)은 권고 '정상 감시 유지'에 비해 과잉이며, B의 '(계측 adjacent)' 표기는 판독 위치가 계측과 같은데도 adjacent로 되어 있음. A의 '정상 부하 발열(근거: 열 형태, 세션 증거)'는 세션 0/3 플래그와 일관됨."
+}

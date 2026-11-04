@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-좌",
+  "my_part": "마커는 상자 좌측 테두리 위(하단 쪽)에 걸쳐 있고, 바로 왼쪽 상자 밖에 밝은 주황·노랑의 원형 구조(차륜 또는 제동 디스크로 보임)가 있어 열이 상자 안으로 번진 모양. 마커 부위는 기어박스 하우징의 차축(출력축) 쪽 가장자리로 추정. 가시광은 어두워 참고 불가",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서 모두 열점 위치 '하단 좌측'과 경계 외부 열원 의심·재촬영 권고가 내 판독과 일치하고 모순이 없으나, A는 조회표 기반임을 명시하면서도 마커 위치(차륜·차축 인접)와 부합하는 '출력축 베어링부' 가설과 진동 측정 항목을 더해 재촬영 후 점검 방향을 제시한다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열화상에서 상자 왼쪽 바깥의 밝은 원형 구조가 상자 내부보다 확연히 뜨거워, 보고서의 '바로 바깥(60.8°C)이 더 뜨거움·테두리 제외 시 7.0°C 하락' 서술과 영상이 잘 맞는다. B의 '부위 확인 불가'는 정직하며 현장 확인 항목의 '각도 바꿔 재촬영'이 권고 조치와 더 직접적으로 대응한다. A의 부위 추정은 조회표 기반이지만 영상과 모순되지 않는다."
+}

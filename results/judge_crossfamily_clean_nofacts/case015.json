@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "세로로 선 원통형 본체(부싱 또는 케이블 단말로 보임)의 꼭대기 오른쪽, 그 위에 얹힌 뜨거운 접속 블록(단자부)과 맞닿는 모서리. 같은 형태의 원통이 여러 개 나란히 있고 각 상단이 뜨거워 단자 접속부 발열로 보임. 가시광은 함체 상부·레일 위주로 정렬이 맞지 않음.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B의 서술(원통형 본체 꼭대기 오른쪽, 위에 놓인 뜨거운 접속 블록과 맞닿는 모서리)이 내 판독과 일치해 작업자가 열원이 접속부임을 알 수 있다. A의 '부싱'은 조회표 추정이지만 원통 본체가 부싱일 가능성도 있어 틀렸다고 단정하기는 어렵다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "A의 '부싱'은 조회표 라벨이지만 원통형 본체가 부싱인지 케이블 단말인지 이미지만으로 확정 불가해 모순으로 세지 않음. A의 원인 후보 '정상 운전 발열(근거: 열 형태, 세션 증거)'은 세션 24프레임 무플래그와 정합. 마커 위치는 두 보고서 모두 계측과 일치. 절대온도 81.3°C가 변압기 표면 요주의 범위에 걸치나 형제 대비 -17.8°C·세션 무플래그로 정상 판정은 합리적. 작업자 메모의 '윤활 상태' 문구는 전기 설비에 부적합한 기본 문구(양쪽 공통)."
+}

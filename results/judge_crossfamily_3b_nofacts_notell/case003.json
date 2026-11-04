@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "상자 우상단 모서리에 걸친 지점으로, 바로 오른쪽을 세로로 지나는 밝은 고온 곡선 띠(차륜 림 또는 디스크로 보임)와 맞닿아 있음. 가시광에는 원통형 하우징(액슬박스 또는 댐퍼로 보임)이 보이나 열화상과 정렬되지 않아 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "두 보고서의 이미지 판독(상단 우측, 차축 베어링)은 동일하고 제 판독과도 일치합니다. 케이스 유형이 '외부 열원 오염 의심 — 재촬영 후 재판정'인데 B의 현장 확인 항목(각도 바꿔 재촬영·반사 확인)이 이 권고와 맞물리는 반면, A의 '진동 측정·축 정렬 확인'은 재판정 전 단계에서는 과한 조치입니다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "마커가 상자 우측 테두리에 붙어 있고 바로 바깥의 곡선 띠가 더 밝아 보고서 공통의 '최고온이 테두리에 있고 바깥이 더 뜨겁다'는 유의 사항이 이미지와 부합합니다. A가 덧붙인 문장은 판독 결과를 되풀이한 것으로 새 정보는 아닙니다. 두 보고서 모두 부위를 '차축 베어링'으로 적었으나 이는 설비명과 같은 수준의 라벨이어서 이미지로 독립 확인되지는 않습니다."
+}

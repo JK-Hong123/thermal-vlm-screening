@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "상부 단자 모서리 부근",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독에서 구체적인 위치를 더 잘 짚어냈고 현장 작업자를 위한 실질적인 점검 항목(체결 토크, 부하 불평형률 등)을 구체적으로 제시하여 유용성이 높습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "정상 범위 판정이더라도 약간의 온도 상승에 대해 추가 점검 항목을 제시하는 보고서 B가 현장 실무에 훨씬 적합합니다.",
+ "case_id": "case026"
+}

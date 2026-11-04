@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "차축베어링 및 인접한 차륜 림/답면",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 열화상 이미지 상의 인접한 차륜 림 구조를 정확히 판독하고, 작업자 메모에 실질적인 현장 점검 가이드를 구체적으로 제공하여 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "육안 가시광 미판독 / 화질 확인 불가"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 이미지의 시각적 특징(차륜 림)을 올바르게 포착하여 외부 열원 가능성에 대한 분석 설득력을 높였습니다.",
+ "case_id": "case007"
+}

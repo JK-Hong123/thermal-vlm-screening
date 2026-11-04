@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "케이블 접속부 또는 단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 불량과 열 분포의 모호함을 객관적으로 인정하고 신중하게 기술한 반면, B는 불확실한 상황에서 과도하게 구체적인 형태나 원인을 단정함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "열 형태 다점형"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 한계점과 불확실성을 정직하게 기재하여 현장 작업자가 신뢰하고 재촬영 등의 조치를 취하기에 더 적합합니다.",
+ "case_id": "case053"
+}

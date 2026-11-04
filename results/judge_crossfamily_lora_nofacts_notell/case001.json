@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "흰 상자 우측 테두리 바로 안쪽, 상자 밖 우측의 매우 뜨거운 차륜(브레이크 디스크/휠) 열원과 맞닿은 기어박스 하우징 우측 가장자리(출력축·차륜 쪽). 상자 내부 본체는 비교적 균일한 중온이고 마커 지점만 외부 열원이 번져 들어온 듯 보임. 가시광은 각도가 달라 부위 확인에 도움 안 됨.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "두 보고서 모두 열점 위치(하단 우측)는 제 판독과 일치하나, B의 작업자 메모는 이 사례의 핵심(상자 경계 외부 열원 오염 의심 → 재촬영)을 정확히 전달하는 반면 A의 메모는 사례 유형과 무관한 일반 문구(윤활·측정 장비 점검)에 그침.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "마커는 상자 우측 경계에 붙어 있고 바로 바깥의 차륜이 훨씬 뜨거워, 두 보고서의 유의사항(경계 오염 의심)과 제 판독이 일치함. A의 '하우징 본체'는 모호하지만 틀리지 않고, B의 '출력축 베어링부'는 조회표 기반 추정이라 이미지 판독이라기보다 위치→부위 매핑임(차륜 쪽이므로 기하학적으로는 그럴듯하나 경계 오염 의심과 함께 놓고 보면 확정 서술로 읽히지 않도록 주의 필요). A의 '(계측 adjacent)' 표기는 판독 위치가 계측과 동일(하단 우측)이라 표기 자체가 다소 어색함. 어느 쪽도 상자 밖 차륜 열원을 직접 언급하지 않아 '이미지를 더 읽었다'고 판단할 근거는 없음."
+}

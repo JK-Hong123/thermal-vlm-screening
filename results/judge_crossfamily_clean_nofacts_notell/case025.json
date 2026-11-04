@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "열화상 상자 안에 구조가 보이지 않음. 세로로 긴 상자 형상과 가시광(붉은 애자 아래 가로 지지대, 그 아래로 내려가는 녹색 봉)을 함께 보면 수직 부재(조작봉·애자 기둥) 상부로 짐작되나 정렬이 안 돼 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 상자 형상과 가시광 구조를 실제로 서술하고 작업자 메모도 형제 대비 -0.3°C라는 수치와 일치하게 '특이 소견 없음'을 명시했다. B는 조회표 부위명만 붙이고 게이트 확률 0.036을 '높다'고 적어 자기모순이 있다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "신뢰도: low — 단일 영상 근거 부족/반사 의심 (게이트 확률 자체는 높으나 위 사유로 신뢰도를 낮춤) (게이트 확률 0.036으로 낮으며 정상 판정과 모순)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "마커 칸(상단-중)은 두 보고서 모두 계측값과 일치한다. A의 '접지 케이블 단자' 판독은 비정렬 가시광에 의존한 추정이라 검증은 불가하나 내 판독과 모순되지는 않는다. A가 열 형태를 '불명'으로 적은 것은 코드 소견(점형)과 다르지만 상자 안에 뚜렷한 열점이 보이지 않아 영상에 충실한 판단으로 본다. B의 '접촉부(블레이드·클립)'도 검증 불가."
+}

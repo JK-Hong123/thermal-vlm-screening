@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "상자가 가늘고 긴 세로 띠 형태이고 열화상은 거의 균일해 구조를 식별할 수 없음. 가시광의 붉은 애자(부싱) 아래로 이어지는 흰색 수평 부재와 녹색 조작봉이 보이므로, 상자는 단로기의 세로 절연주/조작봉 구간으로 보이며 마커는 그 상단부. 단자·접촉부 여부는 확인 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "두 보고서 모두 열점 위치는 내 판독(상단 중앙)과 같고 권고·메모도 동일하다. 다만 A는 '대상 부품의 중앙에 위치한 마커'라고 적어 자신의 '상단 중앙' 판독 및 실제 마커 위치(상단 1/3)와 모순되며, B는 정상 범위 판정과 일관된 원인(정상 부하 발열)을 제시한다.",
+  "usefulness_A_1to5": 2,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "대상 부품의 중앙에 위치한 마커 (같은 줄의 열점 위치 판독 '상단 중앙' 및 내 판독과 모순)"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "부위 명칭은 A '단자 접속부', B '접촉부(블레이드·클립)' 모두 조회표 기반으로 보이며 이미지로는 어느 쪽도 확인할 수 없다. 세션 증거에 '열점 위치가 83% 프레임과 다름(최빈 상단 좌측)'이 있어 점형 열점의 재현성이 낮다는 점은 두 보고서가 공통으로 재촬영 권고로 처리하고 있어 일관된다."
+}

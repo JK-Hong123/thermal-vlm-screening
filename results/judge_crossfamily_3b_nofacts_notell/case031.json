@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-우",
+  "my_part": "마커가 상자 우측 가장자리 중단에 있으며 열화상 상자 내부는 균일해 구조가 보이지 않음; 가시광에는 볼트 2개로 체결된 단자 접속부와 아래로 이어지는 흰 절연체가 보여 CT 본체 가장자리 또는 일차 단자 접속부 어느 쪽도 가능하나 정렬이 없어 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "tie",
+  "preference_reason": "열점 위치는 둘 다 계측과 일치하고 판정·권고와 모순되는 서술이 없음; A는 정상 부하 발열로 일관된 해석을 주고 B는 원인을 유보하며 재촬영을 더하는데, 어느 쪽 부위명도 이미지로 검증할 수 없어 우열을 가리기 어려움.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "A의 '본체(절연 몰드)'와 B의 '일차 단자 접속부'는 상반된 부위명이지만 열화상에 구조가 없고 가시광이 미정렬이라 어느 쪽도 확인 불가; 가시광의 볼트 체결 단자 형상은 B 쪽과도 부합함. 열점이 세션 최빈 위치(하단 우측)와 다르다는 공통 유의사항을 고려하면 B가 더한 '각도 바꿔 재촬영'은 합리적인 저비용 항목임."
+}

@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "상자 상단, 화면 상부의 밝은 가로 모선(부스바) 좌측 끝에서 아래로 내려오는 수직 리드·케이블 접속 단자 부근. 가시광의 볼트 체결 동 단자와 부스바가 이와 부합하며, 애자형 부싱은 보이지 않음",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "열점 위치(상단 우측)는 두 보고서 모두 제 판독과 일치합니다. 부위는 A의 '케이블 접속부'가 열화상의 모선·수직 리드와 가시광의 볼트 단자에 더 부합하고, B의 '부싱'은 이미지에서 확인되지 않습니다. B의 '정상 운전 발열'은 형제 대비 -14.7°C와 L0 판정에 부합해 타당한 해석입니다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": ["최고온 지점은 대상 상단 우측에 있으며 조회표상 부싱 부위로 추정됩니다."],
+  "trustworthy_for_operator": "A",
+  "notes": "마커는 상자 폭의 약 2/3 지점으로 '상단-중'과의 경계에 가깝지만 우측 테두리에 붙어 있어 상단-우로 읽었습니다. 열점이 상자 밖 가로 모선(77.9°C)과 인접해 있어 상자 범위 확인이 필요하다는 공통 유의 사항은 이미지와 부합합니다. 두 보고서 모두 작업자 메모에 '윤활 상태'를 기록하라고 적었는데 변압기·케이블 접속부에는 맞지 않는 템플릿 문구입니다. A의 '각도 바꿔 재촬영(반사 확인)'은 L0 사례에서는 선택 사항 수준입니다."
+}

@@ -1,0 +1,22 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "마커는 상자 상단 우측 테두리 바로 안쪽에 있음. 열화상은 거의 균일한 보라색이라 구조가 보이지 않으며, 가시광도 정렬되지 않아 부위 특정은 어려움. 전자접촉기 외형상 상부 단자(결선부)일 개연성은 있으나 영상 근거는 약함",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서 모두 열점 위치 '상단 우측'은 내 판독과 일치하지만, B는 형제 대비 -0.3°C(더 차가움)인 정상 판정 사례에 '동종 부품 대비·육안 특이'를 근거로 접촉저항 증가를 원인으로 제시하고 작업자에게 원인 파악을 지시해 자기모순이며, A는 정상 부하 발열·판단 유보로 판정과 정합적이다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 접촉부 접촉저항 증가(체결 이완·산화), 접촉면 오염   근거: 동종 부품 대비, 육안 특이",
+    "작업자 메모: 현장 작업자는 접촉부의 접촉저항과 청소 상태를 확인하여 원인을 파악하십시오."
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "열화상에 '육안 특이'라 할 열 패턴이 없고(상자 내부가 주변과 거의 동일), 형제 대비 ΔT가 음수이므로 B의 근거 '동종 부품 대비'는 보고서 자체 수치와 충돌한다. B의 현장 확인 항목(체결 토크 점검, 접촉저항 측정)도 L0 정상 판정에 비해 과도하다. A의 '상부 단자'는 조회표 추정임을 명시했고 내 추정과도 모순되지 않는다."
+}

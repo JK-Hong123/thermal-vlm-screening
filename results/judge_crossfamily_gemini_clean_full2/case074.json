@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "배터리 모듈 핸들 주변부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 불확실한 부분에 대해 무리하게 추정하지 않고 '확인 불가' 및 '정상 감시 유지'로 신중하게 작성하여 현장 작업자에게 더 안전하고 신뢰성 있는 정보를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 단자·접속부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 가시광 및 열화상 매칭이 불완전함에도 특정 부위와 원인을 단정하는 경향이 있어 현장 오판의 위험이 있습니다.",
+ "case_id": "case074"
+}

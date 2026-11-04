@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-좌",
+  "my_part": "화면 왼쪽 위에 걸친 상자 안의 초점이 흐린 전경 물체(기어박스 하우징으로 보이는 균일한 보라색 덩어리)의 맨 위 왼쪽 모서리; 밝은 고온부는 상자 밖 오른쪽 차륜에만 있음. 가시광은 거의 암흑이라 부위 식별 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B의 영상 서술(상자가 화면 왼쪽 위에 걸쳐 있고 마커가 흐릿한 전경 물체의 위쪽 모서리에 있으며 뚜렷한 고온부는 상자 밖 차륜뿐)이 실제 영상과 정확히 일치하고 작업자에게 중요한 맥락을 준다. 다만 B의 원인 후보는 자체 판독과 모순된다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 냉각 불량, 과부하 운전   근거: 열 형태 — 같은 보고서의 이미지 판독에서 열 형태를 '불명', 부위를 '확인 불가'로 적어 놓고 열 형태를 근거로 원인을 제시"
+  ],
+  "trustworthy_for_operator": "B",
+  "notes": "A의 '입력축 베어링부'는 조회표 기본값임을 명시해 모순은 아니나 영상 근거가 없다. B의 작업자 메모 '상단 좌측이 넓게 따뜻하게 보인다'는 열화상에서 상자 상부가 약간 밝은 점과 대체로 부합하나, L0 정상 범위 판정에 비해 점검 항목이 다소 과하다."
+}

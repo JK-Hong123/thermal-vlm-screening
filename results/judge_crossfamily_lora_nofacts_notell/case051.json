@@ -1,0 +1,22 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "세로로 긴 상자의 우측 테두리 바로 안쪽 상단. 열화상은 거의 균일해 구조가 보이지 않고, 가시광(배전반 내 접촉기·배선 단자)을 참고하면 전자접촉기 상부 단자(배선 인입부) 근처로 추정됨",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서의 열점 위치·부위 판독은 동일하고 내 판독(상단 우측)과 일치하나, B는 정상 범위(L0, 형제 대비 -0.3°C) 판정에 '접촉면 오염·절연 열화' 원인과 접촉면 청소·절연저항 측정 지시를 붙여 자기 판정과 모순되고 프롬프트 지시문까지 메모에 그대로 노출됨. A는 정상 판정과 일관된 원인(정상 부하 발열)과 반사 확인 재촬영만 권고해 일관됨.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 접촉면 오염, 절연 열화   근거: 정상 분포 대비",
+    "작업자 메모: 현장 작업자에게 전할 한 문장(숫자 없이, 판정과 모순되지 않게): '접촉면 청소 및 절연 저항 측정을 통해 원인을 확인해 주세요.'"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "B의 원인 후보 근거가 '정상 분포 대비'인데 같은 보고서의 판정 근거는 '동종 설비 정상 분포 범위 내'이므로 자기모순. B 메모는 '판정과 모순되지 않게'라는 템플릿 문구를 그대로 출력한 뒤 정상 범위 사례에 청소·절연저항 측정을 지시해 판정과 어긋남. 열화상 대비가 낮아 '점형' 형태와 '상부 단자' 부위는 이미지로 검증 불가하며 두 보고서 모두 조회표 수준의 추정으로 보임."
+}

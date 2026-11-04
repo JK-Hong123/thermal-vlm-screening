@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "확인 불가 — 열화상 상자 내부가 균일한 저온 배경이라 구조가 없음. 가시광에는 적색 애자, 흰색 가로 지지대, 아래로 내려가는 녹색 조작봉(또는 접지선)이 보이나 열화상과의 정렬을 알 수 없음",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 가시광의 애자·가로 지지대·케이블 단자를 들어 마커 위치를 설명하고, 메모에서 형제 대비 온도차가 작음을 근거로 정기 점검 수준의 조치를 권해 수치와 정합적이다. B는 정형 문구뿐이며 게이트 확률 0.036을 '높다'고 적는 자기모순이 있다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "신뢰도: low — … (게이트 확률 자체는 높으나 위 사유로 신뢰도를 낮춤) — 게이트 확률은 0.036으로 매우 낮음(정상 쪽 여유)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "열점 위치 '상단 중앙'은 두 보고서 모두 내 판독과 일치. A의 '접지 케이블 단자'는 가시광의 녹색 봉을 그렇게 해석한 것으로 보이며 정렬 미보장이라 검증 불가(모순으로 세지 않음). A가 열 형태를 '불명'으로 둔 것은 계측(점형)과 다르지만 주장 회피로 간주. B의 '접촉부(블레이드·클립)'도 조회표 추정."
+}

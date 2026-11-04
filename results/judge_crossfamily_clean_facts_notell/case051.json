@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "열화상은 균일하게 어두워 부품 형상이 보이지 않고, 가시광(비정렬)에는 타공 세로 레일과 판재만 보여 접촉기 본체·단자를 식별할 수 없음. 접촉기라면 상부 단자 쪽일 가능성은 있으나 이미지 근거는 없음",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 열화상·가시광에서 실제로 보이는 것(균일하게 어두움, 타공 레일·판재)을 내 판독과 동일하게 기술하고 부위 식별 불가를 인정했으며 재촬영 시 부하 조건 기록까지 지시한다. A는 이미지 근거 없이 조회표로 '상부 단자'를 지정했고 게이트 확률 0.004를 '높다'고 적은 자기모순이 있다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": ["신뢰도: low — 단일 영상 근거 부족/반사 의심 (게이트 확률 자체는 높으나 위 사유로 신뢰도를 낮춤)"],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "마커 위치(상단 우측)는 두 보고서 모두 계측값(cell 2, x_norm 0.864, y_norm 0.201)과 일치. A의 '점형'은 계측(n_hotspots 1, area 0.001)과 일치한다. A의 '상부 단자'는 이미지 근거가 없는 조회표 추정이지만 내 판독이 '확인 불가'라 모순으로 세지 않았다. 반면 게이트 확률 0.004(통과)를 '높다'고 쓴 것은 같은 보고서의 계측 수치와 모순되어 1건으로 셌다. B는 같은 자리에서 '게이트 판정 자체는 여유 있으나'로 올바르게 서술했다. B의 이미지 판독 문장은 끝이 잘려 있다."
+}

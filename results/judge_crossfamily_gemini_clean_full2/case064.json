@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "보일러 점검구(맨홀 도어) 하단 레버 주변",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 시각적 이미지와 세부 형상을 정확히 분석하여 도어 및 레버 구조를 서술한 반면, 보고서 B는 회전기계류(베어링 등)에 적합한 엉뚱한 원인 후보를 제시했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 실제 설비 형상(점검구 및 잠금 레버)을 정확히 인지하고 그에 맞는 점검 항목을 제안하여 현장 작업자에게 훨씬 유용합니다.",
+ "case_id": "case064"
+}

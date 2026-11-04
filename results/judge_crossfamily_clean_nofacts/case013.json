@@ -1,0 +1,23 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "왼쪽 끝 세로 도체(케이블)의 맨 위, 가로로 길게 뻗은 뜨거운 수평 모선과 만나는 접속 지점. 배전반 단자·모선 구조로 보이며 변압기 부싱으로는 보이지 않음. 가시광의 단자대·동 부스바 구조와도 대체로 부합.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A의 이미지 서술(좌측 끝 세로 케이블 상단이 수평 모선과 만나는 접속부)이 내 판독과 정확히 일치하고 확인 항목도 제시한다. B의 '부싱'은 조회표 추정으로 이미지와 맞지 않는다. 다만 A의 원인 후보 '과부하 운전(근거: 동종 부품 대비)'은 형제 대비 -14.7°C와 모순된다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "원인 후보(추정): 과부하 운전, 확인 불가   근거: 동종 부품 대비, 열 형태"
+  ],
+  "ungrounded_examples_B": [
+    "최고온 지점은 대상 상단 우측에 있으며 조회표상 부싱 부위로 추정됩니다."
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "A의 원인 후보 '과부하 운전'을 '동종 부품 대비'로 근거 삼은 것은 형제 대비 -14.7°C(형제보다 차가움)·정상 판정과 자기모순이라 1건으로 셈. B의 원인 후보 '정상 운전 발열'은 판정과 정합하나 부위 라벨이 이미지(모선 패널의 케이블 접속부)와 불일치. 작업자 메모의 '윤활 상태' 언급은 변압기/케이블 설비에 부적합한 기본 문구로 양쪽 공통. 마커 가로 위치는 중/우 경계에 가까우나 상단 우측 판독은 허용 범위."
+}

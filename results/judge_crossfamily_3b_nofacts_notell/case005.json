@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "상자 상부에서 세로로 지나가는 밝은 주황 띠(차륜 림·답면 또는 디스크로 보임) 위, 상자 우측 테두리에 거의 닿은 지점(중앙 칸과의 경계에 가까움). 가시광은 과노출되고 각도가 달라 부위 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "이미지 판독(상단 우측, 차축 베어링, 면형)은 두 보고서가 동일하고 제 판독과 일치합니다. B는 '열 형태'만을 근거로 '과부하 운전, 냉각 불량'을 원인 후보로 적었는데, 같은 보고서가 열점 위치가 세션 78% 프레임과 다르다고 적은 것과 맞지 않아 근거가 약하고, A는 근거 없는 원인을 적지 않고 반사 확인 재촬영을 제시해 더 신중합니다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": ["신뢰도: high — 게이트 확률 여유 충분, 세션 9프레임 중 6프레임 플래그로 일관"],
+  "ungrounded_examples_B": ["신뢰도: high — 게이트 확률 여유 충분, 세션 9프레임 중 6프레임 플래그로 일관", "원인 후보(추정): 과부하 운전, 냉각 불량   근거: 열 형태"],
+  "trustworthy_for_operator": "A",
+  "notes": "마커는 상자 폭의 약 2/3 지점에 있어 '상단-중'과 '상단-우'의 경계에 가깝지만 우측 테두리에 더 가깝습니다. 두 보고서 공통으로 '신뢰도 high, 세션 일관'이라 적으면서 같은 문단에서 '열점 위치가 세션 78% 프레임과 다름 — 고정 결함이 아닐 수 있음'이라고 적어 자기모순이 있으며, 이는 양쪽에 동일하게 계산했습니다. 화면 최고온 100.0°C가 상자 밖에 있어 상자 범위 확인이 먼저 필요합니다."
+}

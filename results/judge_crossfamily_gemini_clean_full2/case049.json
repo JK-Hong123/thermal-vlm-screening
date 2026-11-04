@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "계기용변성기(MOF) 하단 단자 또는 명판 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 불량하고 세부 부위 식별이 어려운 점을 솔직하게 인정하고 신중하게 기술한 반면, B는 불확실한 부위명을 단정적으로 추정하여 기재함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 이차 단자함 부위로 추정됩니다"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 화질이 낮고 가시광 정렬이 불완전할 때 과도한 부위 추정보다는 A처럼 한계를 명시하는 것이 현장 작업자에게 더 안전하고 신뢰성 높음.",
+ "case_id": "case049"
+}

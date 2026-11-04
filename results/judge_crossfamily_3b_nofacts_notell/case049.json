@@ -1,0 +1,22 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "열화상이 거의 균일한 보라색이라 구조 식별이 불가하며, 마커는 상자 하단 우측 모서리(테두리 바로 안쪽)에 있음. 가시광상 함체 내부 하단 패널 부근으로 보이나 부위 특정은 어려움",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "A는 정상 판정(L0, 형제 대비 -0.2°C)임에도 '육안 특이'를 근거로 접촉면 오염·절연 열화를 들고 작업자에게 청소·수리를 지시해 자기모순이며, B는 열적 근거 없음을 일관되게 서술하고 판단을 유보해 보고서 내부가 정합적이다.",
+  "usefulness_A_1to5": 2,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 2,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "원인 후보(추정): 접촉면 오염, 절연 열화   근거: 육안 특이, 정상 분포 대비",
+    "작업자 메모: 현장 작업자에게는 접촉면 오염이나 절연 열화를 확인하고 청소·산화를 수행하여 문제를 해결하도록 요청합니다."
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "열화상은 대비가 거의 없어 '육안 특이'라 할 만한 열 패턴이 보이지 않으며, 판정 정상 범위·권고 정상 감시 유지와 A의 원인·작업자 메모가 충돌한다. 두 보고서 모두 열점 위치 '하단 우측'은 내 판독과 일치. A의 '부싱'은 MOF 하단 모서리 위치와 잘 맞지 않아 확인 불가로 보며, B의 '이차 단자함'은 조회표 추정임을 명시해 과장이 없다."
+}

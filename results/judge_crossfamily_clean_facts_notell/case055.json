@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-좌",
+  "my_part": "기어박스 하우징의 왼쪽 아래 가장자리(상자 왼쪽 변)로, 상자 밖 왼쪽에 넓게 밝은(고온) 차륜과 맞닿는 지점. 상자 내부 하우징 자체는 중간 밝기로 특별히 뜨거운 부위가 보이지 않으며, 가시광은 어두워 부품 형상이 불분명함",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 하우징 왼쪽 아래 모서리에서 상자 밖 고온 차륜과 맞닿는 지점에 있고 그 열이 상자 모서리로 들어온 형태라는 점을 내 판독과 동일하게 기술했고, 재촬영과 씰 누유·윤활 확인을 구체적으로 지시한다. A는 이미지 근거 없는 조회표 부위와 일반 메모만 있다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "마커 위치(하단 좌측, 상자 왼쪽 변)는 두 보고서 모두 계측값(cell 6, x_norm 0.0, y_norm 0.91)과 일치하고 '점형'도 계측(n_hotspots 2, area 0.003)과 맞는다. A의 '출력축 베어링부'는 차륜 쪽 하우징 가장자리라는 위치와 기하학적으로 모순되지는 않아 ungrounded로 세지 않았으나 이미지 근거는 없다. B의 이미지 판독 문장은 끝이 잘려 있다. 계측상 external_source_suspected=true, 테두리 제외 시 7.0°C 하락으로 B의 차륜 열 유입 해석이 계측과도 부합한다."
+}

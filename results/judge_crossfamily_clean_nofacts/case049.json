@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "열화상이 전체적으로 균일한 암색이라 상자 내부 세부 부위를 식별할 수 없음. 마커는 상자 오른쪽 아래 모서리 바로 안쪽에 있으며, 비정렬 가시광 기준으로는 함체 내부 계기류 아래쪽 선반·판재 부근으로 추정될 뿐 특정 부품으로 단정할 수 없음",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커 위치(오른쪽 아래 모서리 안쪽), 열화상의 균일한 암색, 가시광의 계기류 아래 선반이라는 실제 화면 내용을 정확히 기술하고 작업자 메모도 세션 일관성·형제 대비 근거를 들어 구체적이다. B는 조회표 기반으로 '이차 단자함'을 추정할 뿐 이미지 자체를 읽은 흔적이 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "A",
+  "notes": "B의 '조회표상 이차 단자함 부위로 추정됩니다'는 이미지에서 확인할 수 없는 조회표 기반 추정이며 출처를 명시해 모순으로 세지는 않았으나 화면 근거는 없다. 두 보고서 모두 정상(L0) 판정이라 조치 차이는 작다."
+}

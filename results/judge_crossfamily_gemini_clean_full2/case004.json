@@ -1,0 +1,24 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "보일러 노벽 및 케이싱 부위",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 및 가시광 정렬 상태의 한계를 정직하게 인정하고 기계 검증 결과를 투명하게 밝힌 반면, 보고서 B는 불확실한 부위와 원인 후보를 지어내어 신뢰성을 떨어뜨림.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 3,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 배관 접속부 부위로 추정됩니다.",
+  "원인 후보(추정): 베어링 손상·윤활 불량, 씰 마찰·누설",
+  "현장 확인 항목: 진동 측정, 윤활 상태·유량 확인, 축 정렬 확인"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보일러 설비 특성상 회전기기 부품(베어링 등)이 존재하지 않는 위치임에도 보고서 B가 환각(Hallucination)에 가까운 원인 추정 및 점검 항목을 생성하여 현장 작업자에게 혼란을 줄 수 있음. 보고서 A의 솔직한 한계 명시가 우수함.",
+ "case_id": "case004"
+}

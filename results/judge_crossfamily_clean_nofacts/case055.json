@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-좌",
+  "my_part": "마커는 상자 왼쪽 변의 아래쪽(왼쪽 아래 모서리 부근)에 있음. 상자 안은 중간 온도의 둥근 기어박스 하우징이고, 상자 바로 왼쪽 바깥에는 밝은 주황·노랑의 차륜이 넓게 고온으로 보임. 마커는 하우징 아래 가장자리가 이 고온 차륜과 맞닿는 경계에 놓여 있어 외부 열원이 상자 모서리로 번진 형태. 가시광은 어두워 참고 불가",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 하우징 아래 가장자리와 왼쪽 고온 차륜이 맞닿는 지점에 있고 밝은 영역이 상자 밖 차륜이라는 점을 정확히 읽어 외부 열원 의심이라는 판정 근거를 화면으로 뒷받침하며, 메모도 재촬영과 씰 누유·윤활 확인을 구체적으로 지시한다. A는 조회표 추정과 정형 문구에 그친다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "A의 '출력축 베어링부'는 조회표 추정이지만 차축·차륜 쪽 하우징 가장자리라는 위치와 모순되지는 않는다. B의 이미지 판독 문장은 말미가 잘려 있으나 기술된 부분은 화면과 일치한다. B의 '육안 특이 없음'은 가시광이 어두워 실질 판독이 어려운 점을 감안하면 다소 과한 표현이다."
+}

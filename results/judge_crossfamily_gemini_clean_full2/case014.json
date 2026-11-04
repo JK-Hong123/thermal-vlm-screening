@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-중",
+ "my_part": "변압기 부싱 또는 케이블 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지의 화질 불량과 부품 형태 식별의 한계를 정직하게 인정하면서도, 현장 작업자가 실제로 취해야 할 구체적인 확인 항목과 조치 사항을 충실히 제시하여 실용성이 더 높습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 현장 작업 시 필요한 구체적인 체크리스트(부하 전류, 통풍 상태 등)를 제공하여 실무 활용도가 높습니다.",
+ "case_id": "case014"
+}

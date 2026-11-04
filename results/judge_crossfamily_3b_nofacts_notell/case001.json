@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "상자 우측 테두리에 걸친 지점으로, 바로 오른쪽의 밝은 고온체(차륜 또는 브레이크 디스크로 보임)와 상자 안 어두운 하우징의 경계부. 가시광은 각도가 달라 부위를 특정할 수 없음",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서 모두 열점 위치(하단 우측)는 제 판독과 일치하지만, 마커가 상자 경계에 걸쳐 있고 바깥 차륜이 더 뜨거운 상황에서 A는 부위를 '확인 불가'로 솔직히 남기고 반사 확인 재촬영을 제시한 반면, B는 이미지 근거 없이 '출력축 베어링부'로 특정해 작업자를 오도할 위험이 있습니다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": ["최고온 지점은 대상 하단 우측에 있으며 조회표상 출력축 베어링부 부위로 추정됩니다."],
+  "trustworthy_for_operator": "A",
+  "notes": "마커는 상자 우측 테두리 위에 있고 바로 바깥의 차륜(밝은 노란색)이 훨씬 뜨거워, 보고서 공통의 '외부 열원 오염 의심' 유의 사항이 이미지와 부합합니다. B의 부위 서술은 '조회표상'이라는 단서가 있으나, 같은 보고서가 최고온이 테두리 바깥 열원의 번짐일 수 있다고 적은 것과 긴장 관계에 있습니다. B의 '진동 측정'은 재촬영 후 재판정 단계에서는 시기상조이고, A의 '각도 바꿔 재촬영(반사 확인)'이 케이스 유형과 더 맞습니다."
+}

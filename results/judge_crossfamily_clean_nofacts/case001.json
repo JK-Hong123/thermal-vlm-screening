@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "기어박스 하우징의 우측 가장자리(상자 우측 테두리)로, 바로 바깥의 밝게 달아오른 차륜/디스크 띠와 맞닿는 지점. 마커 자체는 상자 안쪽의 비교적 차가운(자주색) 면 위에 있고 실제 열원은 상자 밖 차륜 쪽으로 보임. 가시광은 축/배관 위주의 미정렬 화면이라 부위 확인에 도움이 안 됨.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 부위를 확인 불가로 정직하게 두되 화질·육안 소견을 실제로 읽었고, 작업자 메모가 테두리 외부 열원 의심을 반영해 재촬영 후 조건부 점검으로 연결된다. B의 부위는 조회표 추정일 뿐 이미지 근거가 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "A",
+  "notes": "마커는 상자 우측 테두리에 걸쳐 있고 바로 바깥 차륜/디스크가 훨씬 뜨거워 보여 계측의 boundary_contamination 유의사항과 내 판독이 일치함. B의 '출력축 베어링부'는 내 판독과 직접 모순되지는 않으나(철도 기어박스 출력축이 차륜 쪽에 있어 위치상 가능) 이미지로 검증되지 않은 조회표 라벨임. A는 '각도 바꿔 재촬영(반사 확인)' 항목과 외부 열원 여부에 따른 조건부 점검 메모를 더해 현장 조치가 더 명확함."
+}

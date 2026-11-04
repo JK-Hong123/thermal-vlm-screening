@@ -1,0 +1,22 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "열화상 상자 내부에 구조가 보이지 않음; 가시광의 단로기 형상(상단 적색 애자, 아래로 녹색 조작 로드)으로 보아 세로로 긴 상자는 애자 기둥 또는 조작 로드이고 마커는 그 상부 — 블레이드/접촉부일 가능성은 있으나 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "열점 위치는 둘 다 계측과 일치; A는 형제 대비 -0.3°C로 오히려 낮은데 '동종 부품 대비·육안 특이'를 근거로 접촉저항 증가를 추정하고 정상 판정에 맞지 않는 접촉저항 측정·토크 점검을 요구함. B는 정상 판정과 재촬영 권고에 일관된 서술만 함.",
+  "usefulness_A_1to5": 2,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 추가 정보 없음",
+  "ungrounded_claims_A": 2,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "원인 후보(추정): 접촉부 접촉저항 증가(체결 이완·산화), 접촉면 오염   근거: 동종 부품 대비, 육안 특이, 정상 분포 대비 (형제 대비 ΔT -0.3°C로 동종 부품보다 낮고, 가시광에 특이점이 없으며, 보고서 판정도 정상 범위)",
+    "작업자 메모: 현장 작업자는 접촉부의 접촉저항을 측정하고, 체결 토크를 점검하여 접촉부의 상태를 확인해야 합니다 (권고 조치 '정상 감시 유지; 재촬영 권고'와 불일치)"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "B의 '접촉부(블레이드·클립)'는 조회표 기반으로 이미지 검증은 불가하나 단로기 구조상 자연스러운 추정이며 '추정'으로 한정함. 열점이 세션 최빈 위치(상단 좌측)와 다르다는 공통 유의사항과 reflection_suspect 플래그를 보면 재촬영만 권고하는 B의 대응이 적절함."
+}

@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "상자 안에 세로로 선 흐릿한 붉은 온기 덩어리가 있고 마커는 그 한가운데(상자 중앙)에 있음. 주변 배경보다 약간 따뜻한 정도로 윤곽이 흐려 부위를 특정할 수 없으며, 굳이 보면 PT 본체(절연 몰드)의 중앙부로 보임. 비정렬 가시광은 레일에 세로로 부착된 작은 스위치·릴레이류와 노란 배선만 보여 참고 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 흐릿한 세로 온기 덩어리의 한가운데에 마커가 있고 주변보다 약간 따뜻하다는 화면 내용과 가시광의 한계를 정확히 기술하며, 부하 전류·불평형률·절연저항 측정 등 PT에 맞는 현장 확인 항목을 제시한다. B는 조회표 추정에 그치고 본체 부위를 지목하면서 접촉부 접촉저항 증가를 원인 후보로 들어 자기모순적이다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 접촉부 접촉저항 증가(체결 이완·산화), 과부하 또는 상 불평형 — 같은 보고서가 부위를 '본체(절연 몰드)'로 지목하고 열점이 중앙에 있다고 했으므로 단자 접촉부 원인과 맞지 않음"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "B의 '본체(절연 몰드)'는 중앙의 흐릿한 온기 덩어리와 모순되지 않는다. A의 원인 후보 '절연 열화'도 ΔT 6.9°C 수준에서는 추정에 가깝지만 세션 21/22 플래그 근거를 명시하고 있어 모순으로 보지 않았다."
+}

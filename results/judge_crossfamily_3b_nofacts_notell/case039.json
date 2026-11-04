@@ -1,0 +1,23 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "상자가 매우 작고 마커가 상자 중앙을 거의 덮고 있음. 상자 내부는 균일한 자홍색으로 뚜렷한 열점이나 선형 구조가 보이지 않음. 상자 바로 우측 바깥에 밝은 황색 수직 고온 띠(화면 최고온으로 추정)가 있음. 가시광은 과노출·흐림으로 식별 불가. 차축 베어링 하우징(액슬박스) 중앙부로 추정",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "A",
+  "preference_reason": "B의 '열 형태 선형'은 같은 보고서의 열 소견(중앙에 불명 분포)과 모순되고 상자 내부에 선형 열 형상이 없어 상자 밖 고온 띠를 오독한 것으로 보임. A는 자기모순 없이 케이스 유형에 맞춘 부하 기록 후 재촬영을 권고함(다만 A의 '차축 본체' 부위는 조회표 기반으로 설비와 어긋남).",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "최고온 지점은 대상 중앙에 있으며 조회표상 차축 본체 부위로 추정됩니다. (상자는 차축베어링이며 마커가 베어링 하우징 중앙부에 있어 '차축 본체'와 불일치)"
+  ],
+  "ungrounded_examples_B": [
+    "이미지 판독: 부위 차축 베어링(액슬박스) / 열점 위치 판독 중앙 (계측 exact) / 열 형태 선형 (같은 보고서의 열 소견 '중앙에 불명 분포'와 모순; 상자 내부에 선형 열 형상이 보이지 않고 선형 고온 띠는 상자 우측 바깥에 있음)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "마커 위치 '중앙'은 양쪽 모두 일치. 형제 대비 -32.5°C는 sibling_contaminated 플래그대로 형제가 상자 밖 고온 띠에 오염된 것으로 보임. 상자 밖 고온 띠가 상자에 매우 근접해 있어 경계 오염 가능성도 작업자가 인지해야 하나 두 보고서 모두 언급 없음."
+}

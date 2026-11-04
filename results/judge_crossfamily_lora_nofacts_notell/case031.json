@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-우",
+  "my_part": "마커가 상자 우측 테두리의 중간 높이에 걸쳐 있고 열화상은 거의 균일해 부품 윤곽이 보이지 않음. 가시광에는 CT 상부의 볼트 2개로 체결된 일차 단자 클램프와 그 아래 백색 절연체(본체)가 보이므로, 마커는 단자 접속부 가장자리 또는 그 바로 아래 절연체 경계 중 하나로 보이나 정렬이 안 돼 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "열점 위치는 둘 다 내 판독(중단 우측)과 같다. A는 형제 대비 +3.2°C(정상 범위)와 열 형태를 근거로 정상 부하 발열을 제시해 판정과 일관되며, B는 원인을 비워 두고 한계 항목에 반사 의심 플래그가 없는데도 '각도 바꿔 재촬영(반사 확인)'을 추가해 근거가 약하다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "부위는 A '본체(절연 몰드)', B '일차 단자 접속부'로 갈리는데 가시광상 두 구조가 모두 상자 범위에 들어갈 수 있어 어느 쪽도 이미지로 확정할 수 없다. B는 '계측 adjacent'라 표기했지만 적은 칸은 계측과 같은 중단 우측이다. B의 반사 확인 재촬영은 모순은 아니지만 보고서 내 reflection_suspect 플래그가 없어 근거 없는 추가 항목이다. 세션 증거의 '열점 위치가 70% 프레임과 다름'은 두 보고서가 동일하게 적고 있다."
+}

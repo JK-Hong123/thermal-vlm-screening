@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "함체 외부 또는 상단 단자부 추정",
+ "my_part_confidence": "low",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지의 시인성이 낮고 세부 부위가 잘 보이지 않는 점을 솔직하게 인정하고 구체적인 작업자 메모를 남겨 현장 실무에 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "조회표상 단자 접속부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "가시광과 열화상 모두 내부 구조가 명확히 드러나지 않는 상태에서 A는 단자 접속부로 단정하는 경향이 있으나, B는 판독 불가와 재촬영 가이드를 충실히 제공함.",
+ "case_id": "case071"
+}

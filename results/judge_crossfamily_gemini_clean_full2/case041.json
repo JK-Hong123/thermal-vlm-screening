@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "부스바 또는 케이블 연결단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 단일 프레임의 한계와 불확실성을 솔직히 인정하고 신뢰도를 낮게 평가한 반면, 보고서 B는 모순되거나 과도한 추정(근거 부족한 원인 후보)을 포함하고 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 현장 작업자에게 단일 영상의 한계와 재촬영 필요성을 명확히 전달하여 더 신뢰할 수 있습니다.",
+ "case_id": "case041"
+}

@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-좌",
+  "my_part": "상자 좌측 테두리 하단에 마커가 걸쳐 있고, 바로 왼쪽 상자 밖에 밝은 원형 고온체(차륜/브레이크 디스크 또는 차축 주변)가 있음. 상자 내부 기준으로는 기어박스 하우징의 좌측 하단 가장자리(차축 쪽)로 보이며, 가시광은 어두워 부위 확인 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서 모두 열점 위치(하단 좌측)는 내 판독과 일치함. A는 작업자 메모가 케이스 유형(상자 경계 외부 열원 오염)에 정확히 대응해 재촬영 후 판단을 지시하는 반면, B의 메모는 윤활·측정 장비 점검이라는 일반론이라 이 사례의 핵심 유의사항을 전달하지 못함.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열화상에서 마커 바로 바깥(좌측)의 원형 고온체가 훨씬 밝아 보고서의 '바로 바깥(60.8°C)이 더 뜨거움' 유의사항과 시각적으로 일치함. A의 '출력축 베어링부'는 조회표 추정으로 명시돼 있고 차축 쪽 위치와 모순되지는 않으나 이미지로 확증은 불가. B의 '부위 확인 불가'는 정직하지만 정보량이 적고, B 메모의 '측정 장비의 정확성 점검'은 보고서 내 어떤 근거와도 연결되지 않음."
+}

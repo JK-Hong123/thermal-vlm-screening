@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "상자 우하단 모서리 테두리 위. 상자 안은 전동기 프레임(냉각핀) 본체이고, 마커 바로 바깥(우측·아래)으로 매우 밝은 주황색 선형 열원(케이블·배관)이 지나감. 마커 지점은 전동기 프레임 하단 우측 가장자리(베이스·엔드커버 경계부)로 보이며, 구동측 베어링 하우징인지는 열화상·가시광(프레임 핀과 볼트만 보임) 어느 쪽으로도 확인 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "두 보고서의 위치·부위 판독은 동일하고 위치는 내 판독과 일치함. B는 작업자 메모가 보고서 내 세션 비일관 증거에 직접 근거하고 현장 확인 항목에 진동 측정을 넣어 권고 조치(진동·윤활 확인)와 정합되는 반면, A는 권고에 진동 확인을 적고도 현장 확인 항목에는 빠져 있고 메모가 일반론임.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열화상에서 마커가 상자 테두리(peak_on_box_border)에 있고 바로 바깥의 선형 열원이 훨씬 밝아 외부 열원 번짐 가능성이 커 보이는데, 두 보고서 모두 이를 언급하지 않음(코드가 테두리 제외 재계산을 하지 않은 사례). '구동측 베어링 하우징' 부위는 양쪽 모두 조회표 추정 수준이며 이미지로 확증 불가. A의 '부하 조건 기록 후 재촬영'은 유용하나 B 메모에도 같은 취지가 포함됨."
+}

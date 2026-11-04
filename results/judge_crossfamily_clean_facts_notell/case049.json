@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "열화상은 상자 안이 균일하게 어두워 세부 부위를 식별할 수 없음. 가시광(비정렬)에서는 함체 내부 계기류 아래의 선반·하부 패널 부근으로 보이나 확정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 열화상이 균일하게 어둡고 부위 식별이 불가하다는 점을 내 판독과 동일하게 솔직히 기술했고, 작업자 메모도 형제 대비·세션 일관성 수치와 부합한다. B의 '이차 단자함'은 이미지 근거 없는 조회표 추정이고 메모는 일반 문구에 그친다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "마커 위치(하단 우측)는 두 보고서 모두 계측값(cell 8, x_norm 0.893, y_norm 0.757)과 일치. B의 '다점형'은 계측(n_hotspots 27)과 일치한다. B의 '이차 단자함'은 열화상·가시광 어디에서도 확인되지 않는 조회표 추정이지만 내 판독이 '확인 불가'라 모순으로는 세지 않았다. 정상(L0) 사례라 실무 영향은 작다."
+}
