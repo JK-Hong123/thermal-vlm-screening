@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "애자형 부싱 상단 단자 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 작업자 메모와 현장 확인 항목에서 구체적인 조치 사항(체결 토크, 접촉저항, 산화 여부 등)을 더 상세하고 실효성 있게 기술함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 현장 작업자 관점에서 점검해야 할 항목들을 더 명확하게 가이드하고 있음.",
+ "case_id": "case079"
+}

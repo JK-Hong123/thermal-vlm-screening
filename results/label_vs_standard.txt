@@ -1,0 +1,12 @@
+=== label vs standards-based grade (all splits, bbox level) ===
+train: ELEC w/ siblings n=41333 | danger rate by S-level: L0:0.03(n=35560), L1:0.20(n=1966), L2:0.33(n=2277), L3:0.28(n=878), L4:0.07(n=652)
+   all bboxes n=65225 | danger rate by A-level(scene): L0:0.01(n=28957), L1:0.13(n=12563), L2:0.20(n=7544), L3:0.19(n=8749), L4:0.22(n=7412)
+test: ELEC w/ siblings n=10653 | danger rate by S-level: L0:0.05(n=9235), L1:0.21(n=424), L2:0.34(n=537), L3:0.32(n=287), L4:0.03(n=170)
+   all bboxes n=16400 | danger rate by A-level(scene): L0:0.03(n=7416), L1:0.12(n=3178), L2:0.26(n=1646), L3:0.12(n=1897), L4:0.23(n=2263)
+gen_test: ELEC w/ siblings n=6119 | danger rate by S-level: L0:0.06(n=6118), L1:nan(n=0), L2:0.00(n=1), L3:nan(n=0), L4:nan(n=0)
+   all bboxes n=8634 | danger rate by A-level(scene): L0:0.05(n=6632), L1:0.42(n=544), L2:0.39(n=966), L3:0.69(n=347), L4:0.99(n=145)
+
+=== disagreement, SESSION level (train+test): sessions containing >=5 bboxes of a type ===
+sessions total 838 | sessions with >=5 [sibling dT>15 & label normal]: 19 -> Counter({np.str_('전자접촉기'): 19})
+sessions with >=5 [sibling dT<=3 & label danger]: 40 -> Counter({np.str_('변압기 접속부'): 8, np.str_('단로기(DS)'): 6, np.str_('케이블&부스 연결개소'): 6, np.str_('계기용변압기(PT)'): 5, np.str_('전자접촉기'): 5, np.str_('차단기'): 4, np.str_('계기용변성기(MOF)'): 3, np.str_('계기용변류기(CT)'): 3})
+bbox totals: S4&normal 770 | S0&danger 1693

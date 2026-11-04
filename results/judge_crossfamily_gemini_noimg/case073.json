@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "부싱 또는 단자 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 화질과 정렬 한계를 객관적으로 인지하여 과도한 단정적 판독을 피하고 현장 지침을 충실히 제공함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "육안 가시광 미판독 / 화질 확인 불가 상태에서 부위 단자 접속부로 특정함"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "가시광과 열화상의 정렬이 맞지 않고 화질이 제한적인 상황에서 보고서 B가 불확실성을 솔직히 인정하고 현실적인 조치 사항을 제시함.",
+ "case_id": "case073"
+}

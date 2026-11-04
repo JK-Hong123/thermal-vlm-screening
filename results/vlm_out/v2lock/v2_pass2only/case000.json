@@ -1,0 +1,107 @@
+{
+ "case_id": "case000",
+ "cond": "v2_pass2only",
+ "raw": {
+  "pass2": "```json\n{\n  \"cause_hypothesis\": [\"윤활 불량\", \"측정 불량\"],\n  \"cause_basis\": [\"동종 부품 대비 온도차\", \"육안 특이 없음\"],\n  \"field_checks\": [\"부하 전류·불평형률 측정\", \"접촉저항 측정\", \"윤활 상태·유량 확인\"],\n  \"operator_note_ko\": \"현장 작업자는 부하 전류·불평형률 측정, 접촉저항 측정, 윤활 상태·유량 확인 등을 통해 원인을 확인해 주시기 바랍니다.\"\n}\n```"
+ },
+ "secs": {
+  "pass2": 11.04
+ },
+ "report": {
+  "case_id": "case000",
+  "equipment": "보일러",
+  "site": "쓰레기소각장",
+  "spec": "보일러",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비(잠정 기준)",
+  "severity_metric": "대상 최고온 140.2°C = 정상 프레임 분포 백분위 69.3 (정상 중앙값 128.4°C, P95 176.6°C); 장면 대비 ΔT 78.5°C",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님); ISO 18434-1 기준선 권고",
+  "scene_level": 4,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계: 확인 불가",
+  "measurements": {
+   "t_max": 140.2,
+   "t_mean": 78.5,
+   "scene_median": 61.7,
+   "dT_scene": 78.5,
+   "sibling_reference": null,
+   "dT_sibling": null,
+   "n_siblings": 0,
+   "hotspot_area_frac": 0.033,
+   "rf_prob": 0.81,
+   "t_max_eroded": 140.2,
+   "dT_scene_eroded": 78.5
+  },
+  "thermal_finding_ko": "대상 최고 온도 140.2°C, 장면 중앙값 61.7°C(장면 대비 78.5°C). 열점은 대상 내 상단 좌측에 다점형 분포.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT 78.5°C (동종 설비 정상 분포 백분위 67.2)",
+   "열점이 국부에 집중"
+  ],
+  "caveats_ko": [],
+  "case_type": "clear_overheat",
+  "case_type_ko": "기준 초과 과열 소견",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 28프레임 중 28프레임 플래그로 일관",
+  "action_ko": "조속한 정비(가능한 빠른 시기), 운전 부하 저감 검토",
+  "field_checks_ko": [
+   "윤활 상태·유량 확인"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 28프레임, 그중 28프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_absent",
+   "calib_default",
+   "rgb_unaligned"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "운전 부하·회전수",
+   "진동·윤활 이력"
+  ],
+  "spatial_check": "unknown",
+  "pattern_check": "unknown",
+  "vlm_pass1": {
+   "equipment_plausible": "확인 불가",
+   "part": "확인 불가",
+   "p_grid": "상단 좌측",
+   "heat_pattern": "불명",
+   "visual_flags": [
+    "특이 없음"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "베어링 손상·윤활 불량"
+   ],
+   "cause_basis": [],
+   "field_checks": [
+    "윤활 상태·유량 확인"
+   ],
+   "operator_note_ko": "현장에서 해당 부위의 진동·윤활 상태와 운전 부하를 확인하십시오."
+  },
+  "validation": {
+   "violations": [
+    "cause:oov",
+    "basis:sibling_absent",
+    "basis:no_visual",
+    "checks:out_of_group",
+    "operator_note_ko:out_of_group",
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "basis",
+    "cause",
+    "checks",
+    "operator_note_ko",
+    "p_grid"
+   ]
+  }
+ }
+}

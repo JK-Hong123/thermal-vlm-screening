@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "단로기 블레이드 또는 접촉부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 낮고 가시광 정렬이 불확실한 상태에서 무리하게 부위나 원인을 단정하지 않고 신뢰도를 낮게 평가한 반면, 보고서 B는 불확실한 상황에서 과도한 추정(정상 부하 발열)을 포함하고 기계 검증에서 불합격 처리되었습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 접촉부(블레이드·클립) / 원인 후보(추정): 정상 부상 발열 — 화질이 확인 불가하고 가시광 미판독 상태에서 부위와 원인을 단정함"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 불확실성에 대해 솔직하게 신뢰도를 낮추고 재촬영을 권고하여 현장 작업자에게 더 안전한 가이드를 제공합니다.",
+ "case_id": "case025"
+}

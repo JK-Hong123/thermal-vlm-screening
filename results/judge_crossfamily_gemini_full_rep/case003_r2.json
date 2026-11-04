@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "철도 차륜 림 및 액슬박스 경계부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 상의 실제 형태(휠 림과 답면, 고온부의 위치 등)를 더 정확하게 인식하고 작업자에게 구체적인 현장 확인 조치를 제시함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "육안 가시광 미판독 / 화질 확인 불가"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 이미지의 시각적 요소를 더 충실히 반영하여 판독하였으며, 작업자 메모와 권고 조치 측면에서 현장 대처에 더 유용함.",
+ "case_id": "case003"
+}

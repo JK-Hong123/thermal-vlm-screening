@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "세로로 긴 전자접촉기 본체(코일 하우징)의 왼쪽 가장자리, 상자 왼쪽 테두리선에 걸친 위치로 보임. 열화상은 거의 균일한 보라색이라 부품 윤곽이 희미하고, 가시광은 함체 벽면과 단자대·배선만 보여 정렬 확인 불가. 마커가 경계선 위에 있어 인접 부품(형제)과의 경계일 가능성도 있음.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 상자 왼쪽 경계선에 걸쳐 있다는 점을 실제로 읽어 기술했고 이는 계측 사실(peak_border_distance_px 0, 외부 열원 의심)과 일치하며, 열 형태를 '불명'으로 보수적으로 둔 것도 거의 특징 없는 열화상과 맞음. B는 조회표 기반 템플릿 문장만 있어 이미지 판독의 부가가치가 없음.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "두 보고서의 판정·계측·세션 서술은 동일하며 계측 사실(열점 중단 좌측, 점형, 테두리 위, 세션 최빈 위치 상단 중앙과 불일치)과 모순 없음. 차이는 이미지 판독 한 줄과 현장 확인 항목뿐. A의 '열 형태 불명'은 계측상 점형(면적비 0.002)과 다르지만 판독 유보이지 허위 주장은 아니므로 세지 않음. 양쪽 공통의 '게이트 확률 자체는 높으나'는 게이트 확률 0.008(통과)과 어긋나는 템플릿 문구로 보이나 두 보고서에 동일하게 들어 있어 비교 지표에는 반영하지 않음. 정상 범위 판정에 외부 열원 의심이 붙은 사례라 실무상 두 보고서 모두 '정상 감시 유지 + 재촬영'으로 충분함."
+}

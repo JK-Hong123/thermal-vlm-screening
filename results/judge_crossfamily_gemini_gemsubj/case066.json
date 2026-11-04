@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "전자접촉기 상부 단자 및 배선 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독에서 부위와 원인 후보(과부하 또는 상 불평형 등)를 보다 구체적이고 다각도로 제시하여 현장 조치에 더 유용합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 가시광 및 열화상 이미지 매칭과 원인 추정 측면에서 좀 더 상세한 정보를 제공함.",
+ "case_id": "case066"
+}

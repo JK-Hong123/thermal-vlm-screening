@@ -1,0 +1,18 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 2000.14it/s]
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:00<02:07,  6.47it/s]Loading weights:   5%|▍         | 41/824 [00:00<00:04, 186.80it/s]Loading weights:   9%|▉         | 77/824 [00:00<00:02, 252.84it/s]Loading weights:  14%|█▎        | 113/824 [00:00<00:02, 290.22it/s]Loading weights:  19%|█▊        | 153/824 [00:00<00:02, 326.40it/s]Loading weights:  23%|██▎       | 191/824 [00:00<00:01, 342.31it/s]Loading weights:  28%|██▊       | 228/824 [00:00<00:01, 350.64it/s]Loading weights:  32%|███▏      | 264/824 [00:00<00:01, 349.02it/s]Loading weights:  36%|███▋      | 300/824 [00:00<00:01, 347.94it/s]Loading weights:  41%|████      | 336/824 [00:01<00:01, 347.82it/s]Loading weights:  45%|████▌     | 372/824 [00:01<00:01, 344.53it/s]Loading weights:  49%|████▉     | 407/824 [00:01<00:01, 339.36it/s]Loading weights:  58%|█████▊    | 476/824 [00:01<00:00, 439.60it/s]Loading weights:  73%|███████▎  | 604/824 [00:01<00:00, 685.30it/s]Loading weights:  89%|████████▊ | 730/824 [00:01<00:00, 851.37it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 489.89it/s]
+W0916 23:48:41.553000 48668 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+
+=== F_fullvis_coord_672_n6000_ep1 on independent eval set (chance acc 0.111, κ 0) ===
+  all                                  n= 388 acc 0.595 κ 0.539 dist 0.226 within0.2 0.616 fail 0
+  test                                 n= 157 acc 0.732 κ 0.694 dist 0.188 within0.2 0.783 fail 0
+  gen_test                             n= 231 acc 0.502 κ 0.417 dist 0.252 within0.2 0.502 fail 0
+  label=danger                         n=  50 acc 0.540 κ 0.452 dist 0.215 within0.2 0.540 fail 0
+  label=normal                         n= 338 acc 0.604 κ 0.546 dist 0.228 within0.2 0.627 fail 0
+  eq:고압전동기                             n=  16 acc 0.688 κ 0.638 dist 0.173 within0.2 0.875 fail 0
+  eq:기어박스                              n=  15 acc 0.667 κ 0.342 dist 0.262 within0.2 0.667 fail 0
+  eq:변압기 케이블 연결개소 포함                   n=  28 acc 0.714 κ 0.647 dist 0.221 within0.2 0.643 fail 0
+  eq:신재생 설비                            n= 191 acc 0.450 κ 0.354 dist 0.270 within0.2 0.445 fail 0
+  eq:접지용 콘덴서                           n=  40 acc 0.750 κ 0.665 dist 0.166 within0.2 0.775 fail 0
+  eq:차단기                               n=  16 acc 0.688 κ 0.626 dist 0.263 within0.2 0.625 fail 0
+  eq:차축베어링                             n=  27 acc 0.852 κ 0.814 dist 0.198 within0.2 0.815 fail 0

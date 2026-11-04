@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "세로로 좁고 긴 상자의 중간 높이, 가로로는 가운데에서 약간 왼쪽(약 37% 지점)에 마커가 있음. 상자 안은 주변과 같은 균일한 보라색으로 열점이나 부품 윤곽이 보이지 않고, 크롭 오른쪽 가장자리에 상자와 무관한 희미한 붉은 온기가 있음. 가시광에는 파란 절연 케이블, 주황색 단자 커버, 붉은 단자부, 천공 레일이 보이나 열화상과 정렬되지 않아 단로기의 어느 부위인지 식별 불가(단자 접속부 또는 절연 지지부 추정).",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 상자 중간 높이에서 약간 왼쪽에 있고 열화상에 고온 영역이 없다는 점, 가시광의 파란 케이블·주황 단자 커버까지 실제 이미지와 일치하게 기술했으며 확인 항목(부하 전류·불평형률, 각도 변경 재촬영, 부하 기록)도 구체적임. B는 조회표 문장과 '정상 부하 발열' 추정만 있고 확인 항목이 없음.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "계측 사실: 열점 중앙(셀 4, x_norm 0.361, y_norm 0.573)으로 두 보고서·내 판독 모두 일치. 열점 17개·면적비 0.027로 다점형(B 일치, A는 '불명'으로 유보). 테두리 거리 13px로 외부 열원 의심 없음. 세션 3프레임 0 플래그이나 최빈 위치 중단 좌측과 불일치. 형제 최고온 42.3·43.6°C로 형제 기준 무효(sibling_contaminated)인데, 이 점은 두 보고서 모두 등급 기준 줄에만 있고 메모에서는 다루지 않음. A의 이미지 서술 문장이 '붉'에서 잘려 있어 출력 결함이 있으나 내용상 오류는 아님. B의 '정상 부하 발열(근거: 열 형태)'은 ΔT 2.3°C 정상 범위와 어긋나지 않아 모순으로 세지 않음."
+}

@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "마커는 상자 한가운데 부근(중간 높이, 중심에서 약간 왼쪽)에 있고, 상자 안에서 주변보다 약간 따뜻하게(붉은 기) 보이는 둥근 본체 덩어리의 표면 위에 놓여 있음. 열점은 본체 전체에 퍼진 완만한 온도 상승이며 단자 같은 국부 고온부는 보이지 않음. 가시광은 캐비닛 레일과 작은 릴레이류만 보여 정렬·대응이 어려움. 부위는 PT 본체(절연 몰드)로 봄.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 따뜻하게 보이는 본체 몰드 덩어리의 중간 높이에서 약간 왼쪽 표면에 있다는 실제 관찰을 적었고 원인 후보(절연 열화·통풍 불량)와 현장 확인 항목(절연저항·통풍·재촬영)이 본체 발열이라는 소견과 맞물린다. B는 조회표 추정에 그치고 원인 후보가 본체 중앙 발열과 맞지 않는다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 접촉부 접촉저항 증가(체결 이완·산화), 과부하 또는 상 불평형   근거: 열 형태, 세션 증거 — 같은 보고서가 부위를 '본체(절연 몰드)', 열점을 '중앙 다점형'(계측 면적비 0.173, compactness 0.39, 형제 0개)으로 적고 있어 단자 접촉부 국부 발열이나 상 불평형을 뒷받침할 근거가 없음"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "계측 사실(cell_argmax 4 중앙, hotspot_position center, peak_border_distance_px 40)과 내 판독 중단-중이 일치하며, 마커가 테두리에서 멀어 외부 열원 의심은 없음. 세션 서술(22프레임 중 21 플래그)은 session_agg(flag_frac 0.95, 위치 안정성 0.91)와 일치. ΔT 6.9°C는 정상 분포 백분위 39.5로 낮으나 절대온도 백분위 92.6으로 L1 주의는 양쪽 동일. A의 '절연 열화' 가설도 확정 근거는 없지만 본체 전체의 완만한 승온이라는 관찰과 절연저항 측정 권고가 서로 맞아 작업자가 엉뚱한 부위를 점검할 위험이 낮다. B의 접촉저항 가설은 단자부가 아닌 본체 중앙 발열과 어긋나 점검 방향을 오도할 수 있다."
+}

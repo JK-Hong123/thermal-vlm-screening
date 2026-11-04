@@ -1,0 +1,79 @@
+{
+ "case_id": "case044",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"부싱\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 중단 우측에 국부적으로 열점이 집중되어 있다.\",\n  \"visual_context\": \"확인 불가\",\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가\", \"절연 열화\"],\n  \"operator_note\": \"현장 작업자는 부싱 부위의 열화상을 확인해야 한다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"대상 내 중단 우측에 국부적으로 열점이 집중되어 있으며, 이는 이미지 2에서 확인된 최고온 지점과 일치한다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "부싱",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 중단 우측에 국부적으로 열점이 집중되어 있다.",
+  "visual_context": "확인 불가",
+  "cause_hypothesis": [
+   "접촉부 접촉저항 증가",
+   "절연 열화"
+  ],
+  "operator_note": "현장 작업자는 부싱 부위의 열화상을 확인해야 한다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "대상 내 중단 우측에 국부적으로 열점이 집중되어 있으며, 이는 이미지 2에서 확인된 최고온 지점과 일치한다."
+ },
+ "report": {
+  "case_id": "case044",
+  "equipment": "전자접촉기",
+  "site": "변전소",
+  "spec": "DC110V 4a4b",
+  "verdict": "이상 의심",
+  "severity": "L2 요주의",
+  "severity_level": 2,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 6.4°C (형제 6개, 기준 38.6°C)",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "case_type": "clear_overheat",
+  "case_type_ko": "명확한 과열 소견",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 9프레임 중 9프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 45.0,
+   "scene_median": 35.7,
+   "dT_scene": 9.3,
+   "dT_sibling": 6.4,
+   "rf_prob": 0.736
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 9,
+   "n_flagged": 9,
+   "flag_frac": 1.0,
+   "rf_prob_median": 0.777,
+   "rf_prob_min": 0.58,
+   "rf_prob_max": 0.917,
+   "dT_scene_median": 9.7,
+   "dT_scene_min": 7.9,
+   "dT_scene_max_over_session": 13.0,
+   "t_max_median": 45.3,
+   "t_max_max": 48.6,
+   "hotspot_pos_mode": "middle-right",
+   "hotspot_pos_stability": 0.78,
+   "hotspot_pos_same_as_this_frame": 0.78
+  },
+  "recommended_action": "정밀점검 계획 수립(수 주 내), 부하 전류·체결 상태 확인",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "부싱",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 중단 우측에 국부적으로 열점이 집중되어 있다.",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "절연 열화"
+   ],
+   "operator_note": "현장 작업자는 부싱 부위의 열화상을 확인해야 한다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": [
+   "consistency_reason:digits"
+  ]
+ },
+ "sec": 13.06,
+ "in_tok": 2019,
+ "out_tok": 165
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차축베어링 하단 경계부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 이미지가 불명확하고 판독이 어려운 상황에서 섣부르게 부위를 단정하지 않고 솔직하게 '부위 확인 불가'로 기재하여 신뢰할 수 있습니다. 반면 보고서 B는 근거가 부족함에도 특정 부위(휠 림·답면)로 단정하여 환각(hallucination) 위험이 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 좌측에 있으며 조회표상 휠 림·답면 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "가시광 이미지가 어둡고 정렬되지 않아 시각적 식별이 불가능할 때, 불확실성을 솔직히 인정하는 보고서 A가 현장 작업자에게 훨씬 안전한 지침을 제공합니다.",
+ "case_id": "case016"
+}

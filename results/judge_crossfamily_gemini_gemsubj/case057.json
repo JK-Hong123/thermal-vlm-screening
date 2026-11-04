@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "고압전동기 베어링 하우징 및 프레임 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 육안 특이사항이 없으며 반사 등에 의한 영향일 수 있음을 정확히 지적한 반면, 보고서 B는 가시광 미판독 상태에서 과도하게 구체적인 원인 후보를 추정하였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 축 정렬 불량 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "비일관적인 세션 프레임과 반사 가능성을 고려할 때, 무리하게 결함 원인을 단정하지 않고 재촬영을 권고한 A보고서가 현장 작업자에게 더 신뢰할 수 있습니다.",
+ "case_id": "case057"
+}

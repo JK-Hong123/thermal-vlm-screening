@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "차륜 림 또는 베어링 하우징 경계면",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 부위 확인이 어렵다고 솔직하게 밝히고 외부 열원 가능성에 집중한 반면, 보고서 B는 불확실한 부위(휠 림·답면)를 단정적으로 서술하고 외부 열원 오염이라는 핵심 유의사항을 작업자 메모에서 누락하여 현장 대응에 혼선을 줄 수 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 휠 림·답면 / 육안 가시광 미판독 / 화질 확인 불가 상태에서 조회표상 부위 추정"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "기계 검증에서 불합격 처리되어 이미지 판독 대신 계측 기반 기본값으로 대체되어야 함에도 보고서 B는 독자적인 추정 부위를 강하게 밀어붙여 오류를 발생시킴.",
+ "case_id": "case008"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "변압기 부싱 또는 고압 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 화질 불량과 부위 판독 불가 등의 한계를 정직하게 인정하고 현장 확인 항목을 구체적으로 제시하여 실무적 완성도가 높습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "육안 가시광 미판독 / 화질 확인 불가 상태에서 부위 케이블 접속부로 단정함"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 화질 불량 상황에서도 무리하게 부위를 특정하였으나, 보고서 B는 기계 검증 결과를 반영하여 이미지 판독 한계를 투명하게 기술하고 현장 조치 사항을 충실히 담았습니다.",
+ "case_id": "case014"
+}

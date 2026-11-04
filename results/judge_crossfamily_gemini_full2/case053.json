@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "차단기 단자 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 이미지의 시각적 특징과 열화상 내 마커의 정확한 위치(상자 경계선 우측에 걸침)를 더 사실적으로 묘사하였으며, 단일 프레임의 한계와 불확실성을 정직하게 반영했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "열 형태 다점형"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 이미지 상의 마커 위치와 실제 가시광 구조물을 정확하게 대조하여 분석하였으며, 과도한 추정을 피하고 신중하게 작성되었습니다.",
+ "case_id": "case053"
+}

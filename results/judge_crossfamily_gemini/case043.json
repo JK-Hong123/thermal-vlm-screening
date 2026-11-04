@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 열화상과 가시광 이미지의 상태를 객관적으로 분석하여 마커가 경계에 걸쳐 있음을 정확히 기술하였으며, 불필요하게 단정적인 추정을 피하고 현장 확인 항목을 제시하여 기술자에게 더 실질적인 도움을 줍니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 이미지 화질이 낮고 열적 특성이 식별되지 않음에도 상부 단자 접속부라고 단정 지은 반면, 보고서 B는 부위 확인 불가 및 마커 걸침 현상을 충실히 묘사하여 신뢰도가 높습니다.",
+ "case_id": "case043"
+}

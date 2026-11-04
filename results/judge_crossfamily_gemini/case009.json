@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 보통 및 부위 확인 불가 등 이미지 상태를 정직하게 반영하고 기계 검증 실패 사실을 명시하여 신뢰도가 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 확인 불가한 이미지 상태임에도 구동측 베어링 하우징으로 단정하여 환각(hallucination) 위험이 있습니다.",
+ "case_id": "case009"
+}

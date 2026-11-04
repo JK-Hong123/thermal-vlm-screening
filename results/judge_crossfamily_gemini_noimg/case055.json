@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "기어박스 하우징 및 축 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 A는 화질이 불확실함에도 특정 부위(출력축 베어링부)를 단정하여 과도한 추정을 한 반면, 보고서 B는 이미지 상 확인 불가함을 정확히 명시하고 보수적이고 안전한 권고 조치를 제시함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 하단 좌측에 있으며 조회표상 출력축 베어링부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "가시광 사진이 너무 어둡고 열화상 이미지 내 마커 위치에서도 세부 부위를 확정하기 어려우므로, 부위를 무리하게 특정하는 것(A)보다 확인 불가로 처리하는 것(B)이 현장 작업자에게 더 신뢰성 높은 정보를 제공합니다.",
+ "case_id": "case055"
+}

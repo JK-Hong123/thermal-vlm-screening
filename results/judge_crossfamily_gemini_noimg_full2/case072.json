@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "배터리팩 내부 팬 또는 하단 모듈 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 부위 확인 불가 및 화질 보통으로 솔직하게 기술한 반면, 보고서 B는 불확실한 부위와 원인 후보를 단정적으로 추정하여 환각(hallucination) 가능성이 있음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 단자·접속부 부위로 추정됩니다"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 및 가시광 화질이 불명확할 때 섣부른 부위 추정보다는 보고서 A처럼 보수적으로 불확실성을 명시하는 것이 현장 작업자에게 더 신뢰감을 줌.",
+ "case_id": "case072"
+}

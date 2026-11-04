@@ -1,0 +1,109 @@
+{
+ "case_id": "case061",
+ "cond": "v2",
+ "raw": {
+  "pass1": "```json\n{\n  \"equipment_plausible\": \"예\",\n  \"part\": \"본체(절연 몰드)\",\n  \"p_grid\": \"중앙\",\n  \"heat_pattern\": \"점형(작고 국부)\",\n  \"visual_flags\": [\"표면 변색\"],\n  \"image_quality\": \"양호\",\n  \"part_location_ko\": \"대상 내 중앙 부분\"\n}\n```",
+  "pass2": "```json\n{\n  \"cause_hypothesis\": [\"접촉면 오염\", \"절연 열화\"],\n  \"cause_basis\": [\"장면(주변) 대비 온도차: 약간 큼(주의 구간)\", \"육안 특이 표면 변색\"],\n  \"field_checks\": [\"부하 전류·불평형률 측정\", \"접촉면 청소·산화 확인\", \"절연저항 측정\"],\n  \"operator_note_ko\": \"현장 작업자에게 전할 한 문장(숫자 없이, 판정과 모순되지 않게): '접촉면 오염이나 절연 열화를 확인하기 위해 현장 확인을 요청합니다.'\"\n}\n```"
+ },
+ "secs": {
+  "pass1": 13.33,
+  "pass2": 24.98
+ },
+ "report": {
+  "case_id": "case061",
+  "equipment": "계기용변압기(PT)",
+  "site": "변전소",
+  "spec": "(6.6kV/√3)/(110V/√3)",
+  "verdict": "이상 의심",
+  "severity": "L1 주의",
+  "severity_level": 1,
+  "severity_reference": "장면 중앙값(주변 온도 대용, 비표준 기준점) 대비",
+  "severity_metric": "장면 대비 ΔT 6.9°C (장면 중앙값 35.0°C)",
+  "severity_source": "ANSI/NETA MTS Table 100.18 주변 대비(1~10 조사 / 11~20 수리 / 21~40 감시·시정 / >40 즉시) 준용",
+  "scene_level": 1,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — PT·CT 단자 ≥75 요주의 / 본체 ≥95 이상 (국토안전관리원 온도패턴법)",
+  "measurements": {
+   "t_max": 41.9,
+   "t_mean": 37.0,
+   "scene_median": 35.0,
+   "dT_scene": 6.9,
+   "sibling_reference": null,
+   "dT_sibling": null,
+   "n_siblings": 0,
+   "hotspot_area_frac": 0.173,
+   "rf_prob": 0.609,
+   "t_max_eroded": 41.9,
+   "dT_scene_eroded": 6.9
+  },
+  "thermal_finding_ko": "대상 최고 온도 41.9°C, 장면 중앙값 35.0°C(장면 대비 6.9°C). 열점은 대상 내 중앙에 다점형 분포.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT 6.9°C (동종 설비 정상 분포 백분위 39.5)"
+  ],
+  "caveats_ko": [],
+  "case_type": "mild_overheat",
+  "case_type_ko": "경미한 기준 초과 소견",
+  "confidence": "medium",
+  "confidence_reason": "세션 증거는 일관하나 게이트 확률(0.609)이 경계에 근접; 설비군 게이트 신뢰도 낮음(RF AUROC 0.615)",
+  "action_ko": "기록 후 다음 정기점검 시 재확인",
+  "field_checks_ko": [
+   "부하 전류·불평형률 측정",
+   "접촉면 청소·산화 확인",
+   "절연저항 측정"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 22프레임, 그중 21프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_absent",
+   "calib_default",
+   "rgb_unaligned",
+   "gate_low_reliability_equipment"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "exact",
+  "pattern_check": "differ",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "본체(절연 몰드)",
+   "p_grid": "중앙",
+   "heat_pattern": "다점형",
+   "visual_flags": [
+    "가시광 정렬 미검증으로 표면 소견 판독 불가"
+   ],
+   "image_quality": "양호",
+   "part_location_ko": "대상 내 중앙 부분"
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "접촉면 오염",
+    "절연 열화"
+   ],
+   "cause_basis": [],
+   "field_checks": [
+    "부하 전류·불평형률 측정",
+    "접촉면 청소·산화 확인",
+    "절연저항 측정"
+   ],
+   "operator_note_ko": "현장 작업자에게 전할 한 문장(숫자 없이, 판정과 모순되지 않게): '접촉면 오염이나 절연 열화를 확인하기 위해 현장 확인을 요청합니다.'"
+  },
+  "validation": {
+   "violations": [
+    "visual_flags:rgb_unaligned_sealed",
+    "heat_pattern:overridden_by_measurement",
+    "basis:no_visual"
+   ],
+   "fallback_fields": [
+    "basis",
+    "heat_pattern",
+    "visual_flags"
+   ]
+  }
+ }
+}

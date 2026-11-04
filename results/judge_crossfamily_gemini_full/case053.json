@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "차단기 단자 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 마커의 위치와 가시광/열화상 상 매칭 상태를 객관적으로 분석한 반면, 보고서 B는 이미지 판독에서 확인 불가 항목을 자체적으로 단정 짓는 경향이 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 우측에 있으며 조회표상 상부 단자 접속부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 단일 프레임에서의 한계와 이미지 상의 객관적 특성을 충실히 서술하여 신뢰성이 더 높습니다.",
+ "case_id": "case053"
+}

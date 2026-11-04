@@ -1,0 +1,12 @@
+=== same-model judge (Claude Fable 5.1) x forced-grounding protocol (no facts file), 32 cases ===
+preference: VLM 31/32 = 0.969 [0.906,1.000] | code-only 0 | tie 1 | exact binomial two-sided p = 0.0000
+judge's own marker cell vs radiometric truth (no facts given): exact 0.12, kappa 0.01 (n=32)
+'reads the image more' -> {'VLM': 32}
+usefulness VLM 3.97 vs code-only 2.81; actionability 3.94 vs 2.78
+unsupported claims/case: VLM 0.34 vs code-only 0.69
+trustworthy for operator: {'both': 14, 'VLM': 18}
+
+2x2 (preference for the image-based frontier report over code-only, same 32 cases):
+  same-model judge  x original protocol (facts given, VLM arm identifiable): 21/32 = 0.656, p = 0.11
+  same-model judge  x forced-grounding (no facts):                        31/32 = 0.969, p = 0.000
+  cross-vendor judge x forced-grounding (no facts):                       27/32 = 0.844, p < 0.001

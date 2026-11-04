@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "배터리팩 냉각팬 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 화질과 판독의 한계를 솔직하게 기재하였으며, 기계 검증을 거쳐 객관적인 신뢰성을 확보했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "열점 위치 판독 상단 우측 (계측 exact)"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 기계 검증 결과와 한계점을 명확히 밝혀 현장 작업자에게 더 신뢰성 있는 정보를 제공합니다.",
+ "case_id": "case072"
+}

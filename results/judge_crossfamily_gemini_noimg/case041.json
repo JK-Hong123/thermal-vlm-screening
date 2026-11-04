@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "케이블 및 부스바 연결 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 식별이 불확실할 때 무리하게 추정하지 않고 솔직하게 '부위 확인 불가' 및 '신뢰도 낮음'으로 명시하여 현장 작업자에게 더 안전한 가이드를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 우측에 있으며 조회표상 부스바 접속부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 불확실한 이미지를 억지로 부스바 접속부로 특정하여 오판의 위험을 줄 수 있으나, 보고서 A는 보수적이고 객관적인 태도를 유지함.",
+ "case_id": "case041"
+}

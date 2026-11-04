@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "고압전동기 단자함 또는 함체 표면",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 마커 위치와 화질 상태를 솔직하게 반영하여 불확실성을 명시하고 신뢰도를 낮춘 반면, 보고서 B는 불확실한 상황에서 단자함이라고 과도하게 단정함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 단자함 부위로 추정됩니다"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 신뢰도가 낮다는 점과 재촬영 및 반사 확인의 필요성을 작업자 메모와 권고 조치에 잘 담아내어 현장 실무에 더 유용함.",
+ "case_id": "case020"
+}

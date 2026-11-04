@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "배터리 랙 모듈 및 핸들 부근",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 원인 후보와 구체적인 이미지 판독 내용을 포함하고 있어 현장 작업자에게 더 유용한 정보를 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 원인 추정 및 상세 판독 내용을 제공하여 실무 활용성이 더 높음.",
+ "case_id": "case070"
+}

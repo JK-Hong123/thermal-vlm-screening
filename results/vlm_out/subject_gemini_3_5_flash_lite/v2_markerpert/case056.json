@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"본체(절연 몰드)\",\n \"p_grid\": \"중단 좌측\",\n \"heat_pattern\": \"점형(작고 국부)\",\n \"visual_flags\": [\"특이 없음\"],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"설비 본체 좌측 면에 마커가 위치함\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2_markerpert"
+}

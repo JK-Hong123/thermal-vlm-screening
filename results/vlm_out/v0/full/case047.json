@@ -1,0 +1,22 @@
+{
+ "case_id": "case047",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"계기용변압기(PT)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 내 bottom-center에 위치한 열점 2개, 면적비 0.044, 대상 내부에서 최고온 43.5°C, 평균 36.7°C, 대상과 주변 기온 차이 19.5°C\",\n  \"evidence_numbers\": [\n    \"대상 최고온 43.5°C\",\n    \"평균 36.7°C\",\n    \"대상과 주변 기온 차이 19.5°C\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정기 점검 유지\",\n  \"uncertainty\": \"판단의 한계: 열점의 원인 확인 필요\"\n}\n```",
+ "parsed": {
+  "component": "계기용변압기(PT)",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 내 bottom-center에 위치한 열점 2개, 면적비 0.044, 대상 내부에서 최고온 43.5°C, 평균 36.7°C, 대상과 주변 기온 차이 19.5°C",
+  "evidence_numbers": [
+   "대상 최고온 43.5°C",
+   "평균 36.7°C",
+   "대상과 주변 기온 차이 19.5°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정기 점검 유지",
+  "uncertainty": "판단의 한계: 열점의 원인 확인 필요"
+ },
+ "sec": 16.31,
+ "in_tok": 1878,
+ "out_tok": 209
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "case009",
+  "my_marker_cell": "중단-우",
+  "my_part": "열화상 좌하단에 가로 줄무늬가 있는 붉은 면(전동기 프레임의 냉각 핀 또는 루버로 추정)이 있고, 흰 상자는 우측의 세로로 길쭉한 따뜻한 기둥형 구조물을 둘러쌈. 전동기 측면의 돌출부(베어링 하우징 또는 단자함·배관)일 수 있으나 형태만으로 특정 어려움. 최고온 표시점은 상자 하부 중앙. 가시광은 흐릿한 회백색 벽면과 경고 표지판만 보여 부위 판독에 도움 안 됨.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "tie",
+  "preference_reason": "A는 육안 소견·화질을 기록하고 냉각·통풍 확인 항목을 더했지만 열점 위치·메모가 검증 실패로 기본값 대체되었고 원인 근거가 계측과 맞지 않는다. B는 모든 항목이 계측과 정합하지만 부위명은 조회표 추정일 뿐 이미지 판독이 없다. 작업자 관점의 실질 차이가 작다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "원인 후보(추정): 과부하 운전, 냉각 불량  근거: 동종 부품 대비, 열 형태 — 같은 보고서의 계측은 형제 대비 ΔT 1.2°C(사실상 동일)이고 한계에 sibling_contaminated가 명시되어 있어 '동종 부품 대비'는 과부하·냉각 불량의 근거가 될 수 없음"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열점 위치 '하단 중앙'은 두 보고서 모두 내 판독과 일치(A는 계측 adjacent 판독이 기본값으로 대체됨). B의 부위 '구동측 베어링 하우징'은 이미지로 확인할 수 없으며 조회표 추정으로 명시되어 있어 ungrounded로 세지 않음. A의 '냉각·통풍 상태 확인' 항목은 원인 후보(냉각 불량)와 연결되는 유일한 실질적 추가 정보. 두 보고서 모두 메모가 동일한 기본 문구이고 등급 L1·신뢰도 low·재촬영 권고가 같아 작업자 행동은 사실상 동일."
+}

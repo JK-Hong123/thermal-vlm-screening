@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "전동기 하우징 또는 베어링 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독이 불확실하다는 점을 정직하게 밝히고 기계 검증 결과를 정확히 반영한 반면, 보고서 B는 불확실한 부위와 원인을 단정적으로 서술하여 환각(Hallucination) 우려가 있음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 우측에 있으며 조회표상 구동측 베어링 하우징 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "기계 검증에서 이미지 판독 불합격 처리된 항목에 대해 A는 솔직하게 '부위 확인 불가'로 처리하고 원인 후보를 비워둔 반면, B는 임의로 부위와 원인을 추정하여 기계 검증 규칙과 모순을 일으킴.",
+ "case_id": "case057"
+}

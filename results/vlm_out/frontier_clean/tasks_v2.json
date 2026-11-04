@@ -1,0 +1,962 @@
+[
+ {
+  "case_id": "case000",
+  "cond": "v2",
+  "equipment": "보일러",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case000\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case000\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case000\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 보일러\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 노벽·케이싱 / 버너부 / 배관 접속부 / 점검구·도어 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case000.json"
+ },
+ {
+  "case_id": "case001",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case001\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case001\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case001\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case001.json"
+ },
+ {
+  "case_id": "case002",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case002\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case002\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case002\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case002.json"
+ },
+ {
+  "case_id": "case003",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case003\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case003\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case003\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case003.json"
+ },
+ {
+  "case_id": "case004",
+  "cond": "v2",
+  "equipment": "보일러",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case004\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case004\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case004\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 보일러\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 노벽·케이싱 / 버너부 / 배관 접속부 / 점검구·도어 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case004.json"
+ },
+ {
+  "case_id": "case005",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case005\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case005\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case005\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case005.json"
+ },
+ {
+  "case_id": "case006",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case006\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case006\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case006\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case006.json"
+ },
+ {
+  "case_id": "case007",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case007\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case007\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case007\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case007.json"
+ },
+ {
+  "case_id": "case008",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case008\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case008\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case008\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case008.json"
+ },
+ {
+  "case_id": "case009",
+  "cond": "v2",
+  "equipment": "고압전동기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case009\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case009\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case009\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 고압전동기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 구동측 베어링 하우징 / 반구동측 베어링 하우징 / 고정자 프레임 / 단자함 / 냉각팬 커버 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case009.json"
+ },
+ {
+  "case_id": "case010",
+  "cond": "v2",
+  "equipment": "계기용변성기(MOF)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case010\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case010\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case010\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변성기(MOF)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자 접속부 / 부싱 / 본체(탱크) / 이차 단자함 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case010.json"
+ },
+ {
+  "case_id": "case011",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case011\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case011\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case011\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case011.json"
+ },
+ {
+  "case_id": "case012",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case012\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case012\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case012\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case012.json"
+ },
+ {
+  "case_id": "case013",
+  "cond": "v2",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case013\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case013\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case013\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 케이블 연결개소 포함\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 케이블 접속부 / 부싱 / 탱크 표면 / 방열기 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case013.json"
+ },
+ {
+  "case_id": "case014",
+  "cond": "v2",
+  "equipment": "변압기 접속부",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case014\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case014\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case014\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 접속부\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 부싱 단자 / 리드 접속부 / 케이블 접속부 / 탱크 표면 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case014.json"
+ },
+ {
+  "case_id": "case015",
+  "cond": "v2",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case015\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case015\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case015\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 케이블 연결개소 포함\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 케이블 접속부 / 부싱 / 탱크 표면 / 방열기 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case015.json"
+ },
+ {
+  "case_id": "case016",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case016\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case016\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case016\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case016.json"
+ },
+ {
+  "case_id": "case017",
+  "cond": "v2",
+  "equipment": "변압기 접속부",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case017\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case017\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case017\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 접속부\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 부싱 단자 / 리드 접속부 / 케이블 접속부 / 탱크 표면 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case017.json"
+ },
+ {
+  "case_id": "case018",
+  "cond": "v2",
+  "equipment": "계기용변압기(PT)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case018\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case018\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case018\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변압기(PT)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 일차 단자 접속부 / 이차 단자함 / 부싱 / 본체(절연 몰드) / 지지 구조물 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case018.json"
+ },
+ {
+  "case_id": "case019",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case019\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case019\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case019\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case019.json"
+ },
+ {
+  "case_id": "case020",
+  "cond": "v2",
+  "equipment": "고압전동기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case020\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case020\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case020\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 고압전동기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 구동측 베어링 하우징 / 반구동측 베어링 하우징 / 고정자 프레임 / 단자함 / 냉각팬 커버 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case020.json"
+ },
+ {
+  "case_id": "case021",
+  "cond": "v2",
+  "equipment": "고압전동기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case021\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case021\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case021\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 고압전동기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 구동측 베어링 하우징 / 반구동측 베어링 하우징 / 고정자 프레임 / 단자함 / 냉각팬 커버 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case021.json"
+ },
+ {
+  "case_id": "case022",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case022\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case022\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case022\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case022.json"
+ },
+ {
+  "case_id": "case023",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case023\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case023\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case023\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case023.json"
+ },
+ {
+  "case_id": "case024",
+  "cond": "v2",
+  "equipment": "단로기(DS)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case024\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case024\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case024\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 단로기(DS)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 접촉부(블레이드·클립) / 단자 접속부 / 애자 / 조작 링크 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case024.json"
+ },
+ {
+  "case_id": "case025",
+  "cond": "v2",
+  "equipment": "단로기(DS)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case025\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case025\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case025\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 단로기(DS)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 접촉부(블레이드·클립) / 단자 접속부 / 애자 / 조작 링크 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case025.json"
+ },
+ {
+  "case_id": "case026",
+  "cond": "v2",
+  "equipment": "전자접촉기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case026\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case026\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case026\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 전자접촉기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 / 하부 단자 / 코일·본체 / 접점부 / 보조접점 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case026.json"
+ },
+ {
+  "case_id": "case027",
+  "cond": "v2",
+  "equipment": "케이블&부스 연결개소",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case027\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case027\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case027\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 케이블&부스 연결개소\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 부스바 접속부 / 케이블 슈 접속부 / 볼트 체결부 / 케이블 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case027.json"
+ },
+ {
+  "case_id": "case028",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case028\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case028\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case028\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case028.json"
+ },
+ {
+  "case_id": "case029",
+  "cond": "v2",
+  "equipment": "변압기 접속부",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case029\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case029\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case029\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 접속부\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 부싱 단자 / 리드 접속부 / 케이블 접속부 / 탱크 표면 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case029.json"
+ },
+ {
+  "case_id": "case030",
+  "cond": "v2",
+  "equipment": "계기용변성기(MOF)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case030\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case030\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case030\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변성기(MOF)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자 접속부 / 부싱 / 본체(탱크) / 이차 단자함 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case030.json"
+ },
+ {
+  "case_id": "case031",
+  "cond": "v2",
+  "equipment": "계기용변류기(CT)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case031\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case031\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case031\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변류기(CT)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 일차 단자 접속부 / 이차 단자함 / 부싱 / 본체(절연 몰드) / 지지 구조물 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case031.json"
+ },
+ {
+  "case_id": "case032",
+  "cond": "v2",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case032\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case032\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case032\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 케이블 연결개소 포함\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 케이블 접속부 / 부싱 / 탱크 표면 / 방열기 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case032.json"
+ },
+ {
+  "case_id": "case033",
+  "cond": "v2",
+  "equipment": "전자접촉기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case033\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case033\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case033\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 전자접촉기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 / 하부 단자 / 코일·본체 / 접점부 / 보조접점 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case033.json"
+ },
+ {
+  "case_id": "case034",
+  "cond": "v2",
+  "equipment": "차단기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case034\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case034\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case034\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차단기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 접속부 / 하부 단자 접속부 / 부싱 / 소호부·본체 / 조작부 / 케이블 접속부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case034.json"
+ },
+ {
+  "case_id": "case035",
+  "cond": "v2",
+  "equipment": "단로기(DS)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case035\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case035\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case035\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 단로기(DS)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 접촉부(블레이드·클립) / 단자 접속부 / 애자 / 조작 링크 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case035.json"
+ },
+ {
+  "case_id": "case036",
+  "cond": "v2",
+  "equipment": "변압기 접속부",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case036\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case036\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case036\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 접속부\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 부싱 단자 / 리드 접속부 / 케이블 접속부 / 탱크 표면 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case036.json"
+ },
+ {
+  "case_id": "case037",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case037\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case037\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case037\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case037.json"
+ },
+ {
+  "case_id": "case038",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case038\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case038\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case038\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case038.json"
+ },
+ {
+  "case_id": "case039",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case039\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case039\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case039\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case039.json"
+ },
+ {
+  "case_id": "case040",
+  "cond": "v2",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case040\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case040\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case040\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 케이블 연결개소 포함\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 케이블 접속부 / 부싱 / 탱크 표면 / 방열기 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case040.json"
+ },
+ {
+  "case_id": "case041",
+  "cond": "v2",
+  "equipment": "케이블&부스 연결개소",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case041\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case041\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case041\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 케이블&부스 연결개소\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 부스바 접속부 / 케이블 슈 접속부 / 볼트 체결부 / 케이블 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case041.json"
+ },
+ {
+  "case_id": "case042",
+  "cond": "v2",
+  "equipment": "계기용변류기(CT)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case042\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case042\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case042\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변류기(CT)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 일차 단자 접속부 / 이차 단자함 / 부싱 / 본체(절연 몰드) / 지지 구조물 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case042.json"
+ },
+ {
+  "case_id": "case043",
+  "cond": "v2",
+  "equipment": "차단기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case043\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case043\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case043\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차단기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 접속부 / 하부 단자 접속부 / 부싱 / 소호부·본체 / 조작부 / 케이블 접속부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case043.json"
+ },
+ {
+  "case_id": "case044",
+  "cond": "v2",
+  "equipment": "전자접촉기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case044\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case044\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case044\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 전자접촉기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 / 하부 단자 / 코일·본체 / 접점부 / 보조접점 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case044.json"
+ },
+ {
+  "case_id": "case045",
+  "cond": "v2",
+  "equipment": "단로기(DS)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case045\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case045\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case045\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 단로기(DS)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 접촉부(블레이드·클립) / 단자 접속부 / 애자 / 조작 링크 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case045.json"
+ },
+ {
+  "case_id": "case046",
+  "cond": "v2",
+  "equipment": "케이블&부스 연결개소",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case046\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case046\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case046\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 케이블&부스 연결개소\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 부스바 접속부 / 케이블 슈 접속부 / 볼트 체결부 / 케이블 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case046.json"
+ },
+ {
+  "case_id": "case047",
+  "cond": "v2",
+  "equipment": "케이블&부스 연결개소",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case047\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case047\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case047\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 케이블&부스 연결개소\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 부스바 접속부 / 케이블 슈 접속부 / 볼트 체결부 / 케이블 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case047.json"
+ },
+ {
+  "case_id": "case048",
+  "cond": "v2",
+  "equipment": "계기용변류기(CT)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case048\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case048\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case048\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변류기(CT)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 일차 단자 접속부 / 이차 단자함 / 부싱 / 본체(절연 몰드) / 지지 구조물 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case048.json"
+ },
+ {
+  "case_id": "case049",
+  "cond": "v2",
+  "equipment": "계기용변성기(MOF)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case049\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case049\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case049\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변성기(MOF)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자 접속부 / 부싱 / 본체(탱크) / 이차 단자함 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case049.json"
+ },
+ {
+  "case_id": "case050",
+  "cond": "v2",
+  "equipment": "단로기(DS)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case050\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case050\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case050\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 단로기(DS)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 접촉부(블레이드·클립) / 단자 접속부 / 애자 / 조작 링크 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case050.json"
+ },
+ {
+  "case_id": "case051",
+  "cond": "v2",
+  "equipment": "전자접촉기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case051\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case051\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case051\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 전자접촉기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 / 하부 단자 / 코일·본체 / 접점부 / 보조접점 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case051.json"
+ },
+ {
+  "case_id": "case052",
+  "cond": "v2",
+  "equipment": "전자접촉기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case052\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case052\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case052\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 전자접촉기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 / 하부 단자 / 코일·본체 / 접점부 / 보조접점 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case052.json"
+ },
+ {
+  "case_id": "case053",
+  "cond": "v2",
+  "equipment": "차단기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case053\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case053\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case053\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차단기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 접속부 / 하부 단자 접속부 / 부싱 / 소호부·본체 / 조작부 / 케이블 접속부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case053.json"
+ },
+ {
+  "case_id": "case054",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case054\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case054\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case054\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case054.json"
+ },
+ {
+  "case_id": "case055",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case055\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case055\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case055\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case055.json"
+ },
+ {
+  "case_id": "case056",
+  "cond": "v2",
+  "equipment": "계기용변압기(PT)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case056\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case056\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case056\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변압기(PT)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 일차 단자 접속부 / 이차 단자함 / 부싱 / 본체(절연 몰드) / 지지 구조물 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case056.json"
+ },
+ {
+  "case_id": "case057",
+  "cond": "v2",
+  "equipment": "고압전동기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case057\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case057\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case057\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 고압전동기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 구동측 베어링 하우징 / 반구동측 베어링 하우징 / 고정자 프레임 / 단자함 / 냉각팬 커버 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case057.json"
+ },
+ {
+  "case_id": "case058",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case058\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case058\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case058\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case058.json"
+ },
+ {
+  "case_id": "case059",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case059\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case059\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case059\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case059.json"
+ },
+ {
+  "case_id": "case060",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case060\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case060\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case060\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case060.json"
+ },
+ {
+  "case_id": "case061",
+  "cond": "v2",
+  "equipment": "계기용변압기(PT)",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case061\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case061\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case061\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 계기용변압기(PT)\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 일차 단자 접속부 / 이차 단자함 / 부싱 / 본체(절연 몰드) / 지지 구조물 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case061.json"
+ },
+ {
+  "case_id": "case062",
+  "cond": "v2",
+  "equipment": "기어박스",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case062\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case062\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case062\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 기어박스\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 입력축 베어링부 / 출력축 베어링부 / 하우징 본체 / 오일 씰부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case062.json"
+ },
+ {
+  "case_id": "case063",
+  "cond": "v2",
+  "equipment": "펌프",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case063\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case063\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case063\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 펌프\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 베어링 하우징 / 메커니컬 씰부 / 펌프 케이싱 / 커플링부 / 전동기측 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case063.json"
+ },
+ {
+  "case_id": "case064",
+  "cond": "v2",
+  "equipment": "보일러",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case064\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case064\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case064\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 보일러\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 노벽·케이싱 / 버너부 / 배관 접속부 / 점검구·도어 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case064.json"
+ },
+ {
+  "case_id": "case065",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case065\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case065\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case065\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case065.json"
+ },
+ {
+  "case_id": "case066",
+  "cond": "v2",
+  "equipment": "전자접촉기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case066\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case066\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case066\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 전자접촉기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 / 하부 단자 / 코일·본체 / 접점부 / 보조접점 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case066.json"
+ },
+ {
+  "case_id": "case067",
+  "cond": "v2",
+  "equipment": "차축베어링",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case067\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case067\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case067\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차축베어링\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 차축 베어링(액슬박스) / 휠 림·답면 / 브레이크 디스크 / 차축 본체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case067.json"
+ },
+ {
+  "case_id": "case068",
+  "cond": "v2",
+  "equipment": "차단기",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case068\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case068\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case068\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 차단기\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 상부 단자 접속부 / 하부 단자 접속부 / 부싱 / 소호부·본체 / 조작부 / 케이블 접속부 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case068.json"
+ },
+ {
+  "case_id": "case069",
+  "cond": "v2",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case069\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case069\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case069\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 변압기 케이블 연결개소 포함\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 케이블 접속부 / 부싱 / 탱크 표면 / 방열기 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case069.json"
+ },
+ {
+  "case_id": "case070",
+  "cond": "v2",
+  "equipment": "신재생 설비",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case070\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case070\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case070\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 신재생 설비\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자·접속부 / 본체·모듈 / 케이블 / 인버터 함체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case070.json"
+ },
+ {
+  "case_id": "case071",
+  "cond": "v2",
+  "equipment": "접지용 콘덴서",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case071\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case071\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case071\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 접지용 콘덴서\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자 접속부 / 본체 / 부싱 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case071.json"
+ },
+ {
+  "case_id": "case072",
+  "cond": "v2",
+  "equipment": "신재생 설비",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case072\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case072\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case072\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 신재생 설비\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자·접속부 / 본체·모듈 / 케이블 / 인버터 함체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case072.json"
+ },
+ {
+  "case_id": "case073",
+  "cond": "v2",
+  "equipment": "접지용 콘덴서",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case073\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case073\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case073\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 접지용 콘덴서\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자 접속부 / 본체 / 부싱 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case073.json"
+ },
+ {
+  "case_id": "case074",
+  "cond": "v2",
+  "equipment": "신재생 설비",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case074\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case074\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case074\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 신재생 설비\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자·접속부 / 본체·모듈 / 케이블 / 인버터 함체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case074.json"
+ },
+ {
+  "case_id": "case075",
+  "cond": "v2",
+  "equipment": "신재생 설비",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case075\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case075\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case075\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 신재생 설비\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자·접속부 / 본체·모듈 / 케이블 / 인버터 함체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case075.json"
+ },
+ {
+  "case_id": "case076",
+  "cond": "v2",
+  "equipment": "신재생 설비",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case076\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case076\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case076\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 신재생 설비\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자·접속부 / 본체·모듈 / 케이블 / 인버터 함체 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case076.json"
+ },
+ {
+  "case_id": "case077",
+  "cond": "v2",
+  "equipment": "접지용 콘덴서",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case077\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case077\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case077\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 접지용 콘덴서\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자 접속부 / 본체 / 부싱 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case077.json"
+ },
+ {
+  "case_id": "case078",
+  "cond": "v2",
+  "equipment": "접지용 콘덴서",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case078\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case078\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case078\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 접지용 콘덴서\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자 접속부 / 본체 / 부싱 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case078.json"
+ },
+ {
+  "case_id": "case079",
+  "cond": "v2",
+  "equipment": "접지용 콘덴서",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case079\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case079\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case079\\rgb_crop_v2.png"
+  ],
+  "prompt": "당신은 발전소 설비 열화상 판독 보조원입니다. 아래 이미지만 보고 **관찰 결과**를 기록하십시오. 온도 수치나 판정은 요구하지 않습니다.\n\n등록된 설비 종류: 접지용 콘덴서\n이미지 1: 고정 온도 스케일 열화상 전체 화면(흰색 굵은 상자 = 대상 부품, 회색 상자 = 동종 부품).\n이미지 2: 대상 부품 확대 열화상. **하늘색 원+십자 표식(마커)** 이 대상 내 최고온 지점입니다.\n이미지 3: 같은 위치의 가시광 사진(참고용; 열화상과 정렬은 근사, 상자 없음).\n\n절대 규칙: 숫자 금지, 한국어만, 보이지 않는 것은 \"확인 불가\". 아래 JSON 하나만 출력.\n\n작성 항목:\n- equipment_plausible: 이미지의 부품이 등록된 설비 종류로 보이는지 \"예\" / \"아니오\" / \"확인 불가\"\n- part: 마커가 놓인 세부 부위. 다음 중 하나 — 단자 접속부 / 본체 / 부싱 / 확인 불가\n- p_grid: 마커가 대상 상자(흰 상자) 안에서 어느 칸에 있는지. 다음 중 하나 — 상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측 / 상자 밖 / 확인 불가\n- heat_pattern: 밝은(고온) 영역의 형태. 다음 중 하나 — 점형(작고 국부) / 면형(부품 전체가 고온) / 선형(도체·케이블 방향으로 길게) / 다점형(여러 개) / 불명\n- visual_flags: 해당하는 것 모두 — 반사 의심 / 표면 변색 / 이완·부식 흔적 / 케이블 손상 / 이물질·오염 / 특이 없음 / 가시광 없음\n- image_quality: 양호 / 보통 / 불량\n- part_location_ko: 마커 위치를 부품 기준으로 한 문장(숫자·번호·상 표기 없이)\n\n{\n \"equipment_plausible\": \"...\",\n \"part\": \"...\",\n \"p_grid\": \"...\",\n \"heat_pattern\": \"...\",\n \"visual_flags\": [\"...\"],\n \"image_quality\": \"...\",\n \"part_location_ko\": \"...\"\n}\n",
+  "out": "<PROJECT_ROOT>\\results\\vlm_out\\frontier_clean\\v2\\case079.json"
+ }
+]

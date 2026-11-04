@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-좌",
+  "my_part": "마커는 상자 왼쪽 테두리 위, 아래쪽 끝 가까이에 있으며, 상자 바로 왼편에 세로로 밝게(고온) 보이는 차륜 테두리·안쪽 면과 기어박스 하우징이 맞닿는 경계에 놓여 있음. 상자 내부 하우징은 상대적으로 어둡고, 밝은 영역은 왼쪽 차륜에서 상자 안으로 번져 들어오는 형태. 가시광은 어두워 참고 불가. 부위는 차륜과 인접한 하우징 좌하단 가장자리(출력축/차축 쪽)로 봄.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 상자 왼쪽 아래 가장자리에서 인접한 뜨거운 차륜과 맞닿는 경계에 있고 밝은 영역이 차륜 쪽에서 들어온다는 점을 실제 이미지와 정확히 일치하게 서술했으며, 메모도 외부 열원 확인 후 윤활·진동 점검으로 순서가 명확하다. A는 조회표 기반 '출력축 베어링부' 추정과 정형 문구에 그친다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "계측 사실(x_norm 0.0, y_norm 0.91, cell 6, peak_border_distance_px 0, t_max_just_outside 60.8 > t_max 57.6, external_source_suspected true)과 내 판독(하단-좌, 차륜 경계)이 일치하며, B의 서술이 이 외부 열원 소견을 이미지에서 직접 뒷받침한다. A의 '출력축 베어링부'는 차륜 인접 위치라 틀렸다고 단정할 수 없으나 이미지 근거는 없음. B의 이미지 판독 '열 형태 불명'과 메모의 '점형 열점'은 표현이 어긋나지만 후자는 코드 소견(점형)을 그대로 인용한 것이라 모순으로 세지 않음."
+}

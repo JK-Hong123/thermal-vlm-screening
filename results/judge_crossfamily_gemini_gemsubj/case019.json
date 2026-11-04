@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "기어박스 입력축 베어링부 주변",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 마커 위치와 부위 추정을 정확히 수행하였으며 작업자 메모 및 권고 조치가 분석 결과와 일치합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 부위 판독 및 원인 추정이 계측 데이터와 일관성을 보임.",
+ "case_id": "case019"
+}

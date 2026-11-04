@@ -1,0 +1,10 @@
+--- 3B (n=70) ---
+  marker present   : exact-vs-truth 0.16
+  marker absent    : exact-vs-truth 0.14
+  marker perturbed : follows moved marker 0.16 | still true cell 0.14 | same as unperturbed 0.84
+  kappa vs truth (marker present) 0.024 | chance-level answer concentration: [('중앙', 36), ('중단 우측', 31), ('상단 중앙', 3)]
+--- 7B-4bit (n=70) ---
+  marker present   : exact-vs-truth 0.21
+  marker absent    : exact-vs-truth 0.16
+  marker perturbed : follows moved marker 0.04 | still true cell 0.19 | same as unperturbed 0.81
+  kappa vs truth (marker present) 0.093 | chance-level answer concentration: [('상단 중앙', 37), ('중앙', 33)]

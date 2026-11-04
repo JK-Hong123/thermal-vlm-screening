@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 열화상 이미지에서 특별한 온도 상승(밝은 영역)이 보이지 않는 점을 정직하게 기술하고, 부하 조건을 기록한 후 재촬영할 것을 구체적으로 권고하여 현장 기술자에게 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 열화상이 불명확함에도 정상 부하 발열이라는 단정적인 원인 후보를 제시한 반면, 보고서 B는 이미지의 실제 상태를 정확히 반영하여 신뢰성이 높습니다.",
+ "case_id": "case051"
+}

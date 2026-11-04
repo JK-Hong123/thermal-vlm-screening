@@ -1,0 +1,22 @@
+{
+ "case_id": "case045",
+ "cond": "template",
+ "raw": null,
+ "parsed": {
+  "component": "펌프",
+  "verdict": "이상",
+  "severity": "L3",
+  "thermal_finding": "대상 최고 온도 61.0°C, 장면 중앙값 31.1°C, 장면 대비 온도차 29.9°C. 열점은 대상 내 middle-right에 위치.",
+  "evidence_numbers": [
+   "61.0°C",
+   "31.1°C",
+   "29.9°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "조속한 정비(가능한 빨리)",
+  "uncertainty": "탐지 모델 이상 확률 0.508. 단일 프레임 기반이며 부하율·이력은 확인 불가."
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

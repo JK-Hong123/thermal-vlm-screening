@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "철도 차량 휠 림 및 답면",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 및 열화상 이미지를 정확하게 판독하여 휠 림과 답면 부위를 올바르게 식별하였으며, 불확실한 원인 후보를 억지로 지어내지 않고 솔직하게 생략하여 현장 엔지니어에게 더 신뢰성 있는 정보를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 과부하 운전, 냉각 불량   근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 이미지 시각 자료를 정확히 반영하여 휠 림 부위임을 명시했고, 원인을 단정할 수 없는 상태에서 억지 추정하지 않아 현장 작업자에게 훨씬 안전하고 신뢰할 수 있는 진단 지침을 줍니다.",
+ "case_id": "case005"
+}

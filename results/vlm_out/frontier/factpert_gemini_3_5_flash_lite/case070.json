@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"예\",\n \"my_cell\": \"중단 좌측\",\n \"reason_ko\": \"시스템이 기록한 열점 위치와 이미지 속 마커의 위치가 모두 중단 좌측 칸에 위치하여 일치합니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "차축베어링 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 원인 후보를 무리하게 추정하지 않고 확인 불가로 명시하여 신뢰도가 높으며, 기계 검증 결과를 정직하게 반영했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 과부하 운전, 냉각 불량   근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 환각이나 근거 없는 원인 추정을 배제하고 보수적이고 정확한 진단을 내려 현장 작업자에게 더 유용합니다.",
+ "case_id": "case005"
+}

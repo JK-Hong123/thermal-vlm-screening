@@ -1,0 +1,23 @@
+{
+  "case_id": "case029",
+  "my_marker_cell": "중단-중",
+  "my_part": "매우 작은 영역을 확대한 크롭으로 보이며(커서가 상자 대부분을 차지) 열화상은 균일한 어두운 보라색이고 우측에 희미한 세로 띠만 보여 부위 식별 불가. 가시광은 가로 줄무늬 구조(방열기 또는 적층 애자로 추정)와 하늘이 보이나 정렬되지 않음. 부위 특정 불가.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "A는 부위·원인을 확인 불가로 두고 부하 전류·불평형률 측정과 각도 변경 재촬영을 포함한 현장 항목을 제시하지만, B는 이미지로 확인되지 않는 '리드 접속부'를 조회표로 단정하고 열 형태가 '불명'인데도 열 형태를 근거로 '정상 부하 발열'을 적어 자기모순이다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "최고온 지점은 대상 중앙에 있으며 조회표상 리드 접속부 부위로 추정됩니다. (열화상에서 부위 식별 불가, 조회표 추정일 뿐)",
+    "원인 후보(추정): 정상 부하 발열   근거: 열 형태 (같은 보고서에서 열 형태가 '불명'으로 기재되어 근거가 성립하지 않음)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "열점 '중앙'은 상자 중앙의 커서와 일치. roi_small 한계가 있는 사례로 어느 보고서도 이미지 기반 부위 판독은 불가능했음."
+}

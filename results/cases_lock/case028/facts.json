@@ -1,0 +1,104 @@
+{
+ "case_id": "case028",
+ "frame_key": "0401011028(1337)R(0609)",
+ "session": "0401011028(1337)R",
+ "split_group": "test",
+ "stratum": "C_borderline",
+ "equipment": "차축베어링",
+ "component_class": "차축베어링",
+ "spec": "차축베어링",
+ "site": "철도차량",
+ "n_components_in_frame": 1,
+ "target_index": 0,
+ "bbox": {
+  "x": 322,
+  "y": 375,
+  "width": 5,
+  "height": 19
+ },
+ "bbox_position_in_frame": "bottom-center",
+ "calib": {
+  "emissivity": 0.95,
+  "obj_distance": 1.0,
+  "reflected_temp": 19.0,
+  "atmospheric_temp": 19.0,
+  "relative_humidity": 20.0
+ },
+ "thermal": {
+  "t_max": 31.4,
+  "t_mean": 28.6,
+  "t_min": 25.1,
+  "t_p95": 31.2,
+  "t_std": 2.1,
+  "scene_median": 27.1,
+  "scene_p95": 78.4,
+  "scene_max": 107.7,
+  "frame_max_inside_target": false,
+  "dT_scene_max": 4.3,
+  "dT_scene_mean": 1.4,
+  "n_siblings": 0,
+  "sibling_t_max": [],
+  "sibling_reference": null,
+  "dT_sibling_max": null,
+  "hotspot_area_frac": 0.453,
+  "n_hotspots": 1,
+  "hotspot_compactness": 0.68,
+  "hotspot_position_in_target": "center",
+  "peak_z": 1.34,
+  "ambient_temp": 19.0,
+  "dT_over_ambient": 12.4
+ },
+ "gate": {
+  "rf_prob": 0.385,
+  "rf_verdict": "pass",
+  "rule_verdict": "pass",
+  "band_placeholder": "L1_low"
+ },
+ "images": {
+  "thermal_full": "thermal_full.png",
+  "thermal_crop": "thermal_crop.png",
+  "rgb_crop": "rgb_crop.png",
+  "thermal_crop_v2": "thermal_crop_v2.png",
+  "thermal_crop_v2_pert": "thermal_crop_v2_pert.png",
+  "thermal_crop_v2_nomark": "thermal_crop_v2_nomark.png",
+  "rgb_crop_v2": "rgb_crop_v2.png"
+ },
+ "hidden": {
+  "label": "danger"
+ },
+ "session_agg": {
+  "n_frames_in_session": 40,
+  "n_frames_component_matched": 0
+ },
+ "norms": {
+  "equipment_seen_in_training": true,
+  "n_normal_train": 5507,
+  "t_max_pct_vs_normal": 24.1,
+  "dT_scene_pct_vs_normal": 4.8,
+  "dT_sib_pct_vs_normal": null,
+  "normal_t_max_p50": 41.7,
+  "normal_t_max_p95": 77.2,
+  "normal_t_max_p99": 85.3,
+  "normal_dT_scene_p50": 16.9,
+  "normal_dT_scene_p95": 55.9,
+  "normal_dT_scene_p99": 63.0,
+  "danger_t_max_p50": 71.7,
+  "danger_dT_scene_p50": 41.9
+ },
+ "boundary": {
+  "inset_px": 3,
+  "peak_border_distance_px": 1,
+  "t_max_eroded": 31.4,
+  "dT_scene_eroded": 4.3,
+  "t_max_just_outside": 30.7,
+  "dT_drop_when_border_removed": 0.0,
+  "external_source_suspected": false
+ },
+ "hotspot_labels_v2": {
+  "cell_argmax": 4,
+  "cell_smooth": 5,
+  "x_norm": 1.0,
+  "y_norm": 0.611,
+  "dT_scene": 4.3
+ }
+}

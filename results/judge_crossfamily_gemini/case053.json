@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 이미지의 구조(케이블과 절연 부품의 연결부)와 열화상 마커의 위치를 정밀하게 대조하여 상세히 기술한 반면, B는 기계 검증에 실패하여 내용이 일부 제한되었습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 기계 검증에서 불합격하여 작업자 메모가 기본값으로 대체되었으나, 이미지 판독 부위 설명이 실제 사진과 정확히 일치하여 현장 파악에 더 유리합니다.",
+ "case_id": "case053"
+}

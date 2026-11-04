@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"아니오\",\n \"my_cell\": \"하단 좌측\",\n \"reason_ko\": \"시스템의 기록은 상단 우측이나 실제 마커는 흰 상자의 하단 좌측에 있습니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

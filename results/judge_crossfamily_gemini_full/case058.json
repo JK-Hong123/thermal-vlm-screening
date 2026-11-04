@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-중",
+ "my_part": "철도 차량 하부 기어박스 및 프레임 경계부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 마커와 열점의 위치를 이미지 상에서 더 구체적이고 정확하게 묘사하였으며, 현장 작업자를 위한 권고 조치와 메모가 더 실용적으로 작성되었습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 이미지 내 마커 위치와 주변 구조물 간의 관계를 더 정밀하게 분석하여 현장 대응 지침을 충실히 제공함.",
+ "case_id": "case058"
+}

@@ -1,0 +1,120 @@
+{
+ "case_id": "case069",
+ "cond": "v2",
+ "raw": {
+  "pass1": "```json\n{\n  \"equipment_plausible\": \"예\",\n  \"part\": \"케이블 접속부\",\n  \"p_grid\": \"중간 중앙\",\n  \"heat_pattern\": \"면형\",\n  \"visual_flags\": [\"반사 의심\", \"표면 변색\"],\n  \"image_quality\": \"보통\",\n  \"part_location_ko\": \"대상 내 중앙 부분에 위치한 케이블 접속부\"\n}\n```",
+  "pass2": "```json\n{\n  \"cause_hypothesis\": [\"斥熱不良\", \"接続부品의 열전달 불량\"],\n  \"cause_basis\": [\"장면 대비 ΔT가 큼\", \"동종 부품 대비 온도차 큼\", \"열점이 국부에 집중\"],\n  \"field_checks\": [\"접속부의 냉각·통풍 상태 확인\", \"접속부의 윤활 상태·유량 확인\", \"접속부의 접촉면 청소·산화 확인\"],\n  \"operator_note_ko\": \"현장 작업자는 냉각·통풍 상태와 윤활 상태를 확인하고, 접속부의 접촉면을 청소하여 열전달을 개선해야 합니다.\"\n}\n```"
+ },
+ "secs": {
+  "pass1": 7.68,
+  "pass2": 13.05
+ },
+ "report": {
+  "case_id": "case069",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "site": "변전소",
+  "spec": "22.9KV/600V/600V,3000kVA",
+  "verdict": "검토 필요",
+  "severity": "L2 요주의",
+  "severity_level": 2,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비(잠정 기준)",
+  "severity_metric": "대상 최고온 98.1°C = 정상 프레임 분포 백분위 79.1 (정상 중앙값 67.0°C, P95 137.7°C); 장면 대비 ΔT 67.6°C; 절대온도 한계 초과(98.1°C) — 게이트는 통과했으나 한계 초과로 검토 필요",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님); ISO 18434-1 기준선 권고",
+  "scene_level": 4,
+  "gate_grade_conflict": true,
+  "abs_limit_line": "절대온도 한계 초과(이상): 최고온 98.1°C — 변압기 표면 80~95 요주의 / ≥95 이상; CV 케이블 ≥90 (국토안전관리원)",
+  "measurements": {
+   "t_max": 98.1,
+   "t_mean": 32.6,
+   "scene_median": 30.5,
+   "dT_scene": 67.6,
+   "sibling_reference": 91.2,
+   "dT_sibling": 6.9,
+   "n_siblings": 2,
+   "hotspot_area_frac": 0.011,
+   "rf_prob": 0.091,
+   "t_max_eroded": 98.1,
+   "dT_scene_eroded": 67.6
+  },
+  "thermal_finding_ko": "대상 최고 온도 98.1°C, 장면 중앙값 30.5°C(장면 대비 67.6°C). 열점은 대상 내 상단 좌측에 점형 분포; 동종 부품 대비 6.9°C; 화면 최고온(101.5°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "절대온도 한계 초과(이상)",
+   "동종 설비 정상 분포 범위 내"
+  ],
+  "caveats_ko": [
+   "장면 대비 ΔT 67.6°C는 절대값으로는 크지만 동종 설비 정상 분포 내(백분위 82.6)",
+   "형제 부품도 동반 과열이라 형제 기준은 무효(등급에 사용하지 않음)",
+   "열점은 국부에 집중되어 있으나 온도차는 정상 범위",
+   "화면 최고온(101.5°C)이 대상 밖에 있어 상자가 발열부를 온전히 포함하는지 확인 필요"
+  ],
+  "case_type": "review",
+  "case_type_ko": "검토 필요(게이트 경계, 규칙은 이상)",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 15프레임 중 0프레임 플래그로 일관",
+  "action_ko": "부하 조건 기록 후 재촬영하여 재판정(검토 큐)",
+  "field_checks_ko": [
+   "각도 바꿔 재촬영(반사 확인)",
+   "윤활 상태·유량 확인",
+   "냉각·통풍 상태 확인"
+  ],
+  "session_evidence_line": "같은 세션 80프레임 중 동일 부품 매칭 15프레임, 그중 0프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_contaminated",
+   "calib_default",
+   "rgb_unaligned",
+   "gate_grade_conflict",
+   "abs_limit_abnormal"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "운전 부하·회전수",
+   "진동·윤활 이력"
+  ],
+  "spatial_check": "adjacent",
+  "pattern_check": "differ",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "케이블 접속부",
+   "p_grid": "상단 좌측",
+   "heat_pattern": "점형",
+   "visual_flags": [
+    "반사 의심"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "cause_basis": [],
+   "field_checks": [
+    "각도 바꿔 재촬영(반사 확인)",
+    "윤활 상태·유량 확인",
+    "냉각·통풍 상태 확인"
+   ],
+   "operator_note_ko": "현장 작업자는 냉각·통풍 상태와 윤활 상태를 확인하고, 접속부의 접촉면을 청소하여 열전달을 개선해야 합니다."
+  },
+  "validation": {
+   "violations": [
+    "visual_flags:rgb_unaligned_sealed",
+    "cause:oov",
+    "cause:oov",
+    "checks:out_of_group",
+    "heat_pattern:overridden_by_measurement",
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "cause",
+    "checks",
+    "heat_pattern",
+    "p_grid",
+    "visual_flags"
+   ]
+  }
+ }
+}

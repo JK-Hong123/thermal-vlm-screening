@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "상자가 매우 작고 십자 마커가 상자 대부분을 가려 내부 열 형태는 식별 불가. 상자 바로 우측에 매우 뜨거운 세로 띠(차륜·제동부 또는 레일로 추정)가 있고, 가시광은 완전히 흐려 참고 불가. 차축 또는 액슬박스 측면의 좁은 세로 구간으로만 추정",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "A",
+  "preference_reason": "A는 기계 검증을 통과했고 '열 형태 불명·가시광 미판독'으로 한계를 솔직히 적으면서도 베어링·씰 점검과 부하 조건 기록 후 재촬영이라는 구체적 지시를 준다. B는 완전히 흐린 가시광에 대해 '육안 특이 없음·화질 양호'라 적고 열 형태를 '점형'으로 단정해 자기 계측(불명 분포)과 어긋난다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 2,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": ["육안 특이 없음 / 화질 양호 — 가시광 이미지는 흰 바닥과 어두운 덩어리만 보이는 극도로 흐린 사진이라 육안 소견을 낼 수 없음", "열 형태 점형 — 같은 보고서의 열 소견은 '중앙에 불명 분포'이며, 십자 마커가 상자를 거의 다 가려 점형 여부를 확인할 수 없음"],
+  "trustworthy_for_operator": "A",
+  "notes": "B의 열점 위치는 '계측 adjacent'로 표시되어 원 판독이 계측과 어긋나 대체된 것으로 보임. B의 현장 확인 항목(진동·윤활·각도 변경 재촬영)은 실용적이어서 조치 가능성은 A와 동등하게 봄. A의 메모 '국부 열점 형상으로 플래그'는 케이스 유형(열 형상 근거 플래그)을 옮긴 것으로 모순으로 보지 않음."
+}

@@ -1,0 +1,76 @@
+{
+ "case_id": "case060",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"베어링 하우징\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 상단 중앙에 국부적으로 열점이 집중되어 있다.\",\n  \"visual_context\": \"확인 불가\",\n  \"cause_hypothesis\": [\"베어링 손상\", \"윤활 불량\"],\n  \"operator_note\": \"현장 작업자는 베어링 하우징 부위의 열화상을 다시 확인해야 한다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"대상 내 상단 중앙에 국부적으로 열점이 집중되어 있으며, 이는 베어링 하우징 부위의 열화상에서 확인된 결과와 일치한다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "베어링 하우징",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 상단 중앙에 국부적으로 열점이 집중되어 있다.",
+  "visual_context": "확인 불가",
+  "cause_hypothesis": [
+   "베어링 손상",
+   "윤활 불량"
+  ],
+  "operator_note": "현장 작업자는 베어링 하우징 부위의 열화상을 다시 확인해야 한다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "대상 내 상단 중앙에 국부적으로 열점이 집중되어 있으며, 이는 베어링 하우징 부위의 열화상에서 확인된 결과와 일치한다."
+ },
+ "report": {
+  "case_id": "case060",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "site": "변전소",
+  "spec": "6.6KV,380/220V,150kVA",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 49.0°C = 동종 설비 정상 프레임 분포의 상위 70.6% (정상 중앙값 67.0°C, P95 137.7°C)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "hot_but_normal",
+  "case_type_ko": "장면 대비 고온이나 설비 특성상 정상 범위(게이트 통과)",
+  "confidence": "medium",
+  "confidence_reason": "세션 증거는 일관하나 게이트 확률(0.334)이 경계에 근접",
+  "measurements": {
+   "t_max": 49.0,
+   "scene_median": 38.5,
+   "dT_scene": 10.5,
+   "dT_sibling": 0.7,
+   "rf_prob": 0.334
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 24,
+   "n_flagged": 0,
+   "flag_frac": 0.0,
+   "rf_prob_median": 0.238,
+   "rf_prob_min": 0.049,
+   "rf_prob_max": 0.37,
+   "dT_scene_median": 9.2,
+   "dT_scene_min": 3.8,
+   "dT_scene_max_over_session": 12.4,
+   "t_max_median": 47.8,
+   "t_max_max": 50.9,
+   "hotspot_pos_mode": "top-center",
+   "hotspot_pos_stability": 0.38,
+   "hotspot_pos_same_as_this_frame": 0.38
+  },
+  "recommended_action": "절대온도 추세 기록(상시 고온 설비)",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "베어링 하우징",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 상단 중앙에 국부적으로 열점이 집중되어 있다.",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "베어링 손상·윤활 불량"
+   ],
+   "operator_note": "현장 작업자는 베어링 하우징 부위의 열화상을 다시 확인해야 한다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "대상 내 상단 중앙에 국부적으로 열점이 집중되어 있으며, 이는 베어링 하우징 부위의 열화상에서 확인된 결과와 일치한다."
+  },
+  "vlm_violations": []
+ },
+ "sec": 14.06,
+ "in_tok": 2063,
+ "out_tok": 176
+}

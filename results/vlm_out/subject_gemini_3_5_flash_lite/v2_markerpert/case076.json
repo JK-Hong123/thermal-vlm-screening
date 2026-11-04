@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"본체·모듈\",\n \"p_grid\": \"상단 우측\",\n \"heat_pattern\": \"점형(작고 국부)\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"태양광 모듈 표면의 상단 우측 부근에 위치해 있습니다\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2_markerpert"
+}

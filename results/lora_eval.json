@@ -1,0 +1,104 @@
+{
+ "base": {
+  "locked": {
+   "all": {
+    "n": 160,
+    "acc": 0.144,
+    "kappa": 0.032
+   },
+   "marked": {
+    "n": 80,
+    "acc": 0.075,
+    "kappa": -0.01
+   },
+   "unmarked": {
+    "n": 80,
+    "acc": 0.212,
+    "kappa": 0.076
+   },
+   "unseen_equipment": {
+    "n": 20,
+    "acc": 0.3,
+    "kappa": 0.091
+   },
+   "seen_equipment": {
+    "n": 140,
+    "acc": 0.121,
+    "kappa": 0.025
+   }
+  },
+  "probe": {
+   "all": {
+    "n": 72,
+    "acc": 0.389,
+    "kappa": 0.313
+   },
+   "marked": {
+    "n": 36,
+    "acc": 0.444,
+    "kappa": 0.375
+   },
+   "unmarked": {
+    "n": 36,
+    "acc": 0.333,
+    "kappa": 0.25
+   },
+   "seen_equipment": {
+    "n": 72,
+    "acc": 0.389,
+    "kappa": 0.313
+   }
+  }
+ },
+ "lora": {
+  "locked": {
+   "all": {
+    "n": 160,
+    "acc": 0.613,
+    "kappa": 0.558
+   },
+   "marked": {
+    "n": 80,
+    "acc": 0.825,
+    "kappa": 0.801
+   },
+   "unmarked": {
+    "n": 80,
+    "acc": 0.4,
+    "kappa": 0.313
+   },
+   "unseen_equipment": {
+    "n": 20,
+    "acc": 0.65,
+    "kappa": 0.576
+   },
+   "seen_equipment": {
+    "n": 140,
+    "acc": 0.607,
+    "kappa": 0.549
+   }
+  },
+  "probe": {
+   "all": {
+    "n": 72,
+    "acc": 1.0,
+    "kappa": 1.0
+   },
+   "marked": {
+    "n": 36,
+    "acc": 1.0,
+    "kappa": 1.0
+   },
+   "unmarked": {
+    "n": 36,
+    "acc": 1.0,
+    "kappa": 1.0
+   },
+   "seen_equipment": {
+    "n": 72,
+    "acc": 1.0,
+    "kappa": 1.0
+   }
+  }
+ }
+}

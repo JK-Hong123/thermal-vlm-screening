@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "케이블 및 단자 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 상의 마커 위치와 가시광 사진의 부위를 더 정확하게 연계하여 기술하였고, 작업자 메모에 실질적인 권고 조치를 충실히 담았습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "부위 부스바 접속부"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 이미지 판독 내용과 현장 작업자를 위한 가이드 측면에서 더 타당합니다.",
+ "case_id": "case027"
+}

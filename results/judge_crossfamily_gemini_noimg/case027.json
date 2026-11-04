@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "부스바 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독에서 부위 확인 불가임을 솔직히 인정하고, 작업자 메모에 실질적인 현장 조치 사항을 충실히 담아 운영자에게 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "부위 부스바 접속부 / 육안 가시광 미판독 / 화질 확인 불가 / 최고온 지점은 대상 상단 중앙에 있으며 조회표상 부스바 접속부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 이미지 화질 확인 불가 상태에서 부위를 억지로 추정하였으나, 보고서 B는 이를 솔직히 인정하면서도 실효성 있는 권고 조치와 메모를 제공하여 현장 작업자 관점에서 더 신뢰할 수 있습니다.",
+ "case_id": "case027"
+}

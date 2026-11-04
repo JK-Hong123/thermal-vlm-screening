@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "MOF 단자함 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 이미지 판독에서 부위와 원인 후보를 추정했으나, 단일 프레임에서 열적 근거가 부족하고 화질 및 가시광 정렬의 한계가 명시된 상황에서는 보고서 A처럼 보수적으로 판단유보 및 부위 확인 불가 입장을 취하는 것이 더 안전합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열 — 근거: 열 형태, 세션 증거"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B가 세부 부위를 추정하여 직관성을 높이려 했으나, 한계 사항과 단일 프레임 비가시성 조건을 고려할 때 보고서 A의 신중한 서술이 산업현장 진단 관점에서 더 신뢰할 만함.",
+ "case_id": "case049"
+}

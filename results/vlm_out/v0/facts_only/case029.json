@@ -1,0 +1,24 @@
+{
+ "case_id": "case029",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"단로기(DS)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L1 주의\",\n  \"thermal_finding\": \"대상 내 middle-right에 위치한 열점이 4개이며, 각 열점의 면적비는 0.026입니다. 대상 부품의 최고 온도는 34.0°C, 평균 온도는 28.6°C입니다.\",\n  \"evidence_numbers\": [\n    \"대상 최고온: 34.0°C\",\n    \"대상 평균온: 28.6°C\",\n    \"장면(배경) 중앙값 온도: 28.3°C\",\n    \"동종 형제 부품 최고온: 30.2°C, 30.9°C, 32.4°C\",\n    \"주변 기온: 26.0°C\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"다음 정기점검 시 확인\",\n  \"uncertainty\": \"판단의 한계: 원인 확정, 내부 상태, 부하율 등 추가 확인 필요\"\n}\n```",
+ "parsed": {
+  "component": "단로기(DS)",
+  "verdict": "정상",
+  "severity": "L1 주의",
+  "thermal_finding": "대상 내 middle-right에 위치한 열점이 4개이며, 각 열점의 면적비는 0.026입니다. 대상 부품의 최고 온도는 34.0°C, 평균 온도는 28.6°C입니다.",
+  "evidence_numbers": [
+   "대상 최고온: 34.0°C",
+   "대상 평균온: 28.6°C",
+   "장면(배경) 중앙값 온도: 28.3°C",
+   "동종 형제 부품 최고온: 30.2°C, 30.9°C, 32.4°C",
+   "주변 기온: 26.0°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "다음 정기점검 시 확인",
+  "uncertainty": "판단의 한계: 원인 확정, 내부 상태, 부하율 등 추가 확인 필요"
+ },
+ "sec": 19.35,
+ "in_tok": 1022,
+ "out_tok": 276
+}

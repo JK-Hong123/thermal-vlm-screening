@@ -1,0 +1,6 @@
+judge dev (VLM vs A0+)             n= 44 | VLM preferred 0.023 [0.000,0.068] | usefulness A0+ minus VLM +1.25 [+1.07,+1.43]
+judge locked (VLM vs A0+)          n= 34 | VLM preferred 0.000 [0.000,0.000] | usefulness A0+ minus VLM +1.56 [+1.38,+1.74]
+judge locked (LoRA-VLM vs A0+)     n= 32 | VLM preferred 0.000 [0.000,0.000] | usefulness A0+ minus VLM +1.31 [+1.17,+1.47]
+(localisation CIs: per-row model predictions not cached in eval_v3_big; rerun eval_v3_big.py with --dump to add — see TODO)
+review queue test     | danger recall by queue 0.066 [0.022,0.123] | queue precision 0.117 [0.037,0.219] | gate(flag) recall 0.702 [0.549,0.838]
+review queue gen_test | danger recall by queue 0.419 [0.264,0.572] | queue precision 0.640 [0.495,0.769] | gate(flag) recall 0.262 [0.147,0.398]

@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"상부 단자\",\n \"p_grid\": \"상단 우측\",\n \"heat_pattern\": \"점형(작고 국부)\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"대상 부품의 상부 우측 단자 부근에 최고온 지점이 위치함\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2"
+}

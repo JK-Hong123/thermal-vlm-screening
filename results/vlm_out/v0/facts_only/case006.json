@@ -1,0 +1,24 @@
+{
+ "case_id": "case006",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"차단기\",\n  \"verdict\": \"판단보류\",\n  \"severity\": \"L2 경고\",\n  \"thermal_finding\": \"대상 내 bottom-left에 위치한 열점 2개, 면적비 0.016, 대상 내부에서 최고온 33.1°C, 평균 21.9°C, 대상과 주변 기온 차이 10.1°C\",\n  \"evidence_numbers\": [\n    \"대상 최고온 33.1°C\",\n    \"평균 21.9°C\",\n    \"장면(배경) 중앙값 온도 21.1°C\",\n    \"대상과 주변 기온 차이 10.1°C\",\n    \"대상 내 bottom-left에 위치한 열점 2개, 면적비 0.016\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정밀점검 계획 수립(수 주 내)\",\n  \"uncertainty\": \"판단의 한계: 원인 확인 필요\"\n}\n```",
+ "parsed": {
+  "component": "차단기",
+  "verdict": "판단보류",
+  "severity": "L2 경고",
+  "thermal_finding": "대상 내 bottom-left에 위치한 열점 2개, 면적비 0.016, 대상 내부에서 최고온 33.1°C, 평균 21.9°C, 대상과 주변 기온 차이 10.1°C",
+  "evidence_numbers": [
+   "대상 최고온 33.1°C",
+   "평균 21.9°C",
+   "장면(배경) 중앙값 온도 21.1°C",
+   "대상과 주변 기온 차이 10.1°C",
+   "대상 내 bottom-left에 위치한 열점 2개, 면적비 0.016"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정밀점검 계획 수립(수 주 내)",
+  "uncertainty": "판단의 한계: 원인 확인 필요"
+ },
+ "sec": 21.37,
+ "in_tok": 1011,
+ "out_tok": 259
+}

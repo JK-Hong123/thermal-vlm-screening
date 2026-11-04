@@ -1,0 +1,115 @@
+{
+ "case_id": "case050",
+ "cond": "v2",
+ "raw": {
+  "pass1": "```json\n{\n  \"equipment_plausible\": \"예\",\n  \"part\": \"접점부\",\n  \"p_grid\": \"중앙\",\n  \"heat_pattern\": \"선형\",\n  \"visual_flags\": [\"반사 의심\"],\n  \"image_quality\": \"양호\",\n  \"part_location_ko\": \"마커는 접점부의 중앙에 위치해 있습니다.\"\n}\n```",
+  "pass2": "{\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가(체결 이완·산화)\", \"접촉면 오염\"],\n  \"cause_basis\": [\"동종 부품 대비\", \"열 형태\", \"육안 특이\", \"세션 증거\", \"정상 분포 대비\"],\n  \"field_checks\": [\"접촉저항 측정\", \"접촉면 청소·산화 확인\", \"냉각·통풍 상태 확인\"],\n  \"operator_note_ko\": \"접촉부의 접촉저항을 확인하고, 필요시 청소 및 산화 여부를 점검해주세요.\"\n}"
+ },
+ "secs": {
+  "pass1": 6.53,
+  "pass2": 10.7
+ },
+ "report": {
+  "case_id": "case050",
+  "equipment": "전자접촉기",
+  "site": "변전소",
+  "spec": "DC110V/3a1b",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 15.0°C (형제 6개, 기준 38.2°C); 장면 대비 ΔT 16.3°C",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "scene_level": 2,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 접촉부(동) ≥65 요주의 (KESCO, KS C 4502); 접속부 ≥80 이상 (국토안전관리원)",
+  "measurements": {
+   "t_max": 53.1,
+   "t_mean": 40.9,
+   "scene_median": 36.9,
+   "dT_scene": 16.3,
+   "sibling_reference": 38.2,
+   "dT_sibling": 15.0,
+   "n_siblings": 6,
+   "hotspot_area_frac": 0.061,
+   "rf_prob": 0.763,
+   "t_max_eroded": 53.1,
+   "dT_scene_eroded": 16.2
+  },
+  "thermal_finding_ko": "대상 최고 온도 53.1°C, 장면 중앙값 36.9°C(장면 대비 16.3°C). 열점은 대상 내 상단 좌측에 다점형 분포; 동종 부품 대비 15.0°C.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT가 동종 설비 정상 분포 상위 5% 이내",
+   "절대온도가 동종 설비 정상 분포 상위 2.4% 이내",
+   "형제 부품 대비 ΔT 15.0°C",
+   "열점이 국부에 집중"
+  ],
+  "caveats_ko": [],
+  "case_type": "intermittent",
+  "case_type_ko": "간헐적 플래그(세션 내 소수 프레임만 이상)",
+  "confidence": "low",
+  "confidence_reason": "세션 27프레임 중 4프레임만 플래그(비일관) → 재촬영·부하 확인 권고",
+  "action_ko": "조속한 정비(가능한 빠른 시기), 부하 저감 검토",
+  "field_checks_ko": [
+   "각도 바꿔 재촬영(반사 확인)",
+   "접촉저항 측정",
+   "접촉면 청소·산화 확인"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 27프레임, 그중 4프레임 플래그; 다만 이 프레임의 열점 위치는 세션 내 96% 프레임과 다름(최빈 위치 상단 우측) — 고정 결함이 아닐 수 있음",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "calib_default",
+   "rgb_unaligned"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "adjacent",
+  "pattern_check": "differ",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "접점부",
+   "p_grid": "상단 좌측",
+   "heat_pattern": "다점형",
+   "visual_flags": [
+    "반사 의심"
+   ],
+   "image_quality": "양호",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "접촉면 오염"
+   ],
+   "cause_basis": [
+    "동종 부품 대비",
+    "열 형태",
+    "육안 특이",
+    "정상 분포 대비"
+   ],
+   "field_checks": [
+    "각도 바꿔 재촬영(반사 확인)",
+    "접촉저항 측정",
+    "접촉면 청소·산화 확인"
+   ],
+   "operator_note_ko": "접촉부의 접촉저항을 확인하고, 필요시 청소 및 산화 여부를 점검해주세요."
+  },
+  "validation": {
+   "violations": [
+    "basis:session_position_inconsistent",
+    "heat_pattern:overridden_by_measurement",
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "basis",
+    "heat_pattern",
+    "p_grid"
+   ]
+  }
+ }
+}

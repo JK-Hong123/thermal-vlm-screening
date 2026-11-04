@@ -1,0 +1,1 @@
+{"raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"점검구·도어\",\n \"p_grid\": \"상단 우측\",\n \"heat_pattern\": \"면형(부품 전체가 고온)\",\n \"visual_flags\": [\"표면 변색\", \"이완·부식 흔적\"],\n \"image_quality\": \"양호\",\n \"part_location_ko\": \"원형 점검 도어와 가로 잠금 바를 둘러싼 사각 프레임의 오른쪽 윗모서리 부근, 도어 둘레의 밝은 케이싱 면 위에 마커가 놓여 있다.\"\n}", "model": "claude-fable-5-1"}

@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "전자접촉기 상부 단자 및 접점부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 현장 확인 항목과 작업자 메모를 통해 실질적인 조치 가이드를 제공하며, 기계 검증 결과를 정직하게 반영하여 신뢰성이 높습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B의 현장 확인 항목(부하 전류 측정, 통풍 상태 확인 등)이 현장 작업자에게 매우 유용합니다.",
+ "case_id": "case026"
+}

@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-좌",
+  "my_part": "상자 왼쪽 테두리 상단으로, 왼쪽에서 세로로 넓게 고온으로 빛나는 곡선 띠(바퀴 림/디스크 면)의 안쪽(오른쪽) 가장자리. 상자 오른쪽은 저온(액슬박스 추정)이며 마커는 바퀴 발열부와의 경계에 걸침",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 빛나는 림 띠의 안쪽 가장자리 위쪽, 액슬박스와 맞닿는 왼쪽 경계선 위에 있다고 서술해 내 판독과 정확히 일치하고, 메모도 외부 열원 배제 후 윤활 점검이라는 순서를 명확히 했다. A는 조회표 기반 부위명만 있어 이미지 근거가 없다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "가시광은 거의 암흑이라 대조 불가. 두 보고서 모두 열점 위치(상단 좌측)는 내 판독과 일치. B 메모의 '선 형태'는 구조화 필드 '다점형'과 표현이 다르나 이미지상 띠 모양과 부합. A의 '축 정렬 확인'은 B에 없는 점검 항목이다."
+}

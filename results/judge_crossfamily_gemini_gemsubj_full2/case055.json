@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "출력축 베어링부 주변",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 이미지 판독에서 화질 확인 불가 및 미판독 상태를 정확히 반영하였으나, 보고서 B는 어둡고 보이지 않는 가시광 사진임에도 '육안 특이 없음 / 화질 보통'이라고 과장하여 서술했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "육안 특이 없음 / 화질 보통"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "가시광 이미지가 극도로 어두워 식별이 불가능한 상태에서, 보고서 B는 보이지 않는 내용을 '화질 보통' 및 '특이 없음'으로 잘못 판단하여 신뢰성을 떨어뜨립니다.",
+ "case_id": "case055"
+}

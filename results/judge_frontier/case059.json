@@ -1,0 +1,27 @@
+{
+  "case_id": "case059",
+  "my_marker_cell": "하단 좌측",
+  "my_part": "대상 상자 왼쪽 경계선의 아래쪽 구간 — 하우징 왼쪽 아래 옆면이, 왼쪽에서 가로로 길게 뻗어 들어오는 밝은(고온) 축 방향 띠(축/샤프트로 보임)와 만나는 접합부. 열원은 왼쪽 띠 쪽",
+  "my_part_confidence": "medium",
+  "which_is_vlm": "B",
+  "vlm_grid_correct": "yes",
+  "vlm_part_correct": "partial",
+  "a0plus_part_correct": "undeterminable",
+  "vlm_visual_flags_valid": "partial",
+  "n_vlm_ungrounded": 1,
+  "n_a0plus_ungrounded": 1,
+  "vlm_ungrounded_examples": [
+    "작업자 메모 '씰 부위 누유 ... 점검' — 원인 후보가 '확인 불가'이고 이미지·계측 어디에도 씰 누유를 시사하는 근거 없음"
+  ],
+  "vlm_adds_value_over_a0plus": "yes",
+  "value_added_what": "코드 계층이 '바로 바깥(73.0°C)이 더 뜨겁다'고만 한 것을, 이미지에서 그 외부 열원이 왼쪽에서 가로로 들어오는 축 방향 고온 띠이며 마커가 하우징 옆면과 그 띠의 접합부에 있다고 특정 — 재촬영 시 상자 범위를 어떻게 조정할지 판단하는 데 유용",
+  "code_layer_issue": "권고 조치는 재촬영 후 재판정인데 현장 확인 항목은 진동·윤활로 나열되어 조치와 확인 항목이 어긋남(A·B 공통). '열점이 국부에 집중'을 근거로 들면서 열 형태는 다점형(n_hotspots 4)으로 표기 — 사소한 불일치. 그 외 경계 오염 의심·잠정 등급·신뢰도 low 처리는 일관됨",
+  "preferred_report": "B",
+  "preference_reason": "B의 이미지 서술이 실제 픽셀 상황(왼쪽 경계, 축 방향 고온 띠와의 접합부)과 정확히 일치해 재촬영 지시를 구체화함. A의 '출력축 베어링부'는 조회표 추정으로 위치상 그럴듯하나 이미지로 검증 불가. 단 B의 메모가 '선형 열점'·'씰 누유'로 코드 계층(다점형, 원인 확인 불가)과 어긋나는 점은 감점",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "report_trustworthy_for_operator": "both",
+  "notes": "확대 열화상: 상자 x≈170~258, y≈97~253, 마커 (170, 215) → 왼쪽 경계, 세로 75% 지점(하단 좌측, facts와 일치). 마커 왼쪽으로 y≈200~235에 밝은 가로 띠가 화면 왼쪽 끝까지 이어짐. 상자 내부 하우징은 40°C대로 상대적으로 어둡고 오른쪽에 밝은 차륜. B의 '선형' 표현은 이미지(띠 형태)와는 부합하나 코드 계층의 '다점형'과 충돌. 가시광은 'SR' 표기가 있는 원통형 탱크가 보여 대상과 정렬되지 않은 것으로 판단 — B의 '육안 특이 없음'은 근거 약함"
+}

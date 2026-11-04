@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 낮고 가시광 정렬이 불완전한 상태에서 무리하게 부위나 원인을 단정하지 않고 솔직하게 '부위 확인 불가' 및 '신뢰도 낮음'으로 명시하여 현장 작업자에게 더 안전한 판단 근거를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 불확실한 상황에서 접촉부 및 정상 부하 발열을 단정 지어 오인식을 유발할 수 있으나, 보고서 A는 한계와 불확실성을 정확히 반영함.",
+ "case_id": "case025"
+}

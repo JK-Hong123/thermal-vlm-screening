@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "전동기 하우징 또는 주변 배관/케이블 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 불확실한 상황에서 구체적인 부위와 원인을 단정적으로 서술하였으나, 보고서 A는 기계 검증 불합격을 명시하고 보수적으로 판독하여 현장 엔지니어에게 더 신뢰성 있는 정보를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 우측에 있으며 조회표상 구동측 베어링 하우징 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "기계 검증 불합격 항목에 대해 보수적이고 정직하게 기본값으로 대체한 보고서 A가 실무적으로 안전합니다.",
+ "case_id": "case057"
+}

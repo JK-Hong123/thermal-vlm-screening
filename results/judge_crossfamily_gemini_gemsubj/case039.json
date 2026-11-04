@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 이미지 판독에서 화질이 양호하다고 했으나 실제 화질 확인이 어려우며, 기계 검증에서 불합격 처리되어 신뢰도가 떨어집니다. 반면 A는 보수적이고 솔직한 판독을 보여줍니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "이미지 판독: 부위 차축 베어링(액슬박스) / 열점 위치 판독 중앙 (계측 adjacent) / 열 형태 점형 / 육안 특이 없음 / 화질 양호"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "기계 검증 결과와 이미지 상태를 고려할 때 보수적인 접근을 취한 보고서 A가 현장 작업자에게 더 안전합니다.",
+ "case_id": "case039"
+}

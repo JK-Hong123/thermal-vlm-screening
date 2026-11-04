@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "MOF 본체 중앙부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 시스템 판정(정상 범위)과 일관되게 보수적이고 합리적인 접근을 취한 반면, 보고서 B는 정상 판정임에도 불구하고 근거 없이 접촉저항 증가 및 체결 이완이라는 과도한 조치 항목을 포함하여 오탐 가능성을 높임.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 접촉부 접촉저항 증가(체결 이완·산화) — 판정이 정상 범위(L0)이고 동종 부품 대비 온도차가 없는데도 접촉저항 증가를 원인으로 단정함"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "시스템 판정이 L0(정상)이므로, 보고서 A와 같이 절대온도 추세 기록 및 재확인 권고가 현장 작업자에게 더 신뢰성 있는 지침을 제공함.",
+ "case_id": "case010"
+}

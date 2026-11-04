@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "CT 단자 및 부속 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 부위(절연 몰드)를 식별하려고 시도하였으며, 정상 범위 상태에 맞게 차분하고 일관된 권고(정상 감시 유지)를 제시하여 불필요한 혼선을 줄입니다. 반면 보고서 B는 정상 판정임에도 과부하나 접촉저항 증가 등의 과도한 원인 추정과 현장 확인 항목을 나열하여 모순을 보입니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 과부하 또는 상 불평형, 접촉부 접촉저항 증가(체결 이완·산화) — 판정이 정상 범위(L0)임에도 심각한 결함 원인을 추정하고 과도한 점검 항목을 요구함"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "설비가 정상 범위(L0)일 때는 A처럼 차분하게 감시 유지를 권고하는 것이 현장 운용자에게 혼선을 주지 않아 더 신뢰할 수 있습니다.",
+ "case_id": "case031"
+}

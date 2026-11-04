@@ -1,0 +1,23 @@
+{
+ "case_id": "case008",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"고압전동기\",\n  \"verdict\": \"이상\",\n  \"severity\": \"L3 심각\",\n  \"thermal_finding\": \"대상 내 bottom-left에 위치한 열점이 있으며, 면적비 0.729, 열점 개수 1입니다. 대상 부품 최고온도는 50.6°C, 평균 45.1°C입니다.\",\n  \"evidence_numbers\": [\n    \"대상 부품 최고온도: 50.6°C\",\n    \"평균 온도: 45.1°C\",\n    \"장면(배경) 중앙값 온도: 30.7°C\",\n    \"대상 부품 최고온 - 기온: 35.6°C\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"조속한 정비(가능한 빨리)\",\n  \"uncertainty\": \"판단의 한계: 열점의 원인 확인 필요\"\n}\n```",
+ "parsed": {
+  "component": "고압전동기",
+  "verdict": "이상",
+  "severity": "L3 심각",
+  "thermal_finding": "대상 내 bottom-left에 위치한 열점이 있으며, 면적비 0.729, 열점 개수 1입니다. 대상 부품 최고온도는 50.6°C, 평균 45.1°C입니다.",
+  "evidence_numbers": [
+   "대상 부품 최고온도: 50.6°C",
+   "평균 온도: 45.1°C",
+   "장면(배경) 중앙값 온도: 30.7°C",
+   "대상 부품 최고온 - 기온: 35.6°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "조속한 정비(가능한 빨리)",
+  "uncertainty": "판단의 한계: 열점의 원인 확인 필요"
+ },
+ "sec": 20.25,
+ "in_tok": 1861,
+ "out_tok": 241
+}

@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"아니오\",\n \"part\": \"확인 불가\",\n \"p_grid\": \"상단 좌측\",\n \"heat_pattern\": \"불명\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"지정된 대상 영역의 가장 위쪽 구석에 마커가 위치하고 있습니다.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2"
+}

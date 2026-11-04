@@ -1,0 +1,10 @@
+[same-model judge, n=32] judge's own marker cell vs radiometric truth: exact 0.97 (n=32), kappa 0.96
+   judge identified the VLM arm correctly: Counter({'correct': 23, 'A': 5, 'B': 4})
+   usefulness VLM 3.16 vs code-only 2.66; actionability VLM 3.22 vs 2.75
+   unsupported claims per case: VLM 1.03 vs code-only 1.16; cases with VLM ungrounded>=1: 21/32
+[cross-vendor judge, n=80] judge's own marker cell vs radiometric truth: exact 0.32 (n=79), kappa 0.22
+   'which report reads the image more' mapped to arms: {'VLM': 67, 'code-only': 13}
+   usefulness VLM 3.96 vs code-only 3.08; actionability VLM 3.96 vs 3.01
+   unsupported claims per case: VLM 0.05 vs code-only 0.44; cases with VLM ungrounded>=1: 4/80
+   adds-value judgement mapped to arms: {'VLM adds': 69, 'code-only adds': 11}
+   trustworthy for operator: {'VLM': 69, 'both': 1, 'code-only': 9, None: 1}

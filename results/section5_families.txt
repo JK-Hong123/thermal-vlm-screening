@@ -1,0 +1,12 @@
+=== small-VLM family probe on the locked set (80 cases): blind marker-cell reading + marker-perturbation control (chance acc 0.111, kappa 0) ===
+model                                        lang  exact  kappa follows moved same after move     mode (answer, count)
+InternVL3-2B-hf                              en    0.188  0.057         0.025           0.888               ['중앙', 68]
+Qwen2-VL-2B-Instruct                         en    0.175  0.000         0.188           1.000            ['상단 우측', 80]
+Qwen2.5-VL-3B-Instruct                       en    0.150  0.043         0.100           0.850            ['하단 우측', 69]
+Qwen2.5-VL-3B-Instruct                       ko    0.062 -0.014         0.075           0.825            ['상단 중앙', 70]
+SmolVLM2-2.2B-Instruct                       en    0.150  0.000         0.012           0.988               ['중앙', 80]
+llava-onevision-qwen2-7b-ov-hf 4bit          en    0.150  0.001         0.012           0.950               ['중앙', 78]
+Frontier (Claude, agentic, ko)                ko    0.910  0.899         0.890               —   (varied)
+google/gemma-3-4b-it: not run (gated repository, HTTP error).
+reading: 5 small models / 4 families / 2B-7B / KO+EN prompts all at chance with answer-mode collapse and no marker following; the frontier model reads the marker (0.90) and follows it (0.89).
+note: Qwen2-VL-2B "follows 0.188" is coincidence of its constant answer with the moved cell (same_answer_after_move = 1.0).

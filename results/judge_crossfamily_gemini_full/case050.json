@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "단로기 접촉부 또는 부스바 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 열화상 이미지에서 특별한 고온부가 관측되지 않는다는 점을 정확히 기술하고, 현장 작업자에게 구체적인 확인 항목과 부하 조건 기록을 권고하여 더 실용적입니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "열점은 대상 내 상단 중앙에 점형 분포"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "열화상 이미지 상에서 마커 내부에 뚜렷한 고온 집중 현상이 보이지 않으므로, B 보고서의 '열화상에서는 주변과 구별되는 고온부가 보이지 않는다'는 서술이 이미지와 더 일치합니다.",
+ "case_id": "case050"
+}

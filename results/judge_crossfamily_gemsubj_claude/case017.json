@@ -1,0 +1,23 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상 크롭이 균일한 보라색 저온 배경이라 구조물 형태가 전혀 식별되지 않고, 가시광도 균일한 회색 면만 보임. 마커 내부 좌측 중앙에 십자 표식이 있으나 부싱인지 리드 접속부인지 이미지로는 판별 불가(변압기 외함 또는 절연체 표면으로 추정만 가능).",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커 내 최고온 표식 위치(왼쪽 중앙)와 가시광 부재를 실제 이미지와 맞게 서술하고 반사 확인용 재촬영 등 현장 확인 항목을 제시한 반면, B는 조회표 기반 서술만 있고 현장 확인 항목이 없다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "열 형태 점형 — 같은 보고서의 열 소견은 '중단 좌측에 불명 분포'이고, 이미지에서도 열점 형태가 전혀 식별되지 않음"
+  ],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 정상 부하 발열   근거: 열 형태 — 같은 보고서에서 열 형태를 '불명'으로 적어 놓고 그것을 근거로 삼음"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "두 보고서 모두 계측·판정은 동일하며 이미지 자체가 정보가 거의 없는 크롭이라 부위 판별은 어느 쪽도 검증 불가. A의 원인 후보(접촉저항 증가)는 형제 대비 -0.8°C인 정상 케이스에 다소 과한 추정이지만 '확인 불가'로 병기하고 권고는 추세 기록·재촬영으로 보수적이어서 큰 문제는 아님. B의 작업자 메모는 24.8°C를 '고온'으로 전제해 설비 특성 운운하는 점이 어색함."
+}

@@ -1,0 +1,37 @@
+
+===== v0: automatic grounding grades =====
+cond           n  json  anyHal  numHal%  v=gate  v=label   sev  comp  noOver   sec
+facts_only    70  1.00    0.01      0.3    0.77     0.59  0.49  1.00    1.00  20.7
+full          70  1.00    0.00      0.0    0.81     0.61  0.57  0.96    1.00  23.4
+image_only    70  1.00    0.44     41.9    0.70     0.63  0.70  0.94    1.00  11.9
+template      70  1.00    0.00      0.0    1.00     0.64  1.00  1.00    1.00   0.0
+
+  -- facts_only by stratum (json/anyHal/v=gate/v=label/sev/noOver) --
+    A_clear_danger     n=10  1.00 0.00 0.10 0.10 0.50 1.00
+    B_hot_but_normal   n=10  1.00 0.00 1.00 1.00 0.30 1.00
+    C_borderline       n=10  1.00 0.10 0.90 0.90 0.00 1.00
+    D_subtle_fault     n= 4  1.00 0.00 1.00 0.00 1.00 1.00
+    E_cool_normal      n=10  1.00 0.00 1.00 1.00 1.00 1.00
+    F_rf_fp            n=10  1.00 0.00 0.40 0.60 0.40 1.00
+    G_rf_fn            n=10  1.00 0.00 1.00 0.00 0.20 1.00
+    H_unseen_equip     n= 6  1.00 0.00 1.00 0.83 1.00 1.00
+
+  -- full by stratum (json/anyHal/v=gate/v=label/sev/noOver) --
+    A_clear_danger     n=10  1.00 0.00 0.40 0.40 0.80 1.00
+    B_hot_but_normal   n=10  1.00 0.00 1.00 1.00 0.40 1.00
+    C_borderline       n=10  1.00 0.00 0.90 0.90 0.00 1.00
+    D_subtle_fault     n= 4  1.00 0.00 1.00 0.00 1.00 1.00
+    E_cool_normal      n=10  1.00 0.00 1.00 1.00 1.00 1.00
+    F_rf_fp            n=10  1.00 0.00 0.40 0.50 0.50 1.00
+    G_rf_fn            n=10  1.00 0.00 1.00 0.00 0.30 1.00
+    H_unseen_equip     n= 6  1.00 0.00 1.00 0.83 1.00 1.00
+
+  -- image_only by stratum (json/anyHal/v=gate/v=label/sev/noOver) --
+    A_clear_danger     n=10  1.00 0.40 0.00 0.00 0.00 1.00
+    B_hot_but_normal   n=10  1.00 0.40 1.00 1.00 1.00 1.00
+    C_borderline       n=10  1.00 0.60 0.90 0.90 0.90 1.00
+    D_subtle_fault     n= 4  1.00 0.50 1.00 0.00 1.00 1.00
+    E_cool_normal      n=10  1.00 0.50 1.00 1.00 1.00 1.00
+    F_rf_fp            n=10  1.00 0.40 0.00 1.00 0.00 1.00
+    G_rf_fn            n=10  1.00 0.40 1.00 0.00 1.00 1.00
+    H_unseen_equip     n= 6  1.00 0.33 1.00 0.83 1.00 1.00

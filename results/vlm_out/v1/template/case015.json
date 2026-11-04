@@ -1,0 +1,64 @@
+{
+ "case_id": "case015",
+ "cond": "template",
+ "raw": null,
+ "vlm_parsed": null,
+ "report": {
+  "case_id": "case015",
+  "equipment": "고압전동기",
+  "site": "서부발전",
+  "spec": "2400kW",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 44.4°C = 동종 설비 정상 프레임 분포의 상위 53.9% (정상 중앙값 44.9°C, P95 73.8°C)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "hot_but_normal",
+  "case_type_ko": "장면 대비 고온이나 설비 특성상 정상 범위(게이트 통과)",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 6프레임 중 0프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 44.4,
+   "scene_median": 23.3,
+   "dT_scene": 21.0,
+   "dT_sibling": null,
+   "rf_prob": 0.21
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 6,
+   "n_flagged": 0,
+   "flag_frac": 0.0,
+   "rf_prob_median": 0.208,
+   "rf_prob_min": 0.163,
+   "rf_prob_max": 0.401,
+   "dT_scene_median": 20.2,
+   "dT_scene_min": 17.6,
+   "dT_scene_max_over_session": 21.6,
+   "t_max_median": 44.1,
+   "t_max_max": 44.3,
+   "hotspot_pos_mode": "center",
+   "hotspot_pos_stability": 0.83,
+   "hotspot_pos_same_as_this_frame": 0.83
+  },
+  "recommended_action": "절대온도 추세 기록(상시 고온 설비)",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; 형제 부품 없음",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "면형(전체 고온)",
+   "heat_description": "(이미지 서술 없음: 시스템 기본 문구)",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "operator_note": "설비 특성상 고온이 정상 범위이므로 절대온도 추세만 기록하십시오.",
+   "image_consistent_with_facts": "불명",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": []
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

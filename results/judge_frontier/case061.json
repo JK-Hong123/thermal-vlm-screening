@@ -1,0 +1,29 @@
+{
+  "case_id": "case061",
+  "my_marker_cell": "중앙",
+  "my_part": "상자 안 따뜻하게 보이는 세로 덩어리(PT 본체/몰드로 보임)의 중간 높이, 가로로는 중심에서 약간 왼쪽 표면 — 단자·부싱이 아닌 몸체 표면",
+  "my_part_confidence": "medium",
+  "which_is_vlm": "B",
+  "vlm_grid_correct": "yes",
+  "vlm_part_correct": "yes",
+  "a0plus_part_correct": "yes",
+  "vlm_visual_flags_valid": "partial",
+  "n_vlm_ungrounded": 2,
+  "n_a0plus_ungrounded": 2,
+  "vlm_ungrounded_examples": [
+    "원인 후보 '절연 열화' — ΔT 6.9°C(정상 분포 백분위 39.5, 정상 중앙값 이하)와 저대비 열화상만으로는 뒷받침되지 않음",
+    "근거 '정상 분포 대비' — 실제 백분위(39.5)는 정상 중앙값 이하이므로 이상 근거가 아니라 반대 근거",
+    "현장 확인 항목 '절연저항 측정' — L1 '기록 후 정기점검 재확인' 등급에 비해 과도(정전 필요)하며 근거 없는 원인 후보에서 파생"
+  ],
+  "vlm_adds_value_over_a0plus": "no",
+  "value_added_what": "없음 — 부위 판독은 조회표 결과(본체 절연 몰드)와 동일하고, 마커 위치 서술(중간 높이, 약간 왼쪽)은 정확하나 운영상 새 정보가 아님. 추가된 원인 후보·확인 항목은 근거 없이 조치를 키움",
+  "code_layer_issue": "판정 근거로 든 유일한 수치가 '장면 대비 ΔT 6.9°C (정상 분포 백분위 39.5)' — 정상 중앙값 이하 값을 이상 근거로 인용해 자기모순. 반면 더 강한 신호인 절대온도 백분위 92.6(등급 기준 줄에는 표기됨)은 판정 근거에 반영되지 않음. 등급은 NETA ΔT 1~10°C '조사' 대역 준용으로 L1이라 결과적으로 무해하나, 근거 문장은 운영자를 혼란시킴. 설비군 RF AUROC 0.615(거의 무작위)를 한계에 적은 점은 적절",
+  "preferred_report": "tie",
+  "preference_reason": "판정·조치·메모가 완전히 동일하고(B의 메모는 검증 실패로 기본값 대체) 원인 후보와 확인 항목만 다름. A의 '접촉부 접촉저항 증가'는 열점이 단자가 아닌 본체 중앙이라 위치와 맞지 않고, B의 '절연 열화'는 위치와는 부합하나 ΔT 6.9°C·정상 백분위 39.5로는 근거가 없고 절연저항 측정까지 유도해 과잉. 어느 쪽도 운영자에게 우위를 주지 않음",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "report_trustworthy_for_operator": "both",
+  "notes": "확대 열화상: 상자 x≈117~223, y≈100~238, 마커 (160, 182) → 가로 41%, 세로 59%로 중앙 칸(facts hotspot_position_in_target 'center'와 일치; hotspot_labels_v2 x_norm 0.698은 마커 픽셀과 다르나 판정은 마커 픽셀 기준). 열화상 대비가 매우 낮아(장면 35°C 균일, 대상 42°C) 세부 부위는 형태로만 추정. 가시광은 회색 패널과 소형 스위치·황색 배선이 보여 PT 본체와 정렬되지 않은 것으로 보임 — B의 '육안 특이 없음'은 근거 약함. 신뢰도·권고 조치는 두 보고서 모두 등급(L1)에 비례해 무난"
+}

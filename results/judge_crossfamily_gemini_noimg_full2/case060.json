@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차륜/차축 주변",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 불확실한 이미지를 억지로 판독하여 기계 검증에서 불합격을 받은 반면, 보고서 A는 불확실성을 정직하게 인정하고 보수적으로 작성되어 더 신뢰할 수 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 좌측에 있으며 조회표상 휠 림·답면 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "가시광 이미지가 과다노출되어 판독이 불가능한 상태이므로, 이미지 판독을 생략하고 보수적으로 작성된 보고서 A가 현장 작업자에게 더 안전하고 유용합니다.",
+ "case_id": "case060"
+}

@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "변압기 부싱 단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 마커의 위치를 정확하게 파악하고 구체적인 현장 확인 항목을 제시한 반면, 보고서 B는 모호한 원인 추정과 단순 기록 권고에 그쳤습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A가 이미지 내 마커 위치를 더 정확하게 설명하고 작업자에게 실질적인 조치 가이드를 제공합니다.",
+ "case_id": "case017"
+}

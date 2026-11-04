@@ -1,0 +1,104 @@
+{
+ "case_id": "case079",
+ "cond": "v2gemini",
+ "raw": {
+  "pass1": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"본체\",\n \"p_grid\": \"상단 중앙\",\n \"heat_pattern\": \"점형(작고 국부)\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"부싱 상단 부근에 마커가 위치함\"\n}",
+  "pass2": "{\n \"cause_hypothesis\": [\n  \"접촉부 접촉저항 증가(체결 이완·산화)\",\n  \"과부하 또는 상 불평형\"\n ],\n \"cause_basis\": [\n  \"열 형태\",\n  \"세션 증거\"\n ],\n \"field_checks\": [\n  \"체결 토크 점검\",\n  \"부하 전류·불평형률 측정\",\n  \"접촉저항 측정\"\n ],\n \"operator_note_ko\": \"상단 중앙에 국부적인 열점이 일관되게 관측되었으므로 접촉 상태와 부하를 점검하시기 바랍니다.\"\n}"
+ },
+ "report": {
+  "case_id": "case079",
+  "equipment": "접지용 콘덴서",
+  "site": "변전소",
+  "spec": "6.6KV, 10KVAR",
+  "verdict": "이상 의심",
+  "severity": "L2 요주의",
+  "severity_level": 2,
+  "severity_reference": "장면 중앙값(주변 온도 대용, 비표준 기준점) 대비",
+  "severity_metric": "장면 대비 ΔT 17.3°C (장면 중앙값 29.2°C)",
+  "severity_source": "ANSI/NETA MTS Table 100.18 주변 대비(1~10 조사 / 11~20 수리 / 21~40 감시·시정 / >40 즉시) 준용",
+  "scene_level": 2,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 콘덴서 단자 ≥75 (국토안전관리원 온도패턴법)",
+  "measurements": {
+   "t_max": 46.5,
+   "t_mean": 30.2,
+   "scene_median": 29.2,
+   "dT_scene": 17.3,
+   "sibling_reference": null,
+   "dT_sibling": null,
+   "n_siblings": 0,
+   "hotspot_area_frac": 0.009,
+   "rf_prob": 0.67,
+   "t_max_eroded": 46.5,
+   "dT_scene_eroded": 17.3
+  },
+  "thermal_finding_ko": "대상 최고 온도 46.5°C, 장면 중앙값 29.2°C(장면 대비 17.3°C). 열점은 대상 내 상단 중앙에 점형 분포.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT가 큼(설비별 정상 분포 기준 없음)",
+   "열점이 국부에 집중"
+  ],
+  "caveats_ko": [],
+  "case_type": "clear_overheat",
+  "case_type_ko": "기준 초과 과열 소견",
+  "confidence": "medium",
+  "confidence_reason": "세션 증거는 일관하나 게이트 확률(0.67)이 경계에 근접; 미학습 설비",
+  "action_ko": "정밀점검 계획 수립(수 주 내), 부하 전류·체결 상태 확인",
+  "field_checks_ko": [
+   "부하 전류·불평형률 측정",
+   "체결 토크 점검",
+   "접촉저항 측정"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 33프레임, 그중 33프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_absent",
+   "calib_default",
+   "rgb_unaligned",
+   "unseen_equipment"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "exact",
+  "pattern_check": "match",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "본체",
+   "p_grid": "상단 중앙",
+   "heat_pattern": "점형",
+   "visual_flags": [
+    "특이 없음"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": "부싱 상단 부근에 마커가 위치함"
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)"
+   ],
+   "cause_basis": [
+    "열 형태",
+    "세션 증거"
+   ],
+   "field_checks": [
+    "부하 전류·불평형률 측정",
+    "체결 토크 점검",
+    "접촉저항 측정"
+   ],
+   "operator_note_ko": "상단 중앙에 국부적인 열점이 일관되게 관측되었으므로 접촉 상태와 부하를 점검하시기 바랍니다."
+  },
+  "validation": {
+   "violations": [
+    "cause:incompatible_with_pattern"
+   ],
+   "fallback_fields": [
+    "cause"
+   ]
+  }
+ }
+}

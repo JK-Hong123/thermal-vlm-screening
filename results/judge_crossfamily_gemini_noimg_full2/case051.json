@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "전자접촉기 상부 단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 A는 화질 확인이 불가함에도 세부 부위를 단정하려 했으나, 보고서 B는 이미지 판독의 한계를 정직하게 인정하고 보수적이고 안전한 권고 조치를 제시하여 현장 작업자에게 더 신뢰할 수 있는 정보를 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 상단 우측에 있으며 조회표상 상부 단자 부위로 추정됩니다. (육안 가시광 미판독 및 화질 확인 불가 상태에서 단자 부위로 과도하게 추정)"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "열화상 진단에서 화질이 불투명할 때는 B처럼 명확히 한계를 인정하고 재촬영 및 부하 조건 기록을 지시하는 것이 현장 리스크 관리 측면에서 더 유리합니다.",
+ "case_id": "case051"
+}

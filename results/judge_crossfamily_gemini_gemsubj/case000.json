@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "보일러 점검구 또는 핸들형 도어 구조물",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 육안 가시광 정렬 미검증으로 표면 소견 판독을 유보하고 점검구·도어 형태를 정확히 인식한 반면, 보고서 B는 배관 접속부로 오인하고 회전기기 관련 정비 항목을 제시하여 부적절함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 배관 접속부 부위로 추정됩니다"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보일러 점검구 도어 형태의 이미지 특성을 보고서 A가 훨씬 더 정확하게 반영하였음.",
+ "case_id": "case000"
+}

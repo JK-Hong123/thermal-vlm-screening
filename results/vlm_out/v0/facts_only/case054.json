@@ -1,0 +1,23 @@
+{
+ "case_id": "case054",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"계기용변압기(PT)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L1 주의\",\n  \"thermal_finding\": \"대상 내 center에 위치한 열점 3개, 면적비 0.163, 최고온도 32.8°C, 평균온도 27.7°C\",\n  \"evidence_numbers\": [\"대상 최고온 32.8°C\", \"평균온도 27.7°C\", \"장면(배경) 중앙값 온도 26.1°C\", \"대상 최고온 - 기온 8.3°C\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"권고: 다음 정기점검 시 확인\",\n  \"uncertainty\": \"판단의 한계: 원인 확정, 내부 상태, 부하율 등 추가 확인 필요\"\n}\n```",
+ "parsed": {
+  "component": "계기용변압기(PT)",
+  "verdict": "정상",
+  "severity": "L1 주의",
+  "thermal_finding": "대상 내 center에 위치한 열점 3개, 면적비 0.163, 최고온도 32.8°C, 평균온도 27.7°C",
+  "evidence_numbers": [
+   "대상 최고온 32.8°C",
+   "평균온도 27.7°C",
+   "장면(배경) 중앙값 온도 26.1°C",
+   "대상 최고온 - 기온 8.3°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "권고: 다음 정기점검 시 확인",
+  "uncertainty": "판단의 한계: 원인 확정, 내부 상태, 부하율 등 추가 확인 필요"
+ },
+ "sec": 15.28,
+ "in_tok": 1018,
+ "out_tok": 219
+}

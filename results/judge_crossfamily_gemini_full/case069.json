@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "변압기 부싱 또는 케이블 단자 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독을 충실히 수행하였으며 기계 검증을 통과한 반면, 보고서 B는 일부 항목에서 불합격하여 기본값으로 대체되었습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A가 이미지 분석 내용과 검증 상태 면에서 더 신뢰할 수 있습니다.",
+ "case_id": "case069"
+}

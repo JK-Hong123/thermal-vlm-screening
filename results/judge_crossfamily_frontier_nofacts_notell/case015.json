@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "상자 상단 오른쪽에 걸쳐 밝게 보이는 직사각형 고온체(변압기 권선/코일 하부 또는 그 단자부)의 오른쪽 아래 가장자리. 상자 내부 대부분은 저온이고 마커는 상자 밖 고온 권선과의 경계에 가까움",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 권선 꼭대기 오른편의 밝은 단자 접속 지점과 상자 위쪽 오른편 모서리라는 위치 서술이 내 판독과 대체로 일치하고 부하 기록 후 재촬영 항목을 더했다. A는 조회표 '부싱'과 정상 발열 추정만 제시해 이미지 근거가 없다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "가시광은 환기구가 있는 금속 캐비닛 외관만 보여 대조 불가. 열점 위치(상단 우측)는 두 보고서 모두 내 판독과 일치. B의 '왼쪽 원통형 권선'은 열화상에서 직사각형 밝은 덩어리로 보여 형태 표현은 단정하기 어려우나 위치 관계는 맞다. 절대온도 81.3°C로 요주의 한계를 넘었는데도 두 보고서 모두 '정상 운전 발열/추세 기록'에 그친 점은 공통 문구의 한계다."
+}

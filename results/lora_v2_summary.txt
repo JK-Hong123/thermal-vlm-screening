@@ -1,0 +1,12 @@
+tag                      render  label  targets     task      n |   val acc0→acc     val κ0→κ |   lock acc0→acc    lock κ0→κ unseen κ  dist
+A_stretch_smooth         stretch smooth llm_vismlp  cell   3000 | 0.104→0.354   0.001→0.271 | 0.125→0.375    0.004→0.291   0.059  nan
+B_fixed_smooth           fixed   smooth llm_vismlp  cell   3000 | 0.087→0.317   -0.022→0.226 | 0.175→0.312    0.055→0.211   0.048  nan
+C_stretch_fullvis        stretch smooth full_vision cell   3000 | 0.104→0.408   0.001→0.330 | 0.125→0.388    0.004→0.299   0.294  nan
+D_stretch_coord          stretch smooth llm_vismlp  coord  3000 | 0.096→0.350   0.011→0.266 | 0.150→0.463    0.025→0.391   0.213  0.369
+E_v3_672_tight           stretch smooth llm_vismlp  cell   3000 | 0.117→0.471   0.012→0.401 | 0.163→0.438    0.044→0.360   0.268  nan
+F_fullvis_coord_672_n6000 stretch smooth full_vision coord  6000 | 0.087→0.713   -0.001→0.674 | 0.175→0.787    0.053→0.758   0.880  0.174
+G1_fullvis_cell_672_n6000 stretch smooth full_vision cell   6000 | 0.117→0.583   0.012→0.527 | 0.163→0.650    0.044→0.599   0.540  nan
+G2_llm_coord_672_n6000   stretch smooth llm_vismlp  coord  6000 | 0.087→0.708   -0.001→0.670 | 0.175→0.762    0.053→0.732   0.659  0.189
+H_final_llm_coord_672_all_2ep stretch smooth llm_vismlp  coord  8081 | 0.087→0.787   -0.001→0.759 | 0.175→0.775    0.053→0.745   0.659  0.131
+
+chance: acc 0.111, κ 0 | previous recipe (fixed render, argmax label, marked+unmarked mixed): unmarked val κ 0.275, locked κ 0.29

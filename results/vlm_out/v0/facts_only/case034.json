@@ -1,0 +1,23 @@
+{
+ "case_id": "case034",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"계기용변성기(MOF)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 내 bottom-right에 위치한 열점이 있으며, 면적비 0.164, 열점 개수 157입니다.\",\n  \"evidence_numbers\": [\n    \"대상 최고온: 29.2°C\",\n    \"평균 온도: 27.3°C\",\n    \"장면(배경) 중앙값 온도: 26.8°C\",\n    \"대상 최고온이 대상 내부에 있음: 아니오\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정상 감시 유지\",\n  \"uncertainty\": \"판단의 한계: 열점의 실제 위치와 형태를 확인하기 위해 추가적인 정보가 필요합니다.\"\n}\n```",
+ "parsed": {
+  "component": "계기용변성기(MOF)",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 내 bottom-right에 위치한 열점이 있으며, 면적비 0.164, 열점 개수 157입니다.",
+  "evidence_numbers": [
+   "대상 최고온: 29.2°C",
+   "평균 온도: 27.3°C",
+   "장면(배경) 중앙값 온도: 26.8°C",
+   "대상 최고온이 대상 내부에 있음: 아니오"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정상 감시 유지",
+  "uncertainty": "판단의 한계: 열점의 실제 위치와 형태를 확인하기 위해 추가적인 정보가 필요합니다."
+ },
+ "sec": 14.97,
+ "in_tok": 1020,
+ "out_tok": 214
+}

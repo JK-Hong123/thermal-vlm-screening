@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "변압기 부싱 또는 리드 접속부 주변",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 마커 위치가 바운딩 박스를 벗어나 있는 점 등을 정직하게 판독 불가로 처리하고 기계 검증 불합격 처리한 반면, 보고서 B는 불확실한 부위와 원인을 지어내어 신뢰성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 중단 좌측에 있으며 조회표상 리드 접속부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "마커가 바운딩 박스 좌측 바깥쪽(상단-좌 영역)에 걸쳐 있거나 걸쳐 있는 형태이므로, A보고서의 '부위 확인 불가' 및 기계 검증 불합격 처리가 더 객관적이고 보수적인 진단에 부합합니다.",
+ "case_id": "case017"
+}

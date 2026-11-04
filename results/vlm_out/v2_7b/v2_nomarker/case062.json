@@ -1,0 +1,96 @@
+{
+ "case_id": "case062",
+ "cond": "v2_nomarker",
+ "raw": {
+  "pass1": "```json\n{\n  \"equipment_plausible\": \"예\",\n  \"part\": \"부싱\",\n  \"p_grid\": \"상단 중앙\",\n  \"heat_pattern\": \"불명\",\n  \"visual_flags\": [\"반사 의심\"],\n  \"image_quality\": \"양호\",\n  \"part_location_ko\": \"부싱의 상단 중앙\"\n}\n```"
+ },
+ "secs": {
+  "pass1": 5.98
+ },
+ "report": {
+  "case_id": "case062",
+  "equipment": "차단기",
+  "site": "서부발전",
+  "spec": "저압(460V)",
+  "verdict": "검토 필요",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 6.8°C (형제 2개, 기준 26.3°C); 장면 대비 ΔT 8.3°C",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "scene_level": 1,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 차단기 단자 ≥60 / 본체 ≥65 (국토안전관리원 온도패턴법, 저압 MCCB 기준 준용)",
+  "measurements": {
+   "t_max": 33.1,
+   "t_mean": 25.4,
+   "scene_median": 24.8,
+   "dT_scene": 8.3,
+   "sibling_reference": 26.3,
+   "dT_sibling": 6.8,
+   "n_siblings": 2,
+   "hotspot_area_frac": 0.028,
+   "rf_prob": 0.42,
+   "t_max_eroded": 33.1,
+   "dT_scene_eroded": 8.3
+  },
+  "thermal_finding_ko": "대상 최고 온도 33.1°C, 장면 중앙값 24.8°C(장면 대비 8.3°C). 열점은 대상 내 중앙에 다점형 분포; 동종 부품 대비 6.8°C.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT가 동종 설비 정상 분포 상위 10% 이내",
+   "형제 부품 대비 ΔT 6.8°C",
+   "동종 설비 정상 분포 범위 내"
+  ],
+  "caveats_ko": [
+   "열점은 국부에 집중되어 있으나 온도차는 정상 범위"
+  ],
+  "case_type": "review",
+  "case_type_ko": "검토 필요(게이트 경계, 규칙은 이상)",
+  "confidence": "medium",
+  "confidence_reason": "세션 증거는 일관하나 게이트 확률(0.42)이 경계에 근접",
+  "action_ko": "부하 조건 기록 후 재촬영하여 재판정(검토 큐)",
+  "field_checks_ko": [],
+  "session_evidence_line": "같은 세션 8프레임 중 동일 부품 매칭 3프레임, 그중 0프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "calib_default",
+   "rgb_unaligned"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "adjacent",
+  "pattern_check": "unknown",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "부싱",
+   "p_grid": "중앙",
+   "heat_pattern": "불명",
+   "visual_flags": [
+    "반사 의심"
+   ],
+   "image_quality": "양호",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "cause_basis": [],
+   "field_checks": [],
+   "operator_note_ko": ""
+  },
+  "validation": {
+   "violations": [
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "p_grid"
+   ]
+  }
+ }
+}

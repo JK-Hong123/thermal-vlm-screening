@@ -1,0 +1,63 @@
+{
+ "case_id": "case008",
+ "cond": "full_perturbed",
+ "raw": "```json\n{\n  \"component_part\": \"베어링 하우징\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 상단 우측에 국부적으로 열점이 집중되어 있다.\",\n  \"visual_context\": \"확인 불가\",\n  \"cause_hypothesis\": [\"베어링 손상\", \"윤활 불량\"],\n  \"operator_note\": \"현장 작업자는 베어링 하우징 부위의 열점 확인과 베어링 상태를 확인해야 합니다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"열화상에서 베어링 하우징 부위에 국부적으로 열점이 집중되어 있으며, 이는 실제 열화상에서 확인된 결과와 일치한다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "베어링 하우징",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 상단 우측에 국부적으로 열점이 집중되어 있다.",
+  "visual_context": "확인 불가",
+  "cause_hypothesis": [
+   "베어링 손상",
+   "윤활 불량"
+  ],
+  "operator_note": "현장 작업자는 베어링 하우징 부위의 열점 확인과 베어링 상태를 확인해야 합니다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "열화상에서 베어링 하우징 부위에 국부적으로 열점이 집중되어 있으며, 이는 실제 열화상에서 확인된 결과와 일치한다."
+ },
+ "report": {
+  "case_id": "case008",
+  "equipment": "고압전동기",
+  "site": "서부발전",
+  "spec": "700kW",
+  "verdict": "이상 의심",
+  "severity": "L1 주의",
+  "severity_level": 1,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 50.6°C = 동종 설비 정상 프레임 분포의 상위 33.9% (정상 중앙값 44.9°C, P95 73.8°C); 장면 대비 ΔT 19.9°C(상시 고온 설비이므로 한 단계 하향 적용)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "mild_overheat",
+  "case_type_ko": "경미한 과열 소견",
+  "confidence": "medium",
+  "confidence_reason": "단일 프레임 근거(세션 내 동일 부품 매칭 0프레임), 게이트 확률 0.836",
+  "measurements": {
+   "t_max": 50.6,
+   "scene_median": 30.7,
+   "dT_scene": 19.9,
+   "dT_sibling": 4.1,
+   "rf_prob": 0.836
+  },
+  "session_evidence": {
+   "n_frames_in_session": 2,
+   "n_frames_component_matched": 0
+  },
+  "recommended_action": "기록 후 다음 정기점검 시 재확인",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "베어링 하우징",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 상단 우측에 국부적으로 열점이 집중되어 있다.",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "베어링 손상·윤활 불량"
+   ],
+   "operator_note": "현장 작업자는 베어링 하우징 부위의 열점 확인과 베어링 상태를 확인해야 합니다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "열화상에서 베어링 하우징 부위에 국부적으로 열점이 집중되어 있으며, 이는 실제 열화상에서 확인된 결과와 일치한다."
+  },
+  "vlm_violations": []
+ },
+ "sec": 13.96,
+ "in_tok": 2020,
+ "out_tok": 179
+}

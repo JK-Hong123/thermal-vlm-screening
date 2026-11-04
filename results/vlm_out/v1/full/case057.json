@@ -1,0 +1,78 @@
+{
+ "case_id": "case057",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"케이블 연결부\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 상단 좌측에 국부적으로 열점이 집중되어 있다.\",\n  \"visual_context\": \"확인 불가\",\n  \"cause_hypothesis\": [\"베어링 손상\", \"윤활 불량\"],\n  \"operator_note\": \"현재 온도와 분포를 확인하고, 해당 부위의 구조와 상태를 조사해야 합니다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"대상 내 상단 좌측에 국부적으로 열점이 집중되어 있으며, 이는 이미지 1과 2에서 확인된 열 분포와 일치한다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "케이블 연결부",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 상단 좌측에 국부적으로 열점이 집중되어 있다.",
+  "visual_context": "확인 불가",
+  "cause_hypothesis": [
+   "베어링 손상",
+   "윤활 불량"
+  ],
+  "operator_note": "현재 온도와 분포를 확인하고, 해당 부위의 구조와 상태를 조사해야 합니다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "대상 내 상단 좌측에 국부적으로 열점이 집중되어 있으며, 이는 이미지 1과 2에서 확인된 열 분포와 일치한다."
+ },
+ "report": {
+  "case_id": "case057",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "site": "변전소",
+  "spec": "22.9KV/6.6kV",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 131.8°C = 동종 설비 정상 프레임 분포의 상위 7.4% (정상 중앙값 67.0°C, P95 137.7°C)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "hot_but_normal",
+  "case_type_ko": "장면 대비 고온이나 설비 특성상 정상 범위(게이트 통과)",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 30프레임 중 0프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 131.8,
+   "scene_median": 40.4,
+   "dT_scene": 91.4,
+   "dT_sibling": 3.9,
+   "rf_prob": 0.127
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 30,
+   "n_flagged": 0,
+   "flag_frac": 0.0,
+   "rf_prob_median": 0.093,
+   "rf_prob_min": 0.049,
+   "rf_prob_max": 0.175,
+   "dT_scene_median": 89.7,
+   "dT_scene_min": 84.7,
+   "dT_scene_max_over_session": 92.8,
+   "t_max_median": 130.1,
+   "t_max_max": 133.0,
+   "hotspot_pos_mode": "top-left",
+   "hotspot_pos_stability": 0.53,
+   "hotspot_pos_same_as_this_frame": 0.53
+  },
+  "recommended_action": "절대온도 추세 기록(상시 고온 설비)",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "케이블 연결부",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 상단 좌측에 국부적으로 열점이 집중되어 있다.",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "베어링 손상·윤활 불량"
+   ],
+   "operator_note": "현재 온도와 분포를 확인하고, 해당 부위의 구조와 상태를 조사해야 합니다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": [
+   "consistency_reason:digits"
+  ]
+ },
+ "sec": 13.74,
+ "in_tok": 2043,
+ "out_tok": 177
+}

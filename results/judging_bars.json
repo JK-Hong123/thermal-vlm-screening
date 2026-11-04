@@ -1,0 +1,101 @@
+[
+ {
+  "group": "Judge given the facts (same model as the subject)",
+  "label": "Qwen2.5-VL-3B, zero-shot (n=34)",
+  "k": 0,
+  "n": 34,
+  "lo": 0.0,
+  "hi": 0.0,
+  "color": "#d62728"
+ },
+ {
+  "group": "Judge given the facts (same model as the subject)",
+  "label": "3B + marker-reading adapter (n=32)",
+  "k": 0,
+  "n": 32,
+  "lo": 0.0,
+  "hi": 0.0,
+  "color": "#ff7f0e"
+ },
+ {
+  "group": "Judge given the facts (same model as the subject)",
+  "label": "Frontier, model-written report identifiable (n=32)",
+  "k": 21,
+  "n": 32,
+  "lo": 0.5,
+  "hi": 0.812,
+  "color": "#9467bd"
+ },
+ {
+  "group": "Judge given the facts (same model as the subject)",
+  "label": "Frontier, identifying strings removed (n=32)",
+  "k": 32,
+  "n": 32,
+  "lo": 1.0,
+  "hi": 1.0,
+  "color": "#9467bd"
+ },
+ {
+  "group": "Judge without the facts, same model",
+  "label": "Frontier, image-based (n=32)",
+  "k": 31,
+  "n": 32,
+  "lo": 0.906,
+  "hi": 1.0,
+  "color": "#9467bd"
+ },
+ {
+  "group": "Judge without the facts, same model",
+  "label": "Frontier, identifying strings removed (n=32)",
+  "k": 31,
+  "n": 32,
+  "lo": 0.906,
+  "hi": 1.0,
+  "color": "#9467bd"
+ },
+ {
+  "group": "Judge without the facts, same model",
+  "label": "Frontier, NO image, facts only (n=32)",
+  "k": 26,
+  "n": 32,
+  "lo": 0.688,
+  "hi": 0.938,
+  "color": "#c5b0d5"
+ },
+ {
+  "group": "Judge without the facts, cross-vendor (Gemini)",
+  "label": "Frontier, image-based (n=80)",
+  "k": 68,
+  "n": 80,
+  "lo": 0.762,
+  "hi": 0.925,
+  "color": "#9467bd"
+ },
+ {
+  "group": "Judge without the facts, cross-vendor (Gemini)",
+  "label": "Frontier, NO image, facts only (n=80)",
+  "k": 53,
+  "n": 80,
+  "lo": 0.562,
+  "hi": 0.762,
+  "color": "#c5b0d5"
+ },
+ {
+  "group": "Low-cost commercial subject (Gemini), judges without the facts",
+  "label": "Gemini subject, Claude judge (n=32)",
+  "k": 22,
+  "n": 32,
+  "lo": 0.531,
+  "hi": 0.844,
+  "color": "#2ca02c"
+ },
+ {
+  "group": "Low-cost commercial subject (Gemini), judges without the facts",
+  "label": "Gemini subject, Gemini judge (n=80)",
+  "k": 45,
+  "n": 80,
+  "lo": 0.45,
+  "hi": 0.662,
+  "color": "#98df8a"
+ }
+]

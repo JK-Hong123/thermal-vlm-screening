@@ -1,0 +1,80 @@
+{"case_id": "case000", "stratum": "A_clear_danger", "equipment": "보일러", "label": "danger", "dT_scene_max": 78.5, "rf_prob": 0.81, "has_rgb": true}
+{"case_id": "case001", "stratum": "A_clear_danger", "equipment": "기어박스", "label": "danger", "dT_scene_max": 21.9, "rf_prob": 0.863, "has_rgb": true}
+{"case_id": "case002", "stratum": "A_clear_danger", "equipment": "기어박스", "label": "danger", "dT_scene_max": 26.0, "rf_prob": 0.818, "has_rgb": true}
+{"case_id": "case003", "stratum": "A_clear_danger", "equipment": "차축베어링", "label": "danger", "dT_scene_max": 56.8, "rf_prob": 0.957, "has_rgb": true}
+{"case_id": "case004", "stratum": "A_clear_danger", "equipment": "보일러", "label": "danger", "dT_scene_max": 72.9, "rf_prob": 0.961, "has_rgb": true}
+{"case_id": "case005", "stratum": "A_clear_danger", "equipment": "차축베어링", "label": "danger", "dT_scene_max": 34.1, "rf_prob": 0.855, "has_rgb": true}
+{"case_id": "case006", "stratum": "A_clear_danger", "equipment": "차축베어링", "label": "danger", "dT_scene_max": 47.8, "rf_prob": 0.766, "has_rgb": true}
+{"case_id": "case007", "stratum": "A_clear_danger", "equipment": "차축베어링", "label": "danger", "dT_scene_max": 46.9, "rf_prob": 0.897, "has_rgb": true}
+{"case_id": "case008", "stratum": "A_clear_danger", "equipment": "차축베어링", "label": "danger", "dT_scene_max": 65.1, "rf_prob": 0.956, "has_rgb": true}
+{"case_id": "case009", "stratum": "A_clear_danger", "equipment": "고압전동기", "label": "danger", "dT_scene_max": 19.6, "rf_prob": 0.752, "has_rgb": true}
+{"case_id": "case010", "stratum": "B_hot_but_normal", "equipment": "계기용변성기(MOF)", "label": "normal", "dT_scene_max": 9.4, "rf_prob": 0.192, "has_rgb": true}
+{"case_id": "case011", "stratum": "B_hot_but_normal", "equipment": "차축베어링", "label": "normal", "dT_scene_max": 10.1, "rf_prob": 0.067, "has_rgb": true}
+{"case_id": "case012", "stratum": "B_hot_but_normal", "equipment": "차축베어링", "label": "normal", "dT_scene_max": 40.2, "rf_prob": 0.136, "has_rgb": true}
+{"case_id": "case013", "stratum": "B_hot_but_normal", "equipment": "변압기 케이블 연결개소 포함", "label": "normal", "dT_scene_max": 16.9, "rf_prob": 0.063, "has_rgb": true}
+{"case_id": "case014", "stratum": "B_hot_but_normal", "equipment": "변압기 접속부", "label": "normal", "dT_scene_max": 9.2, "rf_prob": 0.121, "has_rgb": true}
+{"case_id": "case015", "stratum": "B_hot_but_normal", "equipment": "변압기 케이블 연결개소 포함", "label": "normal", "dT_scene_max": 50.3, "rf_prob": 0.068, "has_rgb": true}
+{"case_id": "case016", "stratum": "B_hot_but_normal", "equipment": "차축베어링", "label": "normal", "dT_scene_max": 41.2, "rf_prob": 0.442, "has_rgb": true}
+{"case_id": "case017", "stratum": "B_hot_but_normal", "equipment": "변압기 접속부", "label": "normal", "dT_scene_max": 8.8, "rf_prob": 0.165, "has_rgb": true}
+{"case_id": "case018", "stratum": "B_hot_but_normal", "equipment": "계기용변압기(PT)", "label": "normal", "dT_scene_max": 6.9, "rf_prob": 0.094, "has_rgb": true}
+{"case_id": "case019", "stratum": "B_hot_but_normal", "equipment": "기어박스", "label": "normal", "dT_scene_max": 15.6, "rf_prob": 0.447, "has_rgb": true}
+{"case_id": "case020", "stratum": "B_hot_but_normal", "equipment": "고압전동기", "label": "normal", "dT_scene_max": 27.2, "rf_prob": 0.267, "has_rgb": true}
+{"case_id": "case021", "stratum": "B_hot_but_normal", "equipment": "고압전동기", "label": "normal", "dT_scene_max": 10.1, "rf_prob": 0.279, "has_rgb": true}
+{"case_id": "case022", "stratum": "B_hot_but_normal", "equipment": "기어박스", "label": "normal", "dT_scene_max": 39.2, "rf_prob": 0.473, "has_rgb": true}
+{"case_id": "case023", "stratum": "B_hot_but_normal", "equipment": "기어박스", "label": "normal", "dT_scene_max": 31.6, "rf_prob": 0.379, "has_rgb": true}
+{"case_id": "case024", "stratum": "C_borderline", "equipment": "단로기(DS)", "label": "normal", "dT_scene_max": 4.1, "rf_prob": 0.005, "has_rgb": true}
+{"case_id": "case025", "stratum": "C_borderline", "equipment": "단로기(DS)", "label": "normal", "dT_scene_max": 4.1, "rf_prob": 0.036, "has_rgb": true}
+{"case_id": "case026", "stratum": "C_borderline", "equipment": "전자접촉기", "label": "normal", "dT_scene_max": 5.5, "rf_prob": 0.08, "has_rgb": true}
+{"case_id": "case027", "stratum": "C_borderline", "equipment": "케이블&부스 연결개소", "label": "normal", "dT_scene_max": 4.6, "rf_prob": 0.28, "has_rgb": true}
+{"case_id": "case028", "stratum": "C_borderline", "equipment": "차축베어링", "label": "danger", "dT_scene_max": 4.3, "rf_prob": 0.385, "has_rgb": true}
+{"case_id": "case029", "stratum": "C_borderline", "equipment": "변압기 접속부", "label": "normal", "dT_scene_max": 5.9, "rf_prob": 0.356, "has_rgb": true}
+{"case_id": "case030", "stratum": "C_borderline", "equipment": "계기용변성기(MOF)", "label": "normal", "dT_scene_max": 4.4, "rf_prob": 0.148, "has_rgb": true}
+{"case_id": "case031", "stratum": "C_borderline", "equipment": "계기용변류기(CT)", "label": "normal", "dT_scene_max": 4.1, "rf_prob": 0.16, "has_rgb": true}
+{"case_id": "case032", "stratum": "C_borderline", "equipment": "변압기 케이블 연결개소 포함", "label": "normal", "dT_scene_max": 4.8, "rf_prob": 0.031, "has_rgb": true}
+{"case_id": "case033", "stratum": "C_borderline", "equipment": "전자접촉기", "label": "normal", "dT_scene_max": 4.1, "rf_prob": 0.008, "has_rgb": true}
+{"case_id": "case034", "stratum": "C_borderline", "equipment": "차단기", "label": "normal", "dT_scene_max": 5.1, "rf_prob": 0.121, "has_rgb": true}
+{"case_id": "case035", "stratum": "C_borderline", "equipment": "단로기(DS)", "label": "normal", "dT_scene_max": 4.4, "rf_prob": 0.022, "has_rgb": true}
+{"case_id": "case036", "stratum": "C_borderline", "equipment": "변압기 접속부", "label": "normal", "dT_scene_max": 4.3, "rf_prob": 0.092, "has_rgb": true}
+{"case_id": "case037", "stratum": "C_borderline", "equipment": "차축베어링", "label": "normal", "dT_scene_max": 4.7, "rf_prob": 0.078, "has_rgb": true}
+{"case_id": "case038", "stratum": "D_subtle_fault", "equipment": "차축베어링", "label": "danger", "dT_scene_max": 3.6, "rf_prob": 0.411, "has_rgb": true}
+{"case_id": "case039", "stratum": "D_subtle_fault", "equipment": "차축베어링", "label": "danger", "dT_scene_max": 3.7, "rf_prob": 0.792, "has_rgb": true}
+{"case_id": "case040", "stratum": "E_cool_normal", "equipment": "변압기 케이블 연결개소 포함", "label": "normal", "dT_scene_max": 2.9, "rf_prob": 0.031, "has_rgb": true}
+{"case_id": "case041", "stratum": "E_cool_normal", "equipment": "케이블&부스 연결개소", "label": "normal", "dT_scene_max": 1.2, "rf_prob": 0.003, "has_rgb": true}
+{"case_id": "case042", "stratum": "E_cool_normal", "equipment": "계기용변류기(CT)", "label": "normal", "dT_scene_max": 1.1, "rf_prob": 0.016, "has_rgb": true}
+{"case_id": "case043", "stratum": "E_cool_normal", "equipment": "차단기", "label": "normal", "dT_scene_max": 1.4, "rf_prob": 0.003, "has_rgb": true}
+{"case_id": "case044", "stratum": "E_cool_normal", "equipment": "전자접촉기", "label": "normal", "dT_scene_max": 1.4, "rf_prob": 0.007, "has_rgb": true}
+{"case_id": "case045", "stratum": "E_cool_normal", "equipment": "단로기(DS)", "label": "normal", "dT_scene_max": 2.3, "rf_prob": 0.359, "has_rgb": true}
+{"case_id": "case046", "stratum": "E_cool_normal", "equipment": "케이블&부스 연결개소", "label": "normal", "dT_scene_max": 1.6, "rf_prob": 0.111, "has_rgb": true}
+{"case_id": "case047", "stratum": "E_cool_normal", "equipment": "케이블&부스 연결개소", "label": "normal", "dT_scene_max": 1.5, "rf_prob": 0.03, "has_rgb": true}
+{"case_id": "case048", "stratum": "E_cool_normal", "equipment": "계기용변류기(CT)", "label": "normal", "dT_scene_max": 1.5, "rf_prob": 0.003, "has_rgb": true}
+{"case_id": "case049", "stratum": "E_cool_normal", "equipment": "계기용변성기(MOF)", "label": "normal", "dT_scene_max": 2.1, "rf_prob": 0.184, "has_rgb": true}
+{"case_id": "case050", "stratum": "E_cool_normal", "equipment": "단로기(DS)", "label": "normal", "dT_scene_max": 2.4, "rf_prob": 0.002, "has_rgb": true}
+{"case_id": "case051", "stratum": "E_cool_normal", "equipment": "전자접촉기", "label": "normal", "dT_scene_max": 2.2, "rf_prob": 0.004, "has_rgb": true}
+{"case_id": "case052", "stratum": "E_cool_normal", "equipment": "전자접촉기", "label": "normal", "dT_scene_max": 0.8, "rf_prob": 0.002, "has_rgb": true}
+{"case_id": "case053", "stratum": "E_cool_normal", "equipment": "차단기", "label": "normal", "dT_scene_max": 1.4, "rf_prob": 0.002, "has_rgb": true}
+{"case_id": "case054", "stratum": "F_rf_fp", "equipment": "기어박스", "label": "normal", "dT_scene_max": 50.8, "rf_prob": 0.783, "has_rgb": true}
+{"case_id": "case055", "stratum": "F_rf_fp", "equipment": "기어박스", "label": "normal", "dT_scene_max": 21.4, "rf_prob": 0.816, "has_rgb": true}
+{"case_id": "case056", "stratum": "F_rf_fp", "equipment": "계기용변압기(PT)", "label": "normal", "dT_scene_max": 7.4, "rf_prob": 0.578, "has_rgb": true}
+{"case_id": "case057", "stratum": "F_rf_fp", "equipment": "고압전동기", "label": "normal", "dT_scene_max": 36.1, "rf_prob": 0.605, "has_rgb": true}
+{"case_id": "case058", "stratum": "F_rf_fp", "equipment": "기어박스", "label": "normal", "dT_scene_max": 24.4, "rf_prob": 0.732, "has_rgb": true}
+{"case_id": "case059", "stratum": "F_rf_fp", "equipment": "기어박스", "label": "normal", "dT_scene_max": 38.0, "rf_prob": 0.637, "has_rgb": true}
+{"case_id": "case060", "stratum": "F_rf_fp", "equipment": "차축베어링", "label": "normal", "dT_scene_max": 38.9, "rf_prob": 0.503, "has_rgb": true}
+{"case_id": "case061", "stratum": "F_rf_fp", "equipment": "계기용변압기(PT)", "label": "normal", "dT_scene_max": 6.9, "rf_prob": 0.609, "has_rgb": true}
+{"case_id": "case062", "stratum": "F_rf_fp", "equipment": "기어박스", "label": "normal", "dT_scene_max": 24.7, "rf_prob": 0.604, "has_rgb": true}
+{"case_id": "case063", "stratum": "F_rf_fp", "equipment": "펌프", "label": "normal", "dT_scene_max": 29.5, "rf_prob": 0.742, "has_rgb": true}
+{"case_id": "case064", "stratum": "F_rf_fp", "equipment": "보일러", "label": "normal", "dT_scene_max": 44.2, "rf_prob": 0.552, "has_rgb": true}
+{"case_id": "case065", "stratum": "F_rf_fp", "equipment": "차축베어링", "label": "normal", "dT_scene_max": 46.8, "rf_prob": 0.645, "has_rgb": true}
+{"case_id": "case066", "stratum": "F_rf_fp", "equipment": "전자접촉기", "label": "normal", "dT_scene_max": 10.0, "rf_prob": 0.578, "has_rgb": true}
+{"case_id": "case067", "stratum": "F_rf_fp", "equipment": "차축베어링", "label": "normal", "dT_scene_max": 62.5, "rf_prob": 0.854, "has_rgb": true}
+{"case_id": "case068", "stratum": "G_rf_fn", "equipment": "차단기", "label": "danger", "dT_scene_max": 6.1, "rf_prob": 0.366, "has_rgb": true}
+{"case_id": "case069", "stratum": "G_rf_fn", "equipment": "변압기 케이블 연결개소 포함", "label": "danger", "dT_scene_max": 67.6, "rf_prob": 0.091, "has_rgb": true}
+{"case_id": "case070", "stratum": "H_unseen_equip", "equipment": "신재생 설비", "label": "normal", "dT_scene_max": 4.3, "rf_prob": 0.1, "has_rgb": true}
+{"case_id": "case071", "stratum": "H_unseen_equip", "equipment": "접지용 콘덴서", "label": "normal", "dT_scene_max": 1.1, "rf_prob": 0.085, "has_rgb": true}
+{"case_id": "case072", "stratum": "H_unseen_equip", "equipment": "신재생 설비", "label": "normal", "dT_scene_max": 2.6, "rf_prob": 0.138, "has_rgb": true}
+{"case_id": "case073", "stratum": "H_unseen_equip", "equipment": "접지용 콘덴서", "label": "danger", "dT_scene_max": 9.6, "rf_prob": 0.718, "has_rgb": true}
+{"case_id": "case074", "stratum": "H_unseen_equip", "equipment": "신재생 설비", "label": "normal", "dT_scene_max": 3.8, "rf_prob": 0.119, "has_rgb": true}
+{"case_id": "case075", "stratum": "H_unseen_equip", "equipment": "신재생 설비", "label": "normal", "dT_scene_max": 4.0, "rf_prob": 0.142, "has_rgb": true}
+{"case_id": "case076", "stratum": "H_unseen_equip", "equipment": "신재생 설비", "label": "normal", "dT_scene_max": 16.9, "rf_prob": 0.279, "has_rgb": true}
+{"case_id": "case077", "stratum": "H_unseen_equip", "equipment": "접지용 콘덴서", "label": "normal", "dT_scene_max": 4.0, "rf_prob": 0.096, "has_rgb": true}
+{"case_id": "case078", "stratum": "H_unseen_equip", "equipment": "접지용 콘덴서", "label": "danger", "dT_scene_max": 6.4, "rf_prob": 0.636, "has_rgb": true}
+{"case_id": "case079", "stratum": "H_unseen_equip", "equipment": "접지용 콘덴서", "label": "danger", "dT_scene_max": 17.3, "rf_prob": 0.67, "has_rgb": true}

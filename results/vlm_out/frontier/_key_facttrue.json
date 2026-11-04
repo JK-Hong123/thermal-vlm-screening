@@ -1,0 +1,322 @@
+{
+ "case000": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case001": {
+  "truth": "하단 우측",
+  "claimed": "하단 우측"
+ },
+ "case002": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case003": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case004": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case005": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case006": {
+  "truth": "하단 우측",
+  "claimed": "하단 우측"
+ },
+ "case007": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case008": {
+  "truth": "하단 우측",
+  "claimed": "하단 우측"
+ },
+ "case009": {
+  "truth": "하단 중앙",
+  "claimed": "하단 중앙"
+ },
+ "case010": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case011": {
+  "truth": "중단 좌측",
+  "claimed": "중단 좌측"
+ },
+ "case012": {
+  "truth": "하단 우측",
+  "claimed": "하단 우측"
+ },
+ "case013": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case014": {
+  "truth": "하단 중앙",
+  "claimed": "하단 중앙"
+ },
+ "case015": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case016": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case017": {
+  "truth": "중단 좌측",
+  "claimed": "중단 좌측"
+ },
+ "case018": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case019": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case020": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case021": {
+  "truth": "상단 중앙",
+  "claimed": "상단 중앙"
+ },
+ "case022": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case023": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case024": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case025": {
+  "truth": "상단 중앙",
+  "claimed": "상단 중앙"
+ },
+ "case026": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case027": {
+  "truth": "상단 중앙",
+  "claimed": "상단 중앙"
+ },
+ "case028": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case029": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case030": {
+  "truth": "중단 좌측",
+  "claimed": "중단 좌측"
+ },
+ "case031": {
+  "truth": "중단 우측",
+  "claimed": "중단 우측"
+ },
+ "case032": {
+  "truth": "하단 우측",
+  "claimed": "하단 우측"
+ },
+ "case033": {
+  "truth": "중단 좌측",
+  "claimed": "중단 좌측"
+ },
+ "case034": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case035": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case036": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case037": {
+  "truth": "중단 좌측",
+  "claimed": "중단 좌측"
+ },
+ "case038": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case039": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case040": {
+  "truth": "중단 좌측",
+  "claimed": "중단 좌측"
+ },
+ "case041": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case042": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case043": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case044": {
+  "truth": "하단 중앙",
+  "claimed": "하단 중앙"
+ },
+ "case045": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case046": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case047": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case048": {
+  "truth": "하단 중앙",
+  "claimed": "하단 중앙"
+ },
+ "case049": {
+  "truth": "하단 우측",
+  "claimed": "하단 우측"
+ },
+ "case050": {
+  "truth": "상단 중앙",
+  "claimed": "상단 중앙"
+ },
+ "case051": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case052": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case053": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case054": {
+  "truth": "하단 우측",
+  "claimed": "하단 우측"
+ },
+ "case055": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case056": {
+  "truth": "중단 우측",
+  "claimed": "중단 우측"
+ },
+ "case057": {
+  "truth": "하단 우측",
+  "claimed": "하단 우측"
+ },
+ "case058": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case059": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case060": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case061": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case062": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case063": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case064": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case065": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case066": {
+  "truth": "중단 좌측",
+  "claimed": "중단 좌측"
+ },
+ "case067": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case068": {
+  "truth": "하단 중앙",
+  "claimed": "하단 중앙"
+ },
+ "case069": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case070": {
+  "truth": "중단 우측",
+  "claimed": "중단 우측"
+ },
+ "case071": {
+  "truth": "상단 중앙",
+  "claimed": "상단 중앙"
+ },
+ "case072": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case073": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case074": {
+  "truth": "상단 우측",
+  "claimed": "상단 우측"
+ },
+ "case075": {
+  "truth": "중단 우측",
+  "claimed": "중단 우측"
+ },
+ "case076": {
+  "truth": "하단 좌측",
+  "claimed": "하단 좌측"
+ },
+ "case077": {
+  "truth": "중앙",
+  "claimed": "중앙"
+ },
+ "case078": {
+  "truth": "상단 좌측",
+  "claimed": "상단 좌측"
+ },
+ "case079": {
+  "truth": "상단 중앙",
+  "claimed": "상단 중앙"
+ }
+}

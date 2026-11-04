@@ -1,0 +1,11 @@
+[Frontier (Claude Fable 5.1), tool-free agents]
+  wrong record (n=80): accepted 0  rejected 80  unsure 0 | own cell = true 75  = planted 0
+  true record  (n=80): accepted 80  rejected 0  unsure 0 | own cell = true 80
+  acceptance rate: true record 1.00 vs wrong record 0.00  (difference = discrimination +1.00; a blanket policy gives 0)
+[Gemini 3.5 Flash-Lite (REST)]
+  wrong record (n=80): accepted 18  rejected 62  unsure 0 | own cell = true 41  = planted 18
+  true record  (n=80): accepted 73  rejected 7  unsure 0 | own cell = true 72
+  acceptance rate: true record 0.91 vs wrong record 0.23  (difference = discrimination +0.69; a blanket policy gives 0)
+  true records wrongly rejected: ['case009', 'case021', 'case028', 'case029', 'case038', 'case054', 'case057']
+
+(same image and prompt in both arms; the record text is the only difference; frontier agents audited tool-free, 2026-10-29/30)

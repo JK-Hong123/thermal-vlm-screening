@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "하단-좌",
+  "my_part": "상자 왼쪽 테두리 선의 아래쪽 구역. 상자 안 기어박스 하우징의 왼쪽 아래 옆면이, 상자 왼쪽으로 가로로 길게 밝게 보이는 축 방향 고온 띠(차축/축 부재로 추정)와 만나는 경계. 상자 오른쪽 바깥에는 밝은 차륜이 있고, 가시광('SR' 표기 공기통)은 열화상과 정렬이 맞지 않아 참고 불가",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 왼쪽 경계선 아래쪽에서 하우징 옆면과 왼쪽의 가로 고온 띠가 만나는 경계에 있다는 점을 이미지대로 기술해 외부 열원 오염 의심 판정과 정합적이며 각도 변경 재촬영을 추가했다. A는 외부 열원 오염 의심을 적어 두고도 조회표만으로 '출력축 베어링부'를 단정했다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": ["최고온 지점은 대상 하단 좌측에 있으며 조회표상 출력축 베어링부 부위로 추정됩니다."],
+  "ungrounded_examples_B": ["하우징 하단 좌측의 선형 열점이 외부 열원일 수 있으니 각도를 바꿔 재촬영해 확인한 뒤 씰 부위 누유와 윤활 상태를 점검해 주십시오."],
+  "trustworthy_for_operator": "B",
+  "notes": "B의 작업자 메모가 '선형 열점'이라 쓴 것은 같은 보고서의 열 소견 '다점형 분포'와 어긋나 자기모순 1건으로 계수했으나, 왼쪽의 가로 고온 띠를 묘사한 것으로 이미지와는 부합하는 경미한 불일치다. 테두리 제외 시 7.4°C 하락, 바로 바깥 73.0°C가 더 뜨겁다는 계측 문구는 내 판독(왼쪽 고온 띠가 경계로 유입)과 일치한다."
+}

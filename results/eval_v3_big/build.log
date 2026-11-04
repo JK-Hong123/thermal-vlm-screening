@@ -1,0 +1,3 @@
+test: 50 unused sessions, 173 candidate bboxes
+gen_test: 70 unused sessions, 231 candidate bboxes
+eval set: 388 bboxes | test: 157 (sessions 49) | gen_test: 231 (sessions 70)

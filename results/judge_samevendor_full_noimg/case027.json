@@ -1,0 +1,24 @@
+{
+  "case_id": "case027",
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상은 거의 균일한 자주색이며 상자 내부에 식별 가능한 구조가 없고 커서는 상자 상단 중앙 테두리 부근에 있음. 하단에 희미한 사각 패턴, 우상단에 작은 붉은 점이 상자 밖에 보임. 가시광은 제어반용 단자대(황색 압착단자, DIN 레일)로 보여 6.6kV 부스 접속부와 각도·대상이 달라 참고 불가. 부위 특정 불가.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "B는 부위를 특정하지 않고 형제 동반 온기와 정상 분포 상위권이라는 보고서 내 근거를 묶어 부하 전류·불평형률 측정, 체결 토크 점검 등 구체적 조치를 제시하는 반면, A는 이미지로 확인되지 않는 '부스바 접속부'를 조회표로 단정하고 메모가 '정상 감시 유지'에 그친다. 다만 B의 '정상 분포 상단을 벗어나'는 '상위 5% 이내'를 과장한 표현이다.",
+  "usefulness_A_1to5": 2,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "최고온 지점은 대상 상단 중앙에 있으며 조회표상 부스바 접속부 부위로 추정됩니다. (열화상에서 부위 식별 불가, 조회표 추정일 뿐)"
+  ],
+  "ungrounded_examples_B": [
+    "시스템 판정은 정상 범위이나 동종 설비 정상 분포 상단을 벗어나 있고 (판정 근거는 '정상 분포 상위 5.0% 이내'로 분포 안에 있다는 뜻이므로 '벗어나'는 과장)"
+  ],
+  "trustworthy_for_operator": "B",
+  "notes": "열점 '상단 중앙'은 커서 위치와 일치. 반사 의심 플래그가 있어 각도 변경 재촬영은 두 보고서 모두 포함. B의 과장 표현은 보수적 조치로 이어져 실무 위험은 낮음."
+}

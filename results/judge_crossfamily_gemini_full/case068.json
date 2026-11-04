@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차단기 단자 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 기계 검증을 통과하였으며 이미지 판독 및 권고 조치 내용이 계측 결과와 논리적으로 일치하여 더 신뢰할 수 있습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "기계 검증 1건 불합격 — 열점 위치 항목은 이미지 판독 대신 계측 기반 기본값으로 대체됨"
+ ],
+ "ungrounded_examples_B": [],
+ "case_id": "case068"
+}

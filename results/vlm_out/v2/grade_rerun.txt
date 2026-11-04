@@ -1,0 +1,77 @@
+
+===== v2: GTD-v2 automatic grades =====
+cond             n  js1  js2  dig1  dig2  cjk  oov   fb | gridEx gridAdj gridMis     κ |  patM  patD | part? cause? noteOK polar basisV compV   sec
+a0plus          70 0.00 0.00  0.00  0.00 0.00 0.00 0.50 |   1.00    1.00    0.00  1.00 |  1.00  0.00 |  0.00   0.11   1.00  0.00   0.43  0.00   0.0
+               eq_plausible={'확인 불가': 70} visual={'가시광 미판독': 70}
+template        70 0.00 0.00  0.00  0.00 0.00 0.00 1.00 |   0.00    0.00    0.00  1.00 |  0.10  0.00 |  1.00   1.00   0.00  0.00   0.00  0.00   0.0
+               eq_plausible={'확인 불가': 70} visual={'특이 없음': 70}
+v2              70 1.00 0.93  0.00  0.00 0.07 0.30 4.31 |   0.16    0.81    0.19  1.00 |  0.09  0.81 |  0.06   0.27   0.73  0.00   0.67  0.07  18.0
+               eq_plausible={'예': 70} visual={'반사 의심': 53, '가시광 정렬 미검증으로 표면 소견 판독 불가': 17}
+v2_markerpert   70 1.00 0.00  0.00  0.00 0.00 0.00 2.66 |   0.14    0.80    0.20  1.00 |  0.09  0.80 |  0.06   1.00   0.00  0.00   0.00  0.00   7.5
+               eq_plausible={'예': 70} visual={'반사 의심': 53, '가시광 정렬 미검증으로 표면 소견 판독 불가': 17}
+v2_nomarker     70 1.00 0.00  0.00  0.00 0.00 0.00 2.57 |   0.14    0.74    0.26  1.00 |  0.09  0.80 |  0.06   1.00   0.00  0.00   0.00  0.00   7.6
+               eq_plausible={'예': 70} visual={'반사 의심': 33, '가시광 정렬 미검증으로 표면 소견 판독 불가': 37}
+v2_norgb        70 1.00 0.91  0.00  0.00 0.07 0.29 4.31 |   0.16    0.79    0.21  1.00 |  0.07  0.83 |  0.06   0.29   0.70  0.00   0.63  0.07  18.0
+               eq_plausible={'예': 70} visual={'반사 의심': 58, '가시광 정렬 미검증으로 표면 소견 판독 불가': 12}
+v2_pass2only    70 0.00 0.94  0.00  0.00 0.04 0.33 2.51 |   0.00    0.00    0.00  1.00 |  0.10  0.00 |  1.00   0.24   0.64  0.00   0.47  0.07  10.5
+               eq_plausible={'확인 불가': 70} visual={'특이 없음': 70}
+
+  -- a0plus by stratum (gridEx / gridAdj / patM / dig / fallback / cause? / polarity) --
+    A_clear_danger     n=10  1.00 1.00 1.00 0.00 0.20 0.20 0.00
+    B_hot_but_normal   n=10  1.00 1.00 1.00 0.00 0.50 0.10 0.00
+    C_borderline       n=10  1.00 1.00 1.00 0.00 0.50 0.00 0.00
+    D_subtle_fault     n= 4  1.00 1.00 1.00 0.00 0.25 0.00 0.00
+    E_cool_normal      n=10  1.00 1.00 1.00 0.00 0.60 0.00 0.00
+    F_rf_fp            n=10  1.00 1.00 1.00 0.00 0.60 0.50 0.00
+    G_rf_fn            n=10  1.00 1.00 1.00 0.00 0.40 0.00 0.00
+    H_unseen_equip     n= 6  1.00 1.00 1.00 0.00 1.00 0.00 0.00
+
+  -- v2 by stratum (gridEx / gridAdj / patM / dig / fallback / cause? / polarity) --
+    A_clear_danger     n=10  0.00 0.80 0.10 0.00 5.00 0.20 0.00
+    B_hot_but_normal   n=10  0.10 1.00 0.00 0.00 4.70 0.50 0.00
+    C_borderline       n=10  0.10 0.90 0.20 0.00 4.10 0.30 0.00
+    D_subtle_fault     n= 4  0.25 0.50 0.00 0.00 3.50 0.00 0.00
+    E_cool_normal      n=10  0.20 0.70 0.00 0.00 3.80 0.00 0.00
+    F_rf_fp            n=10  0.20 0.90 0.20 0.00 5.00 0.60 0.00
+    G_rf_fn            n=10  0.10 0.60 0.10 0.00 4.10 0.30 0.00
+    H_unseen_equip     n= 6  0.50 1.00 0.00 0.00 3.50 0.00 0.00
+
+  -- v2_markerpert by stratum (gridEx / gridAdj / patM / dig / fallback / cause? / polarity) --
+    A_clear_danger     n=10  0.00 0.80 0.10 0.00 2.60 1.00 0.00
+    B_hot_but_normal   n=10  0.10 1.00 0.00 0.00 2.80 1.00 0.00
+    C_borderline       n=10  0.10 0.80 0.20 0.00 2.60 1.00 0.00
+    D_subtle_fault     n= 4  0.25 0.50 0.00 0.00 2.50 1.00 0.00
+    E_cool_normal      n=10  0.20 0.60 0.00 0.00 2.80 1.00 0.00
+    F_rf_fp            n=10  0.10 0.80 0.20 0.00 2.60 1.00 0.00
+    G_rf_fn            n=10  0.10 0.80 0.10 0.00 2.70 1.00 0.00
+    H_unseen_equip     n= 6  0.50 1.00 0.00 0.00 2.50 1.00 0.00
+
+  -- v2_nomarker by stratum (gridEx / gridAdj / patM / dig / fallback / cause? / polarity) --
+    A_clear_danger     n=10  0.00 0.60 0.10 0.00 2.30 1.00 0.00
+    B_hot_but_normal   n=10  0.00 0.80 0.00 0.00 2.80 1.00 0.00
+    C_borderline       n=10  0.30 0.90 0.20 0.00 2.40 1.00 0.00
+    D_subtle_fault     n= 4  0.25 0.75 0.00 0.00 2.50 1.00 0.00
+    E_cool_normal      n=10  0.20 0.70 0.00 0.00 2.80 1.00 0.00
+    F_rf_fp            n=10  0.10 0.80 0.20 0.00 2.50 1.00 0.00
+    G_rf_fn            n=10  0.10 0.50 0.10 0.00 2.60 1.00 0.00
+    H_unseen_equip     n= 6  0.33 1.00 0.00 0.00 2.67 1.00 0.00
+
+  -- v2_norgb by stratum (gridEx / gridAdj / patM / dig / fallback / cause? / polarity) --
+    A_clear_danger     n=10  0.00 0.80 0.10 0.00 4.70 0.20 0.00
+    B_hot_but_normal   n=10  0.10 1.00 0.00 0.00 4.70 0.50 0.00
+    C_borderline       n=10  0.10 0.80 0.20 0.00 4.30 0.30 0.00
+    D_subtle_fault     n= 4  0.25 0.50 0.00 0.00 3.25 0.00 0.00
+    E_cool_normal      n=10  0.10 0.70 0.00 0.00 3.90 0.10 0.00
+    F_rf_fp            n=10  0.20 0.80 0.10 0.00 5.20 0.60 0.00
+    G_rf_fn            n=10  0.10 0.60 0.10 0.00 4.10 0.30 0.00
+    H_unseen_equip     n= 6  0.67 1.00 0.00 0.00 3.33 0.00 0.00
+
+  -- v2_pass2only by stratum (gridEx / gridAdj / patM / dig / fallback / cause? / polarity) --
+    A_clear_danger     n=10  0.00 0.00 0.20 0.00 3.20 0.20 0.00
+    B_hot_but_normal   n=10  0.00 0.00 0.10 0.00 3.10 0.40 0.00
+    C_borderline       n=10  0.00 0.00 0.10 0.00 2.40 0.30 0.00
+    D_subtle_fault     n= 4  0.00 0.00 0.25 0.00 1.25 0.00 0.00
+    E_cool_normal      n=10  0.00 0.00 0.00 0.00 1.30 0.00 0.00
+    F_rf_fp            n=10  0.00 0.00 0.10 0.00 3.40 0.50 0.00
+    G_rf_fn            n=10  0.00 0.00 0.10 0.00 2.40 0.20 0.00
+    H_unseen_equip     n= 6  0.00 0.00 0.00 0.00 2.17 0.17 0.00

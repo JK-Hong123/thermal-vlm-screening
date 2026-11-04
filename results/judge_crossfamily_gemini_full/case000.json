@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "노벽 케이싱 / 점검구 주변",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 육안 가시광 정렬이 미검증되어 표면 소견 판독이 불가하다고 솔직하고 정확하게 기술한 반면, 보고서 B는 불확실한 부위(배관 접속부) 및 원인(베어링 손상 등)을 과도하게 추정하여 환각(hallucination) 위험이 있음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 배관 접속부 부위로 추정됩니다.",
+  "베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보일러 노벽/케이싱 환경에 적합한 보수적인 접근을 취한 보고서 A가 현장 작업자에게 훨씬 신뢰성 높음.",
+ "case_id": "case000"
+}

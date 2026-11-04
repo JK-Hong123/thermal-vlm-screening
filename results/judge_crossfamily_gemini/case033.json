@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 불량과 육안 특이 없음 등을 정직하게 반영하고 기계 검증 결과를 통해 신뢰도를 엄격하게 낮춘 반면, 보고서 B는 불분명한 이미지 상태에서도 단정적인 표현을 사용하여 상대적으로 신뢰성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A가 기계 검증 실패에 따른 기본값 대체 및 이미지 한계를 더 투명하게 명시함.",
+ "case_id": "case033"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "변압기 부싱 및 케이블 연결부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독 내용과 계측값이 정확히 부합하며 불필요한 혼란을 주지 않는 반면, 보고서 B는 기계 검증에서 불합격 판정을 받았음에도 모순적인 권고 조치와 현장 확인 항목을 제시함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "시스템 판정은 정상 범위이나 장면 대비 온도차가 크므로 반사 여부와 부하 조건을 재확인하시기 바랍니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 계측 데이터와 이미지 분석 간의 정합성이 높고 작업자 메모가 명확합니다.",
+ "case_id": "case015"
+}

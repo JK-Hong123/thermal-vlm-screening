@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "보일러 점검구 또는 벽체 상단 모서리부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 불량과 비정렬 상태를 정직하게 인정하고 부위 특정 불가로 판단한 반면, 보고서 B는 근거 없는 '배관 접속부' 특정 및 보일러 설비에 맞지 않는 회전기기 원인(베어링 손상 등)을 환각(hallucination)하여 신뢰할 수 없음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 1,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 1,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 좌측에 있으며 조회표상 배관 접속부 부위로 추정됩니다.",
+  "원인 후보(추정): 베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 보일러 설비에 존재하지 않는 회전기기 관련 고장 원인(베어링, 축 정렬)을 제시하여 위험함.",
+ "case_id": "case000"
+}

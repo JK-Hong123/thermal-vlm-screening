@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "애자형 부싱 상단 단자 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 가시광 이미지를 참고하여 구체적인 부위(애자형 부싱의 꼭대기 단자)를 더 정확히 식별했으며, 현장 조치 사항과 작업자 메모가 훨씬 실용적이고 상세하게 작성되어 있습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 시각 자료 분석 및 현장 정비 가이드 측면에서 작업자에게 훨씬 더 유용한 정보를 제공합니다.",
+ "case_id": "case079"
+}

@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "세로로 긴 상자의 오른쪽 위 가장자리(마커 원이 오른쪽 테두리에 걸쳐 있음). 열화상은 거의 균일해 부위 구분이 안 되며, 가시광의 수직 타공 레일과 상단 회색 블록(단자부로 보임)과의 대응도 불확실. 전자접촉기 상부 단자 쪽일 가능성은 있으나 이미지만으로는 특정 불가.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 부품 위쪽 오른편 가장자리에 걸쳐 있고 열화상에 구별되는 밝은 영역이 없다는 실제 관찰을 적었고, 작업자 메모가 낮은 신뢰도·재촬영 권고와 맞물려 구체적이다. A는 조회표 추정과 일반 문구에 그친다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "계측 사실(x_norm 0.864, y_norm 0.201, cell 2)과 내 판독 상단-우가 일치. A의 '점형'은 계측(n_hotspots 1, compactness 1.35)과 부합하고, B의 '불명'은 ΔT 2.2°C라 육안으로 구분되지 않는다는 뜻이라 둘 다 허용 가능. 두 보고서에 공통으로 들어간 신뢰도 문구 '게이트 확률 자체는 높으나'는 게이트 확률 0.004와 어긋나는 템플릿 문구이나 양쪽 동일한 코드 생성 부분이라 개별 보고서의 근거 없는 주장으로 세지 않음."
+}

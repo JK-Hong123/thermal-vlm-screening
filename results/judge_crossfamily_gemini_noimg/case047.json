@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "케이블 접속부 또는 부스바 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독을 시도하여 부위(케이블 슈 접속부)를 추정하려고 한 반면, 보고서 B는 이미지 판독을 포기하고 부위 확인 불가로 처리하여 정보 제공 측면에서 다소 아쉽습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "both",
+ "notes": "판정 및 수치 데이터는 동일하며, 이미지 판독에 대한 접근 방식(추정 시도 vs 보수적 미확인)에서만 차이가 납니다.",
+ "case_id": "case047"
+}

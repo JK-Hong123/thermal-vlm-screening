@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "차단기 상부 단자 접속부 또는 외벽 가장자리",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 가시광 이미지와 열화상 마커의 위치를 더 객관적으로 분석하고 현장 확인 항목을 적절히 제시함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 상단 좌측에 있으며 조회표상 상부 단자 접속부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 이미지 판독의 불확실성을 솔직히 인정하고 현장 조치 가이드를 구체적으로 제공하여 더 유용함.",
+ "case_id": "case043"
+}

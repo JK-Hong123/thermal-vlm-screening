@@ -1,0 +1,64 @@
+{
+ "case_id": "case054",
+ "cond": "template",
+ "raw": null,
+ "vlm_parsed": null,
+ "report": {
+  "case_id": "case054",
+  "equipment": "계기용변압기(PT)",
+  "site": "변전소",
+  "spec": "(6.6kV/√3)/(110V/√3)",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "장면 중앙값(주변 온도 대용, 비표준 기준점) 대비",
+  "severity_metric": "장면 대비 ΔT 6.7°C (장면 중앙값 26.1°C)",
+  "severity_source": "ANSI/NETA MTS Table 100.18 주변 대비(1~10 조사 / 11~20 수리 / 21~40 감시·시정 / >40 즉시) 준용",
+  "case_type": "hot_but_normal",
+  "case_type_ko": "장면 대비 고온이나 설비 특성상 정상 범위(게이트 통과)",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 15프레임 중 0프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 32.8,
+   "scene_median": 26.1,
+   "dT_scene": 6.7,
+   "dT_sibling": null,
+   "rf_prob": 0.075
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 15,
+   "n_flagged": 0,
+   "flag_frac": 0.0,
+   "rf_prob_median": 0.05,
+   "rf_prob_min": 0.018,
+   "rf_prob_max": 0.141,
+   "dT_scene_median": 6.5,
+   "dT_scene_min": 6.3,
+   "dT_scene_max_over_session": 6.8,
+   "t_max_median": 32.6,
+   "t_max_max": 32.9,
+   "hotspot_pos_mode": "center",
+   "hotspot_pos_stability": 0.8,
+   "hotspot_pos_same_as_this_frame": 0.8
+  },
+  "recommended_action": "절대온도 추세 기록(상시 고온 설비)",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; 형제 부품 없음",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "불명",
+   "heat_description": "(이미지 서술 없음: 시스템 기본 문구)",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "operator_note": "설비 특성상 고온이 정상 범위이므로 절대온도 추세만 기록하십시오.",
+   "image_consistent_with_facts": "불명",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": []
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

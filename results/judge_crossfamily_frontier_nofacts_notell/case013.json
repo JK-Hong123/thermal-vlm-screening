@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "장면 왼쪽 끝에 있는 세로 도체(케이블 또는 리드선)의 맨 위, 상부의 밝은 가로 모선(부스바) 왼쪽 끝과 만나는 접속부 부근. 세로 도체 자체는 상대적으로 저온",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 '왼쪽 끝 세로 케이블의 맨 위, 상부 가로 모선과 만나는 부근'이라는 서술이 내 판독과 일치하고 부하 기록·각도 변경 재촬영 항목을 더했다. B는 조회표 기반 '부싱'과 정상 발열 추정만 제시해 이미지 근거가 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "가시광은 배전반 내부의 천공 앵글과 단자대를 다른 각도에서 보여 직접 대응은 어렵지만 케이블 접속부 환경과는 부합. 두 보고서의 작업자 메모(공통 문구)에 '윤활 상태' 기록이 들어간 것은 변압기 케이블 접속부와 맞지 않는 공통 결함. B의 '부싱'은 조회표 추정으로 이미지상 모선-케이블 접속 지점과는 차이가 있다."
+}

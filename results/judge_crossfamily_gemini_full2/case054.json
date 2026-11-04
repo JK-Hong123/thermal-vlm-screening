@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "기어박스 출력축 베어링부 (인근 고온 차륜 접합부)",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지의 시각적 특징(차륜과의 경계 및 인접 고온부)을 구체적으로 서술하여 현장 작업자가 원인 분석을 수행하는 데 더 실질적인 도움을 줍니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 이미지 판독 영역에서 단순 계측값 반복을 넘어 실제 시각적 정황(차륜과의 맞닿는 경계)을 충실히 기술하였습니다.",
+ "case_id": "case054"
+}

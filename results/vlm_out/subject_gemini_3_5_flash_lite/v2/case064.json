@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"점검구·도어\",\n \"p_grid\": \"하단 좌측\",\n \"heat_pattern\": \"면형\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"양호\",\n \"part_location_ko\": \"점검구 도어 하단부 왼쪽에 마커가 위치함\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "고압전동기 하우징 또는 냉각 핀 영역",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지의 냉각 핀 구조를 정확히 파악하여 현장 확인 항목에 구체적인 통풍 및 냉각 상태 점검을 포함하였으나, 보고서 B는 '단자함'으로 오인하여 부적절한 권고를 제공했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 중앙에 있으며 조회표상 단자함 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A가 이미지 시각적 특징(냉각 핀)을 더 정확하게 반영하여 현장 작업자에게 유용한 점검 가이드를 제공합니다.",
+ "case_id": "case021"
+}

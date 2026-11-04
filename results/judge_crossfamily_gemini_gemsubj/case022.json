@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "우측-하단",
+ "my_part": "기어박스 출력축 베어링 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 '정상 범위 내'로 판단하면서 과도한 원인 추정을 피하고 신중한 재촬영을 권고하여 안전하며 데이터에 충실한 반면, 보고서 B는 정상 범위임에도 '베어링 손상·윤활 불량'이라는 과격한 원인 후보를 제시하여 오탐 가능성이 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 확인 불가 (판정이 L0 정상 범위임에도 모순되게 손상 가능성 제기)"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "정상 범위 내의 온도 분포임에도 심각한 결함을 원인 후보로 단정하는 것은 현장 작업자에게 불필요한 혼란을 줄 수 있습니다.",
+ "case_id": "case022"
+}

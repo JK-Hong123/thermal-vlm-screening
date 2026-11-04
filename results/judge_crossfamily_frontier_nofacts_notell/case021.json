@@ -1,0 +1,23 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "비스듬한 냉각 핀(리브)이 줄지어 있는 전동기 하우징(고정자 프레임) 표면의 윗부분; 가시광의 녹색 곡면 외함·플랜지와 부합하며 단자함 형상은 보이지 않음",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 비스듬한 냉각 핀이 늘어선 하우징 표면 윗부분에 있다는 점을 실제 이미지와 일치하게 읽고 통풍구 막힘 확인·부하 기록이라는 구체적 조치를 제시한 반면, B는 조회표로 '단자함'을 단정해 이미지와 맞지 않고 현장 확인 항목도 없음.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "원인 후보(추정): 과부하 운전, 냉각 불량   근거: 열 형태 (최고온 42.5°C가 동종 정상 분포 백분위 31.0으로 중앙값 44.9°C 이하이고 판정도 정상 범위라 과부하·냉각 불량을 뒷받침할 수치가 없음)"
+  ],
+  "ungrounded_examples_B": [
+    "이미지 판독: 부위 단자함 / … 조회표상 단자함 부위로 추정됩니다. (마커 위치는 냉각 핀이 늘어선 하우징 표면으로, 열화상·가시광 모두에서 단자함 형상이 보이지 않음)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "열점 위치 '상단 중앙'은 두 보고서 모두 내 판독과 일치. A의 원인 후보는 수치와 어긋나지만 작업자 메모가 '동종 정상 범위 안'임을 명시하고 예방적 확인으로 한정해 실무상 오해 소지는 작음. B의 메모 '윤활 상태만 기록'은 열점이 하우징 표면에 있다는 이미지 내용과 연결되지 않음."
+}

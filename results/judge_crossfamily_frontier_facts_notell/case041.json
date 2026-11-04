@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-중",
+  "my_part": "세로로 긴 상자의 위쪽(세로 약 16% 지점), 가로로는 가운데 칸과 오른쪽 칸 경계 바로 안쪽(약 65% 지점)에 마커가 있음. 상자 안은 주변과 구분되지 않는 균일한 자주색으로 열점이 육안으로 보이지 않고, 상자 오른쪽 바깥에 희미하게 밝은 얼룩이 따로 있음. 가시광은 함체 문·힌지 띠·수평 부스바로 보이는 막대가 보이나 정렬이 맞지 않아 구체 부위는 식별 불가(케이블·부스 연결부의 세로 구간으로 추정).",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서 모두 실제 이미지 서술이 없으나(A는 판독 유보, B는 조회표 문장), A는 보고서의 '재촬영 권고'에 맞춰 부하 전류·불평형률 측정, 각도 변경 재촬영, 부하 조건 기록을 구체적으로 지시해 현장 활용성이 높음. B는 확인 항목이 하나뿐이고 메모가 '판단 유보'에 그침.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "계측 사실: x_norm 0.67, y_norm 0.159로 가운데/오른쪽 칸 경계에 걸친 위치(cell_argmax 1=상단 중앙, hotspot_position_in_target은 top-right), 열점 26개·면적비 0.001로 다점형, 테두리 거리 32px로 외부 열원 의심 없음, 세션 최빈 위치 중단 우측과 불일치. 두 보고서의 '상단 우측'은 내 판독(상단 중앙)과 한 칸 차이이나 경계 위치라 모순으로 세지 않음(A는 스스로 '계측 adjacent'로 표기). B의 '열 형태 다점형'과 '정상 부하 발열' 추정은 장면 대비 ΔT 1.2°C·형제 대비 -3.8°C라는 수치와 어긋나지 않음. 공통 템플릿 '게이트 확률 자체는 높으나'는 게이트 확률 0.003과 어긋나지만 양쪽 동일하므로 제외."
+}

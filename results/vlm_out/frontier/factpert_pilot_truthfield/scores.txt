@@ -1,0 +1,1 @@
+[fact-falsification, factpert] n=80 | confirmed the planted (wrong) position: 0/80 = 0.00 | rejected it: 80/80 | own cell = true cell: 79/80 = 0.99 | own cell = planted cell: 0/80

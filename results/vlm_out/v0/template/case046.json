@@ -1,0 +1,22 @@
+{
+ "case_id": "case046",
+ "cond": "template",
+ "raw": null,
+ "parsed": {
+  "component": "차축베어링",
+  "verdict": "이상",
+  "severity": "L4",
+  "thermal_finding": "대상 최고 온도 72.7°C, 장면 중앙값 28.9°C, 장면 대비 온도차 43.9°C. 열점은 대상 내 bottom-left에 위치.",
+  "evidence_numbers": [
+   "72.7°C",
+   "28.9°C",
+   "43.9°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "즉시 조치(정지·부하차단 검토)",
+  "uncertainty": "탐지 모델 이상 확률 0.942. 단일 프레임 기반이며 부하율·이력은 확인 불가."
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

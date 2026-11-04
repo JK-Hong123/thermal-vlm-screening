@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 마커 위치와 열점의 상대적 위치를 이미지에 기반하여 구체적으로 서술하였으며, 기계 검증에서 일부 항목이 기본값으로 대체되었음을 명시하여 투명성을 높였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 이미지 내 마커와 열점 위치를 시각적으로 충실히 설명하고 있음.",
+ "case_id": "case061"
+}

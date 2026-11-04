@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"예\",\n \"my_cell\": \"중앙\",\n \"reason_ko\": \"마커가 흰 상자 내부의 정중앙에 위치하므로 시스템의 계측 기록과 일치합니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

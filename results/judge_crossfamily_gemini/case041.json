@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 화질과 판독 한계를 정직하게 인정하고 현장 확인 항목을 더 구체적으로 제시하여 기술자에게 신뢰를 줍니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 불분명한 이미지임에도 부위와 열 형태를 단정적으로 서술하여 과도한 추정이 포함됨.",
+ "case_id": "case041"
+}

@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"아니오\",\n \"my_cell\": \"중단 우측\",\n \"reason_ko\": \"시스템 기록은 중단 좌측이라고 하였으나 마커는 실제 중단 우측에 위치하여 일치하지 않습니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

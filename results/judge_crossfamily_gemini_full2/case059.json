@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "기어박스 하단 경계면 또는 인근 축 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 화질 확인 불가 및 육안 미판독 상태를 솔직하게 밝히고 기계 검증 불합격에 따라 계측 기반으로 객관적으로 처리한 반면, 보고서 B는 보이지 않는 가시광 상태를 과도하게 구체적으로 묘사하여 신뢰성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "마커는 대상 상자의 왼쪽 경계선 위 아래쪽 구역에 걸쳐 있으며, 하우징의 왼쪽 아래 옆면이 그 왼쪽에 가로로 길게 밝게 보이는 축 방향 고온 띠와 만나는 경계 부근에 놓여 있다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "기계 검증 불합격 시 이미지 판독 내용을 보수적으로 처리하는 보고서 A가 현장 작업자에게 더 안전하고 신뢰성 있는 가이드를 제공합니다.",
+ "case_id": "case059"
+}

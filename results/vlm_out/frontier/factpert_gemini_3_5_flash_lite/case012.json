@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"아니오\",\n \"my_cell\": \"하단 중앙\",\n \"reason_ko\": \"시스템은 상자 내 상단 좌측 칸을 가리켰으나 마커는 실제 하단 중앙에 있습니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

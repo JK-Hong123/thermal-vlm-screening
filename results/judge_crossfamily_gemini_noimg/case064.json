@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "보일러 점검구 또는 맨홀 도어 (핸들이 있는 둥근 형태)",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 이미지 판독에서 점검구·도어로 구체적 추정을 시도했으나, 본문 전체에서 신뢰도가 낮음(low) 및 비일관성을 경고하면서도 원인 후보로 베어링 손상 등을 지목하고 있어 신뢰성이 떨어집니다. 반면 보고서 A는 불확실한 부분을 솔직히 인정하여 현장 작업자에게 더 안전하고 정직한 정보를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 불확실성을 명확히 고지하여 과잉 정비나 오진을 방지하는 데 유리합니다.",
+ "case_id": "case064"
+}

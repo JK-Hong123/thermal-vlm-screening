@@ -1,0 +1,21 @@
+{
+ "case_id": "case046",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"차축베어링\",\n  \"verdict\": \"이상\",\n  \"severity\": \"L4 긴급\",\n  \"thermal_finding\": \"대상 부품의 열 분포는 화면의 top-right에 위치하며, 최고온도는 72.7°C로, 이는 대상 내 bottom-left에 위치한 열점의 최고온도(60.7°C)보다 매우 높아져 있어 이상을 시사합니다.\",\n  \"evidence_numbers\": [\"대상 부품 최고온도: 72.7°C\", \"대상 내 bottom-left 열점 최고온도: 60.7°C\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"즉시 조치(정지·부하차단 검토)\",\n  \"uncertainty\": \"판단의 한계: 열화상에서의 열 분포와 실제 부품 내부의 열 분포가 일치하지 않을 수 있으며, 추가적인 검증이 필요합니다.\"\n}\n```",
+ "parsed": {
+  "component": "차축베어링",
+  "verdict": "이상",
+  "severity": "L4 긴급",
+  "thermal_finding": "대상 부품의 열 분포는 화면의 top-right에 위치하며, 최고온도는 72.7°C로, 이는 대상 내 bottom-left에 위치한 열점의 최고온도(60.7°C)보다 매우 높아져 있어 이상을 시사합니다.",
+  "evidence_numbers": [
+   "대상 부품 최고온도: 72.7°C",
+   "대상 내 bottom-left 열점 최고온도: 60.7°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "즉시 조치(정지·부하차단 검토)",
+  "uncertainty": "판단의 한계: 열화상에서의 열 분포와 실제 부품 내부의 열 분포가 일치하지 않을 수 있으며, 추가적인 검증이 필요합니다."
+ },
+ "sec": 18.57,
+ "in_tok": 1865,
+ "out_tok": 238
+}

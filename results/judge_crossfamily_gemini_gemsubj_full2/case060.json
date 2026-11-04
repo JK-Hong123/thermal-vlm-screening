@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차축베어링 / 휠 림",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 불확실한 상황에서 원인 후보를 무리하게 추정하지 않고 '확인 불가'로 처리하여 신뢰성을 높인 반면, 보고서 B는 불확실함에도 임의의 원인 후보를 제시하여 진단의 객관성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 과부하 운전, 냉각 불량 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 기계 검증 결과에 따라 불확실한 원인 추정을 배제하고 현장 확인 항목을 충실히 제공하여 실무자에게 더 안전하고 유용한 정보를 제공합니다.",
+ "case_id": "case060"
+}

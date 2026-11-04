@@ -1,0 +1,21 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "고압전동기 프레임 또는 단자함 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 부위 확인 불가 및 화질 보통으로 정직하게 기술하였으나, 보고서 B는 모호한 이미지에서 단자함으로 단정하고 원인 후보를 임의로 생성하여 신뢰도가 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 좌측에 있으며 조회표상 단자함 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 및 가시광 화질이 불명확할 때 섣부른 부위 단정보다는 A 보고서처럼 불확실성을 명시하는 것이 현장 작업자에게 더 안전합니다.",
+ "case_id": "case020"
+}

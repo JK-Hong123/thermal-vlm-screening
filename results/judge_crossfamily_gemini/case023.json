@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 하우징 본체라는 부위 판독과 함께 진동 측정, 윤활 상태 확인 등 현장 작업자에게 더 구체적이고 실효성 있는 조치 항목을 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "trustworthy_for_operator": "B",
+ "notes": "두 보고서 모두 계측 및 소견 내용은 동일하나, 권고 조치와 현장 확인 항목의 구체성 측면에서 보고서 B가 현장 작업자에게 더 유용합니다.",
+ "case_id": "case023"
+}

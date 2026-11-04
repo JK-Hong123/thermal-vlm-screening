@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-우",
+  "my_part": "화면 우측 가장자리의 세로로 긴 원통형 고온 표면(전동기 프레임/하우징 측면 또는 배관으로 보임). 열이 띠 전체에 고르게 퍼진 면형이며 최고온점(크로스헤어)은 상자 하단 중앙에 있음. 좌하단에는 수평 줄무늬가 있는 넓은 고온면(냉각핀 또는 루버로 보임)이 별도로 있음. 가시광은 흐린 회색 평면과 명판만 보여 부위 특정 불가.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 면형으로 고르게 데워진 세로 띠라는 열화상 양상과 어울리는 '고정자 프레임'을 제시하고 냉각·통풍 확인과 반사 확인 재촬영을 구체 항목으로 넣었다. B의 '구동측 베어링 하우징'은 조회표 추정이며 국부 발열이 아닌 면형 분포와는 어울림이 약하나, 부하 조건 기록 후 재촬영이라는 추세 관리 지시는 유용하다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열점 위치 '하단 중앙'은 양 보고서 모두 내 판독과 일치한다. A는 열점 위치 항목이 '계측 adjacent'로 표시되어 원 판독이 계측과 조금 달랐음을 스스로 밝혔고 최종 표기는 계측값으로 대체되었다. B의 '구동측 베어링 하우징'은 이미지로 검증할 수 없어 횟수에 넣지 않았다. 형제 대비 ΔT 1.2°C로 동종 부품과 거의 같다는 수치가 있어 두 보고서 모두 L1 주의·재촬영 권고 수준이 적절하다."
+}

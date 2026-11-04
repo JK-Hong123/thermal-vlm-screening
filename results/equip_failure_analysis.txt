@@ -1,0 +1,50 @@
+설비별 실패 원인 분석 | RF(설비조건부) vs 규칙(dT_scene>5.5) | test 분할 | 세션 부트스트랩 95% CI
+
+[펌프] n=239 sessions=5 danger_prev=0.33
+  RF   AUROC 0.280 [0.049,0.661]  (CI includes 0.5: True)
+  rule AUROC 0.769 [0.308,1.000]  (CI includes 0.5: True)
+  RF 오분류 155/239건 중 규칙(dT_scene)은 라벨과 일치했던 비율: 77/155 (규칙도 같이 틀림 - 라벨 자체 문제 가능성)
+
+[계기용변압기(PT)] n=801 sessions=9 danger_prev=0.20
+  RF   AUROC 0.624 [0.050,0.863]  (CI includes 0.5: True)
+  rule AUROC 0.712 [0.102,0.906]  (CI includes 0.5: True)
+  RF 오분류 246/801건 중 규칙(dT_scene)은 라벨과 일치했던 비율: 42/246 (규칙도 같이 틀림 - 라벨 자체 문제 가능성)
+
+[단로기(DS)] n=1145 sessions=10 danger_prev=0.14
+  RF   AUROC 0.691 [0.453,0.976]  (CI includes 0.5: True)
+  rule AUROC 0.701 [0.459,0.970]  (CI includes 0.5: True)
+  RF 오분류 181/1145건 중 규칙(dT_scene)은 라벨과 일치했던 비율: 60/181 (규칙도 같이 틀림 - 라벨 자체 문제 가능성)
+
+[고압전동기] n=491 sessions=13 danger_prev=0.03
+  RF   AUROC 0.723 [0.446,1.000]  (CI includes 0.5: True)
+  rule AUROC 0.797 [0.588,0.946]  (CI includes 0.5: False)
+  RF 오분류 33/491건 중 규칙(dT_scene)은 라벨과 일치했던 비율: 10/33 (규칙도 같이 틀림 - 라벨 자체 문제 가능성)
+
+[변압기 접속부] n=1147 sessions=12 danger_prev=0.03
+  RF   AUROC 0.823 [0.705,0.926]  (CI includes 0.5: False)
+  rule AUROC 0.414 [0.142,0.761]  (CI includes 0.5: True)
+  RF 오분류 31/1147건 중 규칙(dT_scene)은 라벨과 일치했던 비율: 8/31 (규칙도 같이 틀림 - 라벨 자체 문제 가능성)
+
+=== 특징 중요도 (전체 RF, 상위 12) ===
+  dT_scene_max                 0.0907
+  t_std                        0.0753
+  t_max                        0.0671
+  dT_sib_max                   0.0670
+  t_mean                       0.0657
+  scene_med                    0.0615
+  grad_max                     0.0454
+  t_p95                        0.0450
+  scene_p95                    0.0449
+  w                            0.0447
+  grad_mean                    0.0430
+  frac_hot                     0.0369
+
+=== 펌프 상세: 오분류 사례 표본 (최대 8건) ===
+  세션=0302030728(1022) 라벨=danger RF_p=0.42 dT_scene=88.9 t_max=134.4 (규칙판정=flag)
+  세션=0302030728(1022) 라벨=danger RF_p=0.33 dT_scene=88.7 t_max=134.0 (규칙판정=flag)
+  세션=0302020915(1111) 라벨=normal RF_p=0.77 dT_scene=30.3 t_max=60.5 (규칙판정=flag)
+  세션=0302030728(1022) 라벨=danger RF_p=0.15 dT_scene=90.0 t_max=134.4 (규칙판정=flag)
+  세션=0302030728(1022) 라벨=danger RF_p=0.42 dT_scene=89.0 t_max=134.4 (규칙판정=flag)
+  세션=0302030728(1022) 라벨=danger RF_p=0.12 dT_scene=89.9 t_max=134.4 (규칙판정=flag)
+  세션=0302030728(1022) 라벨=danger RF_p=0.39 dT_scene=87.9 t_max=133.0 (규칙판정=flag)
+  세션=0302020915(1111) 라벨=normal RF_p=0.58 dT_scene=29.3 t_max=59.7 (규칙판정=flag)

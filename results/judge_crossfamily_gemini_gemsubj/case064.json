@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중앙",
+ "my_part": "보일러 점검구 및 핸들 잠금장치",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 신뢰도가 낮고 비일관적인 세션 결과를 정직하게 반영하여 현장 재촬영과 부하 확인을 권고한 반면, B는 베어링 손상 등 근거가 부족한 과도한 추정 원인을 제시했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 이미지 상 점검구 도어 형태가 명확히 보이며, 온도 분포나 세션 일관성 측면에서 A 보고서의 보수적이고 신중한 접근이 현장 작업자에게 더 안전하고 유용합니다.",
+ "case_id": "case064"
+}

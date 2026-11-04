@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 마커 위치와 실제 열화상 이미지의 구조(배관/도관 인접 여부 등)를 면밀히 분석하여 오탐 가능성을 지적한 반면, 보고서 B는 이미지와 무관한 판독을 수행했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 이미지 내 마커와 실제 발열 지점의 물리적 위치(배관/도관 등)를 정확히 대조하여 현장 작업자에게 높은 신뢰성을 제공합니다.",
+ "case_id": "case057"
+}

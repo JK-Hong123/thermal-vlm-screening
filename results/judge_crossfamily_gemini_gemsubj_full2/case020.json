@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "고압전동기 단자함 또는 상부 프레임",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 양호 및 육안 특이 없음 등 이미지 상태를 충실히 반영하고 기계 검증 결과를 정직하게 기재한 반면, B는 가시광 미판독 상태에서 임의로 부위(단자함)를 단정하고 모순된 원인 후보를 제시함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 단자함 (가시광 미판독 상태에서 단정)",
+  "원인 후보(추정): 정상 운전 발열 (신뢰도 낮음 및 반사 의심 상태와 모순)"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 단일 촬영 한계와 반사 의심 요소를 투명하게 공개하여 현장 작업자가 주의 깊게 재촬영하도록 유도함.",
+ "case_id": "case020"
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "case039",
+  "my_marker_cell": "중단-중",
+  "my_part": "작고 세로로 긴 흰 상자가 화면 정중앙에 있고, 큰 청색 십자 마커가 상자 한가운데를 거의 덮고 있음. 상자 오른쪽 바깥(화면 우측 1/3)에 매우 밝은 노랑·주황 세로 띠(화면 최고온 97.3°C에 해당하는 차륜/제동부로 추정)가 따로 있고, 상자 안은 주변과 비슷한 적자색으로 뚜렷한 열점이 보이지 않음. 가시광은 심하게 흐려 흰 바탕과 어두운 덩어리만 보임. 고온 차륜 옆의 차축 베어링 하우징 측면으로 추정.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 작은 세로 상자 한가운데의 마커와 상자 오른쪽 바깥의 밝은 세로 띠를 실제로 서술해(내 판독과 일치) L1 플래그를 해석할 맥락을 주고, 베어링에 맞는 진동·윤활 점검을 현장 확인 항목으로 제시한다. A는 조회표 문장과 부하 기록 재촬영 한 항목만 제공한다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "판정·계측·신뢰도 동일. 형제 대비 ΔT -32.5°C(형제 1개, sibling_contaminated)는 동종 부품이 훨씬 더 뜨겁다는 뜻이며, B의 '동종 부품도 함께 따뜻한 것으로 의심'은 이를 완곡하게 옮긴 표현으로 수치와 모순되지는 않음. A의 메모 '국부 열점 형상으로 플래그'는 열 소견의 '불명 분포'와 긴장 관계이나 케이스 유형 문구를 옮긴 것으로 보아 세지 않음. A의 '차축 본체'는 조회표 추정. 상자 안에 뚜렷한 열점이 보이지 않고 바로 옆에 매우 뜨거운 띠가 있다는 점은 두 보고서 모두 신뢰도 근거로 더 명시했으면 좋았음."
+}

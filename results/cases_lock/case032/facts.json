@@ -1,0 +1,120 @@
+{
+ "case_id": "case032",
+ "frame_key": "0203030817(2310)(0127)",
+ "session": "0203030817(2310)",
+ "split_group": "test",
+ "stratum": "C_borderline",
+ "equipment": "변압기 케이블 연결개소 포함",
+ "component_class": "변압기 케이블 연결개소 포함",
+ "spec": "6.6KV,380/220V,150kVA",
+ "site": "변전소",
+ "n_components_in_frame": 3,
+ "target_index": 2,
+ "bbox": {
+  "x": 473,
+  "y": 252,
+  "width": 53,
+  "height": 163
+ },
+ "bbox_position_in_frame": "middle-right",
+ "calib": {
+  "emissivity": 0.95,
+  "obj_distance": 1.0,
+  "reflected_temp": 24.0,
+  "atmospheric_temp": 24.0,
+  "relative_humidity": 50.0
+ },
+ "thermal": {
+  "t_max": 40.6,
+  "t_mean": 36.1,
+  "t_min": 33.3,
+  "t_p95": 37.4,
+  "t_std": 0.81,
+  "scene_median": 35.8,
+  "scene_p95": 37.2,
+  "scene_max": 66.6,
+  "frame_max_inside_target": false,
+  "dT_scene_max": 4.8,
+  "dT_scene_mean": 0.3,
+  "n_siblings": 2,
+  "sibling_t_max": [
+   38.6,
+   39.5
+  ],
+  "sibling_reference": 39.0,
+  "dT_sibling_max": 1.5,
+  "hotspot_area_frac": 0.001,
+  "n_hotspots": 2,
+  "hotspot_compactness": 2.14,
+  "hotspot_position_in_target": "bottom-right",
+  "peak_z": 5.47,
+  "ambient_temp": 24.0,
+  "dT_over_ambient": 16.6
+ },
+ "gate": {
+  "rf_prob": 0.031,
+  "rf_verdict": "pass",
+  "rule_verdict": "pass",
+  "band_placeholder": "L1_low"
+ },
+ "images": {
+  "thermal_full": "thermal_full.png",
+  "thermal_crop": "thermal_crop.png",
+  "rgb_crop": "rgb_crop.png",
+  "thermal_crop_v2": "thermal_crop_v2.png",
+  "thermal_crop_v2_pert": "thermal_crop_v2_pert.png",
+  "thermal_crop_v2_nomark": "thermal_crop_v2_nomark.png",
+  "rgb_crop_v2": "rgb_crop_v2.png"
+ },
+ "hidden": {
+  "label": "normal"
+ },
+ "session_agg": {
+  "n_frames_in_session": 40,
+  "n_frames_component_matched": 15,
+  "n_flagged": 0,
+  "flag_frac": 0.0,
+  "rf_prob_median": 0.022,
+  "rf_prob_min": 0.018,
+  "rf_prob_max": 0.109,
+  "dT_scene_median": 3.7,
+  "dT_scene_min": 3.0,
+  "dT_scene_max_over_session": 5.5,
+  "t_max_median": 39.5,
+  "t_max_max": 41.2,
+  "hotspot_pos_mode": "bottom-center",
+  "hotspot_pos_stability": 0.47,
+  "hotspot_pos_same_as_this_frame": 0.13
+ },
+ "norms": {
+  "equipment_seen_in_training": true,
+  "n_normal_train": 7899,
+  "t_max_pct_vs_normal": 10.1,
+  "dT_scene_pct_vs_normal": 11.1,
+  "dT_sib_pct_vs_normal": 60.7,
+  "normal_t_max_p50": 67.0,
+  "normal_t_max_p95": 137.7,
+  "normal_t_max_p99": 149.6,
+  "normal_dT_scene_p50": 34.9,
+  "normal_dT_scene_p95": 99.9,
+  "normal_dT_scene_p99": 109.6,
+  "danger_t_max_p50": 61.6,
+  "danger_dT_scene_p50": 25.6
+ },
+ "boundary": {
+  "inset_px": 3,
+  "peak_border_distance_px": 13,
+  "t_max_eroded": 40.6,
+  "dT_scene_eroded": 4.8,
+  "t_max_just_outside": 37.6,
+  "dT_drop_when_border_removed": 0.0,
+  "external_source_suspected": false
+ },
+ "hotspot_labels_v2": {
+  "cell_argmax": 8,
+  "cell_smooth": 7,
+  "x_norm": 0.462,
+  "y_norm": 0.704,
+  "dT_scene": 4.8
+ }
+}

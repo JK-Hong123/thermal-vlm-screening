@@ -1,0 +1,24 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상 크롭이 극도로 확대된 균일한 암보라색 면이라 구조가 전혀 식별되지 않으며, 상자가 화면 중앙에 있고 큰 십자 표식이 상자 정중앙을 덮고 있음. 가시광은 멀리서 본 가로 줄무늬(방열핀 또는 루버) 면과 상단의 가는 돌기만 보여 변압기 주변부로 짐작될 뿐 리드 접속부 여부는 판별 불가.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "B",
+  "preference_reason": "A는 마커가 상자 정중앙에 있다는 서술은 맞지만 무특징 크롭에 대해 '점형'·'화질 양호'라 적어 보고서의 '불명 분포' 및 roi_small 한계와 어긋나고, B는 판독은 조회표 수준이나 열 형태를 불명으로 솔직히 적고 메모가 권고(부하 조건 기록 후 재촬영)와 정확히 일치한다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 2,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "열 형태 점형 — 같은 보고서의 열 소견은 '중앙에 불명 분포'이고 이미지에서도 열점 형태가 식별되지 않음",
+    "화질 양호 — 열화상 크롭은 구조가 전혀 보이지 않는 확대 블러이며 한계 항목에 roi_small이 적혀 있음"
+  ],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 정상 부하 발열   근거: 열 형태 — 같은 보고서에서 열 형태를 '불명'으로 적어 놓고 그것을 근거로 삼음"
+  ],
+  "trustworthy_for_operator": "B",
+  "notes": "A의 현장 확인 항목(체결 토크·접촉저항 측정)은 형제 대비 -0.0°C, 장면 대비 5.9°C의 경계 케이스에는 과한 지시이며 원인 후보 '접촉저항 증가'도 점형이라는 미확인 형태에 기대고 있음. 두 보고서 모두 화면 최고온 54.6°C가 상자 밖이라는 점을 적어 상자 범위 확인·재촬영 필요성은 공유함."
+}

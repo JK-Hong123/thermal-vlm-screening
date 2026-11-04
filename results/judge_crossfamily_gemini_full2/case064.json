@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "보일러 점검구 또는 핸드홀 도어 하단 프레임 부위",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독을 바탕으로 구체적인 원인 추정과 실효성 있는 현장 확인 항목(진동 측정, 윤활 상태 확인 등)을 제시하여 실무 활용성이 더 높습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "기계 검증: 5건 불합격 → 열 형태, 위치 서술, 육안 소견, 작업자 메모, 확인 항목 항목은 이미지 판독 대신 계측 기반 기본값으로 대체됨"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 자체 기계 검증 실패로 인해 일부 항목이 기본값으로 대체되었다는 단점이 있는 반면, 보고서 B는 검증을 통과하고 엔지니어링 관점에서 적절한 조치 사항을 잘 도출하였습니다.",
+ "case_id": "case064"
+}

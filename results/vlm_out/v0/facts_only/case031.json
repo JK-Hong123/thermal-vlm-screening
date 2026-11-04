@@ -1,0 +1,26 @@
+{
+ "case_id": "case031",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"변압기 접속부\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품의 최고 온도는 27.8°C로, 평균 온도는 25.1°C이며, 장면(배경) 중앙값 온도는 23.9°C로, 온도차 ΔT_scene = 3.9°C입니다. 동종 형제 부품의 최고온도는 28.0°C와 27.8°C로, 형제 대비 온도차 ΔT_sib = -0.1°C입니다.\",\n  \"evidence_numbers\": [\"27.8°C\", \"25.1°C\", \"23.9°C\", \"3.9°C\", \"28.0°C\", \"27.8°C\", \"-0.1°C\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정상 감시 유지\",\n  \"uncertainty\": \"확인 불가\"\n}\n```",
+ "parsed": {
+  "component": "변압기 접속부",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품의 최고 온도는 27.8°C로, 평균 온도는 25.1°C이며, 장면(배경) 중앙값 온도는 23.9°C로, 온도차 ΔT_scene = 3.9°C입니다. 동종 형제 부품의 최고온도는 28.0°C와 27.8°C로, 형제 대비 온도차 ΔT_sib = -0.1°C입니다.",
+  "evidence_numbers": [
+   "27.8°C",
+   "25.1°C",
+   "23.9°C",
+   "3.9°C",
+   "28.0°C",
+   "27.8°C",
+   "-0.1°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정상 감시 유지",
+  "uncertainty": "확인 불가"
+ },
+ "sec": 17.53,
+ "in_tok": 1011,
+ "out_tok": 249
+}

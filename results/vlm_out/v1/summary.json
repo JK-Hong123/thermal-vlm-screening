@@ -1,0 +1,188 @@
+{
+ "full": {
+  "overall": {
+   "n": 70,
+   "json_ok": 1.0,
+   "raw_digits": 0.6571428571428571,
+   "raw_cjk": 0.02857142857142857,
+   "fallback_any": 0.6714285714285714,
+   "mean_fallback_fields": 0.6857142857142857,
+   "informative": 0.7785714285714287,
+   "mean_sec": 14.137142857142855,
+   "consistent": {
+    "예": 67,
+    "아니오": 3
+   }
+  },
+  "by_stratum": {
+   "A_clear_danger": {
+    "n": 10,
+    "raw_digits": 0.7,
+    "fallback_any": 0.7,
+    "informative": 0.75,
+    "consistent_yes": 1.0
+   },
+   "B_hot_but_normal": {
+    "n": 10,
+    "raw_digits": 0.6,
+    "fallback_any": 0.6,
+    "informative": 0.7833333333333333,
+    "consistent_yes": 1.0
+   },
+   "C_borderline": {
+    "n": 10,
+    "raw_digits": 0.7,
+    "fallback_any": 0.7,
+    "informative": 0.8,
+    "consistent_yes": 0.9
+   },
+   "D_subtle_fault": {
+    "n": 4,
+    "raw_digits": 0.75,
+    "fallback_any": 0.75,
+    "informative": 0.7916666666666666,
+    "consistent_yes": 1.0
+   },
+   "E_cool_normal": {
+    "n": 10,
+    "raw_digits": 0.9,
+    "fallback_any": 0.9,
+    "informative": 0.75,
+    "consistent_yes": 1.0
+   },
+   "F_rf_fp": {
+    "n": 10,
+    "raw_digits": 0.5,
+    "fallback_any": 0.6,
+    "informative": 0.7666666666666667,
+    "consistent_yes": 1.0
+   },
+   "G_rf_fn": {
+    "n": 10,
+    "raw_digits": 0.6,
+    "fallback_any": 0.6,
+    "informative": 0.8166666666666668,
+    "consistent_yes": 1.0
+   },
+   "H_unseen_equip": {
+    "n": 6,
+    "raw_digits": 0.5,
+    "fallback_any": 0.5,
+    "informative": 0.7777777777777778,
+    "consistent_yes": 0.6666666666666666
+   }
+  }
+ },
+ "full_perturbed": {
+  "overall": {
+   "n": 29,
+   "json_ok": 1.0,
+   "raw_digits": 0.6206896551724138,
+   "raw_cjk": 0.0,
+   "fallback_any": 0.6206896551724138,
+   "mean_fallback_fields": 0.6206896551724138,
+   "informative": 0.8045977011494252,
+   "mean_sec": 14.270689655172411,
+   "consistent": {
+    "예": 28,
+    "아니오": 1
+   }
+  },
+  "by_stratum": {
+   "A_clear_danger": {
+    "n": 10,
+    "raw_digits": 0.7,
+    "fallback_any": 0.7,
+    "informative": 0.7166666666666667,
+    "consistent_yes": 0.9
+   },
+   "B_hot_but_normal": {
+    "n": 10,
+    "raw_digits": 0.4,
+    "fallback_any": 0.4,
+    "informative": 0.8833333333333334,
+    "consistent_yes": 1.0
+   },
+   "C_borderline": {
+    "n": 9,
+    "raw_digits": 0.7777777777777778,
+    "fallback_any": 0.7777777777777778,
+    "informative": 0.8148148148148149,
+    "consistent_yes": 1.0
+   }
+  }
+ },
+ "template": {
+  "overall": {
+   "n": 70,
+   "json_ok": 1.0,
+   "raw_digits": 0.0,
+   "raw_cjk": 0.0,
+   "fallback_any": 0.0,
+   "mean_fallback_fields": 0.0,
+   "informative": 0.3333333333333331,
+   "mean_sec": 0.0,
+   "consistent": {
+    "불명": 70
+   }
+  },
+  "by_stratum": {
+   "A_clear_danger": {
+    "n": 10,
+    "raw_digits": 0.0,
+    "fallback_any": 0.0,
+    "informative": 0.33333333333333337,
+    "consistent_yes": 0.0
+   },
+   "B_hot_but_normal": {
+    "n": 10,
+    "raw_digits": 0.0,
+    "fallback_any": 0.0,
+    "informative": 0.33333333333333337,
+    "consistent_yes": 0.0
+   },
+   "C_borderline": {
+    "n": 10,
+    "raw_digits": 0.0,
+    "fallback_any": 0.0,
+    "informative": 0.33333333333333337,
+    "consistent_yes": 0.0
+   },
+   "D_subtle_fault": {
+    "n": 4,
+    "raw_digits": 0.0,
+    "fallback_any": 0.0,
+    "informative": 0.3333333333333333,
+    "consistent_yes": 0.0
+   },
+   "E_cool_normal": {
+    "n": 10,
+    "raw_digits": 0.0,
+    "fallback_any": 0.0,
+    "informative": 0.33333333333333337,
+    "consistent_yes": 0.0
+   },
+   "F_rf_fp": {
+    "n": 10,
+    "raw_digits": 0.0,
+    "fallback_any": 0.0,
+    "informative": 0.33333333333333337,
+    "consistent_yes": 0.0
+   },
+   "G_rf_fn": {
+    "n": 10,
+    "raw_digits": 0.0,
+    "fallback_any": 0.0,
+    "informative": 0.33333333333333337,
+    "consistent_yes": 0.0
+   },
+   "H_unseen_equip": {
+    "n": 6,
+    "raw_digits": 0.0,
+    "fallback_any": 0.0,
+    "informative": 0.3333333333333333,
+    "consistent_yes": 0.0
+   }
+  }
+ }
+}

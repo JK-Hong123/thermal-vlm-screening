@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"차축 베어링(액슬박스)\",\n \"p_grid\": \"중앙\",\n \"heat_pattern\": \"점형(작고 국부)\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"대상 부품의 중앙 부분에 위치합니다.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2_markerpert"
+}

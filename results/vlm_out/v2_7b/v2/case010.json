@@ -1,0 +1,112 @@
+{
+ "case_id": "case010",
+ "cond": "v2",
+ "raw": {
+  "pass1": "```json\n{\n  \"equipment_plausible\": \"예\",\n  \"part\": \"부싱 단자\",\n  \"p_grid\": \"상단 중앙\",\n  \"heat_pattern\": \"점형\",\n  \"visual_flags\": [\"반사 의심\"],\n  \"image_quality\": \"양호\",\n  \"part_location_ko\": \"부싱 단자 위쪽 중앙\"\n}\n```",
+  "pass2": "{\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가(체결 이완·산화)\", \"접촉면 오염\"],\n  \"cause_basis\": [\"동종 부품 대비\", \"열 형태\", \"육안 특이\", \"세션 증거\"],\n  \"field_checks\": [\"접촉저항 측정\", \"접촉면 청소·산화 확인\", \"냉각·통풍 상태 확인\"],\n  \"operator_note_ko\": \"접촉부 접촉저항을 확인하고, 접촉면의 오염 여부를 점검해주세요.\"\n}"
+ },
+ "secs": {
+  "pass1": 6.18,
+  "pass2": 9.6
+ },
+ "report": {
+  "case_id": "case010",
+  "equipment": "변압기 접속부",
+  "site": "서부발전",
+  "spec": "고압부(345kV)",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "장면 중앙값(주변 온도 대용, 비표준 기준점) 대비 — 형제 동반 과열로 형제 기준 무효",
+  "severity_metric": "장면 대비 ΔT 9.1°C (장면 중앙값 14.1°C)",
+  "severity_source": "ANSI/NETA MTS Table 100.18 주변 대비(1~10 조사 / 11~20 수리 / 21~40 감시·시정 / >40 즉시) 준용",
+  "scene_level": 1,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 변압기 표면 80~95 요주의 / ≥95 이상 (국토안전관리원 온도패턴법)",
+  "measurements": {
+   "t_max": 23.2,
+   "t_mean": 16.8,
+   "scene_median": 14.1,
+   "dT_scene": 9.1,
+   "sibling_reference": 22.8,
+   "dT_sibling": 0.4,
+   "n_siblings": 2,
+   "hotspot_area_frac": 0.203,
+   "rf_prob": 0.274,
+   "t_max_eroded": 23.2,
+   "dT_scene_eroded": 9.1
+  },
+  "thermal_finding_ko": "대상 최고 온도 23.2°C, 장면 중앙값 14.1°C(장면 대비 9.1°C). 열점은 대상 내 하단 중앙에 불명 분포; 동종 부품 대비 0.4°C; 화면 최고온(44.4°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "동종 설비 정상 분포 범위 내"
+  ],
+  "caveats_ko": [
+   "장면 대비 ΔT 9.1°C는 절대값으로는 크지만 동종 설비 정상 분포 내(백분위 78.2)",
+   "화면 최고온(44.4°C)이 대상 밖에 있어 상자가 발열부를 온전히 포함하는지 확인 필요"
+  ],
+  "case_type": "hot_but_normal",
+  "case_type_ko": "장면 대비 고온이나 게이트 판정은 정상(동종 설비 정상 분포 내로 판단; 미탐 가능성 있음)",
+  "confidence": "low",
+  "confidence_reason": "단일 프레임 근거이며 게이트 확률(0.274)이 경계 근접 → 재촬영 권고",
+  "action_ko": "절대온도 추세 기록 후 다음 점검 시 재확인; 신뢰도 낮음 — 재촬영 권고",
+  "field_checks_ko": [
+   "각도 바꿔 재촬영(반사 확인)",
+   "접촉저항 측정",
+   "접촉면 청소·산화 확인"
+  ],
+  "session_evidence_line": "세션 내 동일 부품 매칭 없음(단일 프레임 근거)",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_contaminated",
+   "rgb_unaligned"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "mismatch",
+  "pattern_check": "unknown",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "부싱 단자",
+   "p_grid": "하단 중앙",
+   "heat_pattern": "점형",
+   "visual_flags": [
+    "반사 의심"
+   ],
+   "image_quality": "양호",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "접촉면 오염"
+   ],
+   "cause_basis": [
+    "동종 부품 대비",
+    "열 형태",
+    "육안 특이"
+   ],
+   "field_checks": [
+    "각도 바꿔 재촬영(반사 확인)",
+    "접촉저항 측정",
+    "접촉면 청소·산화 확인"
+   ],
+   "operator_note_ko": "접촉부 접촉저항을 확인하고, 접촉면의 오염 여부를 점검해주세요."
+  },
+  "validation": {
+   "violations": [
+    "basis:session_absent",
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "basis",
+    "p_grid"
+   ]
+  }
+ }
+}

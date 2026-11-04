@@ -1,0 +1,94 @@
+{
+ "case_id": "case036",
+ "cond": "v2_markerpert",
+ "raw": {
+  "pass1": "```json\n{\n  \"equipment_plausible\": \"예\",\n  \"part\": \"리드 접속부\",\n  \"p_grid\": \"중단 우측\",\n  \"heat_pattern\": \"선형\",\n  \"visual_flags\": [\"반사 의심\", \"표면 변색\"],\n  \"image_quality\": \"보통\",\n  \"part_location_ko\": \"리드 접속부 중간 우측\"\n}\n```"
+ },
+ "secs": {
+  "pass1": 7.19
+ },
+ "report": {
+  "case_id": "case036",
+  "equipment": "변압기 접속부",
+  "site": "서부발전",
+  "spec": "고압부(345kV)",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 0.9°C (형제 2개, 기준 26.4°C); 장면 대비 ΔT 4.3°C",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "scene_level": 0,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 변압기 표면 80~95 요주의 / ≥95 이상 (국토안전관리원 온도패턴법)",
+  "measurements": {
+   "t_max": 27.3,
+   "t_mean": 23.3,
+   "scene_median": 23.0,
+   "dT_scene": 4.3,
+   "sibling_reference": 26.4,
+   "dT_sibling": 0.9,
+   "n_siblings": 2,
+   "hotspot_area_frac": 0.085,
+   "rf_prob": 0.092,
+   "t_max_eroded": 27.3,
+   "dT_scene_eroded": 4.3
+  },
+  "thermal_finding_ko": "대상 최고 온도 27.3°C, 장면 중앙값 23.0°C(장면 대비 4.3°C). 열점은 대상 내 하단 좌측에 불명 분포; 동종 부품 대비 0.9°C; 화면 최고온(48.8°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "특징 조합(형상·온도)에 의한 게이트 판정"
+  ],
+  "caveats_ko": [],
+  "case_type": "normal",
+  "case_type_ko": "정상 범위",
+  "confidence": "medium",
+  "confidence_reason": "단일 프레임 근거(세션 내 동일 부품 매칭 0프레임), 게이트 확률 0.092",
+  "action_ko": "정상 감시 유지",
+  "field_checks_ko": [],
+  "session_evidence_line": "세션 내 동일 부품 매칭 없음(단일 프레임 근거)",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "roi_small",
+   "rgb_unaligned"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "mismatch",
+  "pattern_check": "unknown",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "리드 접속부",
+   "p_grid": "하단 좌측",
+   "heat_pattern": "선형",
+   "visual_flags": [
+    "반사 의심"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "cause_basis": [],
+   "field_checks": [],
+   "operator_note_ko": ""
+  },
+  "validation": {
+   "violations": [
+    "visual_flags:rgb_unaligned_sealed",
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "p_grid",
+    "visual_flags"
+   ]
+  }
+ }
+}

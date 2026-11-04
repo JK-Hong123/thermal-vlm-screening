@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"확인 불가\",\n \"part\": \"확인 불가\",\n \"p_grid\": \"확인 불가\",\n \"heat_pattern\": \"불명\",\n \"visual_flags\": [\n  \"가시광 없음\"\n ],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"열화상 화면 내 마커가 표시된 지점\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2_markerpert"
+}

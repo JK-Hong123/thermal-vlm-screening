@@ -1,0 +1,97 @@
+{
+ "case_id": "case028",
+ "cond": "v2_markerpert",
+ "raw": {
+  "pass1": "```json\n{\n  \"equipment_plausible\": \"예\",\n  \"part\": \"차축 베어링 (액슬박스)\",\n  \"p_grid\": \"중간 중앙\",\n  \"heat_pattern\": \"선형\",\n  \"visual_flags\": [\"반사 의심\", \"표면 변색\"],\n  \"image_quality\": \"보통\",\n  \"part_location_ko\": \"대상 내 중앙에 위치한 차축 베어링\"\n}\n```"
+ },
+ "secs": {
+  "pass1": 8.03
+ },
+ "report": {
+  "case_id": "case028",
+  "equipment": "차축베어링",
+  "site": "철도차량",
+  "spec": "차축베어링",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비(잠정 기준)",
+  "severity_metric": "대상 최고온 31.4°C = 정상 프레임 분포 백분위 24.1 (정상 중앙값 41.7°C, P95 77.2°C); 장면 대비 ΔT 4.3°C",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님); ISO 18434-1 기준선 권고",
+  "scene_level": 0,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 베어링·씰·윤활유 한계 100°C (잠정, EN 15437-1 핫박스 임계 미확인)",
+  "measurements": {
+   "t_max": 31.4,
+   "t_mean": 28.6,
+   "scene_median": 27.1,
+   "dT_scene": 4.3,
+   "sibling_reference": null,
+   "dT_sibling": null,
+   "n_siblings": 0,
+   "hotspot_area_frac": 0.453,
+   "rf_prob": 0.385,
+   "t_max_eroded": 31.4,
+   "dT_scene_eroded": 4.3
+  },
+  "thermal_finding_ko": "대상 최고 온도 31.4°C, 장면 중앙값 27.1°C(장면 대비 4.3°C). 열점은 대상 내 중앙에 면형 분포; 화면 최고온(107.7°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "동종 설비 정상 분포 범위 내"
+  ],
+  "caveats_ko": [],
+  "case_type": "normal",
+  "case_type_ko": "정상 범위",
+  "confidence": "low",
+  "confidence_reason": "단일 프레임 근거이며 게이트 확률(0.385)이 경계 근접 → 재촬영 권고",
+  "action_ko": "정상 감시 유지; 신뢰도 낮음 — 재촬영 권고",
+  "field_checks_ko": [],
+  "session_evidence_line": "세션 내 동일 부품 매칭 없음(단일 프레임 근거)",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "roi_small",
+   "sibling_absent",
+   "calib_default",
+   "rgb_unaligned",
+   "peak_on_box_border"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "운전 부하·회전수",
+   "진동·윤활 이력"
+  ],
+  "spatial_check": "exact",
+  "pattern_check": "differ",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "차축 베어링(액슬박스)",
+   "p_grid": "중앙",
+   "heat_pattern": "면형",
+   "visual_flags": [
+    "반사 의심"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": "대상 내 중앙에 위치한 차축 베어링"
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "cause_basis": [],
+   "field_checks": [],
+   "operator_note_ko": ""
+  },
+  "validation": {
+   "violations": [
+    "visual_flags:rgb_unaligned_sealed",
+    "heat_pattern:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "heat_pattern",
+    "visual_flags"
+   ]
+  }
+ }
+}

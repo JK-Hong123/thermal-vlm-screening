@@ -1,0 +1,24 @@
+{
+ "case_id": "case030",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"케이블&부스 연결개소\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 내 top-center에 위치한 열점이 12개, 면적비 0.013입니다. 대상 최고온도는 38.4°C, 평균 34.9°C입니다.\",\n  \"evidence_numbers\": [\n    \"대상 최고온도: 38.4°C\",\n    \"평균 온도: 34.9°C\",\n    \"장면(배경) 중앙값 온도: 35.0°C\",\n    \"동종 형제 부품 최고온도: 36.5°C, 36.2°C\",\n    \"주변 기온: 24.0°C\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정상 감시 유지\",\n  \"uncertainty\": \"판단의 한계: 열점 개수와 면적비를 확인하여 추가적인 정보가 필요합니다.\"\n}\n```",
+ "parsed": {
+  "component": "케이블&부스 연결개소",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 내 top-center에 위치한 열점이 12개, 면적비 0.013입니다. 대상 최고온도는 38.4°C, 평균 34.9°C입니다.",
+  "evidence_numbers": [
+   "대상 최고온도: 38.4°C",
+   "평균 온도: 34.9°C",
+   "장면(배경) 중앙값 온도: 35.0°C",
+   "동종 형제 부품 최고온도: 36.5°C, 36.2°C",
+   "주변 기온: 24.0°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정상 감시 유지",
+  "uncertainty": "판단의 한계: 열점 개수와 면적비를 확인하여 추가적인 정보가 필요합니다."
+ },
+ "sec": 17.96,
+ "in_tok": 1018,
+ "out_tok": 258
+}

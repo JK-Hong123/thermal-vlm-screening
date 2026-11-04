@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "부싱 또는 단자 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 A는 흐릿한 가시광을 무리하게 유추(할루시네이션 가능성)한 반면, 보고서 B는 이미지 판독의 한계를 인정하고 기계 검증 결과를 정직하게 반영하여 현장 조치 권고를 더 구체적으로 작성함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "육안 가시광 미판독 / 화질 확인 불가 최고온 지점은 대상 상단 우측에 있으며 조회표상 단자 접속부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 불확실한 상황에서 가시광 과다 해석을 피하고, 기계 검증 실패 사실을 명시하며 실용적인 현장 점검 항목(체결 토크, 반사 배제 등)을 제시하여 현장 작업자에게 훨씬 유용함.",
+ "case_id": "case073"
+}

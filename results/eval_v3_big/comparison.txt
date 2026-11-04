@@ -1,0 +1,17 @@
+=== independent eval set (119 sessions never used for train/dev/lock; 388 bbox; chance acc 0.111, kappa 0) ===
+model                                    subset        n    acc  kappa   dist   <0.2
+F_fullvis_coord_672_n6000_ep1            all         388  0.595  0.539  0.226  0.616
+F_fullvis_coord_672_n6000_ep1            test        157  0.732  0.694  0.188  0.783
+F_fullvis_coord_672_n6000_ep1            gen_test    231  0.502  0.417  0.252  0.502
+F_fullvis_coord_672_n6000_ep1            eq:신재생 설비   191  0.450  0.354  0.270  0.445
+F_fullvis_coord_672_n6000_ep1            label=danger   50  0.540  0.452  0.215  0.540
+H_final_llm_coord_672_all_2ep_ep2        all         388  0.693  0.650  0.176  0.727
+H_final_llm_coord_672_all_2ep_ep2        test        157  0.790  0.761  0.149  0.815
+H_final_llm_coord_672_all_2ep_ep2        gen_test    231  0.628  0.564  0.195  0.667
+H_final_llm_coord_672_all_2ep_ep2        eq:신재생 설비   191  0.576  0.501  0.218  0.623
+H_final_llm_coord_672_all_2ep_ep2        label=danger   50  0.640  0.564  0.151  0.760
+_none                                    all         388  0.116 -0.001  0.411  0.137
+_none                                    test        157  0.121  0.003  0.458  0.127
+_none                                    gen_test    231  0.113 -0.003  0.379  0.143
+_none                                    eq:신재생 설비   191  0.052 -0.015  0.393  0.089
+_none                                    label=danger   50  0.120  0.000  0.365  0.160

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "전자접촉기 본체 및 단자부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증을 통해 이미지 판독과 계측 간의 불일치를 정확히 인지하고 보정하였으나, 보고서 B는 하단 중앙의 마커를 하부 단자로 단정하고 원인 후보를 추정하여 불확실한 정보를 제공함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 기계적 검증 실패를 투명하게 밝히고 계측 기반 기본값으로 대체한 점이 신뢰도를 높입니다.",
+ "case_id": "case044"
+}

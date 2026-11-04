@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상은 전반적으로 균일한 자홍색이고 상자가 화면 중앙에 있으며 십자 표식은 상자 우측 테두리 중간 높이에 있음(상자 안 하단에 아주 옅은 밝은 얼룩 두 곳). 가시광에는 베이지색 판 모양 단자 바에 육각 볼트 2개로 체결된 접속부와 그 아래 흰 원통형 절연체(CT 본체 또는 단말)가 보여, 상자 부위는 CT 일차 단자의 볼트 체결 접속부로 추정됨.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B의 부위(일차 단자 접속부)와 마커 위치 서술이 가시광의 볼트 체결부 및 십자 표식 위치와 부합하고, 형제 대비 3.2°C에 맞춘 체결 토크·접촉면 점검을 차기 점검 시 권장하는 수준으로 적절히 절제한 반면, A는 조회표로 '본체(절연 몰드)'라 적어 이미지와 맞지 않고 조치 내용이 없다.",
+  "usefulness_A_1to5": 2,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "최고온 지점은 대상 중단 우측에 있으며 조회표상 본체(절연 몰드) 부위로 추정됩니다. — 가시광에서 대상 영역은 볼트 체결된 단자 접속부로 보이며 절연 몰드 본체로 볼 근거가 없음"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "가시광이 열화상과 정렬되지 않아 A의 부위 오류 판단은 중간 확신임. B의 기계 검증 2건 불합격(근거·열 형태 대체)은 B의 원 판독 일부가 계측과 어긋났음을 시사하나 최종 표기는 계측값(다점형)으로 보정됨. B의 원인 후보 '접촉저항 증가'는 정상 판정과 형제 대비 3.2°C(≤5 정상)를 고려하면 단정이 아닌 후보 수준으로 적절히 서술됨."
+}

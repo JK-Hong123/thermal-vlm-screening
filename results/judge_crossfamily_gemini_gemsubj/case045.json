@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "단로기 접촉부 및 단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 부위와 열 형태를 구체적으로 기술하였고, 원인 후보를 무리하게 추정하지 않고 명확히 기재하여 운영자에게 더 신뢰성 있는 정보를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열   근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 단일 프레임에 열적 근거가 없음에도 정상 부하 발열이라는 원인을 단정적으로 추정하여 불확실성을 높인 반면, 보고서 A는 확인 불가로 정확히 표기함.",
+ "case_id": "case045"
+}

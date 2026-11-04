@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"아니오\",\n \"my_cell\": \"상단 좌측\",\n \"reason_ko\": \"계측 기록은 하단 우측 칸이라고 하였으나 마커는 상단 좌측 칸에 있으므로 일치하지 않습니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

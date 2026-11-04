@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "계기용변성기(MOF) 본체 하단부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 기계 검증을 통해 환각이나 근거 없는 추정을 통제하였고, 현장 확인 항목을 구체적으로 제시하여 작업자에게 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "원인 후보(추정): 정상 부하 발열 — 근거: 열 형태, 세션 증거"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 이미지 판독에서 구체적인 위치를 유추했으나 근거가 부족할 수 있으며, 보고서 B는 불합격 처리를 통해 기계적 신뢰성을 확보함.",
+ "case_id": "case010"
+}

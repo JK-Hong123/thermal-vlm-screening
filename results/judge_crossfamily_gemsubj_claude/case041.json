@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "가시광에서 캐비닛 도어 힌지가 세로로 늘어선 기둥과 그 우측의 수평 부스바(볼트 접속부)가 보이며, 열화상의 가늘고 긴 세로 상자는 수직 부스바 또는 도어 프레임 수직 부재에 해당하는 것으로 추정. 상자 우측 바깥에 약한 온열 영역이 있음",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A의 작업자 메모가 권고 조치(반사 확인을 위한 각도 변경 재촬영)를 그대로 전달해 현장 조치가 분명하고 가시광 육안 소견도 있다. B는 메모가 '추가 판단 유보'로 끝나 재촬영 권고가 작업자에게 닿지 않는다. 다만 A의 원 열점 위치 판독은 계측과 불일치(mismatch)로 대체되었다는 점을 감안해야 한다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": ["열점 위치 판독 상단 우측 (계측 mismatch) — 보고서 스스로 원 판독이 계측과 불일치해 기본값으로 대체되었음을 표기하므로, A의 실제 이미지 판독은 틀렸던 것"],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "최고온 마커는 상자 상부, 상자 중심선보다 약간 우측에 있어 '상단 우측'과 부합. 두 보고서 모두 정상 범위 판정이므로 결과 차이는 작음. B의 원인 후보 '정상 부하 발열'은 ΔT 1.2°C·형제 대비 -3.8°C와 모순되지 않아 집계하지 않음."
+}

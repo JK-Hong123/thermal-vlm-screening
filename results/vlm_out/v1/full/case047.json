@@ -1,0 +1,79 @@
+{
+ "case_id": "case047",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"부싱\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 하단 중앙에 국부적으로 열점이 집중되어 있다.\",\n  \"visual_context\": \"설비의 부싱 부분에 설치되어 있으며, 표면 상태는 정상적이다.\",\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가\", \"절연 열화\"],\n  \"operator_note\": \"현장 작업자는 부싱 부분의 열점 위치와 형태를 확인해야 한다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"이미지 2에서 녹색 십자가 표시된 부싱 부분이 대상 부품의 열점과 일치하며, 열점 형태도 점형이다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "부싱",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 하단 중앙에 국부적으로 열점이 집중되어 있다.",
+  "visual_context": "설비의 부싱 부분에 설치되어 있으며, 표면 상태는 정상적이다.",
+  "cause_hypothesis": [
+   "접촉부 접촉저항 증가",
+   "절연 열화"
+  ],
+  "operator_note": "현장 작업자는 부싱 부분의 열점 위치와 형태를 확인해야 한다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "이미지 2에서 녹색 십자가 표시된 부싱 부분이 대상 부품의 열점과 일치하며, 열점 형태도 점형이다."
+ },
+ "report": {
+  "case_id": "case047",
+  "equipment": "계기용변압기(PT)",
+  "site": "변전소",
+  "spec": "(22.9kV/√3)/(110V/√3)",
+  "verdict": "이상 의심",
+  "severity": "L1 주의",
+  "severity_level": 1,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT -0.5°C (형제 2개, 기준 44.0°C)",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "case_type": "mild_overheat",
+  "case_type_ko": "경미한 과열 소견",
+  "confidence": "medium",
+  "confidence_reason": "세션 증거는 일관하나 게이트 확률(0.582)이 경계에 근접",
+  "measurements": {
+   "t_max": 43.5,
+   "scene_median": 34.8,
+   "dT_scene": 8.7,
+   "dT_sibling": -0.5,
+   "rf_prob": 0.582
+  },
+  "session_evidence": {
+   "n_frames_in_session": 80,
+   "n_frames_component_matched": 54,
+   "n_flagged": 54,
+   "flag_frac": 1.0,
+   "rf_prob_median": 0.58,
+   "rf_prob_min": 0.506,
+   "rf_prob_max": 0.638,
+   "dT_scene_median": 8.9,
+   "dT_scene_min": 8.7,
+   "dT_scene_max_over_session": 9.2,
+   "t_max_median": 43.7,
+   "t_max_max": 44.2,
+   "hotspot_pos_mode": "center",
+   "hotspot_pos_stability": 0.46,
+   "hotspot_pos_same_as_this_frame": 0.28
+  },
+  "recommended_action": "기록 후 다음 정기점검 시 재확인",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "부싱",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 하단 중앙에 국부적으로 열점이 집중되어 있다.",
+   "visual_context": "설비의 부싱 부분에 설치되어 있으며, 표면 상태는 정상적이다.",
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "절연 열화"
+   ],
+   "operator_note": "현장 작업자는 부싱 부분의 열점 위치와 형태를 확인해야 한다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": [
+   "consistency_reason:digits"
+  ]
+ },
+ "sec": 13.84,
+ "in_tok": 2036,
+ "out_tok": 184
+}

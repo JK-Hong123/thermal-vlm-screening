@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "기어박스 측면 경계 및 인접 차륜축 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 A는 화질 확인이 불가함에도 특정 부위를 단정하여 환각(hallucination) 가능성이 있는 반면, 보고서 B는 이미지 판독의 한계를 인정하고 보수적이고 객관적으로 기술하여 신뢰성이 높습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 하단 좌측에 있으며 조회표상 출력축 베어링부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "열화상 및 가시광 화질이 불확실한 경우 세부 부위를 억지로 특정하는 것보다 B처럼 한계를 명시하는 것이 현장 작업자에게 훨씬 안전합니다.",
+ "case_id": "case062"
+}

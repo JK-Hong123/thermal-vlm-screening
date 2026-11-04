@@ -1,0 +1,6 @@
+InternVL3-2B-hf_en.json                    changed  0 | kappa 0.057->0.057 | follows 0.025->0.025 | mode ('중앙', 68)
+Qwen2-VL-2B-Instruct_en.json               changed  0 | kappa 0.000->0.000 | follows 0.188->0.188 | mode ('상단 우측', 80)
+Qwen2_5-VL-3B-Instruct_en.json             changed  0 | kappa 0.043->0.043 | follows 0.100->0.100 | mode ('하단 우측', 69)
+Qwen2_5-VL-3B-Instruct_ko.json             changed  0 | kappa -0.014->-0.014 | follows 0.075->0.075 | mode ('상단 중앙', 70)
+SmolVLM2-2_2B-Instruct_en.json             changed  0 | kappa 0.000->0.000 | follows 0.012->0.013 | mode ('중앙', 80)
+llava-onevision-qwen2-7b-ov-hf_en_4bit.json changed  0 | kappa 0.001->0.001 | follows 0.012->0.013 | mode ('중앙', 78)

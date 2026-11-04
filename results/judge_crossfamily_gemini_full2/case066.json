@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "전자접촉기 상부 단자부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 열화상이 어둡고 화질이 불량하다는 점을 정확히 인지하고 상부 단자부로 부위를 올바르게 판독한 반면, 보고서 B는 부위를 코일·본체로 잘못 추정하고 현장 확인 항목에서 접촉저항 측정을 누락하였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A가 이미지의 실제 시각적 상태와 설비 구조(단자부)를 더 정확하게 반영하고 있습니다.",
+ "case_id": "case066"
+}

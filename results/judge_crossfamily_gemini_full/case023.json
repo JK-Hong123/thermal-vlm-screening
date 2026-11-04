@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-중",
+ "my_part": "철도차량 기어박스 하우징 및 축 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 신뢰도가 낮고 게이트 경계에 걸쳐 있어 외부 열원 오염 가능성을 명시하며 보수적이고 정확한 권고를 제시한 반면, B는 불확실한 상황에서 과도한 현장 확인 항목을 추가함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "기계 검증 불합격으로 인해 원인 후보가 기본값으로 대체된 상태에서 A 보고서의 신중한 접근이 현장 작업자에게 더 혼란을 주지 않음.",
+ "case_id": "case023"
+}

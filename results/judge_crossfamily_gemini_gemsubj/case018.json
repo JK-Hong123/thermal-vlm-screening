@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "계기용변압기(PT) 본체 및 단자부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 불확실성을 인정하면서도 합리적인 추정(본체)을 제시한 반면, B는 기계 검증 불합격으로 인해 판독 내용이 누락되거나 대체되어 정보가 부족합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 이미지가 어두우나 마커와 중심 열점의 위치는 명확히 파악 가능함.",
+ "case_id": "case018"
+}

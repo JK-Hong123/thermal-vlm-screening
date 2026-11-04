@@ -1,0 +1,76 @@
+{
+ "case_id": "case023",
+ "cond": "full_perturbed",
+ "raw": "```json\n{\n  \"component_part\": \"케이블 연결부\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 상단 우측에 국부적으로 높은 온도가 집중되어 있다.\",\n  \"visual_context\": \"가시광 사진에서 케이블이 보이며, 열화상에서는 케이블 연결부의 열 분포가 확인되었다.\",\n  \"cause_hypothesis\": [\"베어링 손상\", \"윤활 불량\"],\n  \"operator_note\": \"현재 온도 분포와 동종 설비의 정상 분포를 비교하여 베어링 손상이나 윤활 불량을 확인해야 합니다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"대상 내 상단 우측의 열 분포가 가시광 사진에서 케이블 연결부에 해당하며, 이 부분이 동종 설비의 정상 분포와 일치한다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "케이블 연결부",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 상단 우측에 국부적으로 높은 온도가 집중되어 있다.",
+  "visual_context": "가시광 사진에서 케이블이 보이며, 열화상에서는 케이블 연결부의 열 분포가 확인되었다.",
+  "cause_hypothesis": [
+   "베어링 손상",
+   "윤활 불량"
+  ],
+  "operator_note": "현재 온도 분포와 동종 설비의 정상 분포를 비교하여 베어링 손상이나 윤활 불량을 확인해야 합니다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "대상 내 상단 우측의 열 분포가 가시광 사진에서 케이블 연결부에 해당하며, 이 부분이 동종 설비의 정상 분포와 일치한다."
+ },
+ "report": {
+  "case_id": "case023",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "site": "변전소",
+  "spec": "6.6KV,380/220V,150kVA",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 35.7°C = 동종 설비 정상 프레임 분포의 상위 95.8% (정상 중앙값 67.0°C, P95 137.7°C)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "normal",
+  "case_type_ko": "정상 범위",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 19프레임 중 0프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 35.7,
+   "scene_median": 31.5,
+   "dT_scene": 4.2,
+   "dT_sibling": -5.8,
+   "rf_prob": 0.069
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 19,
+   "n_flagged": 0,
+   "flag_frac": 0.0,
+   "rf_prob_median": 0.07,
+   "rf_prob_min": 0.032,
+   "rf_prob_max": 0.133,
+   "dT_scene_median": 5.6,
+   "dT_scene_min": 4.0,
+   "dT_scene_max_over_session": 7.0,
+   "t_max_median": 36.8,
+   "t_max_max": 38.2,
+   "hotspot_pos_mode": "bottom-left",
+   "hotspot_pos_stability": 0.47,
+   "hotspot_pos_same_as_this_frame": 0.47
+  },
+  "recommended_action": "정상 감시 유지",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "케이블 연결부",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 상단 우측에 국부적으로 높은 온도가 집중되어 있다.",
+   "visual_context": "가시광 사진에서 케이블이 보이며, 열화상에서는 케이블 연결부의 열 분포가 확인되었다.",
+   "cause_hypothesis": [
+    "베어링 손상·윤활 불량"
+   ],
+   "operator_note": "현재 온도 분포와 동종 설비의 정상 분포를 비교하여 베어링 손상이나 윤활 불량을 확인해야 합니다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "대상 내 상단 우측의 열 분포가 가시광 사진에서 케이블 연결부에 해당하며, 이 부분이 동종 설비의 정상 분포와 일치한다."
+  },
+  "vlm_violations": []
+ },
+ "sec": 16.03,
+ "in_tok": 2009,
+ "out_tok": 226
+}

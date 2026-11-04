@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "전자접촉기 상단 우측 단자부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 이미지 화질 확인이 불가함에도 임의로 부위를 특정하고 원인 후보를 추정하여 환각(hallucination) 위험이 있는 반면, 보고서 A는 불확실성을 정직하게 인정하고 계측 기반 기본값으로 대체하여 신뢰할 수 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 상부 단자 / 화질 확인 불가 / 원인 후보(추정): 정상 부하 발열"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 진단 보고서에서는 불확실한 이미지 판독을 억지로 만들어내는 것보다 A처럼 기계 검증을 거쳐 솔직하게 한계를 명시하는 것이 현장 작업자에게 훨씬 안전합니다.",
+ "case_id": "case052"
+}

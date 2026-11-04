@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증에서 불합격하여 작업자 메모가 계측 기반 기본값으로 대체되었음을 명시하고 있어 오류를 방지하려는 안전장치가 돋보입니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 검증 실패 여부를 투명하게 공개하여 작업자의 신뢰를 높입니다.",
+ "case_id": "case028"
+}

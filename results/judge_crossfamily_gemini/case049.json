@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 마커와 실제 열화상 분포(고온부가 뚜렷하지 않음)를 객관적으로 서술한 반면, 보고서 B는 모호한 이미지 속에서 단자함 위치와 발열 원인을 과도하게 단정하여 신뢰도가 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 과도한 추정을 피하고 이미지의 시각적 한계를 정직하게 반영하여 현장 기술자에게 더 신뢰성 있는 판단 근거를 제공합니다.",
+ "case_id": "case049"
+}

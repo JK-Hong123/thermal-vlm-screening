@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "보일러 노벽 케이싱 및 배관 구조물",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 정렬 미검증 및 화질 제약을 솔직히 인정하고 허위 원인 추정을 배제한 반면, 보고서 B는 불확실한 상황에서 근거 없는 기계적 원인(베어링, 씰 등)을 유추하여 작성함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 씰 마찰·누설",
+  "현장 확인 항목: 진동 측정, 윤활 상태·유량 확인, 축 정렬 확인"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 단독 이미지 분석 시 가시광 정렬이 불완전할 때 섣부른 부위 판정이나 기계적 결함(베어링 등) 유추는 오진을 유발할 수 있으므로 보고서 A의 보수적 접근이 현장 작업자에게 더 안전함.",
+ "case_id": "case004"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차축 베어링 또는 액슬박스 주변",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독에서 차축 베어링(액슬박스) 부위를 더 정확히 반영하였으며, 기계 검증 실패 시 적절히 기본값으로 대체하는 등 서술의 신뢰성이 더 높습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "부위 휠 림·답면"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 부위 판독에서 휠 림·답면으로 잘못 추정하였으나, 보고서 B는 액슬박스 영역을 타당하게 언급함.",
+ "case_id": "case065"
+}

@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"예\",\n \"my_cell\": \"하단 중앙\",\n \"reason_ko\": \"하늘색 마커가 흰 상자 내부의 하단 중앙 위치에 정확히 존재하기 때문입니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

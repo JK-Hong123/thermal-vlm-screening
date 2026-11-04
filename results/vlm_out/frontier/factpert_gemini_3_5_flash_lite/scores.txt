@@ -1,0 +1,1 @@
+[fact-falsification, factpert_gemini_3_5_flash_lite] n=80 | confirmed the planted (wrong) position: 18/80 = 0.23 | rejected it: 62/80 | own cell = true cell: 41/80 = 0.51 | own cell = planted cell: 18/80

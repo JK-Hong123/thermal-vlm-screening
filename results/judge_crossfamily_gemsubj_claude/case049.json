@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상은 거의 균일한 보라색으로 온도 대비가 없어 상자 안 형상을 식별할 수 없음. 십자선(최고온점)은 상자 우측 하단 모서리에 있음. 가시광(비정렬)은 배전반 내부 중앙부(원형 계기 또는 부싱 유사물과 그 아래 선반·패널)를 보여 MOF 본체 하부 또는 인접 구조물로 추정되나 근거가 약함",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "tie",
+  "preference_reason": "두 보고서 모두 동일한 정상(L0) 판정과 계측을 공유하며, A는 마커·십자선 위치와 육안·화질을 간단히 기술하고 B는 조회표 부위와 원인(정상 부하 발열)을 덧붙이는 정도여서 작업자 입장에서 실질적 차이가 작음.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "A의 '우측 하단 부위에 최고온 지점 마커가 위치함'은 열화상 십자선 위치와 일치함. A의 '본체(탱크)'와 B의 '이차 단자함'은 열화상 대비가 없어 어느 쪽도 검증 불가. B의 작업자 메모 '단일 프레임에서 열적 근거가 없어 추가 판단은 유보'는 세션 46프레임 중 0프레임 플래그라는 다중 프레임 근거와 어감이 어긋나지만 케이스 유형 문구를 따른 것으로 보여 모순으로 세지 않음. A의 현장 확인 항목(각도 바꿔 재촬영)은 정상 고신뢰 케이스에 불필요한 편이나 무해함."
+}

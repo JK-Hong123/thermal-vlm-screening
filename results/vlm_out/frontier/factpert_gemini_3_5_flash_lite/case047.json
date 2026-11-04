@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"아니오\",\n \"my_cell\": \"하단 좌측\",\n \"reason_ko\": \"기록은 상단 우측이라고 하였으나 마커는 하단 좌측에 위치합니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

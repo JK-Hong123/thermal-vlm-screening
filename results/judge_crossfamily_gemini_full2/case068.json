@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-중",
+ "my_part": "차단기 단자 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독에서 하부 단자 접속부 및 다점형 열 형태를 구체적으로 파악하고 정합성 검증을 통과한 반면, 보고서 A는 기계 검증 불합격으로 인해 이미지 판독 내용이 기본값으로 대체되어 정보가 부족합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "열점 위치 항목은 이미지 판독 대신 계측 기반 기본값으로 대체됨"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 이미지 분석 및 원인 추정 부분에서 더 일관성 있고 완성도 높은 내용을 제공합니다.",
+ "case_id": "case068"
+}

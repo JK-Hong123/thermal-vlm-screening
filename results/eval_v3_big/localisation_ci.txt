@@ -1,0 +1,4 @@
+=== hotspot localisation, independent set, session-clustered bootstrap 95% CI ===
+H all                        n=388 κ 0.650 [0.596,0.701] | within0.2 0.727 [0.676,0.773]
+H seen-equip new sessions    n=157 κ 0.761 [0.698,0.817] | within0.2 0.815 [0.753,0.873]
+H unseen equip               n=231 κ 0.564 [0.488,0.637] | within0.2 0.667 [0.606,0.730]

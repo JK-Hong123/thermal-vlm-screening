@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "배터리 랙 모듈 본체",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독을 통해 부위와 원인 후보를 보다 구체적으로 제시하였으며, 전체적인 서술이 논리적이고 정합적입니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "계측 기록상 열점들은 설비 영역의 가운데 높이 오른편에 여러 지점으로 나타나나 주변과의 온도차가 작아 뚜렷한 열점으로 보기 어렵고, 부품 내 위치는 영상이 없어 확인 불가합니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 화질 및 영상 부재를 이유로 판독 한계를 과도하게 강조한 반면, 보고서 B는 정상적인 수준의 판독과 원인 추정을 제공하여 현장 작업자에게 더 유용합니다.",
+ "case_id": "case070"
+}

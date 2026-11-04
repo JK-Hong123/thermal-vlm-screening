@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "전자접촉기 상부 단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 상에서 열화상 신호가 뚜렷하지 않고 주변과 구별되는 밝은 영역이 없다는 점을 더 정확히 반영하여 원인 후보를 '확인 불가'로 처리하고 작업자 메모를 충실히 작성했습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "열점은 대상 내 상단 우측에 점형 분포"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 이미지의 실제 시각적 정보(특이점 부족)와 계측값의 불확실성을 더 잘 조화시켰습니다.",
+ "case_id": "case051"
+}

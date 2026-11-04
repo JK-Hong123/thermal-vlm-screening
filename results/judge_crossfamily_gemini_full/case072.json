@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "인버터 함체 및 냉각팬 부근",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 이미지와 열화상 마커 위치를 정확히 대조하여 인버터 함체 하단 냉각팬 구역으로 올바르게 판독하였고, 작업자 메모와 권고 조치가 현장 실무에 더 유용합니다.",
+ "usefulness_A_1to5": 5,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 5,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 이미지의 실제 시각적 특징(팬 및 함체 구조)을 정확히 반영하였으나, 보고서 B는 단자·접속부로 잘못 유추하고 기계 검증에서도 불합격을 기록하였습니다.",
+ "case_id": "case072"
+}

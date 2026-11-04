@@ -1,0 +1,64 @@
+{
+ "case_id": "case004",
+ "cond": "template",
+ "raw": null,
+ "vlm_parsed": null,
+ "report": {
+  "case_id": "case004",
+  "equipment": "차축베어링",
+  "site": "철도차량",
+  "spec": "차축베어링",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 76.6°C = 동종 설비 정상 프레임 분포의 상위 5.4% (정상 중앙값 41.7°C, P95 77.2°C); 장면 대비 ΔT 48.8°C(상시 고온 설비이므로 한 단계 하향 적용)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "intermittent",
+  "case_type_ko": "간헐적 플래그(세션 내 소수 프레임만 이상)",
+  "confidence": "low",
+  "confidence_reason": "세션 8프레임 중 2프레임만 플래그(비일관) → 재촬영·부하 확인 권고",
+  "measurements": {
+   "t_max": 76.6,
+   "scene_median": 27.9,
+   "dT_scene": 48.8,
+   "dT_sibling": null,
+   "rf_prob": 0.964
+  },
+  "session_evidence": {
+   "n_frames_in_session": 80,
+   "n_frames_component_matched": 8,
+   "n_flagged": 2,
+   "flag_frac": 0.25,
+   "rf_prob_median": 0.255,
+   "rf_prob_min": 0.041,
+   "rf_prob_max": 0.959,
+   "dT_scene_median": 40.1,
+   "dT_scene_min": 8.6,
+   "dT_scene_max_over_session": 62.3,
+   "t_max_median": 60.5,
+   "t_max_max": 90.7,
+   "hotspot_pos_mode": "bottom-left",
+   "hotspot_pos_stability": 0.75,
+   "hotspot_pos_same_as_this_frame": 0.75
+  },
+  "recommended_action": "조속한 정비(가능한 빠른 시기), 부하 저감 검토",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; 형제 부품 없음",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "불명",
+   "heat_description": "(이미지 서술 없음: 시스템 기본 문구)",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "operator_note": "세션 내 판정이 비일관하므로 부하 조건을 기록하며 재촬영하십시오.",
+   "image_consistent_with_facts": "불명",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": []
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

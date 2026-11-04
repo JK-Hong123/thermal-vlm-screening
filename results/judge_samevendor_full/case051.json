@@ -1,0 +1,20 @@
+{
+  "case_id": "case051",
+  "my_part": "확인 불가 — 열화상이 균일한 보라색으로 세로로 긴 흰 상자 안에 구별되는 밝은 영역이 없고, 최고온 십자표시는 상자 오른쪽 위 테두리에 걸쳐 있음. 상자 바깥 오른쪽 위에 희미한 가로 띠가 있을 뿐임. 가시광은 구멍 뚫린 세로 레일과 배전반 금속 구조물만 보여 전자접촉기 단자부를 특정할 수 없음",
+  "my_marker_cell": "중단-중",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 부품의 위쪽 오른편 가장자리에 걸쳐 있고 열화상에 주변과 구별되는 밝은 영역이 없다는 점을 실제 이미지대로 기술했고, 작업자 메모도 부하 기록·각도 변경 재촬영이라는 구체적 지시를 담았다. A는 조회표 추정 한 줄과 '판단 유보' 메모에 그친다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "두 보고서 모두 부위를 '상부 단자'로 적었는데 이미지에서는 확인도 반박도 할 수 없다(세로로 긴 상자의 위쪽 테두리라는 위치상 그럴듯한 정도). A의 '열 형태 점형'은 코드값을 옮긴 것이고 B의 '불명'이 실제 열화상(고온부 없음)에 더 가깝다. 세션 증거 문구(최빈 위치 상단 우측이면서 59% 프레임과 다름)는 두 보고서에 동일하게 들어간 코드 생성문이라 차이 평가 대상이 아니다. 신뢰도 low·반사 의심 사유를 작업 지시에 연결한 쪽은 B뿐이다."
+}

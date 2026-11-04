@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "가시광에는 둥글고 어두운 대형 부품(차륜 또는 액슬박스 끝단)의 일부만 흐리게 보이고, 열화상 상자는 중앙의 가늘고 긴 세로 영역. 차축 베어링 하우징(액슬박스) 측면 또는 그 인접 차축 구간으로 추정되나 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커 위치(상자 중앙 좌측)를 직접 읽어 제 판독과 일치하고, 작업자 메모와 현장 확인 항목이 권고 조치의 '신뢰도 낮음·재촬영'을 그대로 전달한다. B는 세션 8프레임 중 5프레임 플래그라는 비일관 증거를 적어 놓고도 원인을 '정상 운전 발열'로 단정하고 메모는 '정상 감시 유지'로 끝나 재촬영 권고가 작업자에게 전달되지 않는다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": ["원인 후보(추정): 정상 운전 발열   근거: 열 형태 — 같은 보고서의 세션 증거(8프레임 중 5프레임 플래그, 비일관)와 신뢰도 low(재촬영·부하 확인 권고)에 비추어 열 형태만으로 정상 운전 발열이라 단정할 근거가 없음"],
+  "trustworthy_for_operator": "A",
+  "notes": "최고온 마커는 상자 내부 중앙에서 약간 좌측에 있어 두 보고서의 '중단 좌측'과 부합. 가시광은 어둡고 흐려 A의 '육안 특이 없음·화질 양호'는 다소 후한 평가이나 명백한 모순은 아님. B는 현장 확인 항목 자체가 누락되어 있음."
+}

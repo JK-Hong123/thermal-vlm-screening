@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상은 거의 균일한 저온 배경이고 세로로 길고 좁은 상자가 화면 정중앙에 있으며 십자 표식은 상자 안 상단 중앙에 있음. 가시광에는 상부의 붉은 주름형 애자(부싱형 절연체), 가로지르는 흰 바(도체·커버), 아래로 내려가는 녹색 가는 봉이 보여 상자는 단로기의 세로 절연주·도체 기둥 구간으로 보이나, 단자 접속부인지 접촉부(블레이드·클립)인지는 이미지로 구분 불가.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서의 판정·계측·권고가 동일하고 부위 추정은 둘 다 이미지로 검증 불가하지만, A는 육안·화질 항목을 실제로 판독했고 작업자 메모가 권고(재촬영 권고)와 정합하는 반면 B의 메모는 '정상 감시 유지'만 적어 재촬영 권고를 반영하지 않았다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "A의 기계 검증 '열점 위치 adjacent'는 A의 원 판독이 계측과 한 칸 어긋났음을 뜻하며 최종 표기는 계측값으로 보정됨. B의 원인 후보 '정상 부하 발열'은 형제 대비 -0.3°C·장면 대비 4.1°C와 정합하여 모순은 아님. 세션 내 열점 위치가 83% 프레임과 다르다는 점은 두 보고서 모두 유의사항에 적혀 있고 반사 의심과 함께 재촬영 권고로 이어져 일관됨."
+}

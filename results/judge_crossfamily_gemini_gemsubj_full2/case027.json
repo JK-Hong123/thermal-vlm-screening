@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "부스바 접속부 또는 단자대",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증에서 불합격 처리되어 계측 기반 기본값으로 객관성을 유지한 반면, B는 정상 범위임에도 과도한 권고 조치와 원인 추정을 포함하여 신뢰성을 떨어뜨림.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "시스템 판정은 정상 범위이나 정상 분포 상단 밖의 특이사항이 있으므로 접속부 체결 상태를 점검하시기 바랍니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 진단 결과가 L0 정상 범위임에도 보고서 B는 과도한 현장 점검 항목을 유도하여 현장 작업자에게 불필요한 혼선을 줄 수 있음.",
+ "case_id": "case027"
+}

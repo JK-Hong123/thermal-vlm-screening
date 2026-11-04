@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "기어박스 하단 경계부 및 베어링 인근",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 마커가 위치한 부위를 구체적으로 식별하여 기술한 반면, 보고서 B는 일반적인 하우징으로 대충 서술하였고 작업자 메모 등에서 완성도가 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 이미지 상에서 마커가 상자의 하단-좌측 경계에 정확히 위치하고 있음을 명확하게 인지하고 서술한 보고서 A가 현장 진단용으로 더 적합합니다.",
+ "case_id": "case059"
+}

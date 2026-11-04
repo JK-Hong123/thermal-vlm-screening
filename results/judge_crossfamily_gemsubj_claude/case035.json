@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상은 거의 균일한 보라색이라 구조가 보이지 않고, 상자는 가늘고 긴 세로 형상. 가시광의 캐비닛 내부 세로 레일과 붉은 클램프(접촉부) 구성으로 보아 단로기의 세로 절연 지지체 또는 블레이드 구간으로 추정",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 상자 우측 상단 테두리 부근에 있다는 점을 직접 읽어 제 판독과 일치하고, 작업자 메모가 권고 조치(각도 변경 재촬영·반사 확인)를 그대로 반영해 현장에서 바로 쓸 수 있다. A는 반사 의심·테두리 최고온을 스스로 적어 놓고도 원인을 '정상 부하 발열(근거: 열 형태)'로 단정해 근거가 약하다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": ["원인 후보(추정): 정상 부하 발열   근거: 열 형태 — 같은 보고서가 reflection_suspect·peak_on_box_border를 한계로 적고 열점을 상자 테두리의 점형이라 기술하므로, 열 형태만으로 정상 부하 발열을 추정하는 것은 자기 서술과 어긋남"],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "최고온 마커는 상자 우측 테두리 위쪽에 걸쳐 있어 '상단 우측'·peak_on_box_border와 일치. 열화상 대비가 극히 낮아 B의 '화질 보통'은 다소 후하지만 모순으로 보지 않음. B는 기계 검증 통과, A는 근거 항목이 기본값으로 대체됨."
+}

@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "기어박스 출력축 베어링 하단부(경계면)",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 권고 조치와 현장 확인 항목에서 진단 관점에 맞는 구체적인 점검 항목(진동 측정, 윤활 상태 점검 등)을 충실히 제공하여 현장 작업자에게 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "두 보고서 모두 기계적 검증을 통과했으며 계측 수치는 동일하나, 보고서 B의 현장 확인 항목이 설비 점검 실무에 더 적합합니다.",
+ "case_id": "case022"
+}

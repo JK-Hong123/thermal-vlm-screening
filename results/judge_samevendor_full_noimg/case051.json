@@ -1,0 +1,24 @@
+{
+  "case_id": "case051",
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상은 거의 무특징(균일 보라)이라 부품 구조 판독 불가. 가시광에는 제어반 내부의 수직 타공 레일과 그 좌상단의 단자·배선, 우하단의 회색 소형 기기 케이스가 보이나 열화상과 정렬되지 않음. 설비명(DC110V 전자접촉기) 기준으로 접촉기 본체 상부(코일/단자부)로만 추정.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "B의 작업자 메모가 보고서 자체의 낮은 신뢰도·반사 의심 맥락과 일치하는 구체적 지시(각도 변경 재촬영, 부하 조건 기록)를 주는 반면, A는 검증 불가한 조회표 부위 추정과 함께 반사 의심 상황에서 '정상 부하 발열'을 기본값 근거로 제시함.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "원인 후보(추정): 정상 부하 발열 근거: 열 형태 — 같은 보고서가 reflection_suspect와 '열점 위치는 세션 내 59% 프레임과 다름 — 고정 결함이 아닐 수 있음', '열점은 국부에 집중'이라 기술한 것과 긴장되며, 기계 검증도 이 근거가 기본값 대체임을 밝힘"
+  ],
+  "ungrounded_examples_B": [
+    "화질 보통 — 같은 항목에서 '이미지가 없어 부품 내 세부 위치는 확인 불가함'이라 하면서 화질을 평가한 자기모순"
+  ],
+  "trustworthy_for_operator": "both",
+  "notes": "열점 위치 '상단 우측'은 두 보고서 모두 크롭의 십자 마커(박스 우상단)와 일치. A의 '상부 단자'는 조회표 기반 추정으로 명시되어 이미지로는 검증 불가(모순으로 세지 않음). 세션 증거 문장(최빈 위치 상단 우측이면서 59% 프레임과 다름)은 두 보고서에 공통이며 최빈 비율이 41%면 수학적으로 성립하므로 모순으로 세지 않음. 판정·수치 동일, 둘 다 재촬영 권고로 안전 측."
+}

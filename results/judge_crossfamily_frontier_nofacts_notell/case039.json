@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "작고 세로로 긴 상자의 한가운데. 상자 내부는 주변과 비슷한 자주색으로 뚜렷한 열점이 보이지 않고, 상자 오른쪽 바깥에 노란색의 밝은 세로 띠(차륜 답면/림으로 보이는 고온부)가 별도로 있다. 가시광은 거의 백색으로 날아가 참고 불가. 차축베어링 하우징 표면으로 추정되나 특정 부위는 식별 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 작은 세로 상자 한가운데에 있고 상자 오른쪽 바깥에 밝은 세로 띠가 따로 있다는 점을 실제 화면대로 짚어 외부 열원 영향을 작업자가 인지하게 하며, 진동·윤활 확인 등 현장 항목이 더 구체적이다. 다만 '동종 부품도 함께 따뜻하다'는 메모는 sibling_contaminated 플래그와 맞지 않아 감점 요인이다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "차축베어링이 열 형상 근거로 주의 단계 플래그되었고 동종 부품도 함께 따뜻한 것으로 의심되니 — 보고서 자체는 형제 대비 ΔT -32.5°C(형제 1개)와 한계 sibling_contaminated를 명시하므로 형제 값은 외부 열원(인접 고온 띠)에 오염된 것으로 봐야 하며, '동종 부품도 함께 따뜻하다'는 해석은 그 플래그와 모순됨"
+  ],
+  "trustworthy_for_operator": "both",
+  "notes": "마커 위치 '중앙'은 두 보고서 모두 내 판독과 일치한다. 열 형태는 두 보고서 모두 '불명'으로 적어 화면과 부합한다. A는 조회표 기반 정형문이지만 모순은 없고, B는 화면 묘사가 정확하고 현장 항목이 풍부하나 형제 부품 해석 한 문장이 느슨하다. 상자 오른쪽의 밝은 띠는 반사·외부 열원 의심 근거가 되므로 B의 묘사가 작업자에게 실질적 도움이 된다."
+}

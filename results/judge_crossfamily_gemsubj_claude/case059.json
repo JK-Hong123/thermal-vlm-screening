@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상 우측 가장자리에 밝은(고온) 큰 원판형 발열체(차륜)가 있고, 상자는 그 바로 왼쪽의 자주색(차륜보다 차가운) 덩어리를 둘러싸고 있어 차륜에 인접한 기어박스 하우징 본체로 보임. 십자선은 상자 좌측 테두리 하부에 있고 바로 왼쪽에 밝은 주황색 수평 구조물(차축·구동부)이 있어 외부 열원이 번진 것으로 보임. 가시광은 어둡고 'SR' 문자가 보이는 원통형 탱크가 찍혀 각도가 달라 보조 근거로 약함",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B의 '하우징 본체 좌측 하단'은 내가 본 상자 위치(차륜 옆 하우징, 좌측 테두리 하부의 십자선)와 일치하고 각도 변경 재촬영을 현장 확인 항목으로 명시했으며, A는 조회표 추정에 머물러 이미지에 근거한 정보가 없음; 다만 A의 작업자 메모가 경계 외부 열원 문제를 더 구체적으로 설명함.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "B는 기계 검증 3건 불합격(근거·열 형태·원인 후보 대체)으로 원 판독의 일부가 계측과 맞지 않았음이 표기되어 있으나 최종 문구는 계측·이미지와 정합함. A의 '출력축 베어링부'는 차륜 인접 측이라는 점에서 기하학적으로 틀리지 않지만 이미지 판독이 아닌 조회표 값임. B의 '육안 특이 없음 / 화질 보통'은 가시광이 어두워 근거가 약하지만 형상이 식별되는 수준이어서 모순으로 세지 않음."
+}

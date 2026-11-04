@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"예\",\n \"my_cell\": \"중단 좌측\",\n \"reason_ko\": \"마커가 흰색 상자의 중단 좌측 칸에 위치하므로 시스템 기록과 일치합니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

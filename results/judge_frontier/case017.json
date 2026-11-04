@@ -1,0 +1,28 @@
+{
+ "case_id": "case017",
+ "my_marker_cell": "중단 좌측",
+ "my_part": "확인 불가 (열화상 크롭 28x26px 수준의 균일한 어두운 면, 가시광 크롭은 특징 없는 회색 질감뿐)",
+ "my_part_confidence": "low",
+ "which_is_vlm": "A",
+ "vlm_grid_correct": "yes",
+ "vlm_part_correct": "undeterminable",
+ "a0plus_part_correct": "undeterminable",
+ "vlm_visual_flags_valid": "partial",
+ "n_vlm_ungrounded": 2,
+ "n_a0plus_ungrounded": 1,
+ "vlm_ungrounded_examples": [
+  "원인 후보 '과부하 또는 상 불평형, 냉각·통풍 불량 (근거: 동종 부품 대비)' — 대상이 형제보다 0.8°C 낮고(ΔT_sib -0.8) 판정이 L0 정상인데 근거 방향이 반대",
+  "'화질 보통' — 가시광 크롭은 식별 가능한 구조가 전혀 없고 열화상 크롭은 28x26px 수준이라 '보통'은 과대 평가"
+ ],
+ "vlm_adds_value_over_a0plus": "yes",
+ "value_added_what": "확대 열화상에서 '주변과 구분되는 고온부가 보이지 않음'을 확인해 준 점(실제 크롭과 일치, hotspot_area_frac 0.288·std 1.34와 정합)과 부위를 조회표로 단정하지 않고 '확인 불가'로 정직하게 보고한 점, 그리고 코드 계층 유의사항(화면 최고온이 대상 밖)에 대응하는 '재촬영' 항목 제시",
+ "code_layer_issue": "ANSI/NETA Table 100.18 주변 대비 기준(1~10°C '조사')을 인용하면서 ΔT 8.8°C에 L0 '정상 범위'를 부여 — 실제 등급 근거는 정상 분포 백분위(78.0)인데 인용 표와 판정이 표면상 모순. 또한 형제 25.6°C는 정상 분포 p95(27.9) 이내인데 '형제 동반 과열로 형제 기준 무효'라 표현한 것은 과장",
+ "preferred_report": "B",
+ "preference_reason": "L0 정상 판정에서 B의 메시지(추세 기록만)는 판정과 비례하고 일관됨. A는 이미지 판독은 정직하나 원인 후보(과부하·상불평형·냉각불량)와 확인 항목(부하 전류·불평형률 측정, 통풍 확인)이 판정·계측(형제보다 낮음)과 맞지 않아 불필요한 현장 작업을 유발할 수 있음. 다만 B의 '리드 접속부'는 조회표 추정일 뿐 이미지로 확인 불가하고 '근거: 열 형태'는 같은 보고서의 '열 형태 불명'과 충돌",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "report_trustworthy_for_operator": "both",
+ "notes": "마커 위치는 확대 열화상에서 흰 상자 좌측 약 0.28, 상하 약 0.41 지점으로 '중단 좌측'이 맞음(facts x_norm 0.296, y_norm 0.48). 전체 열화상에서 대상은 좌하단 기둥형 구조물 하부에 있고 두 형제 상자와 색이 거의 동일함. 화면 최고온 33.9°C는 상단 벽체 위 밝은 영역으로 대상과 무관. 가시광 크롭은 정렬 미검증에 더해 아무 구조도 식별되지 않아 부위 판정에 쓸 수 없음. 두 보고서 모두 판정 자체는 계측과 정합하나, 서술 계층에서 A는 과잉 원인 추정, B는 조회표 부위 단정이라는 서로 다른 약점을 가짐."
+}

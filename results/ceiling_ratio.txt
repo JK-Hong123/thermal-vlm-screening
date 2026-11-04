@@ -1,0 +1,7 @@
+experiment                      K  ceiling κ   val κ  ratio |  lock κ  ratio
+A_stretch_smooth              K12      0.442   0.271   0.61 |   0.291   0.66
+C_stretch_fullvis             K12      0.442   0.330   0.75 |   0.299   0.68
+D_stretch_coord               K12      0.442   0.266   0.60 |   0.391   0.88
+E_v3_672_tight                K24      0.654   0.401   0.61 |   0.360   0.55
+
+ceiling = brightest-token-in-box heuristic on the rendered PNG pooled to KxK (upper bound for any model that only sees KxK tokens).

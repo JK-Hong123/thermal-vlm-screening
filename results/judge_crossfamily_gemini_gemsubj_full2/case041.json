@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "부스바 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증 항목을 통해 이미지 판독과 계측의 불일치를 정확히 인지하고 신뢰도를 낮춘 반면, 보고서 B는 근거가 부족한 원인 후보(정상 부하 발열)를 추정하여 기재함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열   근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 불일치 사항을 투명하게 공개하고 재촬영을 권고하여 현장 작업자에게 더 신뢰성 있는 지침을 제공함.",
+ "case_id": "case041"
+}

@@ -1,0 +1,23 @@
+{
+ "case_id": "case021",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"변압기 접속부\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L1 주의\",\n  \"thermal_finding\": \"대상 부품의 최고온도는 18.2°C로, 평균 온도는 15.8°C이며, 장면(배경) 중앙값 온도는 13.8°C로, 온도차 ΔT_scene = 4.5°C이다.\",\n  \"evidence_numbers\": [\n    \"대상 부품 최고온도: 18.2°C\",\n    \"평균 온도: 15.8°C\",\n    \"장면(배경) 중앙값 온도: 13.8°C\",\n    \"온도차 ΔT_scene: 4.5°C\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"다음 정기점검 시 확인\",\n  \"uncertainty\": \"판단의 한계: 열화상에서의 정확한 온도 분포를 확인하기 위해 추가적인 정보가 필요합니다.\"\n}\n```",
+ "parsed": {
+  "component": "변압기 접속부",
+  "verdict": "정상",
+  "severity": "L1 주의",
+  "thermal_finding": "대상 부품의 최고온도는 18.2°C로, 평균 온도는 15.8°C이며, 장면(배경) 중앙값 온도는 13.8°C로, 온도차 ΔT_scene = 4.5°C이다.",
+  "evidence_numbers": [
+   "대상 부품 최고온도: 18.2°C",
+   "평균 온도: 15.8°C",
+   "장면(배경) 중앙값 온도: 13.8°C",
+   "온도차 ΔT_scene: 4.5°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "다음 정기점검 시 확인",
+  "uncertainty": "판단의 한계: 열화상에서의 정확한 온도 분포를 확인하기 위해 추가적인 정보가 필요합니다."
+ },
+ "sec": 21.37,
+ "in_tok": 1859,
+ "out_tok": 257
+}

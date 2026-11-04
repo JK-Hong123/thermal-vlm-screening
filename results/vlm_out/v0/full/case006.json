@@ -1,0 +1,21 @@
+{
+ "case_id": "case006",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"차단기\",\n  \"verdict\": \"판단보류\",\n  \"severity\": \"L2 경고\",\n  \"thermal_finding\": \"대상 내 bottom-left에 위치한 열점이 두 개이며, 각 열점 면적비는 0.016입니다. 대상 내 bottom-left에 위치한 열점이 가장 높은 온도를 나타내며, 이 온도는 33.1°C입니다.\",\n  \"evidence_numbers\": [\"대상 최고온: 33.1°C\", \"대상 내 bottom-left 열점 면적비: 0.016\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정밀점검 계획 수립(수 주 내)\",\n  \"uncertainty\": \"판단의 한계: 열점의 원인을 확인하기 위해 추가적인 정보가 필요합니다.\"\n}\n```",
+ "parsed": {
+  "component": "차단기",
+  "verdict": "판단보류",
+  "severity": "L2 경고",
+  "thermal_finding": "대상 내 bottom-left에 위치한 열점이 두 개이며, 각 열점 면적비는 0.016입니다. 대상 내 bottom-left에 위치한 열점이 가장 높은 온도를 나타내며, 이 온도는 33.1°C입니다.",
+  "evidence_numbers": [
+   "대상 최고온: 33.1°C",
+   "대상 내 bottom-left 열점 면적비: 0.016"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정밀점검 계획 수립(수 주 내)",
+  "uncertainty": "판단의 한계: 열점의 원인을 확인하기 위해 추가적인 정보가 필요합니다."
+ },
+ "sec": 17.6,
+ "in_tok": 1864,
+ "out_tok": 212
+}

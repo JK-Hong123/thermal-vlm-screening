@@ -1,0 +1,23 @@
+{
+ "case_id": "case023",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"변압기 케이블 연결개소\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L1 주의\",\n  \"thermal_finding\": \"대상 부품의 최고온도는 35.7°C로, 평균 온도는 32.1°C이며, 장면(배경) 중앙값 온도는 31.5°C로, 온도차 ΔT_scene = 4.2°C이다.\",\n  \"evidence_numbers\": [\n    \"대상 부품 최고온도: 35.7°C\",\n    \"평균 온도: 32.1°C\",\n    \"장면(배경) 중앙값 온도: 31.5°C\",\n    \"온도차 ΔT_scene: 4.2°C\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"다음 정기점검 시 확인\",\n  \"uncertainty\": \"판단의 한계: 열점 위치 및 형태를 정확히 파악하기 위해 추가적인 정보가 필요합니다.\"\n}\n```",
+ "parsed": {
+  "component": "변압기 케이블 연결개소",
+  "verdict": "정상",
+  "severity": "L1 주의",
+  "thermal_finding": "대상 부품의 최고온도는 35.7°C로, 평균 온도는 32.1°C이며, 장면(배경) 중앙값 온도는 31.5°C로, 온도차 ΔT_scene = 4.2°C이다.",
+  "evidence_numbers": [
+   "대상 부품 최고온도: 35.7°C",
+   "평균 온도: 32.1°C",
+   "장면(배경) 중앙값 온도: 31.5°C",
+   "온도차 ΔT_scene: 4.2°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "다음 정기점검 시 확인",
+  "uncertainty": "판단의 한계: 열점 위치 및 형태를 정확히 파악하기 위해 추가적인 정보가 필요합니다."
+ },
+ "sec": 20.71,
+ "in_tok": 1887,
+ "out_tok": 258
+}

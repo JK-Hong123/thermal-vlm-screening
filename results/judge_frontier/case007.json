@@ -1,0 +1,28 @@
+{
+ "case_id": "case007",
+ "my_marker_cell": "상단 좌측",
+ "my_part": "고온으로 빛나는 바퀴 림 띠의 안쪽(우측) 가장자리 — 상자 왼쪽 테두리 위, 밝은 띠와 상자 안쪽 어두운 영역(액슬박스 추정)의 경계. 액슬박스 본체는 아님",
+ "my_part_confidence": "medium",
+ "which_is_vlm": "B",
+ "vlm_grid_correct": "yes",
+ "vlm_part_correct": "yes",
+ "a0plus_part_correct": "no",
+ "vlm_visual_flags_valid": "partial",
+ "n_vlm_ungrounded": 2,
+ "n_a0plus_ungrounded": 1,
+ "vlm_ungrounded_examples": [
+  "'답면' 고온부 — 측면 촬영이라 답면은 보이지 않음(림 띠만 보임)",
+  "'육안 특이 없음 / 화질 보통' — 가시광이 거의 전면 암부(저노출)라 특이 유무를 말할 근거가 없고 화질도 '보통'이 아님"
+ ],
+ "vlm_adds_value_over_a0plus": "yes",
+ "value_added_what": "마커가 상자 왼쪽 경계선 위, 고온 림 띠의 안쪽 가장자리에 있음을 이미지로 정확히 서술 — 코드 계층의 '바로 바깥(75.6°C)이 더 뜨거움·외부 열원 의심'과 정합. 메모가 '각도 바꿔 재촬영해 외부 열원 배제 → 베어링 윤활 점검' 순서로 실행 가능",
+ "code_layer_issue": "치명적 모순 없음. 소소: '열 형태 다점형'(n_hotspots=3)은 상자가 연속 띠를 좁게 자른 계측 산물로 보이며 이미지상 연속 띠. 세션 매칭 3프레임 전부 플래그이나 열점 위치가 100% 다름(최빈 하단 우측)이라는 점은 잘 기재됨. 코드 전용 A에도 '기계 검증 1건 불합격' 표기",
+ "preferred_report": "B",
+ "preference_reason": "B는 마커 부위를 이미지대로(림 띠 가장자리, 상자 왼쪽 경계) 짚어 외부 열원 의심 판정을 시각적으로 뒷받침하고 조치 순서가 명확. A는 조회표 기본값 '차축 베어링(액슬박스)'을 부위로 제시해 베어링 자체가 74°C인 것처럼 읽히게 함(이미지상 액슬박스 쪽은 상대적으로 저온). B의 가시광 플래그와 '답면' 언급은 감점이지만 운영 판단에 미치는 영향은 작음",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "report_trustworthy_for_operator": "B",
+ "notes": "마커 픽셀 확인: 상자 x 151~186, 마커 중심 x 152.0 → x_norm 0.03, y_norm 0.16 → 상단 좌측(상자 왼쪽 테두리 위) — facts와 일치, t_max_just_outside 75.6 > 74.0과도 정합. 가시광은 저노출 암부에 우측 브래킷 형체만 보여 부위 확정에 사용 못 함(medium). 두 보고서 모두 원인 후보 '확인 불가'로 대체됨"
+}

@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B가 이미지의 시각적 형태(세로로 긴 상자와 오른쪽 밝은 띠)를 더 구체적으로 묘사하고, 그에 맞는 실효성 있는 권고 조치와 작업자 메모를 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 이미지의 시각적 특징을 구체적으로 포착하여 현장 작업자에게 진동 및 윤활 상태 점검 등 더 실질적인 조치 가이드를 제공합니다.",
+ "case_id": "case039"
+}

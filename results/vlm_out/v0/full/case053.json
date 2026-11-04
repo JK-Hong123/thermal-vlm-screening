@@ -1,0 +1,22 @@
+{
+ "case_id": "case053",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"차축베어링\",\n  \"verdict\": \"이상\",\n  \"severity\": \"L4 긴급\",\n  \"thermal_finding\": \"대상 내 bottom-right에 위치한 열점이 3개이며, 이 열점의 면적비는 0.109입니다. 대상 부품의 최고온도는 76.0°C로, 이는 대상 내부에서 가장 높은 온도입니다.\",\n  \"evidence_numbers\": [\n    \"대상 최고온: 76.0°C\",\n    \"대상 내 bottom-right 열점 개수: 3\",\n    \"대상 내 bottom-right 열점 면적비: 0.109\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"즉시 조치(정지·부하차단 검토)\",\n  \"uncertainty\": \"판단의 한계: 열점의 원인을 확인하기 위해 추가적인 정보가 필요합니다.\"\n}\n```",
+ "parsed": {
+  "component": "차축베어링",
+  "verdict": "이상",
+  "severity": "L4 긴급",
+  "thermal_finding": "대상 내 bottom-right에 위치한 열점이 3개이며, 이 열점의 면적비는 0.109입니다. 대상 부품의 최고온도는 76.0°C로, 이는 대상 내부에서 가장 높은 온도입니다.",
+  "evidence_numbers": [
+   "대상 최고온: 76.0°C",
+   "대상 내 bottom-right 열점 개수: 3",
+   "대상 내 bottom-right 열점 면적비: 0.109"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "즉시 조치(정지·부하차단 검토)",
+  "uncertainty": "판단의 한계: 열점의 원인을 확인하기 위해 추가적인 정보가 필요합니다."
+ },
+ "sec": 19.31,
+ "in_tok": 1865,
+ "out_tok": 235
+}

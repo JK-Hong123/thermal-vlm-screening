@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "상자(맨 왼쪽의 가늘고 긴 세로 요소, 케이블 또는 인출선으로 보임)의 맨 위, 화면 상부를 가로지르는 밝은 주황색 가로 모선(부스바)의 왼쪽 끝과 만나는 지점. 마커의 열은 바로 옆 가로 모선에서 번진 것으로 보임. 가시광은 변압기 외함·장착 레일·단자대가 보이나 열화상과 각도가 달라 정렬 불가.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 '왼쪽 끝 세로 케이블의 맨 위, 상부 가로 모선과 만나는 부근'이라는 실제 화면 소견이 내 판독과 일치하고, 인접 모선 발열의 영향을 가릴 수 있는 각도 변경 재촬영(반사 확인)과 부하 기록 항목을 추가했다. B는 조회표 문구와 틀 원인 후보뿐이며 현장 확인 항목이 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "마커 위치(상단-우)는 두 보고서 모두 계측 사실(cell 2, x_norm 1.0, y_norm 0.0)과 일치하며 다점형(n_hotspots 5, 면적비 0.066)도 부합. 계측 사실상 barely 7px 안쪽이라 external_source_suspected는 false이지만 t_max_just_outside 51.4°C가 상자 내 최고 47.0°C보다 높고 형제 부품(56.9~68.3°C)이 모두 더 뜨거워, A의 '모선과 만나는 부근' 판독과 각도 변경 재촬영 권고가 사실과 잘 맞는다. 두 보고서 공통의 작업자 메모 '윤활 상태만 기록하십시오'는 변압기 케이블 접속부에 해당 없는 틀 문구로 두 보고서 모두의 약점이며, B의 '부싱' 부위는 조회표 추정으로 명시돼 있고 화면으로 반증할 수 없어 세지 않았다."
+}

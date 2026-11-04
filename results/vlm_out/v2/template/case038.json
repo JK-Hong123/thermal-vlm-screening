@@ -1,0 +1,89 @@
+{
+ "case_id": "case038",
+ "cond": "template",
+ "raw": {},
+ "secs": {},
+ "report": {
+  "case_id": "case038",
+  "equipment": "케이블&부스 연결개소",
+  "site": "변전소",
+  "spec": "22.9KV",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT -1.0°C (형제 2개, 기준 29.2°C); 장면 대비 ΔT 1.4°C",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "scene_level": 0,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 부스바 접촉부 ≥65 / CV 케이블 ≥90 (국토안전관리원 온도패턴법)",
+  "measurements": {
+   "t_max": 28.3,
+   "t_mean": 26.9,
+   "scene_median": 26.9,
+   "dT_scene": 1.4,
+   "sibling_reference": 29.2,
+   "dT_sibling": -1.0,
+   "n_siblings": 2,
+   "hotspot_area_frac": 0.0,
+   "rf_prob": 0.001
+  },
+  "thermal_finding_ko": "대상 최고 온도 28.3°C, 장면 중앙값 26.9°C(장면 대비 1.4°C). 열점은 대상 내 상단 중앙에 점형 분포; 동종 부품 대비 -1.0°C; 화면 최고온(30.3°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "동종 설비 정상 분포 범위 내"
+  ],
+  "caveats_ko": [
+   "열점은 국부에 집중되어 있으나 온도차는 정상 범위"
+  ],
+  "case_type": "no_thermal_evidence",
+  "case_type_ko": "단일 프레임에 열적 이상 근거 없음",
+  "confidence": "low",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 12프레임 중 0프레임 플래그로 일관; 단일 영상 근거 부족/반사 의심",
+  "action_ko": "정상 감시 유지; 신뢰도 낮음 — 재촬영 권고",
+  "field_checks_ko": [],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 12프레임, 그중 0프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "calib_default",
+   "rgb_unaligned",
+   "reflection_suspect"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "unknown",
+  "pattern_check": "unknown",
+  "vlm_pass1": {
+   "equipment_plausible": "확인 불가",
+   "part": "확인 불가",
+   "p_grid": "상단 중앙",
+   "heat_pattern": "불명",
+   "visual_flags": [
+    "특이 없음"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "cause_basis": [],
+   "field_checks": [],
+   "operator_note_ko": ""
+  },
+  "validation": {
+   "violations": [
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "p_grid"
+   ]
+  }
+ }
+}

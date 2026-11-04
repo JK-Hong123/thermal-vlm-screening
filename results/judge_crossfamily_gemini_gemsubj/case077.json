@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "접지용 콘덴서 단자 및 본체 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증을 통과하여 계측 데이터와 서술 간의 정합성이 유지되었으나, 보고서 B는 열 형태 항목이 검증에 실패하여 기본값으로 대체되는 문제가 있었습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "둘 다 동등",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A가 기계 검증 통과 측면에서 더 신뢰할 만합니다.",
+ "case_id": "case077"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "기어박스 하단 경계부 / 축 베어링 추정",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 마커가 상자 테두리에 걸쳐 있어 외부 열원의 영향 가능성을 정확히 간파하고 신뢰도를 낮춘 반면, B는 모순되게 정상 범위라면서 과도한 추가 정비 항목을 권고함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "하단 좌측 부위의 면형 열점에 대해 진동 및 윤활 상태를 확인하시기 바랍니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 경계 오염 가능성과 신뢰도 저하 사유를 논리적으로 잘 서술하였음.",
+ "case_id": "case023"
+}

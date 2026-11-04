@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "계기용변성기(MOF) 본체 하단부 또는 단자함 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독 결과와 기계적 검증 과정이 명확하며 불필요한 환각 없이 간결하게 작성되었습니다. 반면 보고서 B는 이미지 판독에서 부위 확인 불가를 선언하면서도 현장 확인 항목이나 메모에서 과도하게 상세한 추정을 덧붙여 일관성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 확인 불가 상태에서 현장 확인 항목과 작업자 메모에 구체적인 권고 조건을 과도하게 유추함"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 진단에서 마커 위치와 실측 데이터의 정합성을 중시할 때 보고서 A가 더 신뢰성 있는 판단 근거를 제공합니다.",
+ "case_id": "case010"
+}

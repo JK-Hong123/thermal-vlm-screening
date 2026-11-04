@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링 주변 휠 림 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 이미지가 어둡고 화질을 확인하기 어려운 상태임을 정확히 반영한 반면, 보고서 B는 화질이 양호하다고 잘못 서술함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "화질 양호"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "가시광 사진이 거의 식별 불가능한 상태이므로 화질을 '양호'로 평가한 보고서 B보다 '확인 불가'로 평가한 보고서 A가 이미지 판독 측면에서 더 신뢰할 수 있음.",
+ "case_id": "case067"
+}

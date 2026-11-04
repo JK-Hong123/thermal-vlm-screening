@@ -1,0 +1,22 @@
+{
+  "case_id": "case025",
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상은 거의 균일한 어두운 보라색이고 상자는 세로로 길고 좁은 형태이며 커서는 상자 상단 중앙에 있음. 우측에 희미한 사각 구조만 보여 상자 내부 부위는 식별 불가. 가시광에는 적색 애자(절연물) 기둥, 흰색 가로 바, 녹색 조작봉이 보여 단로기 절연주·조작봉 계통으로 추정되나 열화상과 정렬되지 않음. 상자의 세로 긴 형상으로 보아 절연주 또는 조작봉 구간일 가능성.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "A",
+  "preference_reason": "A는 부위를 특정하지 않으면서 세션 일관성·낮은 신뢰도를 묶어 부하 조건 기록 후 재촬영이라는 구체적 메모를 주고, B는 이미지에서 확인되지 않는 '접촉부(블레이드·클립)'를 조회표로 단정하고 메모는 '정상 감시 유지'로 축약되어 재촬영 권고가 약해진다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "최고온 지점은 대상 상단 중앙에 있으며 조회표상 접촉부(블레이드·클립) 부위로 추정됩니다. (열화상에서 부위 식별 불가, 조회표 추정일 뿐)"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "열점 '상단 중앙'은 상자 상단의 커서 위치와 일치. 열점 위치가 세션 83% 프레임과 다르다는 점과 반사 의심 플래그를 고려하면 A의 재촬영 메모가 더 적절."
+}

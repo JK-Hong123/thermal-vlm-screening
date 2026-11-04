@@ -1,0 +1,64 @@
+{
+ "case_id": "case069",
+ "cond": "template",
+ "raw": null,
+ "vlm_parsed": null,
+ "report": {
+  "case_id": "case069",
+  "equipment": "접지용 콘덴서",
+  "site": "변전소",
+  "spec": "6.6KV, 10KVAR",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "장면 중앙값(주변 온도 대용, 비표준 기준점) 대비",
+  "severity_metric": "장면 대비 ΔT 3.8°C (장면 중앙값 24.0°C)",
+  "severity_source": "ANSI/NETA MTS Table 100.18 주변 대비(1~10 조사 / 11~20 수리 / 21~40 감시·시정 / >40 즉시) 준용",
+  "case_type": "no_thermal_evidence",
+  "case_type_ko": "단일 프레임에 열적 이상 근거 없음",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 14프레임 중 0프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 27.8,
+   "scene_median": 24.0,
+   "dT_scene": 3.8,
+   "dT_sibling": null,
+   "rf_prob": 0.128
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 14,
+   "n_flagged": 0,
+   "flag_frac": 0.0,
+   "rf_prob_median": 0.111,
+   "rf_prob_min": 0.086,
+   "rf_prob_max": 0.158,
+   "dT_scene_median": 3.6,
+   "dT_scene_min": 3.4,
+   "dT_scene_max_over_session": 3.8,
+   "t_max_median": 27.8,
+   "t_max_max": 27.9,
+   "hotspot_pos_mode": "middle-right",
+   "hotspot_pos_stability": 0.43,
+   "hotspot_pos_same_as_this_frame": 0.29
+  },
+  "recommended_action": "정상 감시 유지",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; 형제 부품 없음",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "불명",
+   "heat_description": "(이미지 서술 없음: 시스템 기본 문구)",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "operator_note": "단일 프레임에서 열적 근거가 없어 추가 판단은 유보합니다.",
+   "image_consistent_with_facts": "불명",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": []
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

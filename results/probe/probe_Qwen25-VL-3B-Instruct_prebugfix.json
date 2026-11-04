@@ -1,0 +1,38 @@
+{
+ "L1_synth_blob": {
+  "n": 36,
+  "acc": 0.333,
+  "kappa": 0.25,
+  "answers": {
+   "상단 중앙": 4,
+   "상단 우측": 16,
+   "중단 우측": 16
+  },
+  "parse_fail": 0
+ },
+ "L2_synth_mark": {
+  "n": 36,
+  "acc": 0.444,
+  "kappa": 0.375,
+  "answers": {
+   "상단 중앙": 8,
+   "상단 우측": 4,
+   "중앙": 8,
+   "중단 우측": 12,
+   "하단 우측": 4
+  },
+  "parse_fail": 0
+ },
+ "L3_real_mark": {
+  "n": 36,
+  "acc": 0.167,
+  "kappa": 0.07,
+  "answers": {
+   "상단 중앙": 21,
+   "상단 우측": 6,
+   "중단 우측": 9
+  },
+  "parse_fail": 0
+ },
+ "_model": "Qwen/Qwen2.5-VL-3B-Instruct"
+}

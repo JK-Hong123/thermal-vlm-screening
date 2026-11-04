@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "태양광 모듈 하단 프레임 및 주변부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 태양광 설비 특성을 정확히 반영하여 모듈 부위로 판독하고 반사 가능성을 지적한 반면, 보고서 B는 태양광 모듈 사진임에도 관련 없는 '케이블'로 오인하고 기계 검증에서 불합격을 받았습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 케이블 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 태양광 모듈의 특징을 올바르게 이해하고 반사 여부 재촬영 등 현장성 있는 권고를 제공한 반면, 보고서 B는 설비 종류와 맞지 않는 부위(케이블)를 언급하여 신뢰성이 떨어집니다.",
+ "case_id": "case076"
+}

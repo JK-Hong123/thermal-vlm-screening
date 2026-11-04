@@ -1,0 +1,98 @@
+{
+ "all": {
+  "n": 388,
+  "acc": 0.693,
+  "kappa": 0.65,
+  "mean_dist": 0.176,
+  "within_0_2": 0.727,
+  "parse_fail": 0
+ },
+ "test": {
+  "n": 157,
+  "acc": 0.79,
+  "kappa": 0.761,
+  "mean_dist": 0.149,
+  "within_0_2": 0.815,
+  "parse_fail": 0
+ },
+ "gen_test": {
+  "n": 231,
+  "acc": 0.628,
+  "kappa": 0.564,
+  "mean_dist": 0.195,
+  "within_0_2": 0.667,
+  "parse_fail": 0
+ },
+ "label=danger": {
+  "n": 50,
+  "acc": 0.64,
+  "kappa": 0.564,
+  "mean_dist": 0.151,
+  "within_0_2": 0.76,
+  "parse_fail": 0
+ },
+ "label=normal": {
+  "n": 338,
+  "acc": 0.701,
+  "kappa": 0.659,
+  "mean_dist": 0.18,
+  "within_0_2": 0.722,
+  "parse_fail": 0
+ },
+ "eq:고압전동기": {
+  "n": 16,
+  "acc": 0.688,
+  "kappa": 0.64,
+  "mean_dist": 0.108,
+  "within_0_2": 0.938,
+  "parse_fail": 0
+ },
+ "eq:기어박스": {
+  "n": 15,
+  "acc": 0.733,
+  "kappa": 0.504,
+  "mean_dist": 0.252,
+  "within_0_2": 0.667,
+  "parse_fail": 0
+ },
+ "eq:변압기 케이블 연결개소 포함": {
+  "n": 28,
+  "acc": 0.821,
+  "kappa": 0.77,
+  "mean_dist": 0.096,
+  "within_0_2": 0.821,
+  "parse_fail": 0
+ },
+ "eq:신재생 설비": {
+  "n": 191,
+  "acc": 0.576,
+  "kappa": 0.501,
+  "mean_dist": 0.218,
+  "within_0_2": 0.623,
+  "parse_fail": 0
+ },
+ "eq:접지용 콘덴서": {
+  "n": 40,
+  "acc": 0.875,
+  "kappa": 0.829,
+  "mean_dist": 0.084,
+  "within_0_2": 0.875,
+  "parse_fail": 0
+ },
+ "eq:차단기": {
+  "n": 16,
+  "acc": 0.75,
+  "kappa": 0.704,
+  "mean_dist": 0.209,
+  "within_0_2": 0.688,
+  "parse_fail": 0
+ },
+ "eq:차축베어링": {
+  "n": 27,
+  "acc": 0.778,
+  "kappa": 0.72,
+  "mean_dist": 0.241,
+  "within_0_2": 0.778,
+  "parse_fail": 0
+ }
+}

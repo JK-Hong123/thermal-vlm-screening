@@ -1,0 +1,64 @@
+{
+ "case_id": "case052",
+ "cond": "template",
+ "raw": null,
+ "vlm_parsed": null,
+ "report": {
+  "case_id": "case052",
+  "equipment": "기어박스",
+  "site": "철도차량",
+  "spec": "기어박스",
+  "verdict": "이상 의심",
+  "severity": "L2 요주의",
+  "severity_level": 2,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 63.6°C = 동종 설비 정상 프레임 분포의 상위 34.4% (정상 중앙값 59.0°C, P95 84.8°C); 장면 대비 ΔT 25.7°C(상시 고온 설비이므로 한 단계 하향 적용)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "clear_overheat",
+  "case_type_ko": "명확한 과열 소견",
+  "confidence": "medium",
+  "confidence_reason": "세션 증거는 일관하나 게이트 확률(0.601)이 경계에 근접",
+  "measurements": {
+   "t_max": 63.6,
+   "scene_median": 37.9,
+   "dT_scene": 25.7,
+   "dT_sibling": null,
+   "rf_prob": 0.601
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 3,
+   "n_flagged": 2,
+   "flag_frac": 0.67,
+   "rf_prob_median": 0.624,
+   "rf_prob_min": 0.484,
+   "rf_prob_max": 0.649,
+   "dT_scene_median": 10.3,
+   "dT_scene_min": 8.1,
+   "dT_scene_max_over_session": 11.3,
+   "t_max_median": 46.0,
+   "t_max_max": 47.7,
+   "hotspot_pos_mode": "bottom-right",
+   "hotspot_pos_stability": 0.33,
+   "hotspot_pos_same_as_this_frame": 0.33
+  },
+  "recommended_action": "정밀점검 계획 수립(수 주 내), 부하 전류·체결 상태 확인",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; 형제 부품 없음",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "(이미지 서술 없음: 시스템 기본 문구)",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "operator_note": "현장에서 해당 부위의 체결 상태와 부하 전류를 확인하십시오.",
+   "image_consistent_with_facts": "불명",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": []
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상 상자 내부는 거의 균일한 자홍색이고 최고온 마커는 상자 좌측 테두리 아래쪽에 걸쳐 있으며, 상자 좌측 바깥과 화면 하단에 더 뜨거운 영역이 있음. 가시광에는 캐비닛 상부의 수평 부재(강한 반사광)와 하단 환기구만 보여 케이블·부스 접속부를 특정할 수 없음",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커 위치(상자 하단 좌측 테두리 부근)를 제 판독과 일치하게 읽었고 부위를 '확인 불가'로 솔직히 적었으며, 메모가 권고 조치(부위 확인을 위한 각도 변경 재촬영)를 그대로 전달한다. A는 반사 의심·테두리 최고온을 적어 놓고도 '정상 부하 발열(근거: 열 형태)'로 단정하고 메모는 '판단 유보'에 그친다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": ["원인 후보(추정): 정상 부하 발열   근거: 열 형태 — 같은 보고서가 reflection_suspect·peak_on_box_border를 한계로 적고 최고온이 상자 테두리에 있음을 전제하므로, 열 형태만으로 정상 부하 발열을 추정하는 것은 자기 서술과 어긋남"],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "마커는 상자 좌측 테두리의 하단 1/3 지점으로 '하단 좌측'과 부합(모서리 자체보다는 약간 위). 가시광의 수평 밝은 띠는 조명 반사로 보여 reflection_suspect 한계와 정합. 두 보고서 모두 정상 판정이므로 실무 결과 차이는 크지 않음."
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "계기용변압기(PT) 본체 또는 주변 구조물",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 화질과 정보 부족으로 세부 부위 특정이 불가능하다고 정직하게 기술하고 현장 확인 항목을 구체적으로 제시한 반면, 보고서 A는 불확실한 상태에서 본체로 단정하여 다소 과감한 해석을 하였습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 중앙에 있으며 조회표상 본체(절연 몰드) 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 이미지 판독의 한계를 정확히 인지하고 현장 작업자에게 구체적인 재촬영 및 확인 가이드를 제공하여 더 실용적입니다.",
+ "case_id": "case018"
+}

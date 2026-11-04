@@ -1,0 +1,77 @@
+{
+ "case_id": "case006",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"부싱\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 하단 좌측에 국부적으로 열점이 집중되어 있다.\",\n  \"visual_context\": \"설비 내부의 부서지와 케이블 연결부에 설치되어 있다.\",\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가\", \"절연 열화\"],\n  \"operator_note\": \"현장 작업자는 부싱 부위의 열점 확인과 접촉부 저항 검토를 수행해야 한다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"대상 내 하단 좌측에 국부적으로 열점이 집중되어 있으며, 이는 열화상에서 확인된 열점 위치와 일치한다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "부싱",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 하단 좌측에 국부적으로 열점이 집중되어 있다.",
+  "visual_context": "설비 내부의 부서지와 케이블 연결부에 설치되어 있다.",
+  "cause_hypothesis": [
+   "접촉부 접촉저항 증가",
+   "절연 열화"
+  ],
+  "operator_note": "현장 작업자는 부싱 부위의 열점 확인과 접촉부 저항 검토를 수행해야 한다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "대상 내 하단 좌측에 국부적으로 열점이 집중되어 있으며, 이는 열화상에서 확인된 열점 위치와 일치한다."
+ },
+ "report": {
+  "case_id": "case006",
+  "equipment": "차단기",
+  "site": "서부발전",
+  "spec": "고압(6.9kV)",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 10.6°C (형제 2개, 기준 22.5°C)",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "case_type": "clear_overheat",
+  "case_type_ko": "명확한 과열 소견",
+  "confidence": "low",
+  "confidence_reason": "단일 프레임 근거이며 게이트 확률(0.77)이 경계 근접 → 재촬영 권고",
+  "measurements": {
+   "t_max": 33.1,
+   "scene_median": 21.1,
+   "dT_scene": 12.0,
+   "dT_sibling": 10.6,
+   "rf_prob": 0.77
+  },
+  "session_evidence": {
+   "n_frames_in_session": 4,
+   "n_frames_component_matched": 1,
+   "n_flagged": 1,
+   "flag_frac": 1.0,
+   "rf_prob_median": 0.787,
+   "rf_prob_min": 0.787,
+   "rf_prob_max": 0.787,
+   "dT_scene_median": 11.5,
+   "dT_scene_min": 11.5,
+   "dT_scene_max_over_session": 11.5,
+   "t_max_median": 32.7,
+   "t_max_max": 32.7,
+   "hotspot_pos_mode": "top-center",
+   "hotspot_pos_stability": 1.0,
+   "hotspot_pos_same_as_this_frame": 0.0
+  },
+  "recommended_action": "조속한 정비(가능한 빠른 시기), 부하 저감 검토",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "부싱",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 하단 좌측에 국부적으로 열점이 집중되어 있다.",
+   "visual_context": "설비 내부의 부서지와 케이블 연결부에 설치되어 있다.",
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "절연 열화"
+   ],
+   "operator_note": "현장 작업자는 부싱 부위의 열점 확인과 접촉부 저항 검토를 수행해야 한다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "대상 내 하단 좌측에 국부적으로 열점이 집중되어 있으며, 이는 열화상에서 확인된 열점 위치와 일치한다."
+  },
+  "vlm_violations": []
+ },
+ "sec": 14.4,
+ "in_tok": 2019,
+ "out_tok": 189
+}

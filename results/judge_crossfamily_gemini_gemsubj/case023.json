@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "기어박스 차축/베어링 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 계측값과 열점 위치(하단 좌측 테두리 인근)의 물리적 한계를 정확히 반영하여 신뢰도를 낮게 책정하였고, 외부 열원 가능성을 논리적으로 분석함. 반면 보고서 B는 불확실한 상태에서 과도한 현장 조치 사항을 제시함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "하단 좌측 부위의 면형 열점에 대해 진동 및 윤활 상태를 확인하시기 바랍니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 경계면 오염 가능성과 낮은 신뢰도를 솔직하게 명시하여 현장 작업자가 오인하여 불필요한 분해 정비를 하는 것을 방지할 수 있습니다.",
+ "case_id": "case023"
+}

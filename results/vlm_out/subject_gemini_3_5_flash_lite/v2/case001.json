@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"하우징 본체\",\n \"p_grid\": \"하단 우측\",\n \"heat_pattern\": \"점형(작고 국부)\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"양호\",\n \"part_location_ko\": \"기어박스 하우징의 우측 하단 모서리 부근에 위치합니다.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2"
+}

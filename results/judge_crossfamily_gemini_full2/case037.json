@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "차축베어링",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 불분명하고 정렬되지 않은 이미지 상태를 정직하게 반영하여 재촬영 및 부하 조건 확인을 권고한 반면, 보고서 B는 불확실한 가시광/열화상 상태에서 과도하게 구체적인 부위 및 원인 추정을 제공하여 신뢰성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 중단 좌측에 있으며 조회표상 차축 본체 부위로 추정됩니다.",
+  "원인 후보(추정): 정상 운전 발열"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 및 가시광 이미지의 품질이 낮고 정렬되지 않은 상황에서는 보고서 A처럼 보수적이고 재촬영을 유도하는 진단이 현장 작업자에게 훨씬 안전하고 유용합니다.",
+ "case_id": "case037"
+}

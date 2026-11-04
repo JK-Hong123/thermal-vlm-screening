@@ -1,0 +1,64 @@
+{
+ "case_id": "case023",
+ "cond": "template",
+ "raw": null,
+ "vlm_parsed": null,
+ "report": {
+  "case_id": "case023",
+  "equipment": "변압기 케이블 연결개소 포함",
+  "site": "변전소",
+  "spec": "6.6KV,380/220V,150kVA",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 35.7°C = 동종 설비 정상 프레임 분포의 상위 95.8% (정상 중앙값 67.0°C, P95 137.7°C)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "normal",
+  "case_type_ko": "정상 범위",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 19프레임 중 0프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 35.7,
+   "scene_median": 31.5,
+   "dT_scene": 4.2,
+   "dT_sibling": -5.8,
+   "rf_prob": 0.069
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 19,
+   "n_flagged": 0,
+   "flag_frac": 0.0,
+   "rf_prob_median": 0.07,
+   "rf_prob_min": 0.032,
+   "rf_prob_max": 0.133,
+   "dT_scene_median": 5.6,
+   "dT_scene_min": 4.0,
+   "dT_scene_max_over_session": 7.0,
+   "t_max_median": 36.8,
+   "t_max_max": 38.2,
+   "hotspot_pos_mode": "bottom-left",
+   "hotspot_pos_stability": 0.47,
+   "hotspot_pos_same_as_this_frame": 0.47
+  },
+  "recommended_action": "정상 감시 유지",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "(이미지 서술 없음: 시스템 기본 문구)",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "operator_note": "정상 감시를 유지하십시오.",
+   "image_consistent_with_facts": "불명",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": []
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

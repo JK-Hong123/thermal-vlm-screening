@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "전자접촉기 단자부 또는 코일부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 불분명한 이미지 속에서 부위를 '코일·본체'라고 단정하였으나, 실제로는 화질과 정렬 상태상 명확히 확인하기 어렵습니다. 보고서 A가 이미지 판독의 한계를 정직하게 인정하고 '확인 불가'로 처리하여 더 신뢰할 수 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 중단 좌측에 있으며 조회표상 코일·본체 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 진단 시 시각적 정보가 불충분할 때 무리한 추정보다는 한계를 명시하는 보고서(A)가 현장 작업자에게 불필요한 혼선을 줄여줍니다.",
+ "case_id": "case066"
+}

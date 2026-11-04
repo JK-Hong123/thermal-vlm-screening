@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "기어박스 하우징 측면",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 하우징 전반의 열 분포 상태를 고려하여 구체적인 원인 후보와 냉각·유량 확인 등 실질적인 현장 조치 항목을 더 충실히 제시했습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "가시광 이미지가 어두워 정확한 부위 식별에 한계가 있으나, 열화상 데이터 해석 측면에서 B가 현장 작업자에게 더 구체적인 가이드를 제공합니다.",
+ "case_id": "case019"
+}

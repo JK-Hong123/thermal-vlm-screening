@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "태양광 모듈 프레임 또는 접속함",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 부위와 열 형태를 구체적으로 추정하여 작성하였고, 권고 조치에서 현장 작업자가 참고할 수 있는 실질적인 메모를 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "열화상 이미지 내 마커 위치는 하단-좌측에 정확히 위치하며, 보고서 B의 부위 및 열 형태에 대한 분석이 더 충실함.",
+ "case_id": "case076"
+}

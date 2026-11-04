@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "단자 접속부 또는 상부 케이스 영역",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 화질이 불분명하고 가시광 정보가 부합하지 않는 상황에서 무리하게 구체적인 부위를 단정하지 않고 '부위 확인 불가'로 솔직하게 기술하였으며, 재촬영 항목에 실질적인 권고를 더 잘 반영했습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 상단 중앙에 있으며 조회표상 단자 접속부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "가시광 이미지가 정렬되지 않았고 화질이 불확실한 상태에서 보고서 A가 단자 접속부로 단정 지은 것은 근거가 부족하며, 보고서 B의 보수적이고 객관적인 접근이 현장 작업자에게 더 신뢰를 줍니다.",
+ "case_id": "case071"
+}

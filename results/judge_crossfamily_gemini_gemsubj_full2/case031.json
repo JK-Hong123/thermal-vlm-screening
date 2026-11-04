@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "CT 단자 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 판정이 정상임에도 원인 후보를 과도하게 단정하지 않고 객관적인 한계를 명시한 반면, 보고서 B는 정상 판정 상태에서 접촉저항 증가라는 구체적 결함 원인과 현장 확인 항목을 제시하여 논리적 모순이 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "판정이 정상 범위임에도 원인 후보를 '접촉부 접촉저항 증가(체결 이완·산화)'로 단정하고 현장 확인 항목을 과도하게 요구함"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "설비 상태가 정상(L0)이므로 과잉 정비를 유발할 수 있는 보고서 B보다 보수적이고 객관적인 보고서 A가 현장 작업자에게 더 신뢰할 만합니다.",
+ "case_id": "case031"
+}

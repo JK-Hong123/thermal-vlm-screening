@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "기어박스 하부 및 축(베어링) 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 A는 불확실한 상황에서 세부 부위(출력축 베어링부)를 지나치게 단정적으로 유추한 반면, 보고서 B는 영상만으로는 세부 부위 특정이나 원인 추정이 어렵다는 점을 솔직히 밝히고 합리적인 현장 확인 항목을 제안하여 더 신뢰할 수 있습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "부위 출력축 베어링부"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "철도차량 기어박스 열화상 진단 시 화질과 각도가 제한적인 경우, A처럼 과도하게 세부 부위를 단정하기보다 B처럼 불확실성을 명시하고 재촬영 및 부하 조건 확인을 권고하는 것이 현장 작업자에게 더 안전합니다.",
+ "case_id": "case002"
+}

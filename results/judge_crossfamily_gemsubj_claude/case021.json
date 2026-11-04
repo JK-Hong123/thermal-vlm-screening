@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "상자 안은 가로 줄무늬(리브·핀)가 있는 곡면으로, 가시광의 녹색 전동기 프레임 곡면과 대응되어 전동기 외함의 냉각핀 또는 팬 커버 쪽 곡면으로 보임. 십자 표식은 상자 내 상단 중앙. 단자함 같은 사각 박스 구조는 상자 안에 보이지 않음.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A의 부위(냉각팬 커버)는 상자 안의 리브·핀 곡면이라는 실제 이미지와 부합하고 냉각·통풍 확인과 반사 재촬영이라는 구체 조치를 주지만, B는 조회표 기반으로 '단자함'이라 적어 이미지와 맞지 않고 현장 확인 항목도 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 2,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [
+    "최고온 지점은 대상 상단 중앙에 있으며 조회표상 단자함 부위로 추정됩니다. — 상자 안은 리브·핀이 있는 외함 곡면이며 가시광에서도 단자함 구조가 보이지 않음"
+  ],
+  "trustworthy_for_operator": "A",
+  "notes": "A의 원인 후보 '냉각 불량'은 정상 분포 백분위 31(중앙값 이하)인 계측과 비추어 다소 과한 추정이나 '확인 불가'를 병기했고 권고는 추세 기록 수준이라 모순으로 세지는 않았음. A의 기계 검증 3건 불합격(열점 위치 adjacent 포함)은 A의 원 판독이 한 칸 어긋났음을 시사하지만 최종 표기는 계측값으로 보정되어 있음. B의 작업자 메모 '윤활 상태 기록'은 권고 조치(절대온도 추세 기록)에 없는 항목."
+}

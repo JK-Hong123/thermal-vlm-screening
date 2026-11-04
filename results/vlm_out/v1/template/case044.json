@@ -1,0 +1,64 @@
+{
+ "case_id": "case044",
+ "cond": "template",
+ "raw": null,
+ "vlm_parsed": null,
+ "report": {
+  "case_id": "case044",
+  "equipment": "전자접촉기",
+  "site": "변전소",
+  "spec": "DC110V 4a4b",
+  "verdict": "이상 의심",
+  "severity": "L2 요주의",
+  "severity_level": 2,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 6.4°C (형제 6개, 기준 38.6°C)",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "case_type": "clear_overheat",
+  "case_type_ko": "명확한 과열 소견",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 9프레임 중 9프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 45.0,
+   "scene_median": 35.7,
+   "dT_scene": 9.3,
+   "dT_sibling": 6.4,
+   "rf_prob": 0.736
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 9,
+   "n_flagged": 9,
+   "flag_frac": 1.0,
+   "rf_prob_median": 0.777,
+   "rf_prob_min": 0.58,
+   "rf_prob_max": 0.917,
+   "dT_scene_median": 9.7,
+   "dT_scene_min": 7.9,
+   "dT_scene_max_over_session": 13.0,
+   "t_max_median": 45.3,
+   "t_max_max": 48.6,
+   "hotspot_pos_mode": "middle-right",
+   "hotspot_pos_stability": 0.78,
+   "hotspot_pos_same_as_this_frame": 0.78
+  },
+  "recommended_action": "정밀점검 계획 수립(수 주 내), 부하 전류·체결 상태 확인",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "(이미지 서술 없음: 시스템 기본 문구)",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "operator_note": "현장에서 해당 부위의 체결 상태와 부하 전류를 확인하십시오.",
+   "image_consistent_with_facts": "불명",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": []
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

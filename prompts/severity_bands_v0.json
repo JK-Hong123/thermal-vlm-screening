@@ -1,0 +1,11 @@
+{
+ "_note": "PLACEHOLDER until the protocol spec (standards-grounded) lands. dT = target max temp minus reference (scene median / sibling).",
+ "reference_note": "ΔT over scene-median (or sibling component if available)",
+ "bands": [
+  {"level": "L0", "name_ko": "이상 없음", "dT_min": -999, "dT_max": 4.0, "action_ko": "정상 감시 유지"},
+  {"level": "L1", "name_ko": "주의", "dT_min": 4.0, "dT_max": 10.0, "action_ko": "다음 정기점검 시 확인"},
+  {"level": "L2", "name_ko": "경고", "dT_min": 10.0, "dT_max": 15.0, "action_ko": "정밀점검 계획 수립(수 주 내)"},
+  {"level": "L3", "name_ko": "심각", "dT_min": 15.0, "dT_max": 40.0, "action_ko": "조속한 정비(가능한 빨리)"},
+  {"level": "L4", "name_ko": "긴급", "dT_min": 40.0, "dT_max": 9999, "action_ko": "즉시 조치(정지·부하차단 검토)"}
+ ]
+}

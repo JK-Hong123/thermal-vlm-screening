@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"브레이크 디스크\",\n \"p_grid\": \"하단 중앙\",\n \"heat_pattern\": \"선형\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"양호\",\n \"part_location_ko\": \"브레이크 디스크 하단 중앙 부근에 최고온 지점이 위치합니다.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2"
+}

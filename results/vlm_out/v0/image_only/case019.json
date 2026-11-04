@@ -1,0 +1,18 @@
+{
+ "case_id": "case019",
+ "cond": "image_only",
+ "raw": "```json\n{\n  \"component\": \"계기용변압기(PT)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품의 열 분포는 동종 부품과 유사하며, 온도 차이가 없어 보입니다.\",\n  \"evidence_numbers\": [],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"계기용변압기(PT)의 정상적인 열 분포를 유지하기 위해 계속 모니터링 필요.\",\n  \"uncertainty\": \"대상 부품의 온도가 동종 부품과 동일하지 확인할 수 없습니다.\"\n}\n```",
+ "parsed": {
+  "component": "계기용변압기(PT)",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품의 열 분포는 동종 부품과 유사하며, 온도 차이가 없어 보입니다.",
+  "evidence_numbers": [],
+  "probable_cause": "확인 불가",
+  "recommended_action": "계기용변압기(PT)의 정상적인 열 분포를 유지하기 위해 계속 모니터링 필요.",
+  "uncertainty": "대상 부품의 온도가 동종 부품과 동일하지 확인할 수 없습니다."
+ },
+ "sec": 13.02,
+ "in_tok": 1361,
+ "out_tok": 155
+}

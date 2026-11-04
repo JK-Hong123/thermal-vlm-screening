@@ -1,0 +1,23 @@
+{
+ "case_id": "case007",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"기어박스\",\n  \"verdict\": \"이상\",\n  \"severity\": \"L3 심각\",\n  \"thermal_finding\": \"대상 내 bottom-left에 위치한 열점이 있으며, 이 열점의 면적비는 0.015입니다. 이 열점의 최고온도는 51.5°C로, 대상 내부에서 가장 높은 온도를 나타냅니다.\",\n  \"evidence_numbers\": [\n    \"대상 최고온: 51.5°C\",\n    \"대상 평균온: 32.3°C\",\n    \"장면(배경) 중앙값 온도: 30.7°C\",\n    \"대상 최고온 - 기온: 32.5°C\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"조속한 정비(가능한 빨리)\",\n  \"uncertainty\": \"판단의 한계: 열점의 원인을 정확히 파악하기 위해서는 추가적인 정보가 필요합니다.\"\n}\n```",
+ "parsed": {
+  "component": "기어박스",
+  "verdict": "이상",
+  "severity": "L3 심각",
+  "thermal_finding": "대상 내 bottom-left에 위치한 열점이 있으며, 이 열점의 면적비는 0.015입니다. 이 열점의 최고온도는 51.5°C로, 대상 내부에서 가장 높은 온도를 나타냅니다.",
+  "evidence_numbers": [
+   "대상 최고온: 51.5°C",
+   "대상 평균온: 32.3°C",
+   "장면(배경) 중앙값 온도: 30.7°C",
+   "대상 최고온 - 기온: 32.5°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "조속한 정비(가능한 빨리)",
+  "uncertainty": "판단의 한계: 열점의 원인을 정확히 파악하기 위해서는 추가적인 정보가 필요합니다."
+ },
+ "sec": 21.79,
+ "in_tok": 1861,
+ "out_tok": 255
+}

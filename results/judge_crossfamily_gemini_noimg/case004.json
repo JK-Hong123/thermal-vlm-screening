@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "보일러 외벽 또는 배관 주변 구조물",
+ "my_part_confidence": "low",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 영상만으로는 세부 부위를 특정할 수 없다고 솔직하게 밝힌 반면, 보고서 B는 모호한 근거로 배관 접속부라 단정하고 관련 원인과 조치를 제시하여 환각(Hallucination) 우려가 있음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 좌측에 있으며 조회표상 배관 접속부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 단독 이미지에서 가시광 정합이 안 된 상태에서 세부 부위와 고장 원인을 섣부르게 추정하는 것보다, 보고서 A처럼 한계를 명시하고 재촬영을 권고하는 것이 현장 작업자에게 더 안전하고 신뢰성 높음.",
+ "case_id": "case004"
+}

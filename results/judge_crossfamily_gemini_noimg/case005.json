@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차철도차량 차축베어링",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 원인 후보를 무리하게 추정하지 않고 기계 검증 결과를 정직하게 반영하여 현장 엔지니어가 객관적으로 판단할 수 있도록 작성되었습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 과부하 운전, 냉각 불량   근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 불확실한 상태에서 원인 후보를 단정적으로 추정하였으나, 보고서 A는 이를 배제하고 신중한 점검 항목을 제시하여 신뢰도가 더 높음.",
+ "case_id": "case005"
+}

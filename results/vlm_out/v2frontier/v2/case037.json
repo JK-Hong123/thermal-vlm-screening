@@ -1,0 +1,102 @@
+{
+ "case_id": "case037",
+ "cond": "v2frontier",
+ "raw": {
+  "pass1": "{\"equipment_plausible\": \"예\", \"part\": \"확인 불가\", \"p_grid\": \"중앙\", \"heat_pattern\": \"불명\", \"visual_flags\": [\"특이 없음\"], \"image_quality\": \"보통\", \"part_location_ko\": \"세로로 긴 대상 부품의 중간 높이 한가운데에 마커가 있으며, 대상 자체는 밝지 않고 오른쪽 바깥에 큰 고온 영역이 따로 보임\"}",
+  "pass2": "{\"cause_hypothesis\": [\"확인 불가\"], \"cause_basis\": [\"정상 분포 대비\", \"세션 증거\"], \"field_checks\": [\"부하 조건 기록 후 재촬영\", \"각도 바꿔 재촬영(반사 확인)\", \"진동 측정\"], \"operator_note_ko\": \"차축베어링은 정상 범위로 판정되었으나 세션 내 판정이 혼재하므로 부하 조건을 기록하고 각도를 바꿔 재촬영해 확인해 주시기 바랍니다.\"}"
+ },
+ "report": {
+  "case_id": "case037",
+  "equipment": "차축베어링",
+  "site": "철도차량",
+  "spec": "차축베어링",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비(잠정 기준)",
+  "severity_metric": "대상 최고온 30.7°C = 정상 프레임 분포 백분위 21.8 (정상 중앙값 41.7°C, P95 77.2°C); 장면 대비 ΔT 4.7°C",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님); ISO 18434-1 기준선 권고",
+  "scene_level": 0,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 베어링·씰·윤활유 한계 100°C (잠정, EN 15437-1 핫박스 임계 미확인)",
+  "measurements": {
+   "t_max": 30.7,
+   "t_mean": 27.5,
+   "scene_median": 26.0,
+   "dT_scene": 4.7,
+   "sibling_reference": null,
+   "dT_sibling": null,
+   "n_siblings": 0,
+   "hotspot_area_frac": 0.308,
+   "rf_prob": 0.078,
+   "t_max_eroded": 30.7,
+   "dT_scene_eroded": 4.7
+  },
+  "thermal_finding_ko": "대상 최고 온도 30.7°C, 장면 중앙값 26.0°C(장면 대비 4.7°C). 열점은 대상 내 중단 좌측에 면형 분포; 화면 최고온(113.4°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "동종 설비 정상 분포 범위 내"
+  ],
+  "caveats_ko": [],
+  "case_type": "normal",
+  "case_type_ko": "정상 범위",
+  "confidence": "low",
+  "confidence_reason": "세션 8프레임 중 5프레임만 플래그(비일관) → 재촬영·부하 확인 권고",
+  "action_ko": "정상 감시 유지; 신뢰도 낮음 — 재촬영 권고",
+  "field_checks_ko": [
+   "진동 측정",
+   "부하 조건 기록 후 재촬영",
+   "각도 바꿔 재촬영(반사 확인)"
+  ],
+  "session_evidence_line": "같은 세션 80프레임 중 동일 부품 매칭 8프레임, 그중 5프레임 플래그; 다만 이 프레임의 열점 위치는 세션 내 100% 프레임과 다름(최빈 위치 하단 중앙) — 고정 결함이 아닐 수 있음",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "roi_small",
+   "sibling_absent",
+   "calib_default",
+   "rgb_unaligned"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "운전 부하·회전수",
+   "진동·윤활 이력"
+  ],
+  "spatial_check": "adjacent",
+  "pattern_check": "unknown",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "확인 불가",
+   "p_grid": "중단 좌측",
+   "heat_pattern": "불명",
+   "visual_flags": [
+    "특이 없음"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "cause_basis": [],
+   "field_checks": [
+    "진동 측정",
+    "부하 조건 기록 후 재촬영",
+    "각도 바꿔 재촬영(반사 확인)"
+   ],
+   "operator_note_ko": "차축베어링은 정상 범위로 판정되었으나 세션 내 판정이 혼재하므로 부하 조건을 기록하고 각도를 바꿔 재촬영해 확인해 주시기 바랍니다."
+  },
+  "validation": {
+   "violations": [
+    "basis:session_position_inconsistent",
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "basis",
+    "p_grid"
+   ]
+  }
+ }
+}

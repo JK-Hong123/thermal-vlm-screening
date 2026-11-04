@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "철도 차축베어링 또는 차륜 림·답면 인근",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증 결과를 정직하게 반영하여 이미지 판독 불일치 시 계측 기반으로 대체되었음을 명시하고 환각을 방지한 반면, 보고서 B는 불확실한 가시광 판독 및 임의의 현장 조치 사항을 포함하여 신뢰성이 다소 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "육안 가시광 미판독이라면서도 화질 확인 불가 상태에서 임의의 해석을 시도하거나 기계 검증 불합격 항목과 충돌하는 서술 포함"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 모델의 한계와 검증 실패 여부를 투명하게 공개하여 현장 작업자가 오판할 위험을 줄여줍니다.",
+ "case_id": "case008"
+}

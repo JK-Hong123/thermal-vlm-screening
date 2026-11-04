@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차축베어링 하단부 및 인근 휠 림 경계",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 이미지를 미판독 및 화질 확인 불가로 정확히 평가하였고, 기계 검증 불합격 시 합리적으로 기본값을 대체한 반면, 보고서 B는 화질 양호 및 육안 특이 없음 등 모순되거나 과장된 이미지 판독을 포함하고 있음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "육안 특이 없음 / 화질 양호",
+  "대상 부품 내부 하단 좌측 측면에 위치합니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "가시광 이미지가 극도로 어둡고 판독이 불가능한 상태임을 고려할 때, 이를 솔직하게 미판독으로 처리한 보고서 A가 현장 작업자에게 더 신뢰감을 줌.",
+ "case_id": "case067"
+}

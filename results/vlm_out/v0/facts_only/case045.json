@@ -1,0 +1,22 @@
+{
+ "case_id": "case045",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"펌프\",\n  \"verdict\": \"이상\",\n  \"severity\": \"L3 심각\",\n  \"thermal_finding\": \"대상 부품의 최고 온도는 61.0°C로, 대상 내 middle-right에 위치하며, 열점 면적비 0.187, 열점 개수 28입니다.\",\n  \"evidence_numbers\": [\"대상 부품 최고 온도: 61.0°C\", \"장면(배경) 중앙값 온도: 31.1°C\", \"대상 최고온이 대상 내부에 있음\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"조속한 정비(가능한 빨리)\",\n  \"uncertainty\": \"판단의 한계: 원인 확정, 내부 상태, 부하율 등 추가 확인 필요\"\n}\n```",
+ "parsed": {
+  "component": "펌프",
+  "verdict": "이상",
+  "severity": "L3 심각",
+  "thermal_finding": "대상 부품의 최고 온도는 61.0°C로, 대상 내 middle-right에 위치하며, 열점 면적비 0.187, 열점 개수 28입니다.",
+  "evidence_numbers": [
+   "대상 부품 최고 온도: 61.0°C",
+   "장면(배경) 중앙값 온도: 31.1°C",
+   "대상 최고온이 대상 내부에 있음"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "조속한 정비(가능한 빨리)",
+  "uncertainty": "판단의 한계: 원인 확정, 내부 상태, 부하율 등 추가 확인 필요"
+ },
+ "sec": 15.08,
+ "in_tok": 1009,
+ "out_tok": 214
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "고압전동기 단자함 또는 외함 상단부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 불명확하고 가시광 정보가 부족한 상황에서 무리하게 특정 부위나 원인을 단정하지 않고 '부위 확인 불가' 및 신뢰도 낮음을 솔직하게 명시하여 현장 작업자에게 안전한 판단 근거를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 좌측에 있으며 조회표상 단자함 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 불확실한 이미지를 바탕으로 단자함 및 정상 운전 발열로 추정하여 환각(Hallucination) 위험이 있는 반면, 보고서 A는 엄격하게 한계를 인정하여 신뢰도가 높습니다.",
+ "case_id": "case020"
+}

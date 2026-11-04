@@ -1,0 +1,1 @@
+{"raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"케이블 접속부\",\n \"p_grid\": \"상단 중앙\",\n \"heat_pattern\": \"점형(작고 국부)\",\n \"visual_flags\": [\"특이 없음\"],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"세로로 길게 내려오는 케이블 도체를 감싼 상자의 맨 위쪽 가운데, 케이블이 단자 쪽으로 이어지는 부위 근처에 마커가 놓여 있고 희미한 밝은 점은 상자 아래쪽에 따로 보인다.\"\n}", "model": "claude-fable-5-1"}

@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지의 시각적 요소(상자 우측의 밝은 세로 띠 등)를 더 구체적으로 묘사하고, 이에 기반한 실질적인 현장 점검 항목(진동 측정, 윤활 상태 확인 등)을 제시하여 기술자에게 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "trustworthy_for_operator": "B",
+ "notes": "두 보고서 모두 기계 검증을 통과했으며 수치적 오류는 없으나, B가 이미지 세부 묘사와 구체적인 권고 조치 측면에서 더 완성도 높음.",
+ "case_id": "case039"
+}

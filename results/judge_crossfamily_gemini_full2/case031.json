@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "CT 단자 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증 한계와 불합격 사유를 투명하게 밝히고 과도한 추정을 피한 반면, B는 정상 판정 상태에서 과도하게 상세한 결함 원인 후보와 권고 조치를 제시하여 일관성이 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 접촉부 접촉저항 증가(체결 이완·산화), 접촉면 오염 — 근거: 동종 부품 대비, 정상 분포 대비 (온도차가 정상 범위 내임에도 과도한 결함 원인 추정)"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 진단 결과 온도가 정상 범위(ΔT 3.2°C)임에도 불구하고 보고서 B는 과도하게 구체적인 결함 원인과 조치 항목을 생성하여 현장 작업자에게 혼선을 줄 수 있습니다.",
+ "case_id": "case031"
+}

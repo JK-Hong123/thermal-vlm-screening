@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지의 시각적 형태(상자 안의 넓고 매끈하게 따뜻한 물체)를 충실히 반영하여 원인 후보와 구체적인 현장 확인 항목을 제안한 반면, 보고서 A는 기계적인 추정에 그쳤습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "trustworthy_for_operator": "B",
+ "notes": "열화상 이미지 상에서 대상 부위가 화면 가장자리에 잘려 있고 면형으로 온도가 높게 나타나는 특성을 보고서 B가 더 잘 묘사하고 실효성 있는 권고 조치를 제공함.",
+ "case_id": "case019"
+}

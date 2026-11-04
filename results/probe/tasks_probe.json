@@ -1,0 +1,650 @@
+[
+ {
+  "id": "L1_synth_blob_00",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_00.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_00.json"
+ },
+ {
+  "id": "L1_synth_blob_01",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_01.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_01.json"
+ },
+ {
+  "id": "L1_synth_blob_02",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_02.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_02.json"
+ },
+ {
+  "id": "L1_synth_blob_03",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_03.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_03.json"
+ },
+ {
+  "id": "L1_synth_blob_04",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_04.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_04.json"
+ },
+ {
+  "id": "L1_synth_blob_05",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_05.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_05.json"
+ },
+ {
+  "id": "L1_synth_blob_06",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_06.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_06.json"
+ },
+ {
+  "id": "L1_synth_blob_07",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_07.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_07.json"
+ },
+ {
+  "id": "L1_synth_blob_08",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_08.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_08.json"
+ },
+ {
+  "id": "L1_synth_blob_09",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_09.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_09.json"
+ },
+ {
+  "id": "L1_synth_blob_10",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_10.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_10.json"
+ },
+ {
+  "id": "L1_synth_blob_11",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_11.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_11.json"
+ },
+ {
+  "id": "L1_synth_blob_12",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_12.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_12.json"
+ },
+ {
+  "id": "L1_synth_blob_13",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_13.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_13.json"
+ },
+ {
+  "id": "L1_synth_blob_14",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_14.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_14.json"
+ },
+ {
+  "id": "L1_synth_blob_15",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_15.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_15.json"
+ },
+ {
+  "id": "L1_synth_blob_16",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_16.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_16.json"
+ },
+ {
+  "id": "L1_synth_blob_17",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_17.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_17.json"
+ },
+ {
+  "id": "L1_synth_blob_18",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_18.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_18.json"
+ },
+ {
+  "id": "L1_synth_blob_19",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_19.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_19.json"
+ },
+ {
+  "id": "L1_synth_blob_20",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_20.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_20.json"
+ },
+ {
+  "id": "L1_synth_blob_21",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_21.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_21.json"
+ },
+ {
+  "id": "L1_synth_blob_22",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_22.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_22.json"
+ },
+ {
+  "id": "L1_synth_blob_23",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_23.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_23.json"
+ },
+ {
+  "id": "L1_synth_blob_24",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_24.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_24.json"
+ },
+ {
+  "id": "L1_synth_blob_25",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_25.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_25.json"
+ },
+ {
+  "id": "L1_synth_blob_26",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_26.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_26.json"
+ },
+ {
+  "id": "L1_synth_blob_27",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_27.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_27.json"
+ },
+ {
+  "id": "L1_synth_blob_28",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_28.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_28.json"
+ },
+ {
+  "id": "L1_synth_blob_29",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_29.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_29.json"
+ },
+ {
+  "id": "L1_synth_blob_30",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_30.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_30.json"
+ },
+ {
+  "id": "L1_synth_blob_31",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_31.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_31.json"
+ },
+ {
+  "id": "L1_synth_blob_32",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_32.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_32.json"
+ },
+ {
+  "id": "L1_synth_blob_33",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_33.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_33.json"
+ },
+ {
+  "id": "L1_synth_blob_34",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_34.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_34.json"
+ },
+ {
+  "id": "L1_synth_blob_35",
+  "level": "L1_synth_blob",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L1_synth_blob_35.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n가장 밝은(고온) 지점이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L1_synth_blob_35.json"
+ },
+ {
+  "id": "L2_synth_mark_00",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_00.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_00.json"
+ },
+ {
+  "id": "L2_synth_mark_01",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_01.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_01.json"
+ },
+ {
+  "id": "L2_synth_mark_02",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_02.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_02.json"
+ },
+ {
+  "id": "L2_synth_mark_03",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_03.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_03.json"
+ },
+ {
+  "id": "L2_synth_mark_04",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_04.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_04.json"
+ },
+ {
+  "id": "L2_synth_mark_05",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_05.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_05.json"
+ },
+ {
+  "id": "L2_synth_mark_06",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_06.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_06.json"
+ },
+ {
+  "id": "L2_synth_mark_07",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_07.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_07.json"
+ },
+ {
+  "id": "L2_synth_mark_08",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_08.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_08.json"
+ },
+ {
+  "id": "L2_synth_mark_09",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_09.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_09.json"
+ },
+ {
+  "id": "L2_synth_mark_10",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_10.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_10.json"
+ },
+ {
+  "id": "L2_synth_mark_11",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_11.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_11.json"
+ },
+ {
+  "id": "L2_synth_mark_12",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_12.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_12.json"
+ },
+ {
+  "id": "L2_synth_mark_13",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_13.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_13.json"
+ },
+ {
+  "id": "L2_synth_mark_14",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_14.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_14.json"
+ },
+ {
+  "id": "L2_synth_mark_15",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_15.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_15.json"
+ },
+ {
+  "id": "L2_synth_mark_16",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_16.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_16.json"
+ },
+ {
+  "id": "L2_synth_mark_17",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_17.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_17.json"
+ },
+ {
+  "id": "L2_synth_mark_18",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_18.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_18.json"
+ },
+ {
+  "id": "L2_synth_mark_19",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_19.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_19.json"
+ },
+ {
+  "id": "L2_synth_mark_20",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_20.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_20.json"
+ },
+ {
+  "id": "L2_synth_mark_21",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_21.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_21.json"
+ },
+ {
+  "id": "L2_synth_mark_22",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_22.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_22.json"
+ },
+ {
+  "id": "L2_synth_mark_23",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_23.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_23.json"
+ },
+ {
+  "id": "L2_synth_mark_24",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_24.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_24.json"
+ },
+ {
+  "id": "L2_synth_mark_25",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_25.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_25.json"
+ },
+ {
+  "id": "L2_synth_mark_26",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_26.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_26.json"
+ },
+ {
+  "id": "L2_synth_mark_27",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_27.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_27.json"
+ },
+ {
+  "id": "L2_synth_mark_28",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_28.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_28.json"
+ },
+ {
+  "id": "L2_synth_mark_29",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_29.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_29.json"
+ },
+ {
+  "id": "L2_synth_mark_30",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_30.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_30.json"
+ },
+ {
+  "id": "L2_synth_mark_31",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_31.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_31.json"
+ },
+ {
+  "id": "L2_synth_mark_32",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_32.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_32.json"
+ },
+ {
+  "id": "L2_synth_mark_33",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_33.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_33.json"
+ },
+ {
+  "id": "L2_synth_mark_34",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_34.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_34.json"
+ },
+ {
+  "id": "L2_synth_mark_35",
+  "level": "L2_synth_mark",
+  "images": [
+   "<PROJECT_ROOT>\\results\\probe\\L2_synth_mark_35.png"
+  ],
+  "prompt": "이미지에 흰색 사각형(대상 상자)이 있습니다. 상자 내부를 가로 3칸 × 세로 3칸으로 나누었을 때,\n하늘색 원+십자 표식이 어느 칸에 있습니까?\n다음 중 하나만 정확히 출력하십시오(다른 말 금지):\n상단 좌측 / 상단 중앙 / 상단 우측 / 중단 좌측 / 중앙 / 중단 우측 / 하단 좌측 / 하단 중앙 / 하단 우측",
+  "out": "<PROJECT_ROOT>\\results\\probe\\frontier\\L2_synth_mark_35.json"
+ }
+]

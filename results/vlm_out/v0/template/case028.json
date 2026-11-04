@@ -1,0 +1,23 @@
+{
+ "case_id": "case028",
+ "cond": "template",
+ "raw": null,
+ "parsed": {
+  "component": "케이블&부스 연결개소",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 최고 온도 37.6°C, 장면 중앙값 32.5°C, 장면 대비 온도차 5.1°C. 열점은 대상 내 top-center에 위치. 동종 부품 대비 온도차는 0.2°C입니다.",
+  "evidence_numbers": [
+   "37.6°C",
+   "32.5°C",
+   "5.1°C",
+   "0.2°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정상 감시 유지",
+  "uncertainty": "탐지 모델 이상 확률 0.231. 단일 프레임 기반이며 부하율·이력은 확인 불가."
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

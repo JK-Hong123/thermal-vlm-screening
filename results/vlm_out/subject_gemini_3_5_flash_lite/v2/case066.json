@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"상부 단자\",\n \"p_grid\": \"중단 좌측\",\n \"heat_pattern\": \"점형(작고 국부)\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"양호\",\n \"part_location_ko\": \"대상 부품 상부 단자 부근에 마커가 위치함\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2"
+}

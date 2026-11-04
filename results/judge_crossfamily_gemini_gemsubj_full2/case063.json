@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "펌프 커플링부 및 축 베어링 영역",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "cannot_tell",
+ "preferred_report": "tie",
+ "preference_reason": "두 보고서 모두 동일한 템플릿과 규칙 기반 수치를 공유하며, 이미지 판독 결과와 한계 사항을 충실히 반영하고 있어 우열을 가리기 어렵습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "둘 다 동등",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "both",
+ "notes": "마커 위치는 3x3 격자 중 중단-좌측 테두리 부근에 위치합니다.",
+ "case_id": "case063"
+}

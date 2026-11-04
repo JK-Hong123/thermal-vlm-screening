@@ -1,0 +1,22 @@
+{
+ "case_id": "case048",
+ "cond": "template",
+ "raw": null,
+ "parsed": {
+  "component": "기어박스",
+  "verdict": "이상",
+  "severity": "L3",
+  "thermal_finding": "대상 최고 온도 50.2°C, 장면 중앙값 27.9°C, 장면 대비 온도차 22.3°C. 열점은 대상 내 middle-left에 위치.",
+  "evidence_numbers": [
+   "50.2°C",
+   "27.9°C",
+   "22.3°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "조속한 정비(가능한 빨리)",
+  "uncertainty": "탐지 모델 이상 확률 0.571. 단일 프레임 기반이며 부하율·이력은 확인 불가."
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

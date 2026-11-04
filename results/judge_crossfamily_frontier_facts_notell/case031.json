@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-우",
+  "my_part": "CT 상부의 볼트 체결 단자판과 흰색 절연 본체가 만나는 우측 부근(일차 단자 접속부 우측 하단 또는 본체 우측 측면) — 가시광 비정렬로 둘 중 어느 쪽인지 확정 불가",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 마커가 상자 우측 테두리 가까이 중간 높이에 있음을 정확히 읽고 가시광의 볼트 체결 단자판과 연결했으며, 보고서 수치(형제 대비 +3.2°C, 정상 분포 상단)에 비례하는 저비용 점검 항목을 제시했다; A는 템플릿 서술과 '정상 감시 유지'뿐이다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 4,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "마커 위치(중단-우)는 두 보고서와 계측(x_norm 0.964, y_norm 0.496) 모두 일치. B의 메모 '형제 부품보다 약간 따뜻한 상태가 반복'은 세션 10프레임의 t_max 중앙값 37.1°C·장면 ΔT 중앙값 3.8°C로 일관된 온도는 확인되나 형제 대비 반복 여부는 계측 사실에 직접 없고, 열점 위치는 세션 내 30%만 일치해 고정 결함 해석에는 주의가 필요함. B의 원인 후보(접촉저항 증가)는 형제 대비 ΔT 백분위 98.7, 장면 ΔT 백분위 96.0 등 정상 분포 상단에 근거하므로 계수하지 않았으나 판정은 정상 범위이므로 후보 수준으로 읽어야 함. A의 '본체(절연 몰드)'와 B의 '일차 단자 접속부'는 가시광상 둘 다 가능하며 B만 추정 근거를 밝힘."
+}

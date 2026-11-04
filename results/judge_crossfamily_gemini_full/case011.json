@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링 하우징",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 가시광 이미지와 열화상 화질의 한계를 정직하게 인정하고 현장 확인 항목을 구체적으로 제시하여 작업자에게 더 실질적인 도움을 줍니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "부위 차축 본체"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "가시광 이미지가 너무 어두워 형체를 정확히 파악하기 어려우므로, 화질 불량과 확인 불가 상태를 명시한 보고서 B의 기술적 정직성이 더 신뢰감을 줍니다.",
+ "case_id": "case011"
+}

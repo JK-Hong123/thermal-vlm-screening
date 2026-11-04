@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "케이블 접속부 또는 단자함 하단",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 화질 불량과 가시광 미확인 상태를 정직하게 인정하고 현장 확인 항목을 구체적으로 제시한 반면, 보고서 A는 불분명한 이미지에서 과도하게 구체적인 형상 판독을 시도함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 2,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "열점은 대상 내 하단 중앙에 면형 분포",
+  "조회표상 케이블 접속부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 불확실한 상황에서 더 보수적이고 실무적인 권고 조치(부하 조건 기록 및 재촬영)를 제공하여 신뢰성이 높음.",
+ "case_id": "case014"
+}

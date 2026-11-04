@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "변압기 부싱 또는 접속부 주변",
+ "my_part_confidence": "low",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 낮고 판독이 불가능한 상태를 정직하게 '부위 확인 불가'로 명시한 반면, 보고서 B는 불확실한 상태에서 과도하게 구체적인 부위와 원인(리드 접속부, 정상 부하 발열)을 지어내어 신뢰성을 떨어뜨립니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 리드 접속부 / 열점 위치 판독 중앙 (계측 exact) / 열 형태 불명 / 육안 가시광 미판독 / 화질 확인 불가 - 최고온 지점은 대상 중앙에 있으며 조회표상 리드 접속부 부위로 추정됩니다.",
+  "원인 후보(추정): 정상 부하 발열 / 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 크롭 이미지가 매우 작고 저해상도이며 가시광 이미지도 식별이 어려워 세부 부위 판독이 불가능한 케이스입니다. 따라서 모르는 것을 모른다고 솔직하게 작성한 보고서 A가 현장 작업자에게 훨씬 안전하고 신뢰할 수 있는 정보를 제공합니다.",
+ "case_id": "case029"
+}

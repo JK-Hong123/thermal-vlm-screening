@@ -1,0 +1,78 @@
+{
+ "case_id": "case046",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"베어링 하우징\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 하단 좌측에 국부 집중된 열 분포가 확인되었습니다.\",\n  \"visual_context\": \"확인 불가\",\n  \"cause_hypothesis\": [\"베어링 손상\", \"윤활 불량\"],\n  \"operator_note\": \"현장 작업자는 베어링 하우징의 열 분포를 확인하고, 해당 부품의 상태를 조사해야 합니다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"대상 내 하단 좌측에 국부 집중된 열 분포가 확인되었으며, 이는 이미지 2에서 확인된 최고온 지점과 일치합니다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "베어링 하우징",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 하단 좌측에 국부 집중된 열 분포가 확인되었습니다.",
+  "visual_context": "확인 불가",
+  "cause_hypothesis": [
+   "베어링 손상",
+   "윤활 불량"
+  ],
+  "operator_note": "현장 작업자는 베어링 하우징의 열 분포를 확인하고, 해당 부품의 상태를 조사해야 합니다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "대상 내 하단 좌측에 국부 집중된 열 분포가 확인되었으며, 이는 이미지 2에서 확인된 최고온 지점과 일치합니다."
+ },
+ "report": {
+  "case_id": "case046",
+  "equipment": "차축베어링",
+  "site": "철도차량",
+  "spec": "차축베어링",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 72.7°C = 동종 설비 정상 프레임 분포의 상위 9.3% (정상 중앙값 41.7°C, P95 77.2°C); 장면 대비 ΔT 43.9°C(상시 고온 설비이므로 한 단계 하향 적용)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "intermittent",
+  "case_type_ko": "간헐적 플래그(세션 내 소수 프레임만 이상)",
+  "confidence": "low",
+  "confidence_reason": "세션 4프레임 중 1프레임만 플래그(비일관) → 재촬영·부하 확인 권고",
+  "measurements": {
+   "t_max": 72.7,
+   "scene_median": 28.9,
+   "dT_scene": 43.9,
+   "dT_sibling": null,
+   "rf_prob": 0.942
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 4,
+   "n_flagged": 1,
+   "flag_frac": 0.25,
+   "rf_prob_median": 0.187,
+   "rf_prob_min": 0.086,
+   "rf_prob_max": 0.914,
+   "dT_scene_median": 11.2,
+   "dT_scene_min": 7.6,
+   "dT_scene_max_over_session": 38.0,
+   "t_max_median": 37.0,
+   "t_max_max": 66.3,
+   "hotspot_pos_mode": "top-left",
+   "hotspot_pos_stability": 0.75,
+   "hotspot_pos_same_as_this_frame": 0.25
+  },
+  "recommended_action": "조속한 정비(가능한 빠른 시기), 부하 저감 검토",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; 형제 부품 없음",
+  "vlm": {
+   "component_part": "베어링 하우징",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 하단 좌측에 국부 집중된 열 분포가 확인되었습니다.",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "베어링 손상·윤활 불량"
+   ],
+   "operator_note": "현장 작업자는 베어링 하우징의 열 분포를 확인하고, 해당 부품의 상태를 조사해야 합니다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": [
+   "consistency_reason:digits"
+  ]
+ },
+ "sec": 14.34,
+ "in_tok": 2035,
+ "out_tok": 184
+}

@@ -1,0 +1,23 @@
+{
+ "case_id": "case000",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"차축베어링\",\n  \"verdict\": \"이상\",\n  \"severity\": \"L4 긴급\",\n  \"thermal_finding\": \"대상 내 bottom-left에 위치한 열점 3개, 면적비 0.208, 최고온도 71.0°C, 평균온도 45.5°C\",\n  \"evidence_numbers\": [\"대상 최고온 71.0°C\", \"평균 45.5°C\", \"장면(배경) 중앙값 온도 30.9°C\", \"대상 최고온 - 기온 52.0°C\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"즉시 조치(정지·부하차단 검토)\",\n  \"uncertainty\": \"판단의 한계: 원인 확인 필요\"\n}\n```",
+ "parsed": {
+  "component": "차축베어링",
+  "verdict": "이상",
+  "severity": "L4 긴급",
+  "thermal_finding": "대상 내 bottom-left에 위치한 열점 3개, 면적비 0.208, 최고온도 71.0°C, 평균온도 45.5°C",
+  "evidence_numbers": [
+   "대상 최고온 71.0°C",
+   "평균 45.5°C",
+   "장면(배경) 중앙값 온도 30.9°C",
+   "대상 최고온 - 기온 52.0°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "즉시 조치(정지·부하차단 검토)",
+  "uncertainty": "판단의 한계: 원인 확인 필요"
+ },
+ "sec": 17.04,
+ "in_tok": 1012,
+ "out_tok": 209
+}

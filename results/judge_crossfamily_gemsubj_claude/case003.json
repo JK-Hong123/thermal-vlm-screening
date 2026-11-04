@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "화면 중앙을 세로로 가로지르는 밝은 고온 원호(차륜 림)의 좌측 가장자리에 걸친 가늘고 긴 세로 영역. 상자 내부 대부분은 저온(보라색)이고 우측 경계만 차륜 림 고온대에 접하며 최고온점(크로스헤어)은 상자 우상단 모서리에 있음. 가시광에는 차축 단부 캡/허브로 보이는 단차진 원통형 부품이 보임. 액슬박스(차축 베어링) 인접부 또는 차륜 웹으로 추정되나 확신 낮음.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "B는 가시광 특이 없음·화질 보통을 실제로 확인하고 반사 확인용 각도 변경 재촬영을 확인 항목에 넣어 경계 외부 열원 케이스 유형과 정합한다. A는 조회표 추정에 그치고 가시광을 판독하지 않았다. 다만 두 보고서의 핵심 내용은 동일해 차이는 작다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열점 위치 '상단 우측'은 양 보고서 모두 내 판독과 일치한다(크로스헤어가 상자 우상단 모서리, 차륜 림 고온대에 접함). 열화상상 상자 내부는 대부분 저온이고 고온은 경계에서만 보이므로 외부 열원 번짐 의심이 시각적으로 타당하다. A의 '축 정렬 확인' 항목은 유용하지만 B의 '각도 바꿔 재촬영(반사 확인)'이 현 케이스 유형에 더 직접적이다. B의 열 형태 항목은 기계 검증 불합격으로 대체된 점을 참고."
+}

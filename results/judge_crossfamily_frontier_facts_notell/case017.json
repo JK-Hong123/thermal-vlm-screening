@@ -1,0 +1,23 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "확인 불가 — 열화상 상자 내부와 가시광 크롭 모두 특징 없는 어둡고 평평한 면만 보여 부위를 특정할 수 없음(변압기 접속부 주변의 평면 표면으로만 추정)",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 이미지에서 실제로 보이는 것(왼쪽 중간 높이의 어둡고 평평한 면, 구분되는 고온부 없음)을 정직하게 기술하고 부하 전류·통풍 확인 등 현장 항목을 구체적으로 제시한 반면, B는 조회표 기반 부위명(리드 접속부)만 붙이고 현장 확인 항목이 없다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "원인 후보(추정): 과부하 또는 상 불평형, 냉각·통풍 불량   근거: 동종 부품 대비 — 형제 대비 ΔT가 -0.8°C로 대상이 형제보다 오히려 낮고 보고서 스스로 '형제 동반 과열로 형제 기준 무효'라 했으므로 '상 불평형'의 근거가 되지 못함"
+  ],
+  "ungrounded_examples_B": [
+    "원인 후보(추정): 정상 부하 발열   근거: 열 형태 — 같은 보고서의 이미지 판독에서 열 형태를 '불명'으로 적어 놓고 열 형태를 근거로 삼음"
+  ],
+  "trustworthy_for_operator": "both",
+  "notes": "마커 위치(중단-좌)는 두 보고서와 계측 사실(x_norm 0.296, y_norm 0.48) 모두 일치. 상자가 28x26px로 매우 작고 열화상·가시광 모두 균일한 면이라 어느 보고서의 부위명도 이미지로는 검증 불가하며, A가 '부위 확인 불가'로 둔 것이 더 정직함. B의 '리드 접속부'는 조회표 추정일 뿐 이미지 근거가 없음. 판정·수치는 동일하므로 작업 지시 수준의 차이(A: 부하·통풍 확인 후 재촬영, B: 추세 기록만)가 실질적 차이."
+}

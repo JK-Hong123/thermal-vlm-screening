@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"예\",\n \"my_cell\": \"중단 우측\",\n \"reason_ko\": \"열화상 이미지 내 마커가 상자의 중단 우측 칸에 위치하므로 계측 기록과 일치합니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

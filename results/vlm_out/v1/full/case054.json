@@ -1,0 +1,79 @@
+{
+ "case_id": "case054",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"본체 하우징\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 부품의 중앙에 국부적으로 열이 집중되어 있다.\",\n  \"visual_context\": \"설비의 본체 하우징 내부에 설치되어 있으며, 표면 상태는 정상적이다.\",\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가\", \"정상 부하 발열\"],\n  \"operator_note\": \"현장 작업자는 이 부품의 열 분포를 확인하고, 열 분포가 정상적인지 확인해야 한다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"대상 부품의 열 분포는 이미지 1과 2에서 확인된 정상 분포와 일치한다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "본체 하우징",
+  "heat_pattern": "점형",
+  "heat_description": "대상 부품의 중앙에 국부적으로 열이 집중되어 있다.",
+  "visual_context": "설비의 본체 하우징 내부에 설치되어 있으며, 표면 상태는 정상적이다.",
+  "cause_hypothesis": [
+   "접촉부 접촉저항 증가",
+   "정상 부하 발열"
+  ],
+  "operator_note": "현장 작업자는 이 부품의 열 분포를 확인하고, 열 분포가 정상적인지 확인해야 한다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "대상 부품의 열 분포는 이미지 1과 2에서 확인된 정상 분포와 일치한다."
+ },
+ "report": {
+  "case_id": "case054",
+  "equipment": "계기용변압기(PT)",
+  "site": "변전소",
+  "spec": "(6.6kV/√3)/(110V/√3)",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "장면 중앙값(주변 온도 대용, 비표준 기준점) 대비",
+  "severity_metric": "장면 대비 ΔT 6.7°C (장면 중앙값 26.1°C)",
+  "severity_source": "ANSI/NETA MTS Table 100.18 주변 대비(1~10 조사 / 11~20 수리 / 21~40 감시·시정 / >40 즉시) 준용",
+  "case_type": "hot_but_normal",
+  "case_type_ko": "장면 대비 고온이나 설비 특성상 정상 범위(게이트 통과)",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 15프레임 중 0프레임 플래그로 일관",
+  "measurements": {
+   "t_max": 32.8,
+   "scene_median": 26.1,
+   "dT_scene": 6.7,
+   "dT_sibling": null,
+   "rf_prob": 0.075
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 15,
+   "n_flagged": 0,
+   "flag_frac": 0.0,
+   "rf_prob_median": 0.05,
+   "rf_prob_min": 0.018,
+   "rf_prob_max": 0.141,
+   "dT_scene_median": 6.5,
+   "dT_scene_min": 6.3,
+   "dT_scene_max_over_session": 6.8,
+   "t_max_median": 32.6,
+   "t_max_max": 32.9,
+   "hotspot_pos_mode": "center",
+   "hotspot_pos_stability": 0.8,
+   "hotspot_pos_same_as_this_frame": 0.8
+  },
+  "recommended_action": "절대온도 추세 기록(상시 고온 설비)",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; 형제 부품 없음",
+  "vlm": {
+   "component_part": "본체 하우징",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 부품의 중앙에 국부적으로 열이 집중되어 있다.",
+   "visual_context": "설비의 본체 하우징 내부에 설치되어 있으며, 표면 상태는 정상적이다.",
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "정상 부하 발열"
+   ],
+   "operator_note": "현장 작업자는 이 부품의 열 분포를 확인하고, 열 분포가 정상적인지 확인해야 한다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": [
+   "consistency_reason:digits"
+  ]
+ },
+ "sec": 14.54,
+ "in_tok": 2033,
+ "out_tok": 189
+}

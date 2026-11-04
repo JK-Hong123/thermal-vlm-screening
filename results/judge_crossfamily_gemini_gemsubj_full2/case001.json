@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "기어박스 하우징 하단 우측 모서리",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 육안 및 열화상 이미지를 더 객관적으로 서술하였으며, 불필요한 부위 추정(출력축 베어링부)을 배제하고 정확한 이미지 분석을 제공함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 우측에 있으며 조회표상 출력축 베어링부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 불확실한 부위명을 단정적으로 추정하여 혼선을 줄 수 있으므로 보고서 A가 현장 작업자에게 더 안전하고 신뢰성 있음.",
+ "case_id": "case001"
+}

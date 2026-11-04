@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링 하우징",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 가시광 이미지의 어둡고 불명확한 상태를 정직하게 반영하여 '확인 불가'로 처리하고 구체적인 현장 확인 항목을 제시한 반면, 보고서 A는 불분명한 이미지에서 과도하게 구체적인 부위와 원인을 유추함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "부위 차축 본체"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "가시광 화질이 매우 어두워 판독이 어려운 상황에서 신중한 접근을 취한 보고서 B가 현장 작업자에게 더 안전한 가이드를 제공합니다.",
+ "case_id": "case011"
+}

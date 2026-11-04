@@ -1,0 +1,6 @@
+=== Same-model judge (Claude Fable 5.1), forced-grounding protocol (images + reports, no facts), 32 locked cases ===
+[image-based frontier vs code-only] n=32 | preferred VLM-arm 31/32 = 0.969 [0.906,1.000] (code-only 0, tie 1; two-sided p = 0.0000)
+   usefulness 3.97 vs 2.81 | actionability 3.94 vs 2.78 | unsupported/case 0.34 vs 0.69 | reads-image-more {'VLM': 32} | trustworthy {'both': 14, 'VLM': 18}
+[NO-IMAGE (facts-only) frontier vs code-only] n=32 | preferred VLM-arm 26/32 = 0.812 [0.688,0.938] (code-only 6, tie 0; two-sided p = 0.0005)
+   usefulness 3.41 vs 2.75 | actionability 3.72 vs 2.50 | unsupported/case 0.66 vs 0.94 | reads-image-more {'cannot_tell': 30, 'VLM': 2} | trustworthy {'VLM': 21, 'code-only': 4, 'both': 7}
+paired: image-based preferred 31/32, no-image preferred 26/32; discordant pairs (image yes / no-image no) 5, (image no / no-image yes) 0

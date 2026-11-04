@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "차축베어링 부근 구조물",
+ "my_part_confidence": "low",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 불량과 부위 확인 불가를 솔직하게 명시한 반면, 보고서 B는 어둡고 판독이 어려운 가시광/열화상 이미지에서 구체적인 부위와 원인을 섣부르게 단정하여 환각(hallucination) 가능성이 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 휠 림·답면",
+  "원인 후보(추정): 정상 운전 발열"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "이미지가 매우 어둡고 불명확할 때는 보고서 A처럼 불확실성을 솔직히 인정하는 것이 현장 작업자의 오진을 방지하는 데 훨씬 안전합니다.",
+ "case_id": "case012"
+}

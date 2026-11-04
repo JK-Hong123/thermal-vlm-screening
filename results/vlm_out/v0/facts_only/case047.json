@@ -1,0 +1,23 @@
+{
+ "case_id": "case047",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"계기용변압기(PT)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품은 화면 중앙부에 위치하며, 최고 온도는 43.5°C, 평균 온도는 36.7°C입니다. 이는 주변 기온 24.0°C와 비교하여 19.5°C 차이가 있습니다.\",\n  \"evidence_numbers\": [\"대상 부품 최고 온도: 43.5°C\", \"평균 온도: 36.7°C\", \"장면(배경) 중앙값 온도: 34.8°C\", \"대상 부품 최고온이 대상 내부에 있음: 아니오\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정기적인 감시 유지\",\n  \"uncertainty\": \"확인 불가\"\n}\n```",
+ "parsed": {
+  "component": "계기용변압기(PT)",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품은 화면 중앙부에 위치하며, 최고 온도는 43.5°C, 평균 온도는 36.7°C입니다. 이는 주변 기온 24.0°C와 비교하여 19.5°C 차이가 있습니다.",
+  "evidence_numbers": [
+   "대상 부품 최고 온도: 43.5°C",
+   "평균 온도: 36.7°C",
+   "장면(배경) 중앙값 온도: 34.8°C",
+   "대상 부품 최고온이 대상 내부에 있음: 아니오"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정기적인 감시 유지",
+  "uncertainty": "확인 불가"
+ },
+ "sec": 16.05,
+ "in_tok": 1025,
+ "out_tok": 230
+}

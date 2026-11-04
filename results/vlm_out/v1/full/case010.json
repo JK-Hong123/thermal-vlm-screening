@@ -1,0 +1,66 @@
+{
+ "case_id": "case010",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"부싱\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 부품의 하단 중앙에 국부 집중된 열 분포가 확인되었습니다.\",\n  \"visual_context\": \"가시광 사진에서 부품의 위치와 열화상에서의 열 분포가 일치합니다.\",\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가\", \"절연 열화\"],\n  \"operator_note\": \"현장 작업자는 부싱 부분의 열 분포를 확인하고, 해당 부품의 열 저항을 조사해야 합니다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"이미지 1과 이미지 2에서 녹색 십자가가 부싱 부분에 위치하고 있으며, 이 부분의 열 분포가 정상 분포와 일치합니다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "부싱",
+  "heat_pattern": "점형",
+  "heat_description": "대상 부품의 하단 중앙에 국부 집중된 열 분포가 확인되었습니다.",
+  "visual_context": "가시광 사진에서 부품의 위치와 열화상에서의 열 분포가 일치합니다.",
+  "cause_hypothesis": [
+   "접촉부 접촉저항 증가",
+   "절연 열화"
+  ],
+  "operator_note": "현장 작업자는 부싱 부분의 열 분포를 확인하고, 해당 부품의 열 저항을 조사해야 합니다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "이미지 1과 이미지 2에서 녹색 십자가가 부싱 부분에 위치하고 있으며, 이 부분의 열 분포가 정상 분포와 일치합니다."
+ },
+ "report": {
+  "case_id": "case010",
+  "equipment": "변압기 접속부",
+  "site": "서부발전",
+  "spec": "고압부(345kV)",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 0.4°C (형제 2개, 기준 22.8°C)",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "case_type": "hot_but_normal",
+  "case_type_ko": "장면 대비 고온이나 설비 특성상 정상 범위(게이트 통과)",
+  "confidence": "low",
+  "confidence_reason": "단일 프레임 근거이며 게이트 확률(0.274)이 경계 근접 → 재촬영 권고",
+  "measurements": {
+   "t_max": 23.2,
+   "scene_median": 14.1,
+   "dT_scene": 9.1,
+   "dT_sibling": 0.4,
+   "rf_prob": 0.274
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 0
+  },
+  "recommended_action": "절대온도 추세 기록(상시 고온 설비)",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "부싱",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 부품의 하단 중앙에 국부 집중된 열 분포가 확인되었습니다.",
+   "visual_context": "가시광 사진에서 부품의 위치와 열화상에서의 열 분포가 일치합니다.",
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "절연 열화"
+   ],
+   "operator_note": "현장 작업자는 부싱 부분의 열 분포를 확인하고, 해당 부품의 열 저항을 조사해야 합니다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": [
+   "consistency_reason:digits"
+  ]
+ },
+ "sec": 15.16,
+ "in_tok": 2003,
+ "out_tok": 202
+}

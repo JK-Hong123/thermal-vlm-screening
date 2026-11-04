@@ -1,0 +1,347 @@
+{
+ "v2": {
+  "overall": {
+   "n": 70,
+   "json1": 1.0,
+   "json2": 1.0,
+   "dig1": 0.0,
+   "dig2": 0.0,
+   "cjk": 0.014,
+   "oov_per_case": 0.286,
+   "fallback_fields": 3.043,
+   "spatial_exact": 0.214,
+   "spatial_adj": 0.771,
+   "spatial_mismatch": 0.229,
+   "spatial_unknown": 0.0,
+   "p_grid_kappa": 1.0,
+   "n_pairs": 70,
+   "pattern_match": 0.143,
+   "pattern_differ": 0.743,
+   "part_unknown": 0.0,
+   "eq_plaus": {
+    "예": 70
+   },
+   "cause_unknown": 0.257,
+   "note_ok": 0.8,
+   "polarity": 0.0,
+   "basis_viol": 0.729,
+   "compat_viol": 0.057,
+   "mean_sec": 16.695,
+   "visual": {
+    "반사 의심": 70
+   }
+  },
+  "by_stratum": {
+   "A_clear_danger": {
+    "n": 10,
+    "spatial_exact": 0.3,
+    "spatial_adj": 0.6,
+    "pattern_match": 0.3,
+    "dig": 0.0,
+    "fallback": 2.4,
+    "cause_unknown": 0.1,
+    "polarity": 0.0
+   },
+   "B_hot_but_normal": {
+    "n": 10,
+    "spatial_exact": 0.2,
+    "spatial_adj": 0.6,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 4.0,
+    "cause_unknown": 0.5,
+    "polarity": 0.0
+   },
+   "C_borderline": {
+    "n": 10,
+    "spatial_exact": 0.1,
+    "spatial_adj": 0.9,
+    "pattern_match": 0.2,
+    "dig": 0.0,
+    "fallback": 3.0,
+    "cause_unknown": 0.3,
+    "polarity": 0.0
+   },
+   "D_subtle_fault": {
+    "n": 4,
+    "spatial_exact": 0.25,
+    "spatial_adj": 1.0,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 2.0,
+    "cause_unknown": 0.0,
+    "polarity": 0.0
+   },
+   "E_cool_normal": {
+    "n": 10,
+    "spatial_exact": 0.3,
+    "spatial_adj": 0.9,
+    "pattern_match": 0.1,
+    "dig": 0.0,
+    "fallback": 2.4,
+    "cause_unknown": 0.0,
+    "polarity": 0.0
+   },
+   "F_rf_fp": {
+    "n": 10,
+    "spatial_exact": 0.0,
+    "spatial_adj": 0.6,
+    "pattern_match": 0.3,
+    "dig": 0.0,
+    "fallback": 3.9,
+    "cause_unknown": 0.6,
+    "polarity": 0.0
+   },
+   "G_rf_fn": {
+    "n": 10,
+    "spatial_exact": 0.2,
+    "spatial_adj": 0.8,
+    "pattern_match": 0.1,
+    "dig": 0.0,
+    "fallback": 3.3,
+    "cause_unknown": 0.3,
+    "polarity": 0.0
+   },
+   "H_unseen_equip": {
+    "n": 6,
+    "spatial_exact": 0.5,
+    "spatial_adj": 1.0,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 2.5,
+    "cause_unknown": 0.0,
+    "polarity": 0.0
+   }
+  }
+ },
+ "v2_markerpert": {
+  "overall": {
+   "n": 70,
+   "json1": 1.0,
+   "json2": 0.0,
+   "dig1": 0.0,
+   "dig2": 0.0,
+   "cjk": 0.057,
+   "oov_per_case": 0.0,
+   "fallback_fields": 1.586,
+   "spatial_exact": 0.186,
+   "spatial_adj": 0.714,
+   "spatial_mismatch": 0.286,
+   "spatial_unknown": 0.0,
+   "p_grid_kappa": 1.0,
+   "n_pairs": 70,
+   "pattern_match": 0.157,
+   "pattern_differ": 0.743,
+   "part_unknown": 0.0,
+   "eq_plaus": {
+    "예": 70
+   },
+   "cause_unknown": 1.0,
+   "note_ok": 0.0,
+   "polarity": 0.0,
+   "basis_viol": 0.0,
+   "compat_viol": 0.0,
+   "mean_sec": 6.556,
+   "visual": {
+    "반사 의심": 70
+   }
+  },
+  "by_stratum": {
+   "A_clear_danger": {
+    "n": 10,
+    "spatial_exact": 0.3,
+    "spatial_adj": 0.5,
+    "pattern_match": 0.3,
+    "dig": 0.0,
+    "fallback": 1.2,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "B_hot_but_normal": {
+    "n": 10,
+    "spatial_exact": 0.1,
+    "spatial_adj": 0.6,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.9,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "C_borderline": {
+    "n": 10,
+    "spatial_exact": 0.1,
+    "spatial_adj": 0.8,
+    "pattern_match": 0.2,
+    "dig": 0.0,
+    "fallback": 1.6,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "D_subtle_fault": {
+    "n": 4,
+    "spatial_exact": 0.25,
+    "spatial_adj": 0.75,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.5,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "E_cool_normal": {
+    "n": 10,
+    "spatial_exact": 0.2,
+    "spatial_adj": 0.8,
+    "pattern_match": 0.1,
+    "dig": 0.0,
+    "fallback": 1.7,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "F_rf_fp": {
+    "n": 10,
+    "spatial_exact": 0.0,
+    "spatial_adj": 0.6,
+    "pattern_match": 0.4,
+    "dig": 0.0,
+    "fallback": 1.5,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "G_rf_fn": {
+    "n": 10,
+    "spatial_exact": 0.2,
+    "spatial_adj": 0.8,
+    "pattern_match": 0.1,
+    "dig": 0.0,
+    "fallback": 1.6,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "H_unseen_equip": {
+    "n": 6,
+    "spatial_exact": 0.5,
+    "spatial_adj": 1.0,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.67,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   }
+  }
+ },
+ "v2_nomarker": {
+  "overall": {
+   "n": 70,
+   "json1": 1.0,
+   "json2": 0.0,
+   "dig1": 0.0,
+   "dig2": 0.0,
+   "cjk": 0.143,
+   "oov_per_case": 0.057,
+   "fallback_fields": 1.529,
+   "spatial_exact": 0.157,
+   "spatial_adj": 0.757,
+   "spatial_mismatch": 0.243,
+   "spatial_unknown": 0.0,
+   "p_grid_kappa": 1.0,
+   "n_pairs": 70,
+   "pattern_match": 0.057,
+   "pattern_differ": 0.571,
+   "part_unknown": 0.057,
+   "eq_plaus": {
+    "예": 70
+   },
+   "cause_unknown": 1.0,
+   "note_ok": 0.0,
+   "polarity": 0.0,
+   "basis_viol": 0.0,
+   "compat_viol": 0.0,
+   "mean_sec": 6.38,
+   "visual": {
+    "반사 의심": 70
+   }
+  },
+  "by_stratum": {
+   "A_clear_danger": {
+    "n": 10,
+    "spatial_exact": 0.2,
+    "spatial_adj": 0.5,
+    "pattern_match": 0.2,
+    "dig": 0.0,
+    "fallback": 1.4,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "B_hot_but_normal": {
+    "n": 10,
+    "spatial_exact": 0.0,
+    "spatial_adj": 0.7,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.8,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "C_borderline": {
+    "n": 10,
+    "spatial_exact": 0.2,
+    "spatial_adj": 0.9,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.6,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "D_subtle_fault": {
+    "n": 4,
+    "spatial_exact": 0.25,
+    "spatial_adj": 0.75,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.5,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "E_cool_normal": {
+    "n": 10,
+    "spatial_exact": 0.3,
+    "spatial_adj": 0.8,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.3,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "F_rf_fp": {
+    "n": 10,
+    "spatial_exact": 0.0,
+    "spatial_adj": 0.7,
+    "pattern_match": 0.2,
+    "dig": 0.0,
+    "fallback": 1.8,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "G_rf_fn": {
+    "n": 10,
+    "spatial_exact": 0.1,
+    "spatial_adj": 0.8,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.6,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   },
+   "H_unseen_equip": {
+    "n": 6,
+    "spatial_exact": 0.33,
+    "spatial_adj": 1.0,
+    "pattern_match": 0.0,
+    "dig": 0.0,
+    "fallback": 1.0,
+    "cause_unknown": 1.0,
+    "polarity": 0.0
+   }
+  }
+ }
+}

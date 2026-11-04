@@ -1,0 +1,64 @@
+{
+ "case_id": "case045",
+ "cond": "template",
+ "raw": null,
+ "vlm_parsed": null,
+ "report": {
+  "case_id": "case045",
+  "equipment": "펌프",
+  "site": "쓰레기소각장",
+  "spec": "35",
+  "verdict": "이상 의심",
+  "severity": "L2 요주의",
+  "severity_level": 2,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비",
+  "severity_metric": "대상 최고온 61.0°C = 동종 설비 정상 프레임 분포의 상위 59.5% (정상 중앙값 65.0°C, P95 136.9°C); 장면 대비 ΔT 29.9°C(상시 고온 설비이므로 한 단계 하향 적용)",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님)",
+  "case_type": "clear_overheat",
+  "case_type_ko": "명확한 과열 소견",
+  "confidence": "low",
+  "confidence_reason": "세션 16프레임 중 10프레임만 플래그(비일관) → 재촬영·부하 확인 권고",
+  "measurements": {
+   "t_max": 61.0,
+   "scene_median": 31.1,
+   "dT_scene": 29.9,
+   "dT_sibling": null,
+   "rf_prob": 0.508
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 16,
+   "n_flagged": 10,
+   "flag_frac": 0.62,
+   "rf_prob_median": 0.527,
+   "rf_prob_min": 0.365,
+   "rf_prob_max": 0.648,
+   "dT_scene_median": 29.6,
+   "dT_scene_min": 28.0,
+   "dT_scene_max_over_session": 30.3,
+   "t_max_median": 60.8,
+   "t_max_max": 61.1,
+   "hotspot_pos_mode": "middle-right",
+   "hotspot_pos_stability": 0.56,
+   "hotspot_pos_same_as_this_frame": 0.56
+  },
+  "recommended_action": "정밀점검 계획 수립(수 주 내), 부하 전류·체결 상태 확인",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; 형제 부품 없음",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "불명",
+   "heat_description": "(이미지 서술 없음: 시스템 기본 문구)",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "operator_note": "현장에서 해당 부위의 체결 상태와 부하 전류를 확인하십시오.",
+   "image_consistent_with_facts": "불명",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": []
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

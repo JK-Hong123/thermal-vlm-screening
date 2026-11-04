@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 부위를 구체적으로 식별하고 명확한 작업자 메모를 제공하여 현장 가독성이 더 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 1,
+ "trustworthy_for_operator": "A",
+ "notes": "두 보고서 모두 계측 수치는 동일하나, 서술의 구체성과 실용성 측면에서 A가 더 우수함.",
+ "case_id": "case011"
+}

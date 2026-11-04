@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "보일러 점검구 또는 도어 상단 프레임",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 도어/점검구 형태의 설비 구조를 정확히 반영하여 점검구 및 씰 관련 원인 후보를 제시한 반면, 보고서 B는 관련 없는 배관 접속부 및 회전기기 관련 원인(베어링, 축 정렬)을 언급하여 현장 상황과 맞지 않습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "조회표상 배관 접속부 부위로 추정됩니다",
+  "베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보일러 점검구 구조물에 대한 열화상 분석으로 A보고서의 설비 부위 판독 및 원인 추정이 타당함.",
+ "case_id": "case000"
+}

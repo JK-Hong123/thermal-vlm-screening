@@ -1,0 +1,6 @@
+=== Cross-vendor judge (Gemini 3.5 Flash-Lite), forced-grounding protocol, 80 locked cases ===
+[image-based frontier vs code-only] n=80 | preferred VLM-arm 70/80 = 0.875 [0.800,0.938] (code-only 10, tie 0; p = 0.0000)
+   usefulness 3.96 vs 3.08 | actionability 3.96 vs 3.01 | unsupported/case 0.05 vs 0.44 | reads-image-more {'VLM': 67, 'code-only': 13}
+[NO-IMAGE (facts-only) frontier vs code-only] n=80 | preferred VLM-arm 53/80 = 0.662 [0.562,0.762] (code-only 27, tie 0; p = 0.0049)
+   usefulness 3.71 vs 3.29 | actionability 3.73 vs 3.24 | unsupported/case 0.06 vs 0.60 | reads-image-more {'VLM': 43, 'code-only': 37}
+paired: image-based 70/80, no-image 53/80; discordant (image yes/no-image no) 24, (image no/no-image yes) 7; exact McNemar two-sided p = 0.0033

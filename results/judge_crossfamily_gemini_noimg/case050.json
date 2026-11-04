@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "단로기 접촉부 또는 블레이드/클립",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 부위 판독을 시도하여 구체적인 접촉부 추정 및 원인 후보를 제시한 반면, 보고서 B는 이미지 판독을 포기하고 확인 불가로 처리함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 이미지 내 마커 위치는 중단-우측 영역에 해당하며, 보고서 A가 이미지 정보를 적극적으로 활용하려 시도함.",
+ "case_id": "case050"
+}

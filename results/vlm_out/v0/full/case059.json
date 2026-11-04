@@ -1,0 +1,22 @@
+{
+ "case_id": "case059",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"펌프\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품의 열 분포는 화면의 중앙부에 위치하며, 최고온도는 134.5°C로, 이는 대상 내 top-left에 위치한 열점의 면적비 0.305와 일치합니다.\",\n  \"evidence_numbers\": [\"대상 부품 최고온도: 134.5°C\", \"장면(배경) 중앙값 온도: 45.4°C\", \"대상 최고온 - 기온: 99.5°C\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정기적인 점검 및 유지보수를 권장합니다.\",\n  \"uncertainty\": \"판단의 한계: 열화상 이미지에서의 정확한 열 분포와 실제 설비의 열 분포 간의 차이가 있을 수 있습니다.\"\n}\n```",
+ "parsed": {
+  "component": "펌프",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품의 열 분포는 화면의 중앙부에 위치하며, 최고온도는 134.5°C로, 이는 대상 내 top-left에 위치한 열점의 면적비 0.305와 일치합니다.",
+  "evidence_numbers": [
+   "대상 부품 최고온도: 134.5°C",
+   "장면(배경) 중앙값 온도: 45.4°C",
+   "대상 최고온 - 기온: 99.5°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정기적인 점검 및 유지보수를 권장합니다.",
+  "uncertainty": "판단의 한계: 열화상 이미지에서의 정확한 열 분포와 실제 설비의 열 분포 간의 차이가 있을 수 있습니다."
+ },
+ "sec": 19.73,
+ "in_tok": 1865,
+ "out_tok": 240
+}

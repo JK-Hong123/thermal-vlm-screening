@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차축베어링 주변 휠 림 또는 하부 프레임 영역",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 화질이나 판독 한계를 솔직하게 반영한 반면, 보고서 B는 '반사 의심, 특이 없음 / 화질 양호'와 같이 모순되거나 비현실적인 판독을 포함하고 있음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "육안 반사 의심, 특이 없음 / 화질 양호"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B의 이미지 판독 항목에서 화질이 나쁘거나 unaligned 상태임에도 '화질 양호' 및 '반사 의심'을 동시에 적은 것은 논리적 모순이 있음.",
+ "case_id": "case065"
+}

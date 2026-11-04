@@ -1,0 +1,5 @@
+{
+ "raw": "{\n \"equipment_plausible\": \"예\",\n \"part\": \"휠 림·답면\",\n \"p_grid\": \"하단 중앙\",\n \"heat_pattern\": \"선형\",\n \"visual_flags\": [\n  \"특이 없음\"\n ],\n \"image_quality\": \"보통\",\n \"part_location_ko\": \"마커는 대상 부품 내 하단 중앙 부근에 위치합니다\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "cond": "v2"
+}

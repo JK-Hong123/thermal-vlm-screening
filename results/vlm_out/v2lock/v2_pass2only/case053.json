@@ -1,0 +1,109 @@
+{
+ "case_id": "case053",
+ "cond": "v2_pass2only",
+ "raw": {
+  "pass2": "```json\n{\n  \"cause_hypothesis\": [\"접촉면 오염\", \"절연 열화\"],\n  \"cause_basis\": [\"동종 부품 대비\", \"육안 특이\"],\n  \"field_checks\": [\"체결 토크 점검\", \"접촉면 청소·산화 확인\", \"절연저항 측정\"],\n  \"operator_note_ko\": \"현장 작업자에게 다음과 같이 확인해 주시기 바랍니다:\"\n}\n```"
+ },
+ "secs": {
+  "pass2": 8.34
+ },
+ "report": {
+  "case_id": "case053",
+  "equipment": "차단기",
+  "site": "서부발전",
+  "spec": "저압(460V)",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "장면 중앙값(주변 온도 대용, 비표준 기준점) 대비 — 형제 동반 과열로 형제 기준 무효",
+  "severity_metric": "장면 대비 ΔT 1.4°C (장면 중앙값 24.1°C)",
+  "severity_source": "ANSI/NETA MTS Table 100.18 주변 대비(1~10 조사 / 11~20 수리 / 21~40 감시·시정 / >40 즉시) 준용",
+  "scene_level": 0,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 차단기 단자 ≥60 / 본체 ≥65 (국토안전관리원 온도패턴법, 저압 MCCB 기준 준용)",
+  "measurements": {
+   "t_max": 25.5,
+   "t_mean": 24.1,
+   "scene_median": 24.1,
+   "dT_scene": 1.4,
+   "sibling_reference": 28.5,
+   "dT_sibling": -3.1,
+   "n_siblings": 2,
+   "hotspot_area_frac": 0.009,
+   "rf_prob": 0.002,
+   "t_max_eroded": 25.2,
+   "dT_scene_eroded": 1.1
+  },
+  "thermal_finding_ko": "대상 최고 온도 25.5°C, 장면 중앙값 24.1°C(장면 대비 1.4°C). 열점은 대상 내 상단 우측에 다점형 분포; 동종 부품 대비 -3.1°C; 화면 최고온(31.5°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "동종 설비 정상 분포 범위 내"
+  ],
+  "caveats_ko": [
+   "열점은 국부에 집중되어 있으나 온도차는 정상 범위"
+  ],
+  "case_type": "no_thermal_evidence",
+  "case_type_ko": "단일 프레임에 열적 이상 근거 없음",
+  "confidence": "medium",
+  "confidence_reason": "단일 프레임 근거(세션 내 동일 부품 매칭 0프레임), 게이트 확률 0.002",
+  "action_ko": "정상 감시 유지",
+  "field_checks_ko": [
+   "체결 토크 점검",
+   "접촉면 청소·산화 확인",
+   "절연저항 측정"
+  ],
+  "session_evidence_line": "세션 내 동일 부품 매칭 없음(단일 프레임 근거)",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_contaminated",
+   "calib_default",
+   "rgb_unaligned",
+   "peak_on_box_border"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "unknown",
+  "pattern_check": "unknown",
+  "vlm_pass1": {
+   "equipment_plausible": "확인 불가",
+   "part": "확인 불가",
+   "p_grid": "상단 우측",
+   "heat_pattern": "불명",
+   "visual_flags": [
+    "특이 없음"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "접촉면 오염",
+    "절연 열화"
+   ],
+   "cause_basis": [
+    "동종 부품 대비"
+   ],
+   "field_checks": [
+    "체결 토크 점검",
+    "접촉면 청소·산화 확인",
+    "절연저항 측정"
+   ],
+   "operator_note_ko": "현장 작업자에게 다음과 같이 확인해 주시기 바랍니다:"
+  },
+  "validation": {
+   "violations": [
+    "basis:no_visual",
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "basis",
+    "p_grid"
+   ]
+  }
+ }
+}

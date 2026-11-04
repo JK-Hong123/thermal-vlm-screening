@@ -1,0 +1,450 @@
+[
+ {
+  "case_id": "case001",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case001\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case001\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case001\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case001\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case001.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case001.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case001.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case003",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case003\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case003\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case003\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case003\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case003.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case003.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case003.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case005",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case005\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case005\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case005\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case005\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case005.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case005.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case005.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case007",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case007\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case007\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case007\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case007\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case007.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case007.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case007.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case009",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case009\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case009\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case009\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case009\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case009.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case009.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case009.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case011",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case011\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case011\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case011\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case011\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case011.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case011.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case011.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case013",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case013\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case013\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case013\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case013\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case013.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case013.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case013.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case015",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case015\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case015\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case015\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case015\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case015.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case015.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case015.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case017",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case017\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case017\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case017\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case017\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case017.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case017.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case017.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case019",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case019\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case019\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case019\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case019\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case019.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case019.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case019.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case021",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case021\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case021\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case021\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case021\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case021.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case021.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case021.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case023",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case023\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case023\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case023\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case023\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case023.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case023.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case023.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case025",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case025\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case025\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case025\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case025\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case025.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case025.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case025.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case027",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case027\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case027\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case027\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case027\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case027.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case027.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case027.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case029",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case029\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case029\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case029\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case029\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case029.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case029.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case029.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case031",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case031\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case031\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case031\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case031\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case031.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case031.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case031.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case033",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case033\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case033\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case033\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case033\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case033.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case033.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case033.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case035",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case035\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case035\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case035\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case035\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case035.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case035.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case035.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case037",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case037\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case037\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case037\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case037\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case037.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case037.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case037.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case039",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case039\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case039\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case039\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case039\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case039.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case039.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case039.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case041",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case041\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case041\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case041\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case041\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case041.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case041.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case041.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case043",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case043\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case043\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case043\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case043\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case043.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case043.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case043.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case045",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case045\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case045\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case045\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case045\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case045.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case045.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case045.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case047",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case047\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case047\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case047\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case047\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case047.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case047.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case047.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case049",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case049\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case049\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case049\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case049\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case049.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case049.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case049.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case051",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case051\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case051\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case051\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case051\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case051.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case051.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case051.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case053",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case053\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case053\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case053\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case053\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case053.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case053.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case053.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case055",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case055\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case055\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case055\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case055\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case055.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case055.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case055.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case057",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case057\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case057\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case057\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case057\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case057.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case057.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case057.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case059",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case059\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case059\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case059\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case059\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case059.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case059.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case059.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ },
+ {
+  "case_id": "case061",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case061\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case061\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case061\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case061\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case061.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case061.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case061.json",
+  "_A": "v2",
+  "_B": "a0plus"
+ },
+ {
+  "case_id": "case063",
+  "images": [
+   "<PROJECT_ROOT>\\results\\cases_lock\\case063\\thermal_full.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case063\\thermal_crop_v2.png",
+   "<PROJECT_ROOT>\\results\\cases_lock\\case063\\rgb_crop_v2.png"
+  ],
+  "facts": "<PROJECT_ROOT>\\results\\cases_lock\\case063\\facts.json",
+  "report_A": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\a0plus\\case063.txt",
+  "report_B": "<PROJECT_ROOT>\\results\\vlm_out\\v2frontier\\v2\\case063.txt",
+  "out": "<PROJECT_ROOT>\\results\\judge_frontier\\case063.json",
+  "_A": "a0plus",
+  "_B": "v2"
+ }
+]

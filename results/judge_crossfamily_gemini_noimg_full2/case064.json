@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "보일러 점검구 또는 맨홀 도어 핸들 하단부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 영상이 없어 부위 확인이 불가하다고 정직하게 명시한 반면, 보고서 B는 불확실한 원인(베어링 손상 등)을 환각(Hallucination)하여 작업자에게 혼선을 줄 수 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보일러 맨홀/도어 형태의 설비에 회전기기용 베어링 불량 원인을 제시한 B 보고서는 전형적인 AI 환각 증세를 보여 신뢰할 수 없음.",
+ "case_id": "case064"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "우중단",
+ "my_part": "기어박스 하단 경계부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 화질의 한계를 정직하게 인정하고 과도하게 구체적인 추정을 피하면서도, 현장에서 필요한 실질적인 점검 항목(진동 측정, 윤활 상태 확인 등)을 충실히 제안하여 운영자에게 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 하단 좌측에 있으며 조회표상 출력축 베어링부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 불확실한 상황에서 특정 부위(출력축 베어링부)를 단정하려는 경향이 있으나, 보고서 B는 이미지 정보 부족을 인정하고 신중하게 원인 후보와 점검 사항을 제시하여 더 신뢰할 수 있습니다.",
+ "case_id": "case022"
+}

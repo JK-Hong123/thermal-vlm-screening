@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "좁은 세로 상자의 상단, 중앙보다 약간 오른쪽. 상자 오른쪽을 따라 세로로 밝게 빛나는 고온 띠(바퀴 림·안쪽 면)가 상자 우측 일부를 덮고 있고, 마커는 그 띠의 안쪽 가장자리에 놓여 있음. 가시광은 거의 백색 포화 상태라 대조 불가.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 바퀴 림의 고온 띠 안쪽 가장자리에 있다는 실제 화면 소견을 서술하고 각도 변경 재촬영(반사 확인)·부하 조건 기록을 지시해 작업자가 바퀴 발열과 베어링 발열을 구분할 수 있게 한다. 다만 작업자 메모의 '세션 내내 일관되게 잡혀'는 같은 보고서의 세션 증거와 모순된다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "휠 림과 답면에 선 형태의 고온부가 세션 내내 일관되게 잡혀 요주의로 분류되었으니 — 보고서 자체의 세션 증거는 '이 프레임의 열점 위치는 세션 내 78% 프레임과 다름(최빈 위치 하단 좌측)'이고 매칭 9프레임 중 6프레임만 플래그(계측 사실 hotspot_pos_same_as_this_frame 0.22, flag_frac 0.67)이므로 '세션 내내 일관'은 근거 없음"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "마커는 상자 상단에서 중앙-우 경계에 가까우나 오른쪽으로 치우쳐 상단-우로 읽었고 계측 사실 cell_argmax 2(top-right)와 일치(cell_smooth 0, x_norm 0.0은 내 판독과 맞지 않아 참고하지 않음). A 메모의 '선 형태'는 보고서 열 형태 표기 '면형'과 용어가 다르나 화면상 고온부가 세로 띠 모양이라 실질 모순으로 세지 않았다. B의 원인 후보 '과부하 운전, 냉각 불량(근거: 열 형태)'은 면형 분포만으로 추정한 틀 문구로 근거가 약하지만 사실과 직접 모순되지는 않아 세지 않았다. 계측 사실상 peak_border_distance_px 5, external_source_suspected false이므로 A의 '바퀴 림' 부위 판독이 맞더라도 상자 내부 값 자체는 경계 오염으로 보기 어렵다는 점을 작업자가 함께 알아야 한다."
+}

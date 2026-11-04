@@ -1,0 +1,18 @@
+{
+ "case_id": "case009",
+ "cond": "image_only",
+ "raw": "```json\n{\n  \"component\": \"단로기(DS)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품의 열 분포는 정상이며, 온도 차이가 없어 보입니다.\",\n  \"evidence_numbers\": [],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정기적인 감시 유지\",\n  \"uncertainty\": \"없음\"\n}\n```",
+ "parsed": {
+  "component": "단로기(DS)",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품의 열 분포는 정상이며, 온도 차이가 없어 보입니다.",
+  "evidence_numbers": [],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정기적인 감시 유지",
+  "uncertainty": "없음"
+ },
+ "sec": 8.86,
+ "in_tok": 1352,
+ "out_tok": 108
+}

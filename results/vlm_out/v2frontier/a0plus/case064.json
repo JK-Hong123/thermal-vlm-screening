@@ -1,0 +1,97 @@
+{
+ "case_id": "case064",
+ "cond": "a0plus",
+ "raw": {},
+ "secs": {},
+ "report": {
+  "case_id": "case064",
+  "equipment": "보일러",
+  "site": "쓰레기소각장",
+  "spec": "보일러",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비(잠정 기준)",
+  "severity_metric": "대상 최고온 112.0°C = 정상 프레임 분포 백분위 23.2 (정상 중앙값 128.4°C, P95 176.6°C); 장면 대비 ΔT 44.2°C",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님); ISO 18434-1 기준선 권고",
+  "scene_level": 4,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계: 확인 불가",
+  "measurements": {
+   "t_max": 112.0,
+   "t_mean": 78.3,
+   "scene_median": 67.7,
+   "dT_scene": 44.2,
+   "sibling_reference": null,
+   "dT_sibling": null,
+   "n_siblings": 0,
+   "hotspot_area_frac": 0.242,
+   "rf_prob": 0.552,
+   "t_max_eroded": 112.0,
+   "dT_scene_eroded": 44.3
+  },
+  "thermal_finding_ko": "대상 최고 온도 112.0°C, 장면 중앙값 67.7°C(장면 대비 44.2°C). 열점은 대상 내 하단 좌측에 다점형 분포.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT 44.2°C (동종 설비 정상 분포 백분위 23.4)"
+  ],
+  "caveats_ko": [],
+  "case_type": "gate_flag_below_norm",
+  "case_type_ko": "게이트는 플래그했으나 온도·온도차 모두 동종 설비 정상 중앙값 미만",
+  "confidence": "low",
+  "confidence_reason": "세션 39프레임 중 16프레임만 플래그(비일관) → 재촬영·부하 확인 권고",
+  "action_ko": "조속한 정비(가능한 빠른 시기), 운전 부하 저감 검토",
+  "field_checks_ko": [
+   "진동 측정",
+   "윤활 상태·유량 확인",
+   "축 정렬 확인"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 39프레임, 그중 16프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_absent",
+   "calib_default",
+   "rgb_unaligned"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "운전 부하·회전수",
+   "진동·윤활 이력"
+  ],
+  "spatial_check": "exact",
+  "pattern_check": "match",
+  "vlm_pass1": {
+   "equipment_plausible": "확인 불가",
+   "part": "점검구·도어",
+   "p_grid": "하단 좌측",
+   "heat_pattern": "다점형",
+   "visual_flags": [
+    "가시광 미판독"
+   ],
+   "image_quality": "확인 불가",
+   "part_location_ko": "최고온 지점은 대상 하단 좌측에 있으며 조회표상 점검구·도어 부위로 추정됩니다."
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "베어링 손상·윤활 불량",
+    "축 정렬 불량"
+   ],
+   "cause_basis": [
+    "열 형태",
+    "세션 증거"
+   ],
+   "field_checks": [
+    "진동 측정",
+    "윤활 상태·유량 확인",
+    "축 정렬 확인"
+   ],
+   "operator_note_ko": "탐지 모델은 플래그했으나 온도·온도차 모두 동종 설비 정상 중앙값 미만입니다. 기록만 하고 다음 점검 시 재확인하십시오."
+  },
+  "validation": {
+   "violations": [],
+   "fallback_fields": []
+  }
+ }
+}

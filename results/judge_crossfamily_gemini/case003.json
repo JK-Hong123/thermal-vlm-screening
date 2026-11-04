@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 상에서 밝게 빛나는 휠 림 부위와 마커의 위치 관계를 구체적으로 판독하고, 이를 바탕으로 현장 작업자에게 더 구체적인 조치 사항과 메모를 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 시각 자료를 바탕으로 한 상세한 이미지 판독과 현장 지침을 제공하여 기술자에게 더 실질적인 도움을 줍니다.",
+ "case_id": "case003"
+}

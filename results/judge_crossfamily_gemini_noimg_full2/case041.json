@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "부스바 또는 케이블 연결단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 명확하게 '부위 확인 불가' 및 가시광 없음 등의 한계를 솔직하게 기술한 반면, 보고서 B는 불확실한 상황에서 억지로 부위를 특정하여 환각(Hallucination) 가능성을 보였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 우측에 있으며 조회표상 부스바 접속부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 영상의 한계와 불확실성을 정직하게 반영한 보고서 A가 현장 작업자에게 더 신뢰성 있는 판단 근거를 제공합니다.",
+ "case_id": "case041"
+}

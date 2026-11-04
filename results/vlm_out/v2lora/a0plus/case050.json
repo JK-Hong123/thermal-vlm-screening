@@ -1,0 +1,98 @@
+{
+ "case_id": "case050",
+ "cond": "a0plus",
+ "raw": {},
+ "secs": {},
+ "report": {
+  "case_id": "case050",
+  "equipment": "단로기(DS)",
+  "site": "변전소",
+  "spec": "24kV,1200A, 4P",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 0.4°C (형제 3개, 기준 26.8°C); 장면 대비 ΔT 2.4°C",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "scene_level": 0,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 단로기 접촉부 ≥65 / 접속부 ≥80 (국토안전관리원 온도패턴법)",
+  "measurements": {
+   "t_max": 27.2,
+   "t_mean": 24.8,
+   "scene_median": 24.8,
+   "dT_scene": 2.4,
+   "sibling_reference": 26.8,
+   "dT_sibling": 0.4,
+   "n_siblings": 3,
+   "hotspot_area_frac": 0.002,
+   "rf_prob": 0.002,
+   "t_max_eroded": 27.2,
+   "dT_scene_eroded": 2.4
+  },
+  "thermal_finding_ko": "대상 최고 온도 27.2°C, 장면 중앙값 24.8°C(장면 대비 2.4°C). 열점은 대상 내 상단 중앙에 점형 분포; 동종 부품 대비 0.4°C; 화면 최고온(29.6°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "동종 설비 정상 분포 범위 내"
+  ],
+  "caveats_ko": [
+   "열점은 국부에 집중되어 있으나 온도차는 정상 범위"
+  ],
+  "case_type": "no_thermal_evidence",
+  "case_type_ko": "단일 프레임에 열적 이상 근거 없음",
+  "confidence": "low",
+  "confidence_reason": "단일 영상 근거 부족/반사 의심 (게이트 확률 자체는 높으나 위 사유로 신뢰도를 낮춤)",
+  "action_ko": "정상 감시 유지; 신뢰도 낮음 — 재촬영 권고",
+  "field_checks_ko": [
+   "각도 바꿔 재촬영(반사 확인)"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 7프레임, 그중 0프레임 플래그; 다만 이 프레임의 열점 위치는 세션 내 86% 프레임과 다름(최빈 위치 상단 좌측) — 고정 결함이 아닐 수 있음",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "calib_default",
+   "rgb_unaligned",
+   "gate_low_reliability_equipment",
+   "reflection_suspect"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "exact",
+  "pattern_check": "match",
+  "vlm_pass1": {
+   "equipment_plausible": "확인 불가",
+   "part": "접촉부(블레이드·클립)",
+   "p_grid": "상단 중앙",
+   "heat_pattern": "점형",
+   "visual_flags": [
+    "가시광 미판독"
+   ],
+   "image_quality": "확인 불가",
+   "part_location_ko": "최고온 지점은 대상 상단 중앙에 있으며 조회표상 접촉부(블레이드·클립) 부위로 추정됩니다."
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "정상 부하 발열"
+   ],
+   "cause_basis": [
+    "열 형태"
+   ],
+   "field_checks": [
+    "각도 바꿔 재촬영(반사 확인)"
+   ],
+   "operator_note_ko": "단일 프레임에서 열적 근거가 없어 추가 판단은 유보합니다."
+  },
+  "validation": {
+   "violations": [
+    "basis:session_position_inconsistent"
+   ],
+   "fallback_fields": [
+    "basis"
+   ]
+  }
+ }
+}

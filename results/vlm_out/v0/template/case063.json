@@ -1,0 +1,23 @@
+{
+ "case_id": "case063",
+ "cond": "template",
+ "raw": null,
+ "parsed": {
+  "component": "전자접촉기",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 최고 온도 35.7°C, 장면 중앙값 28.3°C, 장면 대비 온도차 7.4°C. 열점은 대상 내 middle-left에 위치. 동종 부품 대비 온도차는 5.3°C입니다.",
+  "evidence_numbers": [
+   "35.7°C",
+   "28.3°C",
+   "7.4°C",
+   "5.3°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정상 감시 유지",
+  "uncertainty": "탐지 모델 이상 확률 0.242. 단일 프레임 기반이며 부하율·이력은 확인 불가."
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

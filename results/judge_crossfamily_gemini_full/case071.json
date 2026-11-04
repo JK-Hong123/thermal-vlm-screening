@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "판독 불가 (저대조도 열화상 및 무관한 가시광)",
+ "my_part_confidence": "low",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "열화상이 매우 어둡고 가시광도 내부 설비를 정확히 보여주지 못하는 상황에서, 보고서 B는 부위 확인 불가 및 화질 불량을 솔직하게 인정하여 현장 작업자에게 더 신중하고 안전한 가이드를 제공합니다.",
+ "usefulness_A_1to5": 2,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 상단 중앙에 있으며 조회표상 단자 접속부 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "열화상 상태가 불량하고 가시광 매칭이 안 될 때 억지로 부위나 원인을 특정하는 것(A)보다, 불확실성을 명시하고 재촬영 및 부하 조건 기록을 권고하는 것(B)이 설비 진단 관점에서 훨씬 신뢰성 높습니다.",
+ "case_id": "case071"
+}

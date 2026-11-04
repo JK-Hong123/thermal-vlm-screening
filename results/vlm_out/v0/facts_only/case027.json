@@ -1,0 +1,22 @@
+{
+ "case_id": "case027",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"단로기(DS)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L1 주의\",\n  \"thermal_finding\": \"대상 부품의 열 분포는 정상이며, 주변 기온과 비교하여 온도 차이가 5.3°C로 적합합니다.\",\n  \"evidence_numbers\": [\"대상 최고온: 35.0°C\", \"장면(배경) 중앙값 온도: 29.7°C\", \"동종 형제 부품 최고온: 31.1°C, 31.3°C, 40.8°C\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"다음 정기 점검 시 확인\",\n  \"uncertainty\": \"판단의 한계: 원인 확인 필요\"\n}\n```",
+ "parsed": {
+  "component": "단로기(DS)",
+  "verdict": "정상",
+  "severity": "L1 주의",
+  "thermal_finding": "대상 부품의 열 분포는 정상이며, 주변 기온과 비교하여 온도 차이가 5.3°C로 적합합니다.",
+  "evidence_numbers": [
+   "대상 최고온: 35.0°C",
+   "장면(배경) 중앙값 온도: 29.7°C",
+   "동종 형제 부품 최고온: 31.1°C, 31.3°C, 40.8°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "다음 정기 점검 시 확인",
+  "uncertainty": "판단의 한계: 원인 확인 필요"
+ },
+ "sec": 13.89,
+ "in_tok": 1023,
+ "out_tok": 199
+}

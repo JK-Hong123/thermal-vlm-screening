@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "전자접촉기 상부 단자",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 육안 특이 없음 및 상부 단자 부근이라는 정확한 위치 판독을 제공한 반면, 보고서 B는 화질 확인 불가 및 코일·본체로 잘못 추정하여 신뢰도가 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 중단 좌측에 있으며 조회표상 코일·본체 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A가 이미지의 실제 물리적 위치(단자부)를 더 정확하게 반영하고 있습니다.",
+ "case_id": "case066"
+}

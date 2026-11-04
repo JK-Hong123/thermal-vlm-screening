@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링 크롭 영역 (매우 작아 세부 구조 식별이 어려움)",
+ "my_part_confidence": "low",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 극도로 작고 단조로운 이미지 크롭 상태를 정직하게 '부위 확인 불가' 및 '화질 불량'으로 진단하고 신뢰도를 낮게 평가한 반면, 보고서 B는 보이지 않는 세부 부위를 억지로 추정하여 환각(hallucination)을 유발할 수 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 중앙에 있으며 조회표상 차축 본체 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "이미지가 너무 작아 시각적 판단이 불가능할 때, B처럼 아는 체하는 것보다 A처럼 솔직하게 한계를 명시하고 재촬영을 권고하는 보고서가 현장 엔지니어에게 훨씬 신뢰를 줍니다.",
+ "case_id": "case028"
+}

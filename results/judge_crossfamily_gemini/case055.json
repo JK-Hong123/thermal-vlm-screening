@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 속 열화상 패턴(인접한 차륜 테두리와의 간섭 등)을 정확하게 파악하고 구체적인 작업자 메모 및 권고 조치를 제시하여 현장 기술자에게 훨씬 실용적입니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 이미지의 시각적 맥락(차륜과의 인접성)을 정확히 해석하여 외부 열원 오염 여부를 판단하는 데 결정적인 도움을 줍니다.",
+ "case_id": "case055"
+}

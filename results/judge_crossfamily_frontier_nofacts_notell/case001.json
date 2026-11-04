@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "하단-우",
+  "my_part": "흰 상자(내부는 상대적으로 저온인 기어박스 하우징으로 추정)의 오른쪽 아래 테두리 지점으로, 바로 오른쪽에서 고온으로 빛나는 바퀴(휠) 면과 맞닿는 경계. 마커는 하우징의 바퀴 쪽 하단 모서리에 걸쳐 있음",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 상자 오른쪽 테두리에서 빛나는 바퀴 면과 맞닿는 지점에 있음을 실제 이미지와 일치하게 서술해 경계 오염 의심의 물리적 근거를 제공하고 각도 변경 재촬영을 점검 항목에 명시했다. 다만 작업자 메모의 '세션 내내 반복' 표현은 세션 증거와 어긋난다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "출력축 베어링부에 점 형태의 고온부가 세션 내내 반복되나 — 같은 보고서의 세션 증거는 '이 프레임의 열점 위치는 세션 내 100% 프레임과 다름(최빈 위치 하단 좌측)'이라 하여 동일 부위 반복과 모순"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "가시광은 차량 하부 배관·케이블만 보여 정렬·대조가 불가. 두 보고서 모두 열점 위치(하단 우측)는 내 판독과 일치. B의 '출력축 베어링부'는 조회표 기반 추정이며 이미지 자체 서술이 없음. A의 자유 서술은 정확하나 메모의 세션 반복성 표현은 과장이다."
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "전자접촉기 상부 단자 및 배선 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 기계 검증을 통과하였고, 원인 후보에 대한 추정 근거를 합리적으로 서술하여 운영자 입장에서 참고하기 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "기계 검증 1건 불합격으로 인해 열 형태 항목이 계측 기반 기본값으로 대체됨"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 기계 검증에서 불합격 판정을 받아 일부 데이터 대체가 발생한 반면, 보고서 B는 모든 항목이 정합성을 이루어 더 신뢰할 수 있습니다.",
+ "case_id": "case052"
+}

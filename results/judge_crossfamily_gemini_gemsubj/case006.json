@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링 주변 및 휠 림",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 화질 확인 불가 및 미판독 상태를 솔직하게 밝히고 기계 검증 결과를 타당하게 반영한 반면, 보고서 B는 불합격 건수가 다름에도 모순된 이미지 판독 내용을 포함하고 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "이미지 판독: 화질 양호, 육안 특이 없음"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 이미지 상에서 마커 주변의 경계 오염 가능성과 재촬영 필요성이 두 보고서 공통으로 잘 지적되어 있으나, 메타데이터와 기계 검증 결과의 정합성 측면에서 보고서 A가 더 신뢰할 만합니다.",
+ "case_id": "case006"
+}

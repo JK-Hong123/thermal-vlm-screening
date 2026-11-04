@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "기어박스 측면 커버 및 축 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 A는 가시광 미판독이라면서 특정 베어링부 명칭을 과도하게 단정하였으나, 보고서 B는 부위 확인 불가로 정직하게 표기하고 현장 확인 항목에 구체적인 조치(진동 측정, 윤활 상태, 반사 확인)를 제공하여 현장 작업자에게 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "부위 출력축 베어링부 (육안 가시광 미판독이라면서 구체적 부위를 단정함)"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 이미지 판독에서 화질과 가시광 확인이 불가함에도 특정 베어링 명칭을 적어 신뢰도가 떨어지는 반면, 보고서 B는 한계를 명시하고 실효성 있는 현장 조치 가이드를 제공합니다.",
+ "case_id": "case023"
+}

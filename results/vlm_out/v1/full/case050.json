@@ -1,0 +1,79 @@
+{
+ "case_id": "case050",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"ケ이블 연결부\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 상단 좌측에 국부적으로 열점이 집중되어 있다.\",\n  \"visual_context\": \"확인 불가\",\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가\", \"과부하 또는 상 불평형\"],\n  \"operator_note\": \"현장 작업자는 접촉부의 열화상을 확인하고, 접촉저항을 측정하여 확인해야 한다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"대상 내 상단 좌측에 국부적으로 열점이 집중되어 있으며, 이는 열화상에서 확인된 열점 위치와 일치한다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "ケ이블 연결부",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 상단 좌측에 국부적으로 열점이 집중되어 있다.",
+  "visual_context": "확인 불가",
+  "cause_hypothesis": [
+   "접촉부 접촉저항 증가",
+   "과부하 또는 상 불평형"
+  ],
+  "operator_note": "현장 작업자는 접촉부의 열화상을 확인하고, 접촉저항을 측정하여 확인해야 한다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "대상 내 상단 좌측에 국부적으로 열점이 집중되어 있으며, 이는 열화상에서 확인된 열점 위치와 일치한다."
+ },
+ "report": {
+  "case_id": "case050",
+  "equipment": "전자접촉기",
+  "site": "변전소",
+  "spec": "DC110V/3a1b",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 15.0°C (형제 6개, 기준 38.2°C)",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "case_type": "intermittent",
+  "case_type_ko": "간헐적 플래그(세션 내 소수 프레임만 이상)",
+  "confidence": "low",
+  "confidence_reason": "세션 27프레임 중 4프레임만 플래그(비일관) → 재촬영·부하 확인 권고",
+  "measurements": {
+   "t_max": 53.1,
+   "scene_median": 36.9,
+   "dT_scene": 16.3,
+   "dT_sibling": 15.0,
+   "rf_prob": 0.763
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 27,
+   "n_flagged": 4,
+   "flag_frac": 0.15,
+   "rf_prob_median": 0.334,
+   "rf_prob_min": 0.021,
+   "rf_prob_max": 0.821,
+   "dT_scene_median": 13.0,
+   "dT_scene_min": 3.4,
+   "dT_scene_max_over_session": 23.2,
+   "t_max_median": 49.9,
+   "t_max_max": 60.1,
+   "hotspot_pos_mode": "top-right",
+   "hotspot_pos_stability": 0.48,
+   "hotspot_pos_same_as_this_frame": 0.04
+  },
+  "recommended_action": "조속한 정비(가능한 빠른 시기), 부하 저감 검토",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 상단 좌측에 국부적으로 열점이 집중되어 있다.",
+   "visual_context": "확인 불가",
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "과부하 또는 상 불평형"
+   ],
+   "operator_note": "현장 작업자는 접촉부의 열화상을 확인하고, 접촉저항을 측정하여 확인해야 한다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "대상 내 상단 좌측에 국부적으로 열점이 집중되어 있으며, 이는 열화상에서 확인된 열점 위치와 일치한다."
+  },
+  "vlm_violations": [
+   "component_part:cjk"
+  ]
+ },
+ "sec": 14.1,
+ "in_tok": 2039,
+ "out_tok": 183
+}

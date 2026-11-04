@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "계기용변성기(MOF) 본체 단자부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 화질이 불확실하고 가시광 정렬이 안 된 상태에서 부위를 억지로 단정하지 않고 '확인 불가'로 처리하면서도 현장 확인 항목을 적절히 제시하여 실무적으로 더 안전합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 중단 좌측에 있으며 조회표상 본체(탱크) 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "열화상 단일 이미지에서 부위를 임의 추정하기보다 보수적으로 확인 불가 처리하고 재촬영 및 전류 측정을 권고한 B 보고서가 현장 엔지니어 관점에서 더 신뢰할 만합니다.",
+ "case_id": "case030"
+}

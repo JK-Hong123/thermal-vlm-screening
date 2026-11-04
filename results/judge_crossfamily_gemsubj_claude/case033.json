@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상에서는 패널 내 일렬로 늘어선 세로 유닛 중 하나를 감싼 긴 세로 상자로 보이며, 가시광의 DIN 레일 위 접촉기·릴레이 열과 대응되는 전자접촉기 1개 유닛 본체(코일 하우징 부분)로 추정. 열화상 대비가 매우 낮아 세부 부위는 식별 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "두 보고서 모두 계측·판정이 동일하나, A는 마커가 상자 좌측 중앙 테두리에 있다는 점을 직접 읽어 제 판독과 일치하고 가시광 육안 소견까지 제공한다. B는 가시광을 보지 않고 조회표 기반으로만 부위를 적어 추가 정보가 없다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "최고온 마커가 상자 좌측 테두리 중앙에 걸쳐 있고 화면 우측 바깥에 더 뜨거운 영역이 있어 '테두리 외부 열원 번짐' 유의사항과 이미지가 일치함. A의 '화질 보통'은 열화상 대비가 매우 낮아 다소 후한 평가이나 모순으로 보지는 않음. 두 보고서 공통 템플릿 문구 '게이트 확률 자체는 높으나'는 게이트 확률 0.008과 어긋나 보일 수 있으나(정상 판정 신뢰로 해석 가능) 양쪽 동일하므로 집계에서 제외함. 두 작업자 메모 모두 권고 조치의 '재촬영 권고'를 메모에 반영하지 않은 점은 공통 약점."
+}

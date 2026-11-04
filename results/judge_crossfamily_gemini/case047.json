@@ -1,0 +1,15 @@
+{
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 열화상과 가시광 이미지를 면밀히 분석하여 대상 내부 부품 형상이 식별되지 않음을 정확히 기술하고, 현장 작업자에게 구체적인 확인 항목과 조치 가이드를 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 이미지 상에서 실제 확인할 수 없는 내용을 '추정' 형태로 단정 지은 반면, 보고서 B는 시각적 한계를 객관적으로 기술하고 실효성 있는 현장 조치 지침을 제공하여 더 신뢰할 수 있습니다.",
+ "case_id": "case047"
+}

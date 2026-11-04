@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "케이블 접속부 또는 단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 케이블 접속부로 정확히 파악하였고, 원인 후보를 무리하게 지어내지 않고 솔직하게 확인 불가로 처리하여 신뢰성이 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 운전 발열 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 불확실한 원인을 억지로 추정하지 않고 솔직하게 기재하여 현장 작업자에게 더 안전하고 유용한 가이드를 제공합니다.",
+ "case_id": "case013"
+}

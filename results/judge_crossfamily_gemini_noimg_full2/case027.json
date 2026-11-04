@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "부스바 접속부 또는 단자대 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 제한된 정보 속에서도 이미지 판독을 시도하여 부위 추정을 시도한 반면, 보고서 B는 판독을 포기하고 기계적 기본값에 의존했습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "두 보고서 모두 기계 검증 불합격으로 인해 기본값 대체가 발생했으나, 이미지 해석에 대한 적극성 측면에서 A가 소폭 우수함.",
+ "case_id": "case027"
+}

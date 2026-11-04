@@ -1,0 +1,13 @@
+brightest-token heuristic on the SAME independent eval set (n=388) | model H: all κ 0.650 dist 0.176 <0.2 0.727 / test κ 0.761 / gen_test κ 0.564 / PV κ 0.501
+  K=24     all       n=388 acc 0.662  κ 0.615  dist 0.203  <0.2 0.673
+  K=24     test      n=157 acc 0.726  κ 0.688  dist 0.167  <0.2 0.752
+  K=24     gen_test  n=231 acc 0.619  κ 0.553  dist 0.227  <0.2 0.619
+  K=24     PV        n=191 acc 0.613  κ 0.542  dist 0.237  <0.2 0.607
+  K=48     all       n=388 acc 0.758  κ 0.723  dist 0.149  <0.2 0.807
+  K=48     test      n=157 acc 0.771  κ 0.739  dist 0.156  <0.2 0.834
+  K=48     gen_test  n=231 acc 0.749  κ 0.705  dist 0.144  <0.2 0.788
+  K=48     PV        n=191 acc 0.723  κ 0.671  dist 0.159  <0.2 0.764
+  K=pixel  all       n=388 acc 0.887  κ 0.870  dist 0.062  <0.2 0.918
+  K=pixel  test      n=157 acc 0.873  κ 0.855  dist 0.070  <0.2 0.924
+  K=pixel  gen_test  n=231 acc 0.896  κ 0.878  dist 0.058  <0.2 0.913
+  K=pixel  PV        n=191 acc 0.906  κ 0.888  dist 0.058  <0.2 0.916

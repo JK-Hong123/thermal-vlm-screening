@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "CT 단자 또는 부싱 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 판정이 정상임에도 과도한 원인 추정이나 불필요한 현장 점검 항목을 나열하지 않고 냉정하게 정상 감시 유지를 권고하여 현장 혼선이 적습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 과부하 또는 상 불평형, 접촉부 접촉저항 증가(체결 이완·산화) — 근거: 동종 부품 대비, 정상 분포 대비"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "이미 온도차가 4도 미만으로 정상 범위에 해당함에도 보고서 B가 과도한 결함 원인(체결 이완, 산화 등)을 가정하여 현장 작업자에게 토크 점검 등을 요구하는 것은 오탐을 유발할 수 있으므로 A가 더 신뢰할 만합니다.",
+ "case_id": "case031"
+}

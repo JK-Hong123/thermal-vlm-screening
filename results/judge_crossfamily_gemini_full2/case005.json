@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "차륜 휠 림 및 답면 경계부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 시각 자료를 직접 상세히 분석하여 휠 림과 답면의 위치를 정확히 기술한 반면, 보고서 B는 이미지 판독을 제대로 수행하지 못하고 형식을 대충 채웠습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "육안 가시광 미판독"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 이미지의 물리적 위치(휠 림·답면)를 정확하게 파악하여 현장 점검 시 실질적인 도움을 줍니다.",
+ "case_id": "case005"
+}

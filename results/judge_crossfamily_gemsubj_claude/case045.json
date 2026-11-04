@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "열화상 상자는 화면 좌측의 가늘고 긴 세로 부재이며 마커는 상자 중앙에 있음. 가시광의 파란 케이블·주황색 단자함·붉은 애자(클램프) 구성으로 보아 단로기의 세로 지지애자 또는 블레이드 구간으로 추정되나 특정 불가",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "tie",
+  "preference_reason": "두 보고서 모두 정상 판정·'추가 판단 유보' 메모로 실질 내용이 같다. A는 각도 변경 재촬영 항목을 더 주지만 열점 위치가 계측과 어긋나(adjacent) 3개 항목이 기본값으로 대체되었고, B는 이미지를 보지 않는 대신 서술이 계측과 일관되며 원인 후보를 제시한다. 장단이 상쇄된다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": ["열점 위치 판독 중앙 (계측 adjacent) — 보고서 스스로 열점 위치·열 형태·작업자 메모 3개 항목이 계측 기반 기본값으로 대체되었다고 표기하므로 A의 실제 이미지 판독은 계측과 어긋났던 것"],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "최고온 마커는 상자 내부 중앙(약간 아래)에 있어 두 보고서의 '중앙'과 부합. 화면 최고온(43.6°C)은 우측 바깥의 작은 붉은 영역으로 확인됨. B의 '정상 부하 발열'은 ΔT 2.3°C·형제 대비 -10.8°C와 모순되지 않아 집계하지 않음. 부위 명칭(A: 접촉부, B: 단자 접속부)은 이미지로 어느 쪽도 검증 불가."
+}

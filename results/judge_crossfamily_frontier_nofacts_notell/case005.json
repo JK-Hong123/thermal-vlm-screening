@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "상자 오른쪽 절반을 지나는 세로 고온 띠(바퀴 림/디스크 면)의 안쪽 가장자리 상부. 상자 왼쪽은 저온(액슬박스 추정)이고 마커는 바퀴 발열부 위에 놓임",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 빛나는 바퀴 림 띠의 안쪽 가장자리에 있음을 이미지와 일치하게 서술하고 반사 확인용 각도 변경 재촬영 등 구체 점검 항목을 제시했다. 다만 메모의 '세션 내내 일관되게' 표현은 세션 증거(열점 위치 78% 불일치)와 어긋나므로 감점.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "휠 림과 답면에 선 형태의 고온부가 세션 내내 일관되게 잡혀 요주의로 분류되었으니 — 같은 보고서의 세션 증거는 '이 프레임의 열점 위치는 세션 내 78% 프레임과 다름(최빈 위치 하단 좌측) — 고정 결함이 아닐 수 있음'이라 하여 모순"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "가시광은 과노출로 거의 백색이라 대조 불가. 열점 위치(상단 우측)는 두 보고서 모두 내 판독과 일치. B의 '차축 베어링(액슬박스)'은 조회표 추정으로 마커가 실제로 놓인 바퀴 고온 띠와는 맞지 않으나 추정으로 한정해 표현했다. B의 원인 후보(과부하·냉각 불량)는 열 형태만 근거로 들어 약하다."
+}

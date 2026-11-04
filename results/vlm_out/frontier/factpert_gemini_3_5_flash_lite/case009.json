@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"아니오\",\n \"my_cell\": \"하단 우측\",\n \"reason_ko\": \"계측 기록은 상단 중앙이라고 하였으나 마커는 실제 하단 우측 부근에 있습니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

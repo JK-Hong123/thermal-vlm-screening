@@ -1,0 +1,43 @@
+=== 1. auditable comparators (AUROC, session-clustered bootstrap 95% CI) ===
+global rule dT_scene > 5.5        within-test 0.744 [0.666,0.808] | unseen equip 0.884 [0.834,0.923]
+per-equipment threshold rule       within-test 0.679 [0.593,0.751] | unseen equip (falls back to 5.5) 0.884 [0.834,0.923]
+per-equipment normal-percentile    within-test 0.715 [0.645,0.785] | unseen equip: n/a (no equipment history)
+per-equipment thresholds (C): 계기용변류기(CT)=4.0, 계기용변성기(MOF)=4.6, 계기용변압기(PT)=8.3, 고압전동기=11.6, 기어박스=4.1, 단로기(DS)=7.3, 변압기 접속부=5.0, 변압기 케이블 연결개소 포함=5.7, 보일러=94.0, 전자접촉기=4.8, 차단기=4.9, 차축베어링=26.3, 케이블&부스 연결개소=4.7, 펌프=27.9
+
+=== 2. leave-one-equipment-out: RF trained on the other classes' training rows, evaluated on every row of the held-out class ===
+  계기용변류기(CT)                   n= 3103 sess= 26 prev=0.08 | RF 0.993 [0.986,1.000] | rule 0.992 [0.983,0.998]
+  계기용변성기(MOF)                  n= 2151 sess= 17 prev=0.19 | RF 0.658 [0.387,1.000] | rule 0.596 [0.324,0.920]
+  계기용변압기(PT)                   n= 4518 sess= 45 prev=0.16 | RF 0.487 [0.283,0.770] | rule 0.757 [0.634,0.867]
+  고압전동기                        n= 2449 sess= 67 prev=0.05 | RF 0.532 [0.428,0.657] | rule 0.564 [0.452,0.683]
+  기어박스                         n= 4471 sess= 88 prev=0.18 | RF 0.555 [0.472,0.627] | rule 0.364 [0.305,0.421]
+  단로기(DS)                      n= 5214 sess= 49 prev=0.06 | RF 0.702 [0.599,0.827] | rule 0.747 [0.569,0.920]
+  변압기 접속부                      n= 5197 sess= 57 prev=0.03 | RF 0.538 [0.439,0.645] | rule 0.509 [0.378,0.647]
+  변압기 케이블 연결개소 포함              n=10482 sess= 82 prev=0.06 | RF 0.635 [0.512,0.769] | rule 0.465 [0.285,0.653]
+  보일러                          n= 1121 sess= 28 prev=0.39 | RF 0.331 [0.157,0.512] | rule 0.550 [0.331,0.780]
+  신재생 설비                       n= 7793 sess= 64 prev=0.15 | RF 0.892 [0.854,0.933] | rule 0.873 [0.821,0.921]
+  전자접촉기                        n=18759 sess= 65 prev=0.06 | RF 0.941 [0.913,0.970] | rule 0.892 [0.862,0.919]
+  접지용 콘덴서                      n=  841 sess= 22 prev=0.14 | RF 0.999 [0.996,1.000] | rule 1.000 [1.000,1.000]
+  차단기                          n= 6538 sess= 65 prev=0.03 | RF 0.493 [0.389,0.629] | rule 0.894 [0.823,0.961]
+  차축베어링                        n= 9265 sess=166 prev=0.26 | RF 0.496 [0.458,0.538] | rule 0.743 [0.706,0.781]
+  케이블&부스 연결개소                  n= 7277 sess= 57 prev=0.07 | RF 0.945 [0.903,0.984] | rule 0.927 [0.882,0.969]
+  펌프                           n= 1080 sess= 26 prev=0.26 | RF 0.468 [0.151,0.790] | rule 0.605 [0.361,0.852]
+  RF above rule in 8/16 held-out classes; mean AUROC RF 0.667 vs rule 0.717
+
+=== 3. prevalence and operating point ===
+within-test: boxes 16400 sessions 167 prevalence 0.107 | rule@5.5: sens 0.88 spec 0.51 prec 0.18 flag-rate 0.53 | RF@0.5: sens 0.70 spec 0.91 prec 0.48 flag-rate 0.16 | review zone 0.060 of boxes | flagged boxes per session 15.4, review per session 5.9
+unseen equip: boxes 8634 sessions 86 prevalence 0.149 | rule@5.5: sens 0.72 spec 0.88 prec 0.51 flag-rate 0.21 | RF@0.5: sens 0.26 spec 0.99 prec 0.79 flag-rate 0.05 | review zone 0.098 of boxes | flagged boxes per session 5.0, review per session 9.8
+
+=== 4. session-id prefix (camera/scene code) shared between training and held-out sessions ===
+distinct prefixes: train 81 | test sessions sharing a training prefix 165/167 | unseen-equipment sessions sharing one 0/86
+  test rows with a training prefix: n=16120 sessions=165 | RF 0.891 [0.819,0.944] | rule 0.742 [0.661,0.813]
+  test rows with a new prefix: n=280 sessions=2 | RF 0.687 [0.636,0.969] | rule 0.780 [0.780,1.000]
+
+=== 5. scene median minus the camera's entered atmospheric temperature, per site (session means) ===
+  서부발전       sessions=253 | scene median - atmospheric setting: median +3.7 C, IQR [-0.0, +7.4], range [-20.0, +27.5]
+  변전소        sessions=363 | scene median - atmospheric setting: median +6.0 C, IQR [+1.9, +10.7], range [-2.1, +17.3]
+  쓰레기소각장     sessions= 54 | scene median - atmospheric setting: median +10.4 C, IQR [+5.0, +19.1], range [-8.8, +52.0]
+  철도차량       sessions=254 | scene median - atmospheric setting: median +9.9 C, IQR [+6.3, +14.2], range [-1.1, +30.5]
+
+=== 6. subtle faults (label faulty, dT_scene < 4 C) in held-out splits: does any other box of the same equipment in the same session exceed the rule or the gate? ===
+  within-test: subtle faulty boxes 101 | session contains another same-equipment box with rule>5.5: 96 | with RF>=0.5: 44
+  unseen equip: subtle faulty boxes 139 | session contains another same-equipment box with rule>5.5: 60 | with RF>=0.5: 3

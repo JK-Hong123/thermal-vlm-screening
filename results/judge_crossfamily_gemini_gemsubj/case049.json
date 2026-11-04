@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "계기용변성기(MOF) 단자함 또는 하단 명판 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증에서 불합격 처리되어 휴리스틱 대체값을 충실히 반영하고 과도한 추정을 피한 반면, B는 불확실한 부위와 원인 후보를 단정적으로 서술함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "정상 범위 설비에 대해 과도한 원인 추정이나 단정을 피한 보고서 A가 실무적으로 더 신뢰할 만함.",
+ "case_id": "case049"
+}

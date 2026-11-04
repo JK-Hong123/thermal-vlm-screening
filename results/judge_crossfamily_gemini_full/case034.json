@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "차단기 상단 단자 또는 부지 경계선 인근",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 마커의 위치(상자 오른쪽 가장자리 경계선에 걸친 위치)와 현장 상황을 더 구체적이고 정확하게 묘사하였으며, 현장 작업자를 위한 실질적인 확인 항목과 메모를 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "육안 가시광 미판독 / 화질 확인 불가"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 시각적 위치와 마커의 경계선 걸침 현상을 정확히 포착하였고, 정상 범위라 하더라도 작업자가 취해야 할 구체적인 확인 조치(부하 전류, 통풍 상태 등)를 제시하여 현장 활용성이 높습니다.",
+ "case_id": "case034"
+}

@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "변압기 외함 또는 방열핀 부근 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 화질과 마커 위치를 정밀하게 분석하였고, 기계 검증 단계에서 불합격된 항목을 계측 기반 기본값으로 대체하여 투명성을 높였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 한계점과 기계 검증 실패 내역을 투명하게 공개하여 현장 작업자가 신뢰하고 참고하기에 더 적합합니다.",
+ "case_id": "case036"
+}

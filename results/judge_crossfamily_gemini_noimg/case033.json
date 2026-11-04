@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "전자접촉기 본체",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질 불량과 외부 열원 경계 오염 가능성을 정확히 인지하고 신뢰도를 낮게 책정하여 보수적으로 신중한 진단을 수행한 반면, 보고서 B는 불확실한 상태에서 부위를 단정적으로 추정함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 중단 좌측에 있으며 조회표상 코일·본체 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 상자 경계면에 걸쳐있는 열점에 대해 보고서 A가 훨씬 객관적인 유의사항과 한계를 기술함.",
+ "case_id": "case033"
+}

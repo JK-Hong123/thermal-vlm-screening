@@ -1,0 +1,23 @@
+{
+ "case_id": "case062",
+ "cond": "template",
+ "raw": null,
+ "parsed": {
+  "component": "차단기",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 최고 온도 33.1°C, 장면 중앙값 24.8°C, 장면 대비 온도차 8.3°C. 열점은 대상 내 center에 위치. 동종 부품 대비 온도차는 6.8°C입니다.",
+  "evidence_numbers": [
+   "33.1°C",
+   "24.8°C",
+   "8.3°C",
+   "6.8°C"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정상 감시 유지",
+  "uncertainty": "탐지 모델 이상 확률 0.42. 단일 프레임 기반이며 부하율·이력은 확인 불가."
+ },
+ "sec": 0,
+ "in_tok": 0,
+ "out_tok": 0
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차륜 림(Wheel Rim) 및 답면 부근",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 마커와 상자의 위치 관계를 세밀하게 관찰하여 구체적으로 서술하였고, 기계 검증 결과를 정직하게 반영하여 신뢰도가 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 과부하 운전, 냉각 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 불합격 상태임에도 근거 항목에 임의의 원인 후보(과부하 운전, 냉각 불량)를 생성하여 넣은 반면, 보고서 A는 기계 검증 규칙에 따라 이를 적절히 배제하거나 기본값으로 대체함.",
+ "case_id": "case060"
+}

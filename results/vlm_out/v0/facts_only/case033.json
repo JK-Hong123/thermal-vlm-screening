@@ -1,0 +1,23 @@
+{
+ "case_id": "case033",
+ "cond": "facts_only",
+ "raw": "```json\n{\n  \"component\": \"단로기(DS)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품은 중앙-좌측에 위치하며, 최고 온도는 31.8°C, 평균 온도는 29.5°C입니다. 이는 주변 기온 26.9°C와 비교하여 4.9°C 차이가 있습니다.\",\n  \"evidence_numbers\": [\"대상 부품 최고 온도: 31.8°C\", \"평균 온도: 29.5°C\", \"장면(배경) 중앙값 온도: 29.6°C\", \"대상 부품 최고온이 대상 내부에 있음: 아니오\"],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정상 감시 유지\",\n  \"uncertainty\": \"확인 불가\"\n}\n```",
+ "parsed": {
+  "component": "단로기(DS)",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품은 중앙-좌측에 위치하며, 최고 온도는 31.8°C, 평균 온도는 29.5°C입니다. 이는 주변 기온 26.9°C와 비교하여 4.9°C 차이가 있습니다.",
+  "evidence_numbers": [
+   "대상 부품 최고 온도: 31.8°C",
+   "평균 온도: 29.5°C",
+   "장면(배경) 중앙값 온도: 29.6°C",
+   "대상 부품 최고온이 대상 내부에 있음: 아니오"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정상 감시 유지",
+  "uncertainty": "확인 불가"
+ },
+ "sec": 15.7,
+ "in_tok": 1012,
+ "out_tok": 224
+}

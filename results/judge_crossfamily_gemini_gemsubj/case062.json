@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "기어박스 하우징 및 축 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 부위와 열점 위치에 대해 더 구체적인 추정을 제공하며, 권고 조치와 작업자 메모가 현장 상황에 적합하게 작성되었습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "두 보고서 모두 수치 계측 결과는 동일하나, 이미지 해석 및 현장 작업자 안내 측면에서 A가 더 구체적입니다.",
+ "case_id": "case062"
+}

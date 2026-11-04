@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차륜 림 및 답면",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증을 통해 이미지 판독 오류를 적절히 보정하고 원인 후보를 무리하게 추정하지 않아 더 객관적입니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 과부하 운전, 냉각 불량 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "가시광 이미지가 백화 현상으로 식별이 불가능한 상태에서, 보고서 B는 과도한 원인 추정을 한 반면 보고서 A는 불확실성을 정직하게 반영했습니다.",
+ "case_id": "case005"
+}

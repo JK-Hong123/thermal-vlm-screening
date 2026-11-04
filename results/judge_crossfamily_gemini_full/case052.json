@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "전자접촉기 우측 단자부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 현장 확인 항목과 작업자 메모를 통해 구체적인 조치 가이드(부하 조건 기록 후 재촬영)를 제공하여 실무 활용성이 더 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A의 현장 확인 항목 및 작업자 메모 내용이 점검자 관점에서 훨씬 실용적임.",
+ "case_id": "case052"
+}

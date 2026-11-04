@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "전자접촉기 중앙부 단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 낮고 가시광 정렬이 안 된 한계를 정직하게 인정하고 기계 검증을 거쳐 객관적인 정보를 제공하는 반면, 보고서 B는 불확실한 이미지 판독 결과를 바탕으로 단정적인 서술을 포함하고 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 중앙에 있으며 조회표상 하부 단자 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "마커 위치가 3x3 격자에서 중단-중에 위치함에도 두 보고서 모두 '하단 중앙'으로 표기한 오차가 존재하나, 보고서 A는 기계 검증을 통한 보정 및 한계 인식이 더 투명합니다.",
+ "case_id": "case044"
+}

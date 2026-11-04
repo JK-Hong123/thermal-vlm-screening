@@ -1,0 +1,322 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files: 100%|##########| 2/2 [00:00<00:00, 2001.10it/s]
+
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/824 [00:00<02:47,  4.92it/s]
+Loading weights:   2%|1         | 16/824 [00:00<00:12, 63.00it/s]
+Loading weights:   5%|4         | 39/824 [00:00<00:07, 102.82it/s]
+Loading weights:   8%|7         | 64/824 [00:00<00:05, 140.09it/s]
+Loading weights:  10%|#         | 86/824 [00:00<00:04, 157.83it/s]
+Loading weights:  12%|#2        | 103/824 [00:00<00:04, 158.82it/s]
+Loading weights:  15%|#4        | 123/824 [00:00<00:04, 157.39it/s]
+Loading weights:  18%|#7        | 147/824 [00:01<00:03, 176.93it/s]
+Loading weights:  21%|##        | 170/824 [00:01<00:03, 190.50it/s]
+Loading weights:  23%|##3       | 190/824 [00:01<00:03, 189.13it/s]
+Loading weights:  25%|##5       | 210/824 [00:01<00:03, 173.80it/s]
+Loading weights:  28%|##7       | 230/824 [00:01<00:03, 173.96it/s]
+Loading weights:  31%|###       | 254/824 [00:01<00:03, 178.91it/s]
+Loading weights:  33%|###3      | 273/824 [00:01<00:03, 176.05it/s]
+Loading weights:  35%|###5      | 291/824 [00:01<00:03, 169.85it/s]
+Loading weights:  38%|###7      | 311/824 [00:01<00:02, 175.43it/s]
+Loading weights:  40%|###9      | 329/824 [00:02<00:03, 159.75it/s]
+Loading weights:  43%|####2     | 351/824 [00:02<00:02, 170.67it/s]
+Loading weights:  46%|####5     | 375/824 [00:02<00:02, 183.08it/s]
+Loading weights:  48%|####7     | 394/824 [00:02<00:02, 176.20it/s]
+Loading weights:  50%|#####     | 412/824 [00:02<00:02, 174.74it/s]
+Loading weights:  52%|#####2    | 430/824 [00:02<00:02, 175.36it/s]
+Loading weights:  60%|#####9    | 492/824 [00:02<00:01, 299.07it/s]
+Loading weights:  69%|######8   | 568/824 [00:02<00:00, 430.44it/s]
+Loading weights:  77%|#######7  | 636/824 [00:02<00:00, 500.04it/s]
+Loading weights:  86%|########5 | 708/824 [00:03<00:00, 560.72it/s]
+Loading weights:  94%|#########4| 778/824 [00:03<00:00, 594.48it/s]
+Loading weights: 100%|##########| 824/824 [00:03<00:00, 254.33it/s]
+
+=== cond template (70 cases) ===
+  case000 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L4
+  case001 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L2
+  case002 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L2
+  case003 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L2
+  case004 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L4
+  case005 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L4
+  case006 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L2
+  case007 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L3
+  case008 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L3
+  case009 [A_clear_danger]   0.0s json=ok verdict=이상 sev=L3
+  case010 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case011 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case012 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case013 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case014 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case015 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case016 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case017 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case018 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case019 [B_hot_but_norm]   0.0s json=ok verdict=정상 sev=L0
+  case020 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case021 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case022 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case023 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case024 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case025 [C_borderline  ]   0.0s json=ok verdict=이상 sev=L1
+  case026 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case027 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case028 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case029 [C_borderline  ]   0.0s json=ok verdict=정상 sev=L0
+  case030 [D_subtle_fault]   0.0s json=ok verdict=정상 sev=L0
+  case031 [D_subtle_fault]   0.0s json=ok verdict=정상 sev=L0
+  case032 [D_subtle_fault]   0.0s json=ok verdict=정상 sev=L0
+  case033 [D_subtle_fault]   0.0s json=ok verdict=정상 sev=L0
+  case034 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case035 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case036 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case037 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case038 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case039 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case040 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case041 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case042 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case043 [E_cool_normal ]   0.0s json=ok verdict=정상 sev=L0
+  case044 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L1
+  case045 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L3
+  case046 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L4
+  case047 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L1
+  case048 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L3
+  case049 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L2
+  case050 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L3
+  case051 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L4
+  case052 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L3
+  case053 [F_rf_fp       ]   0.0s json=ok verdict=이상 sev=L4
+  case054 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case055 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case056 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case057 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case058 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case059 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case060 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case061 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case062 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case063 [G_rf_fn       ]   0.0s json=ok verdict=정상 sev=L0
+  case064 [H_unseen_equip]   0.0s json=ok verdict=정상 sev=L0
+  case065 [H_unseen_equip]   0.0s json=ok verdict=정상 sev=L0
+  case066 [H_unseen_equip]   0.0s json=ok verdict=정상 sev=L0
+  case067 [H_unseen_equip]   0.0s json=ok verdict=정상 sev=L0
+  case068 [H_unseen_equip]   0.0s json=ok verdict=정상 sev=L0
+  case069 [H_unseen_equip]   0.0s json=ok verdict=정상 sev=L0
+
+=== cond full (70 cases) ===
+  case000 [A_clear_danger]  23.9s json=ok verdict=이상 sev=L4 긴급
+  case001 [A_clear_danger]  22.6s json=ok verdict=정상 sev=L0
+  case002 [A_clear_danger]  35.2s json=ok verdict=판단보류 sev=L2 경고
+  case003 [A_clear_danger]  22.4s json=ok verdict=정상 sev=L0
+  case004 [A_clear_danger]  25.4s json=ok verdict=异常 sev=L4 긴급
+  case005 [A_clear_danger]  22.5s json=ok verdict=이상 sev=L4 긴급
+  case006 [A_clear_danger]  17.6s json=ok verdict=판단보류 sev=L2 경고
+  case007 [A_clear_danger]  21.8s json=ok verdict=이상 sev=L3 심각
+  case008 [A_clear_danger]  20.2s json=ok verdict=이상 sev=L3 심각
+  case009 [A_clear_danger]  30.7s json=ok verdict=판단보류 sev=L3 심각
+  case010 [B_hot_but_norm]  24.5s json=ok verdict=정상 sev=L1 주의
+  case011 [B_hot_but_norm]  25.8s json=ok verdict=정상 sev=L0
+  case012 [B_hot_but_norm]  24.1s json=ok verdict=정상 sev=L1 주의
+  case013 [B_hot_but_norm]  23.5s json=ok verdict=정상 sev=L1 주의
+  case014 [B_hot_but_norm]  23.2s json=ok verdict=정상 sev=L3 심각
+  case015 [B_hot_but_norm]  22.1s json=ok verdict=정상 sev=L0
+  case016 [B_hot_but_norm]  18.8s json=ok verdict=정상 sev=L1 주의
+  case017 [B_hot_but_norm]  18.7s json=ok verdict=정상 sev=L0
+  case018 [B_hot_but_norm]  24.7s json=ok verdict=정상 sev=L0
+  case019 [B_hot_but_norm]  28.1s json=ok verdict=정상 sev=L1 주의
+  case020 [C_borderline  ]  22.9s json=ok verdict=정상 sev=L1 주의
+  case021 [C_borderline  ]  21.4s json=ok verdict=정상 sev=L1 주의
+  case022 [C_borderline  ]  21.0s json=ok verdict=정상 sev=L1 주의
+  case023 [C_borderline  ]  20.7s json=ok verdict=정상 sev=L1 주의
+  case024 [C_borderline  ]  18.7s json=ok verdict=정상 sev=L1 주의
+  case025 [C_borderline  ]  18.8s json=ok verdict=정상 sev=L0
+  case026 [C_borderline  ]  23.2s json=ok verdict=정상 sev=L1 주의
+  case027 [C_borderline  ]  26.5s json=ok verdict=정상 sev=L1 주의
+  case028 [C_borderline  ]  22.0s json=ok verdict=정상 sev=L1 주의
+  case029 [C_borderline  ]  25.6s json=ok verdict=정상 sev=L1 주의
+  case030 [D_subtle_fault]  21.8s json=ok verdict=정상 sev=L0
+  case031 [D_subtle_fault]  25.6s json=ok verdict=정상 sev=L0
+  case032 [D_subtle_fault]  27.3s json=ok verdict=정상 sev=L0
+  case033 [D_subtle_fault]  22.7s json=ok verdict=정상 sev=L0
+  case034 [E_cool_normal ]  21.1s json=ok verdict=정상 sev=L0
+  case035 [E_cool_normal ]  30.0s json=ok verdict=정상 sev=L0
+  case036 [E_cool_normal ]  24.9s json=ok verdict=정상 sev=L0
+  case037 [E_cool_normal ]  29.6s json=ok verdict=정상 sev=L0
+  case038 [E_cool_normal ]  20.8s json=ok verdict=정상 sev=L0
+  case039 [E_cool_normal ]  29.2s json=ok verdict=정상 sev=L0
+  case040 [E_cool_normal ]  25.0s json=ok verdict=정상 sev=L0
+  case041 [E_cool_normal ]  22.1s json=ok verdict=정상 sev=L0
+  case042 [E_cool_normal ]  27.3s json=ok verdict=정상 sev=L0
+  case043 [E_cool_normal ]  31.9s json=ok verdict=정상 sev=L0
+  case044 [F_rf_fp       ]  25.5s json=ok verdict=정상 sev=L0
+  case045 [F_rf_fp       ]  18.1s json=ok verdict=이상 sev=L3 심각
+  case046 [F_rf_fp       ]  18.6s json=ok verdict=이상 sev=L4 긴급
+  case047 [F_rf_fp       ]  16.3s json=ok verdict=정상 sev=L0
+  case048 [F_rf_fp       ]  23.3s json=ok verdict=이상 sev=L3 심각
+  case049 [F_rf_fp       ]  17.4s json=ok verdict=정상 sev=L0
+  case050 [F_rf_fp       ]  19.4s json=ok verdict=정상 sev=L0
+  case051 [F_rf_fp       ]  19.6s json=ok verdict=异常 sev=L4 긴급
+  case052 [F_rf_fp       ]  23.8s json=ok verdict=정상 sev=L0
+  case053 [F_rf_fp       ]  19.3s json=ok verdict=이상 sev=L4 긴급
+  case054 [G_rf_fn       ]  19.6s json=ok verdict=정상 sev=L1 주의
+  case055 [G_rf_fn       ]  21.8s json=ok verdict=정상 sev=L1 주의
+  case056 [G_rf_fn       ]  18.8s json=ok verdict=정상 sev=L0
+  case057 [G_rf_fn       ]  29.1s json=ok verdict=정상 sev=L0
+  case058 [G_rf_fn       ]  24.1s json=ok verdict=정상 sev=L1 주의
+  case059 [G_rf_fn       ]  19.7s json=ok verdict=정상 sev=L0
+  case060 [G_rf_fn       ]  30.5s json=ok verdict=정상 sev=L2 경고
+  case061 [G_rf_fn       ]  23.1s json=ok verdict=정상 sev=L1 주의
+  case062 [G_rf_fn       ]  27.8s json=ok verdict=정상 sev=L1 주의
+  case063 [G_rf_fn       ]  27.1s json=ok verdict=정상 sev=L1 주의
+  case064 [H_unseen_equip]  20.4s json=ok verdict=정상 sev=L0
+  case065 [H_unseen_equip]  24.3s json=ok verdict=정상 sev=L0
+  case066 [H_unseen_equip]  31.0s json=ok verdict=정상 sev=L0
+  case067 [H_unseen_equip]  21.9s json=ok verdict=정상 sev=L0
+  case068 [H_unseen_equip]  18.9s json=ok verdict=정상 sev=L0
+  case069 [H_unseen_equip]  21.8s json=ok verdict=정상 sev=L0
+
+=== cond image_only (70 cases) ===
+  case000 [A_clear_danger]  11.4s json=ok verdict=정상 sev=L0
+  case001 [A_clear_danger]  10.2s json=ok verdict=정상 sev=L0
+  case002 [A_clear_danger]  13.2s json=ok verdict=정상 sev=L0
+  case003 [A_clear_danger]  13.7s json=ok verdict=정상 sev=L0
+  case004 [A_clear_danger]  12.2s json=ok verdict=정상 sev=L0
+  case005 [A_clear_danger]  12.7s json=ok verdict=정상 sev=L0
+  case006 [A_clear_danger]  11.7s json=ok verdict=정상 sev=L0
+  case007 [A_clear_danger]  15.3s json=ok verdict=정상 sev=L0
+  case008 [A_clear_danger]  10.0s json=ok verdict=정상 sev=L0
+  case009 [A_clear_danger]   8.9s json=ok verdict=정상 sev=L0
+  case010 [B_hot_but_norm]  11.3s json=ok verdict=정상 sev=L0
+  case011 [B_hot_but_norm]  17.8s json=ok verdict=정상 sev=L0
+  case012 [B_hot_but_norm]  12.3s json=ok verdict=정상 sev=L0
+  case013 [B_hot_but_norm]   9.3s json=ok verdict=정상 sev=L0
+  case014 [B_hot_but_norm]   9.6s json=ok verdict=정상 sev=L0
+  case015 [B_hot_but_norm]  11.4s json=ok verdict=정상 sev=L0
+  case016 [B_hot_but_norm]  11.5s json=ok verdict=정상 sev=L0
+  case017 [B_hot_but_norm]  15.6s json=ok verdict=정상 sev=L0
+  case018 [B_hot_but_norm]  16.2s json=ok verdict=정상 sev=L0
+  case019 [B_hot_but_norm]  13.0s json=ok verdict=정상 sev=L0
+  case020 [C_borderline  ]  11.3s json=ok verdict=정상 sev=L0
+  case021 [C_borderline  ]  10.3s json=ok verdict=정상 sev=L0
+  case022 [C_borderline  ]  11.0s json=ok verdict=정상 sev=L0
+  case023 [C_borderline  ]  18.7s json=ok verdict=정상 sev=L0
+  case024 [C_borderline  ]  10.3s json=ok verdict=정상 sev=L0
+  case025 [C_borderline  ]  11.7s json=ok verdict=정상 sev=L0
+  case026 [C_borderline  ]  10.2s json=ok verdict=정상 sev=L0
+  case027 [C_borderline  ]  12.9s json=ok verdict=정상 sev=L0
+  case028 [C_borderline  ]  12.2s json=ok verdict=정상 sev=L0
+  case029 [C_borderline  ]   9.8s json=ok verdict=정상 sev=L0
+  case030 [D_subtle_fault]   9.8s json=ok verdict=정상 sev=L0
+  case031 [D_subtle_fault]  11.1s json=ok verdict=정상 sev=L0
+  case032 [D_subtle_fault]   9.2s json=ok verdict=정상 sev=L0
+  case033 [D_subtle_fault]  12.5s json=ok verdict=정상 sev=L0
+  case034 [E_cool_normal ]  11.7s json=ok verdict=정상 sev=L0
+  case035 [E_cool_normal ]  11.1s json=ok verdict=정상 sev=L0
+  case036 [E_cool_normal ]   9.5s json=ok verdict=정상 sev=L0
+  case037 [E_cool_normal ]  10.8s json=ok verdict=정상 sev=L0
+  case038 [E_cool_normal ]  15.6s json=ok verdict=정상 sev=L0
+  case039 [E_cool_normal ]  14.2s json=ok verdict=정상 sev=L0
+  case040 [E_cool_normal ]  12.9s json=ok verdict=정상 sev=L0
+  case041 [E_cool_normal ]  10.3s json=ok verdict=정상 sev=L0
+  case042 [E_cool_normal ]   9.7s json=ok verdict=정상 sev=L0
+  case043 [E_cool_normal ]  12.7s json=ok verdict=정상 sev=L0
+  case044 [F_rf_fp       ]  12.9s json=ok verdict=정상 sev=L0
+  case045 [F_rf_fp       ]  14.4s json=ok verdict=정상 sev=L0
+  case046 [F_rf_fp       ]  11.9s json=ok verdict=정상 sev=L0
+  case047 [F_rf_fp       ]  10.8s json=ok verdict=정상 sev=L0
+  case048 [F_rf_fp       ]  12.4s json=ok verdict=정상 sev=L0
+  case049 [F_rf_fp       ]  13.8s json=ok verdict=정상 sev=L0
+  case050 [F_rf_fp       ]  11.7s json=ok verdict=정상 sev=L0
+  case051 [F_rf_fp       ]  11.5s json=ok verdict=정상 sev=L0
+  case052 [F_rf_fp       ]  11.0s json=ok verdict=정상 sev=L0
+  case053 [F_rf_fp       ]  10.7s json=ok verdict=정상 sev=L0
+  case054 [G_rf_fn       ]  10.8s json=ok verdict=정상 sev=L0
+  case055 [G_rf_fn       ]  10.1s json=ok verdict=정상 sev=L0
+  case056 [G_rf_fn       ]  12.9s json=ok verdict=정상 sev=L0
+  case057 [G_rf_fn       ]  12.1s json=ok verdict=정상 sev=L0
+  case058 [G_rf_fn       ]  12.8s json=ok verdict=정상 sev=L0
+  case059 [G_rf_fn       ]   9.4s json=ok verdict=정상 sev=L0
+  case060 [G_rf_fn       ]  10.4s json=ok verdict=정상 sev=L0
+  case061 [G_rf_fn       ]  14.9s json=ok verdict=정상 sev=L0
+  case062 [G_rf_fn       ]  12.4s json=ok verdict=정상 sev=L0
+  case063 [G_rf_fn       ]  10.8s json=ok verdict=정상 sev=L0
+  case064 [H_unseen_equip]  10.3s json=ok verdict=정상 sev=L0
+  case065 [H_unseen_equip]  14.0s json=ok verdict=정상 sev=L0
+  case066 [H_unseen_equip]  11.6s json=ok verdict=정상 sev=L0
+  case067 [H_unseen_equip]   9.6s json=ok verdict=정상 sev=L0
+  case068 [H_unseen_equip]  16.2s json=ok verdict=정상 sev=L0
+  case069 [H_unseen_equip]   9.8s json=ok verdict=정상 sev=L0
+
+=== cond facts_only (70 cases) ===
+  case000 [A_clear_danger]  17.0s json=ok verdict=이상 sev=L4 긴급
+  case001 [A_clear_danger]  19.2s json=ok verdict=정상 sev=L0
+  case002 [A_clear_danger]  23.5s json=ok verdict=판단보류 sev=L2 경고
+  case003 [A_clear_danger]  22.3s json=ok verdict=판단보류 sev=L2 경고
+  case004 [A_clear_danger]  26.9s json=ok verdict=정상 sev=L0
+  case005 [A_clear_danger]  22.3s json=ok verdict=정상 sev=L0
+  case006 [A_clear_danger]  21.4s json=ok verdict=판단보류 sev=L2 경고
+  case007 [A_clear_danger]  28.0s json=ok verdict=정상 sev=L0
+  case008 [A_clear_danger]  27.5s json=ok verdict=정상 sev=L0
+  case009 [A_clear_danger]  20.9s json=ok verdict=판단보류 sev=L3 심각
+  case010 [B_hot_but_norm]  17.9s json=ok verdict=정상 sev=L1 주의
+  case011 [B_hot_but_norm]  18.0s json=ok verdict=정상 sev=L0
+  case012 [B_hot_but_norm]  29.1s json=ok verdict=정상 sev=L1 주의
+  case013 [B_hot_but_norm]  24.2s json=ok verdict=정상 sev=L1 주의
+  case014 [B_hot_but_norm]  17.0s json=ok verdict=정상 sev=L3 심각
+  case015 [B_hot_but_norm]  19.6s json=ok verdict=정상 sev=L3 심각
+  case016 [B_hot_but_norm]  20.7s json=ok verdict=정상 sev=L1 주의
+  case017 [B_hot_but_norm]  15.2s json=ok verdict=정상 sev=L0
+  case018 [B_hot_but_norm]  14.8s json=ok verdict=정상 sev=L0
+  case019 [B_hot_but_norm]  28.1s json=ok verdict=정상 sev=L1 주의
+  case020 [C_borderline  ]  27.6s json=ok verdict=정상 sev=L1 주의
+  case021 [C_borderline  ]  26.4s json=ok verdict=정상 sev=L1 주의
+  case022 [C_borderline  ]  32.9s json=ok verdict=정상 sev=L1 주의
+  case023 [C_borderline  ]  20.9s json=ok verdict=정상 sev=L1 주의
+  case024 [C_borderline  ]  28.7s json=ok verdict=정상 sev=L1 주의
+  case025 [C_borderline  ]  27.2s json=ok verdict=정상 sev=L0
+  case026 [C_borderline  ]  26.1s json=ok verdict=정상 sev=L1 주의
+  case027 [C_borderline  ]  13.9s json=ok verdict=정상 sev=L1 주의
+  case028 [C_borderline  ]  17.8s json=ok verdict=정상 sev=L1 주의
+  case029 [C_borderline  ]  19.4s json=ok verdict=정상 sev=L1 주의
+  case030 [D_subtle_fault]  18.0s json=ok verdict=정상 sev=L0
+  case031 [D_subtle_fault]  17.5s json=ok verdict=정상 sev=L0
+  case032 [D_subtle_fault]  24.7s json=ok verdict=정상 sev=L0
+  case033 [D_subtle_fault]  15.7s json=ok verdict=정상 sev=L0
+  case034 [E_cool_normal ]  15.0s json=ok verdict=정상 sev=L0
+  case035 [E_cool_normal ]  24.9s json=ok verdict=정상 sev=L0
+  case036 [E_cool_normal ]  27.5s json=ok verdict=정상 sev=L0
+  case037 [E_cool_normal ]  27.2s json=ok verdict=정상 sev=L0
+  case038 [E_cool_normal ]  16.3s json=ok verdict=정상 sev=L0
+  case039 [E_cool_normal ]  15.9s json=ok verdict=정상 sev=L0
+  case040 [E_cool_normal ]  28.8s json=ok verdict=정상 sev=L0
+  case041 [E_cool_normal ]  17.3s json=ok verdict=정상 sev=L0
+  case042 [E_cool_normal ]  27.1s json=ok verdict=정상 sev=L0
+  case043 [E_cool_normal ]  28.4s json=ok verdict=정상 sev=L0
+  case044 [F_rf_fp       ]  16.3s json=ok verdict=정상 sev=L0
+  case045 [F_rf_fp       ]  15.1s json=ok verdict=이상 sev=L3 심각
+  case046 [F_rf_fp       ]  14.6s json=ok verdict=이상 sev=L4 긴급
+  case047 [F_rf_fp       ]  16.1s json=ok verdict=정상 sev=L0
+  case048 [F_rf_fp       ]  23.3s json=ok verdict=정상 sev=L0
+  case049 [F_rf_fp       ]  16.1s json=ok verdict=정상 sev=L0
+  case050 [F_rf_fp       ]  14.2s json=ok verdict=정상 sev=L0
+  case051 [F_rf_fp       ]  14.6s json=ok verdict=이상 sev=L4 긴급
+  case052 [F_rf_fp       ]  13.7s json=ok verdict=이상 sev=L3 심각
+  case053 [F_rf_fp       ]  23.1s json=ok verdict=정상 sev=L0
+  case054 [G_rf_fn       ]  15.3s json=ok verdict=정상 sev=L1 주의
+  case055 [G_rf_fn       ]  23.9s json=ok verdict=정상 sev=L1 주의
+  case056 [G_rf_fn       ]  19.0s json=ok verdict=정상 sev=L3 심각
+  case057 [G_rf_fn       ]  13.7s json=ok verdict=정상 sev=L0
+  case058 [G_rf_fn       ]  19.8s json=ok verdict=정상 sev=L1 주의
+  case059 [G_rf_fn       ]  13.7s json=ok verdict=정상 sev=L0
+  case060 [G_rf_fn       ]  16.2s json=ok verdict=정상 sev=L2 경고
+  case061 [G_rf_fn       ]  21.1s json=ok verdict=정상 sev=L1 주의
+  case062 [G_rf_fn       ]  17.3s json=ok verdict=정상 sev=L1 주의
+  case063 [G_rf_fn       ]  25.0s json=ok verdict=정상 sev=L1 주의
+  case064 [H_unseen_equip]  15.7s json=ok verdict=정상 sev=L0
+  case065 [H_unseen_equip]  20.5s json=ok verdict=정상 sev=L0
+  case066 [H_unseen_equip]  19.2s json=ok verdict=정상 sev=L0
+  case067 [H_unseen_equip]  29.1s json=ok verdict=정상 sev=L0
+  case068 [H_unseen_equip]  17.2s json=ok verdict=정상 sev=L0
+  case069 [H_unseen_equip]  14.4s json=ok verdict=정상 sev=L0

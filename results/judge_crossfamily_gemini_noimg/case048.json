@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "계기용변류기(CT) 본체 및 하단 단자부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 저화질의 열화상 및 가시광 이미지에서 부위 확인 불가와 화질 보통으로 정직하게 기재한 반면, 보고서 B는 불확실한 이미지를 과도하게 해석하여 이차 단자함으로 단정하고 환각성 원인 추정을 포함함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 중앙에 있으며 조회표상 이차 단자함 부위로 추정됩니다.",
+  "원인 후보(추정): 정상 부하 발열"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 CCTV 크롭 이미지의 해상도가 매우 낮고 단색 배경에 가까워 정확한 부위 판독이 불가능하므로, A보고서처럼 판독 불가 및 기계 검증 불합격 처리하는 것이 현장 작업자에게 더 안전하고 신뢰성 높음.",
+ "case_id": "case048"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "차축베어링 (액슬박스)",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 육안 가시광 판독이 어렵고 화질을 확인할 수 없다고 정직하게 기술한 반면, 보고서 B는 근거가 부족한 '육안 특이 없음 / 화질 보통' 등의 주관적 평가를 포함하고 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "육안 특이 없음 / 화질 보통"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 이미지 상에서 마커가 상자 내부의 상단 우쪽에 정확히 위치하고 있으며, 고온의 배경 열원과의 경계 오염 가능성을 정확히 지적한 보고서 A가 실무적으로 더 신뢰성 높습니다.",
+ "case_id": "case003"
+}

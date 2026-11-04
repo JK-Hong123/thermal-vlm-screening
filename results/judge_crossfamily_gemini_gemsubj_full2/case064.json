@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "보일러 점검구 및 핸들 레버 부근",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독을 직접 수행하고 불합격 처리하여 기계 검증 대신 솔직한 한계를 드러낸 반면, 보고서 B는 통과 처리되었으나 실제 이미지와 맞지 않는 기계적 오류(베어링 손상 등)를 서술함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 이미지 기반 판독과 기계 검증 실패를 명시하여 현장 작업자가 주의 깊게 재촬영 및 판단하도록 돕는 반면, 보고서 B는 엉뚱한 설비 결함(베어링 등)을 유추하여 혼선을 줄 수 있음.",
+ "case_id": "case064"
+}

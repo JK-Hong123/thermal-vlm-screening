@@ -1,0 +1,4 @@
+{
+ "raw": "```json\n{\n \"consistent\": \"아니오\",\n \"my_cell\": \"상단 중앙\",\n \"reason_ko\": \"시스템은 열점 위치를 하단 중앙으로 인식했으나 마커는 실제 상단 중앙에 위치하므로 일치하지 않습니다.\"\n}\n```",
+ "model": "gemini-3.5-flash-lite"
+}

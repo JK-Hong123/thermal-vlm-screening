@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "계기용변압기 본체",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 화질이 보통이고 부위 확인이 어렵다고 정직하게 평가한 후 재촬영 권고 조치를 제시하여 현장 실무에 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 중앙에 있으며 조회표상 본체(절연 몰드) 부위로 추정됩니다."
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 단정적인 부위 추정을 하였으나, 보고서 B는 불확실성을 인정하고 각도 변경 재촬영이라는 구체적인 현장 대처 방안을 제시함.",
+ "case_id": "case018"
+}

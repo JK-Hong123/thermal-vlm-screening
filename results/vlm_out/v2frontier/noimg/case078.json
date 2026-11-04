@@ -1,0 +1,103 @@
+{
+ "case_id": "case078",
+ "cond": "noimg",
+ "raw": {
+  "noimg": "{\"part\":\"확인 불가\",\"heat_pattern\":\"다점형(여러 개)\",\"part_location_ko\":\"계측상 열점은 콘덴서 상단 좌측에 국부적으로 집중된 여러 개의 점으로 나타나며, 이미지가 없어 단자 접속부인지 부싱인지는 특정할 수 없습니다.\",\"cause_hypothesis\":[\"접촉부 접촉저항 증가(체결 이완·산화)\"],\"cause_basis\":[\"열 형태\",\"세션 증거\"],\"field_checks\":[\"각도 바꿔 재촬영(반사 확인)\",\"체결 토크 점검\",\"접촉면 청소·산화 확인\"],\"operator_note_ko\":\"주변 대비 온도차가 주의 구간으로 세션 내내 일관되게 계측되었으므로, 먼저 각도를 바꿔 반사 여부를 배제한 뒤 정전이 가능한 시점에 상단 열점 부위의 체결 상태와 접촉면 산화 여부를 점검하시기 바랍니다.\"}"
+ },
+ "report": {
+  "case_id": "case078",
+  "equipment": "접지용 콘덴서",
+  "site": "변전소",
+  "spec": "6.6KV, 10KVAR",
+  "verdict": "이상 의심",
+  "severity": "L1 주의",
+  "severity_level": 1,
+  "severity_reference": "장면 중앙값(주변 온도 대용, 비표준 기준점) 대비",
+  "severity_metric": "장면 대비 ΔT 6.4°C (장면 중앙값 29.7°C)",
+  "severity_source": "ANSI/NETA MTS Table 100.18 주변 대비(1~10 조사 / 11~20 수리 / 21~40 감시·시정 / >40 즉시) 준용",
+  "scene_level": 1,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 콘덴서 단자 ≥75 (국토안전관리원 온도패턴법)",
+  "measurements": {
+   "t_max": 36.1,
+   "t_mean": 30.4,
+   "scene_median": 29.7,
+   "dT_scene": 6.4,
+   "sibling_reference": null,
+   "dT_sibling": null,
+   "n_siblings": 0,
+   "hotspot_area_frac": 0.005,
+   "rf_prob": 0.636,
+   "t_max_eroded": 36.1,
+   "dT_scene_eroded": 6.4
+  },
+  "thermal_finding_ko": "대상 최고 온도 36.1°C, 장면 중앙값 29.7°C(장면 대비 6.4°C). 열점은 대상 내 상단 좌측에 다점형 분포.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT가 큼(설비별 정상 분포 기준 없음)",
+   "열점이 국부에 집중"
+  ],
+  "caveats_ko": [],
+  "case_type": "mild_overheat",
+  "case_type_ko": "경미한 기준 초과 소견",
+  "confidence": "medium",
+  "confidence_reason": "세션 증거는 일관하나 게이트 확률(0.636)이 경계에 근접; 미학습 설비",
+  "action_ko": "기록 후 다음 정기점검 시 재확인",
+  "field_checks_ko": [
+   "체결 토크 점검",
+   "접촉면 청소·산화 확인",
+   "각도 바꿔 재촬영(반사 확인)"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 32프레임, 그중 29프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_absent",
+   "calib_default",
+   "rgb_unaligned",
+   "unseen_equipment"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "exact",
+  "pattern_check": "differ",
+  "vlm_pass1": {
+   "equipment_plausible": "확인 불가",
+   "part": "확인 불가",
+   "p_grid": "상단 좌측",
+   "heat_pattern": "다점형",
+   "visual_flags": [
+    "가시광 없음"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": "계측상 열점은 콘덴서 상단 좌측에 국부적으로 집중된 여러 개의 점으로 나타나며, 이미지가 없어 단자 접속부인지 부싱인지는 특정할 수 없습니다."
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)"
+   ],
+   "cause_basis": [
+    "열 형태",
+    "세션 증거"
+   ],
+   "field_checks": [
+    "체결 토크 점검",
+    "접촉면 청소·산화 확인",
+    "각도 바꿔 재촬영(반사 확인)"
+   ],
+   "operator_note_ko": "주변 대비 온도차가 주의 구간으로 세션 내내 일관되게 계측되었으므로, 먼저 각도를 바꿔 반사 여부를 배제한 뒤 정전이 가능한 시점에 상단 열점 부위의 체결 상태와 접촉면 산화 여부를 점검하시기 바랍니다."
+  },
+  "validation": {
+   "violations": [
+    "heat_pattern:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "heat_pattern"
+   ]
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "차축베어링 (액슬박스 영역 및 인접 차륜 림)",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 화질 불량과 가시광 부재를 솔직히 인정하고, 외부 열원 오염 가능성에 대해 더 안전하고 구체적인 작업자 메모 및 권고 조치를 제시함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "최고온 지점은 대상 상단 좌측에 있으며 조회표상 차축 베어링(액슬박스) 부위로 추정됩니다. (가시광 및 화질 확인이 불가한 상태에서 단정적 추정)"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 육안 가시광 미판독이라면서 부위 판독을 구체적으로 단정 지은 반면, 보고서 B는 영상 없이 특정할 수 없다고 명시하여 현장 작업자 입장에서 더 신뢰할 수 있음.",
+ "case_id": "case007"
+}

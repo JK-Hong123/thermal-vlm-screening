@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "계기용변성기(MOF) 본체",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증을 통과하였고 이미지 판독 결과와 측정 데이터 간의 정합성이 우수합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "기계 검증: 1건 불합격 → 열 형태 항목은 이미지 판독 대신 계측 기반 기본값으로 대체됨"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 계측 데이터와 이미지 판독 내용이 일관되며 기계 검증을 통과하여 신뢰성이 높습니다.",
+ "case_id": "case010"
+}

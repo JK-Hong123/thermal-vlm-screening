@@ -1,0 +1,18 @@
+{
+ "case_id": "case058",
+ "cond": "image_only",
+ "raw": "```json\n{\n  \"component\": \"계기용변류기(CT)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품의 열 분포는 동종 부품과 유사하며, 온도 차이가 없어 정상적인 열 분포를 보여줍니다.\",\n  \"evidence_numbers\": [],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"계기용변류기(CT)의 정상적인 열 분포를 유지하기 위해 정기적인 점검을 진행합니다.\",\n  \"uncertainty\": \"판단의 한계\"\n}\n```",
+ "parsed": {
+  "component": "계기용변류기(CT)",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품의 열 분포는 동종 부품과 유사하며, 온도 차이가 없어 정상적인 열 분포를 보여줍니다.",
+  "evidence_numbers": [],
+  "probable_cause": "확인 불가",
+  "recommended_action": "계기용변류기(CT)의 정상적인 열 분포를 유지하기 위해 정기적인 점검을 진행합니다.",
+  "uncertainty": "판단의 한계"
+ },
+ "sec": 12.83,
+ "in_tok": 1354,
+ "out_tok": 151
+}

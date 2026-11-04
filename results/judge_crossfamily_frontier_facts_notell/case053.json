@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "상단-우",
+  "my_part": "세로로 긴 상자의 오른쪽 테두리 위에, 위에서 약 30% 내려온 지점(상단과 중단 경계에 가까움). 열화상은 거의 균일해 고온부가 보이지 않고, 가시광에서는 검은 케이블이 갈색 절연 단자(접속부)로 들어가는 부근이 이 위치에 대응하는 것으로 보이나 정렬이 안 되어 있어 확정 불가. 차단기 상부 단자·케이블 접속부로 추정.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "A는 마커가 상자 오른쪽 가장자리 위쪽에 걸쳐 있고 가시광의 케이블-갈색 절연부 접속 부근에 해당하며 열화상에 뚜렷한 고온부가 없다는 실제 관찰을 적었고 현장 확인 항목도 제시했다. B는 조회표 추정과 일반 문구뿐이다.",
+  "usefulness_A_1to5": 4,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 4,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "계측 사실은 cell_argmax 2(상단-우), cell_smooth 5(중단-우), x_norm 1.0, y_norm 0.43으로 경계 부근이며, 내 판독도 상단-우이되 중단 경계에 가까움. 마커가 상자 오른쪽 테두리 위에 있는 점은 한계 항목 peak_on_box_border와 일치. A의 '열 형태 불명'은 코드 소견 '다점형'(n_hotspots 31, compactness 0.11, ΔT 1.4°C)과 표현이 다르나 1.4°C 차이는 육안으로 구분되지 않으므로 모순으로 세지 않음. A의 가시광 대응 서술은 정렬되지 않은 사진 기준이라 '부근'이라는 표현 정도로만 신뢰 가능. B의 '상부 단자 접속부'는 A의 '케이블 접속부'와 사실상 같은 부위이나 이미지 근거 없이 조회표에서 온 것."
+}

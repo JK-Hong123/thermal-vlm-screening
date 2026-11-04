@@ -1,0 +1,106 @@
+{
+ "case_id": "case009",
+ "frame_key": "0101031112(1339)(0830)",
+ "session": "0101031112(1339)",
+ "split_group": "test",
+ "stratum": "A_clear_danger",
+ "equipment": "고압전동기",
+ "component_class": "고압전동기",
+ "spec": "700kW",
+ "site": "서부발전",
+ "n_components_in_frame": 2,
+ "target_index": 0,
+ "bbox": {
+  "x": 604,
+  "y": 113,
+  "width": 34,
+  "height": 132
+ },
+ "bbox_position_in_frame": "middle-right",
+ "calib": {
+  "emissivity": 0.95,
+  "obj_distance": 1.0,
+  "reflected_temp": 15.0,
+  "atmospheric_temp": 15.0,
+  "relative_humidity": 0.0
+ },
+ "thermal": {
+  "t_max": 50.4,
+  "t_mean": 46.2,
+  "t_min": 30.3,
+  "t_p95": 50.1,
+  "t_std": 5.01,
+  "scene_median": 30.8,
+  "scene_p95": 45.5,
+  "scene_max": 50.4,
+  "frame_max_inside_target": true,
+  "dT_scene_max": 19.6,
+  "dT_scene_mean": 15.4,
+  "n_siblings": 1,
+  "sibling_t_max": [
+   49.2
+  ],
+  "sibling_reference": 49.2,
+  "dT_sibling_max": 1.2,
+  "hotspot_area_frac": 0.833,
+  "n_hotspots": 1,
+  "hotspot_compactness": 0.46,
+  "hotspot_position_in_target": "bottom-center",
+  "peak_z": 0.85,
+  "ambient_temp": 15.0,
+  "dT_over_ambient": 35.4
+ },
+ "gate": {
+  "rf_prob": 0.752,
+  "rf_verdict": "flag",
+  "rule_verdict": "flag",
+  "band_placeholder": "L3_high"
+ },
+ "images": {
+  "thermal_full": "thermal_full.png",
+  "thermal_crop": "thermal_crop.png",
+  "rgb_crop": "rgb_crop.png",
+  "thermal_crop_v2": "thermal_crop_v2.png",
+  "thermal_crop_v2_pert": "thermal_crop_v2_pert.png",
+  "thermal_crop_v2_nomark": "thermal_crop_v2_nomark.png",
+  "rgb_crop_v2": "rgb_crop_v2.png"
+ },
+ "hidden": {
+  "label": "danger"
+ },
+ "session_agg": {
+  "n_frames_in_session": 44,
+  "n_frames_component_matched": 0
+ },
+ "norms": {
+  "equipment_seen_in_training": true,
+  "n_normal_train": 1850,
+  "t_max_pct_vs_normal": 65.8,
+  "dT_scene_pct_vs_normal": 58.2,
+  "dT_sib_pct_vs_normal": 6.0,
+  "normal_t_max_p50": 44.9,
+  "normal_t_max_p95": 73.8,
+  "normal_t_max_p99": 131.5,
+  "normal_dT_scene_p50": 18.1,
+  "normal_dT_scene_p95": 47.5,
+  "normal_dT_scene_p99": 108.8,
+  "danger_t_max_p50": 47.0,
+  "danger_dT_scene_p50": 17.9
+ },
+ "boundary": {
+  "inset_px": 3,
+  "peak_border_distance_px": 12,
+  "t_max_eroded": 50.4,
+  "dT_scene_eroded": 19.6,
+  "t_max_just_outside": 49.7,
+  "dT_drop_when_border_removed": 0.0,
+  "external_source_suspected": false
+ },
+ "hotspot_labels_v2": {
+  "cell_argmax": 7,
+  "cell_smooth": 7,
+  "x_norm": 0.394,
+  "y_norm": 0.878,
+  "dT_scene": 19.6
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "단자 접속부 또는 부싱",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독에서 부위를 구체적으로 특정하였고 전반적인 권고 조치와 원인 후보 서술이 더 충실함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 A는 이미지 판독을 포기한 반면 보고서 B는 부위를 단자 접속부로 추정하여 현장 점검에 더 도움을 줌.",
+ "case_id": "case078"
+}

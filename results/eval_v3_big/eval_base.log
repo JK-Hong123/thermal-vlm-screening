@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 1999.67it/s]
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:00<01:52,  7.34it/s]Loading weights:   5%|▍         | 38/824 [00:00<00:04, 185.02it/s]Loading weights:   9%|▉         | 75/824 [00:00<00:02, 255.38it/s]Loading weights:  13%|█▎        | 111/824 [00:00<00:02, 288.30it/s]Loading weights:  18%|█▊        | 148/824 [00:00<00:02, 307.16it/s]Loading weights:  22%|██▏       | 182/824 [00:00<00:02, 316.66it/s]Loading weights:  27%|██▋       | 220/824 [00:00<00:01, 335.35it/s]Loading weights:  31%|███       | 255/824 [00:00<00:01, 339.85it/s]Loading weights:  35%|███▌      | 290/824 [00:00<00:01, 342.41it/s]Loading weights:  40%|███▉      | 327/824 [00:01<00:01, 337.44it/s]Loading weights:  44%|████▍     | 364/824 [00:01<00:01, 342.83it/s]Loading weights:  49%|████▊     | 401/824 [00:01<00:01, 347.05it/s]Loading weights:  56%|█████▋    | 465/824 [00:01<00:00, 432.76it/s]Loading weights:  72%|███████▏  | 596/824 [00:01<00:00, 690.75it/s]Loading weights:  88%|████████▊ | 727/824 [00:01<00:00, 873.88it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 492.32it/s]
+
+=== _none on independent eval set (chance acc 0.111, κ 0) ===
+  all                                  n= 388 acc 0.116 κ -0.001 dist 0.411 within0.2 0.137 fail 0
+  test                                 n= 157 acc 0.121 κ 0.003 dist 0.458 within0.2 0.127 fail 0
+  gen_test                             n= 231 acc 0.113 κ -0.003 dist 0.379 within0.2 0.143 fail 0
+  label=danger                         n=  50 acc 0.120 κ 0.000 dist 0.365 within0.2 0.160 fail 0
+  label=normal                         n= 338 acc 0.115 κ -0.001 dist 0.418 within0.2 0.133 fail 0
+  eq:고압전동기                             n=  16 acc 0.125 κ 0.000 dist 0.344 within0.2 0.062 fail 0
+  eq:기어박스                              n=  15 acc 0.000 κ 0.000 dist 0.599 within0.2 0.000 fail 0
+  eq:변압기 케이블 연결개소 포함                   n=  28 acc 0.036 κ 0.000 dist 0.479 within0.2 0.036 fail 0
+  eq:신재생 설비                            n= 191 acc 0.052 κ -0.015 dist 0.393 within0.2 0.089 fail 0
+  eq:접지용 콘덴서                           n=  40 acc 0.400 κ 0.048 dist 0.309 within0.2 0.400 fail 0
+  eq:차단기                               n=  16 acc 0.062 κ -0.008 dist 0.477 within0.2 0.062 fail 0
+  eq:차축베어링                             n=  27 acc 0.074 κ 0.030 dist 0.594 within0.2 0.074 fail 0

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "차단기 상부 단자 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 마커가 상자 우측 경계선에 걸쳐 있는 실제 이미지 상태를 정확히 반영하여 구체적인 현장 확인 항목과 권고 조치를 제시하였으므로 현장 실무에 더 유용합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 5,
+ "actionability_A_1to5": 2,
+ "actionability_B_1to5": 5,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "열점은 대상 내 상단 우측에 다점형 분포"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B는 이미지의 시각적 특징(우측 경계선에 걸친 마커 위치)을 정밀하게 분석하고 이에 맞는 실효성 있는 점검 항목을 작성하였습니다.",
+ "case_id": "case034"
+}

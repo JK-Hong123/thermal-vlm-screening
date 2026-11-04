@@ -1,0 +1,80 @@
+{
+ "case_id": "case049",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component_part\": \"ケ이블 연결부\",\n  \"heat_pattern\": \"점형\",\n  \"heat_description\": \"대상 내 상단 우측에 국부 집중된 열 분포가 확인되었습니다.\",\n  \"visual_context\": \"가시광 사진에서 보이는 케이블 연결부의 열 분포를 확인했습니다.\",\n  \"cause_hypothesis\": [\"접촉부 접촉저항 증가\", \"과부하 또는 상 불평형\"],\n  \"operator_note\": \"현장 작업자는 케이블 연결부의 열 분포를 확인하고, 접촉부 접촉저항 증가 가능성과 과부하 또는 상 불평형 가능성에 대해 조사해야 합니다.\",\n  \"image_consistent_with_facts\": \"예\",\n  \"consistency_reason\": \"이미지 2에서 녹색 십자가 표시된 부분이 가시광 사진에서 확인된 케이블 연결부와 일치합니다.\"\n}\n```",
+ "vlm_parsed": {
+  "component_part": "ケ이블 연결부",
+  "heat_pattern": "점형",
+  "heat_description": "대상 내 상단 우측에 국부 집중된 열 분포가 확인되었습니다.",
+  "visual_context": "가시광 사진에서 보이는 케이블 연결부의 열 분포를 확인했습니다.",
+  "cause_hypothesis": [
+   "접촉부 접촉저항 증가",
+   "과부하 또는 상 불평형"
+  ],
+  "operator_note": "현장 작업자는 케이블 연결부의 열 분포를 확인하고, 접촉부 접촉저항 증가 가능성과 과부하 또는 상 불평형 가능성에 대해 조사해야 합니다.",
+  "image_consistent_with_facts": "예",
+  "consistency_reason": "이미지 2에서 녹색 십자가 표시된 부분이 가시광 사진에서 확인된 케이블 연결부와 일치합니다."
+ },
+ "report": {
+  "case_id": "case049",
+  "equipment": "전자접촉기",
+  "site": "변전소",
+  "spec": "DC110V/3a1b",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 13.4°C (형제 7개, 기준 36.9°C)",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "case_type": "intermittent",
+  "case_type_ko": "간헐적 플래그(세션 내 소수 프레임만 이상)",
+  "confidence": "low",
+  "confidence_reason": "세션 6프레임 중 2프레임만 플래그(비일관) → 재촬영·부하 확인 권고",
+  "measurements": {
+   "t_max": 50.3,
+   "scene_median": 35.6,
+   "dT_scene": 14.8,
+   "dT_sibling": 13.4,
+   "rf_prob": 0.518
+  },
+  "session_evidence": {
+   "n_frames_in_session": 40,
+   "n_frames_component_matched": 6,
+   "n_flagged": 2,
+   "flag_frac": 0.33,
+   "rf_prob_median": 0.493,
+   "rf_prob_min": 0.444,
+   "rf_prob_max": 0.747,
+   "dT_scene_median": 15.4,
+   "dT_scene_min": 15.0,
+   "dT_scene_max_over_session": 21.4,
+   "t_max_median": 51.1,
+   "t_max_max": 57.2,
+   "hotspot_pos_mode": "top-right",
+   "hotspot_pos_stability": 0.83,
+   "hotspot_pos_same_as_this_frame": 0.83
+  },
+  "recommended_action": "조속한 정비(가능한 빠른 시기), 부하 저감 검토",
+  "limitations": "단일 촬영 기준; 부하율·전류·이력 미확인; ",
+  "vlm": {
+   "component_part": "확인 불가",
+   "heat_pattern": "점형(국부 집중)",
+   "heat_description": "대상 내 상단 우측에 국부 집중된 열 분포가 확인되었습니다.",
+   "visual_context": "가시광 사진에서 보이는 케이블 연결부의 열 분포를 확인했습니다.",
+   "cause_hypothesis": [
+    "접촉부 접촉저항 증가(체결 이완·산화)",
+    "과부하 또는 상 불평형"
+   ],
+   "operator_note": "현장 작업자는 케이블 연결부의 열 분포를 확인하고, 접촉부 접촉저항 증가 가능성과 과부하 또는 상 불평형 가능성에 대해 조사해야 합니다.",
+   "image_consistent_with_facts": "예",
+   "consistency_reason": "(검증 없음)"
+  },
+  "vlm_violations": [
+   "component_part:cjk",
+   "consistency_reason:digits"
+  ]
+ },
+ "sec": 17.03,
+ "in_tok": 2043,
+ "out_tok": 220
+}

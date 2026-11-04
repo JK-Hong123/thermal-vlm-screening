@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "기어박스 상부 외곽",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독에서 화질을 '보통'으로 평가하고 마커 위치의 시각적 형태를 구체적으로 묘사하였으며, 권고 조치와 작업자 메모에서도 현장 점검 항목(윤활, 냉각 상태)을 더 충실히 제공함.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "기계 검증에서 불합격 처리되어 이미지 판독 대신 계측 기반 기본값이 적용되었으나, 보고서 B의 시각적 묘사와 현장 확인 항목이 작업자에게 더 유용함.",
+ "case_id": "case019"
+}

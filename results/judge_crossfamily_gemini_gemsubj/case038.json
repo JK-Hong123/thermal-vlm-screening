@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "차축베어링",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 화질과 가시광 상태를 솔직하게 반영하여 신뢰할 수 있는 반면, 보고서 B는 보이지 않는 가시광 사진에 대해 '특이 없음'이나 '선형' 같은 근거 없는 환각적 서술을 포함하고 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "열 형태 선형",
+  "육안 특이 없음"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "가시광 이미지가 완전히 어두워 판독이 불가능한 상태이므로, 이에 대해 솔직하게 미판독 및 화질 확인 불가로 처리한 보고서 A가 적외선 진단 관점에서 훨씬 신뢰도가 높습니다.",
+ "case_id": "case038"
+}

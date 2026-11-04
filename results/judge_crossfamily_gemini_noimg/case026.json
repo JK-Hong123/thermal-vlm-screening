@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "전자접촉기 상부 단자",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독 및 원인 추정에서 일관성 있는 분석을 제공한 반면, 보고서 B는 '이미지가 없어 확정하지는 않는다'며 이미지 분석을 자체적으로 포기하는 모순을 보였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "이미지가 없어 확정하지는 않는다"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 기계 검증에서 열 형태 항목이 불합격 처리되어 기본값으로 대체되었음에도 불구하고 전체적인 신뢰성 측면에서 보고서 A에 비해 완성도가 떨어집니다.",
+ "case_id": "case026"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "출력축 베어링부 주변",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 화질과 정렬 상태의 한계를 정확히 인지하고 무리한 부위 추정을 피했으나, 보고서 A는 불확실한 상황에서 과도한 구체적 부위를 단정하였습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 1,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "부위 출력축 베어링부"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "가시광 이미지가 어둡고 열화상과 정렬되지 않은 상태에서 구체적인 세부 부위를 특정하는 것은 오진의 위험이 있으므로, 보고서 B의 신중한 서술이 현장 작업자에게 더 안전합니다.",
+ "case_id": "case002"
+}

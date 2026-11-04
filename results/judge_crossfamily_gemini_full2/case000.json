@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "보일러 노벽 케이싱 및 점검구 주변",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 정렬 미검증 상태임을 정확히 인지하고 무리한 부위 추정을 피했으나, 보고서 B는 보일러 노벽 케이싱임에도 관련 없는 '베어링 손상' 같은 회전기기 원인을 제시하여 환각(Hallucination)을 보였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 베어링 손상·윤활 불량, 축 정렬 불량"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 설비 특성(보일러 노벽)에 맞는 현장 확인 항목을 제시한 반면, 보고서 B는 회전기기 전용 결함 원인과 진동 측정 등을 엉뚱하게 권고하여 신뢰성이 떨어짐.",
+ "case_id": "case000"
+}

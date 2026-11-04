@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-좌",
+ "my_part": "변압기 부싱 또는 케이블 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 판독을 구체적으로 시도하였으나 기계 검증에서 일부 항목이 불합격 처리되어 기본값으로 대체된 반면, 보고서 A는 이미지 판독을 소홀히 하여 두 보고서 간 내용의 충실도 측면에서 B가 더 상세한 정보를 담고 있습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "both",
+ "notes": "두 보고서 모두 동일한 계측 및 규칙 기반 판정을 공유하므로 최종 진단 결과는 동일합니다.",
+ "case_id": "case069"
+}

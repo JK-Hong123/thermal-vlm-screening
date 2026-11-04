@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "하우징 하단 모서리 (외부 열원 인접 경계부)",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 신뢰도가 낮고 외부 열원 간섭 가능성이 높다는 점을 정확히 반영하여 추가 조치로 부하 조건 기록 후 재촬영을 제시한 반면, 보고서 B는 신뢰도가 낮음에도 과도하게 구체적인 현장 점검 항목(진동 측정 등)을 권고하여 모순이 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "작업자 메모: 하우징 본체 아래쪽의 국부 열점이 여러 프레임에서 반복되므로 검토 차원에서 진동과 윤활 상태를 확인하고..."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "신뢰도가 낮고 외부 열원 영향이 의심되는 케이스이므로, 불확실한 진동 측정보다는 재촬영 및 경계 조건 확인을 우선하는 A의 권고가 더 적절합니다.",
+ "case_id": "case023"
+}

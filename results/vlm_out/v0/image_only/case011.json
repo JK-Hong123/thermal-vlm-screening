@@ -1,0 +1,21 @@
+{
+ "case_id": "case011",
+ "cond": "image_only",
+ "raw": "```json\n{\n  \"component\": \"변압기 케이블 연결개소\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품의 온도는 40°C 미만으로, 동종 부품들과 비슷한 온도 분포를 보여줍니다.\",\n  \"evidence_numbers\": [\"대상 부품 온도: 40°C\", \"동종 부품 온도: 40°C\"],\n  \"probable_cause\": \"변압기 케이블 연결개소의 온도가 동일한 온도 분포를 보여, 이상한 열 분포는 확인되지 않았습니다.\",\n  \"recommended_action\": \"정기적인 감시 유지\",\n  \"uncertainty\": \"변압기 케이블 연결개소의 온도가 동일한 온도 분포를 보여, 이상한 열 분포는 확인되지 않았습니다.\"\n}\n```",
+ "parsed": {
+  "component": "변압기 케이블 연결개소",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품의 온도는 40°C 미만으로, 동종 부품들과 비슷한 온도 분포를 보여줍니다.",
+  "evidence_numbers": [
+   "대상 부품 온도: 40°C",
+   "동종 부품 온도: 40°C"
+  ],
+  "probable_cause": "변압기 케이블 연결개소의 온도가 동일한 온도 분포를 보여, 이상한 열 분포는 확인되지 않았습니다.",
+  "recommended_action": "정기적인 감시 유지",
+  "uncertainty": "변압기 케이블 연결개소의 온도가 동일한 온도 분포를 보여, 이상한 열 분포는 확인되지 않았습니다."
+ },
+ "sec": 17.84,
+ "in_tok": 1370,
+ "out_tok": 223
+}

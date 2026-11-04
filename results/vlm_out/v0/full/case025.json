@@ -1,0 +1,23 @@
+{
+ "case_id": "case025",
+ "cond": "full",
+ "raw": "```json\n{\n  \"component\": \"계기용변성기(MOF)\",\n  \"verdict\": \"정상\",\n  \"severity\": \"L0\",\n  \"thermal_finding\": \"대상 부품의 열 분포는 정상이며, 대상 내 center에 위치한 열점의 면적비는 0.009, 열점 개수는 2입니다.\",\n  \"evidence_numbers\": [\n    \"대상 부품 최고 온도: 35.1°C\",\n    \"평균 온도: 29.8°C\",\n    \"장면(배경) 중앙값 온도: 29.0°C\",\n    \"대상 최고온이 대상 내부에 있음: 아니오\"\n  ],\n  \"probable_cause\": \"확인 불가\",\n  \"recommended_action\": \"정기적인 점검을 유지합니다.\",\n  \"uncertainty\": \"판단의 한계: 열화상 데이터와 가시광 사진 간의 일치 여부를 확인해야 합니다.\"\n}\n```",
+ "parsed": {
+  "component": "계기용변성기(MOF)",
+  "verdict": "정상",
+  "severity": "L0",
+  "thermal_finding": "대상 부품의 열 분포는 정상이며, 대상 내 center에 위치한 열점의 면적비는 0.009, 열점 개수는 2입니다.",
+  "evidence_numbers": [
+   "대상 부품 최고 온도: 35.1°C",
+   "평균 온도: 29.8°C",
+   "장면(배경) 중앙값 온도: 29.0°C",
+   "대상 최고온이 대상 내부에 있음: 아니오"
+  ],
+  "probable_cause": "확인 불가",
+  "recommended_action": "정기적인 점검을 유지합니다.",
+  "uncertainty": "판단의 한계: 열화상 데이터와 가시광 사진 간의 일치 여부를 확인해야 합니다."
+ },
+ "sec": 18.77,
+ "in_tok": 1869,
+ "out_tok": 235
+}

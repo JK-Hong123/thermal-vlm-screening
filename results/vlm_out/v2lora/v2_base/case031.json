@@ -1,0 +1,109 @@
+{
+ "case_id": "case031",
+ "cond": "v2",
+ "raw": {
+  "pass1": "```json\n{\n  \"equipment_plausible\": \"예\",\n  \"part\": \"일차 단자 접속부\",\n  \"p_grid\": \"중간 중앙\",\n  \"heat_pattern\": \"선형\",\n  \"visual_flags\": [\"반사 의심\", \"표면 변색\"],\n  \"image_quality\": \"보통\",\n  \"part_location_ko\": \"대상 내 중앙에 위치한 일차 단자 접속부\"\n}\n```",
+  "pass2": "```json\n{\n  \"cause_hypothesis\": [\"접촉면 오염\", \"절연 열화\"],\n  \"cause_basis\": [\"부하율·전류, 주변 기온 실측(카메라 설정값만 존재)\", \"육안 특이 의심, 표면 변색\", \"정상 분포 대비\"],\n  \"field_checks\": [\"부하 전류·불평형률 측정\", \"체결 토크 점검\", \"접촉면 청소·산화 확인\"],\n  \"operator_note_ko\": \"현장 작업자에게 전할 한 문장(숫자 없이, 판정과 모순되지 않게): '접촉면 오염이나 절연 열화를 확인하기 위해 부하 전류·불평형률 측정,"
+ },
+ "secs": {
+  "pass1": 7.58,
+  "pass2": 13.73
+ },
+ "report": {
+  "case_id": "case031",
+  "equipment": "계기용변류기(CT)",
+  "site": "변전소",
+  "spec": "12.5kA,40VA",
+  "verdict": "정상 범위",
+  "severity": "L0 정상 범위",
+  "severity_level": 0,
+  "severity_reference": "같은 화면 동종 부품(형제) 최고온 중앙값 대비",
+  "severity_metric": "형제 대비 ΔT 3.2°C (형제 2개, 기준 34.3°C); 장면 대비 ΔT 4.1°C",
+  "severity_source": "산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」 별지 제7호(3상 비교 ΔT ≤5 정상 / 5~10 요주의 / ≥10 이상); ANSI/NETA MTS Table 100.18 유사부품 대비(1~3 조사 / 4~15 시간 허용 시 수리 / >15 즉시 수리)",
+  "scene_level": 0,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — PT·CT 단자 ≥75 요주의 / 본체 ≥95 이상 (국토안전관리원 온도패턴법)",
+  "measurements": {
+   "t_max": 37.5,
+   "t_mean": 33.6,
+   "scene_median": 33.4,
+   "dT_scene": 4.1,
+   "sibling_reference": 34.3,
+   "dT_sibling": 3.2,
+   "n_siblings": 2,
+   "hotspot_area_frac": 0.042,
+   "rf_prob": 0.16,
+   "t_max_eroded": 37.5,
+   "dT_scene_eroded": 4.1
+  },
+  "thermal_finding_ko": "대상 최고 온도 37.5°C, 장면 중앙값 33.4°C(장면 대비 4.1°C). 열점은 대상 내 중단 우측에 다점형 분포; 동종 부품 대비 3.2°C.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT가 동종 설비 정상 분포 상위 5% 이내",
+   "형제 부품 대비 ΔT 3.2°C"
+  ],
+  "caveats_ko": [
+   "열점은 국부에 집중되어 있으나 온도차는 정상 범위"
+  ],
+  "case_type": "normal",
+  "case_type_ko": "정상 범위",
+  "confidence": "high",
+  "confidence_reason": "게이트 확률 여유 충분, 세션 10프레임 중 0프레임 플래그로 일관",
+  "action_ko": "정상 감시 유지",
+  "field_checks_ko": [
+   "각도 바꿔 재촬영(반사 확인)"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 10프레임, 그중 0프레임 플래그; 다만 이 프레임의 열점 위치는 세션 내 70% 프레임과 다름(최빈 위치 하단 우측) — 고정 결함이 아닐 수 있음",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "calib_default",
+   "rgb_unaligned"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "부하율·전류",
+   "상(R/S/T) 구분"
+  ],
+  "spatial_check": "adjacent",
+  "pattern_check": "differ",
+  "vlm_pass1": {
+   "equipment_plausible": "예",
+   "part": "일차 단자 접속부",
+   "p_grid": "중단 우측",
+   "heat_pattern": "다점형",
+   "visual_flags": [
+    "반사 의심"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": ""
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "cause_basis": [],
+   "field_checks": [
+    "각도 바꿔 재촬영(반사 확인)"
+   ],
+   "operator_note_ko": "정상 감시를 유지하십시오."
+  },
+  "validation": {
+   "violations": [
+    "visual_flags:rgb_unaligned_sealed",
+    "pass2:missing",
+    "operator_note_ko:missing",
+    "heat_pattern:overridden_by_measurement",
+    "p_grid:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "heat_pattern",
+    "operator_note_ko",
+    "p_grid",
+    "pass2",
+    "visual_flags"
+   ]
+  }
+ }
+}

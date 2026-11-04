@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "차철도 휠 림 및 액슬박스 경계부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "B",
+ "preference_reason": "보고서 B는 이미지 상의 휠 림과 액슬박스의 위치 관계를 구체적으로 판독하여 작업자 메모와 권고 조치에 유용한 정보를 더 구체적으로 제공합니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "보고서 B가 이미지의 시각적 요소를 더 충실하게 반영하여 현장 작업자에게 구체적인 가이드를 제공합니다.",
+ "case_id": "case007"
+}
