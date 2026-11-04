@@ -1,6 +1,6 @@
 # Physics first, language last: a falsifiable screening protocol for vision-language models before they are trusted with industrial thermal images
 
-Code, prompts, derived data, raw model outputs and audit logs for the manuscript of the same title (Jeongkyu Hong, University of Seoul; submitted to *Scientific Reports*, 2026).
+Code, prompts, derived data, raw model outputs and audit logs for the manuscript of the same title (Jeongkyu Hong, University of Seoul; manuscript prepared for *Scientific Reports*, 2026; a citation will be added on publication).
 
 ## What this repository is for
 
