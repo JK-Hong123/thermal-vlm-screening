@@ -1,0 +1,251 @@
+{
+ "bands": [
+  {
+   "reference": "[NETA MTS Table 100.18] 유사 구성요소 대비 (similar components under similar loading) ΔT",
+   "deltaT_C": "1–3",
+   "severity": "Possible deficiency (재인용본 표기: Priority 4, 최경미)",
+   "action": "Warrants investigation (원인 조사 필요)",
+   "source": "ANSI/NETA MTS-2007 Table 100.18 'Thermographic Survey Suggested Actions Based on Temperature Rise' — Fluke 응용노트가 표를 그대로 전재 (https://media.fluke.com/e5fe5900-3285-4e45-8896-b10600678538_original%20file.pdf, p.3); Infraspection Institute Standard(2008) §10.1도 동일 표를 NETA MTS 인용으로 수록 (https://www.motordoc.org/wp-content/uploads/2019/01/ElectricalIRStd.pdf); ATS-2017 전재본(pdfcoffee)도 동일값. MTS-2023 목차에 Table 100.18 존재 확인(madcad TOC) — 2023판 본문 수치는 원문 미열람(업계 인용상 불변)."
+  },
+  {
+   "reference": "[NETA MTS Table 100.18] 유사 구성요소 대비 ΔT",
+   "deltaT_C": "4–15",
+   "severity": "Indicates probable deficiency (Priority 3)",
+   "action": "Repair as time permits (시간 허용 시 수리)",
+   "source": "상동 (ANSI/NETA MTS-2007 Table 100.18, Fluke 전재 / Infraspection 2008 §10.1)"
+  },
+  {
+   "reference": "[NETA MTS Table 100.18] 유사 구성요소 대비 ΔT",
+   "deltaT_C": "(해당 행 없음: '– – –')",
+   "severity": "Priority 2 행은 주변온도 기준에만 존재",
+   "action": "—",
+   "source": "상동. 유사부품 기준에는 21–40 등급이 정의되지 않음(원표에 '- - - - - -')."
+  },
+  {
+   "reference": "[NETA MTS Table 100.18] 유사 구성요소 대비 ΔT",
+   "deltaT_C": ">15",
+   "severity": "Major discrepancy (Priority 1, 최심각)",
+   "action": "Repair immediately (즉시 수리)",
+   "source": "상동 (ANSI/NETA MTS-2007 Table 100.18)"
+  },
+  {
+   "reference": "[NETA MTS Table 100.18] 주변 공기온도 대비 (component vs ambient air) ΔT",
+   "deltaT_C": "1–10",
+   "severity": "Possible deficiency (Priority 4)",
+   "action": "Warrants investigation",
+   "source": "ANSI/NETA MTS-2007 Table 100.18 (Fluke 전재, Infraspection 2008 §10.1 재인용)"
+  },
+  {
+   "reference": "[NETA MTS Table 100.18] 주변 공기온도 대비 ΔT",
+   "deltaT_C": "11–20",
+   "severity": "Indicates probable deficiency (Priority 3)",
+   "action": "Repair as time permits",
+   "source": "상동"
+  },
+  {
+   "reference": "[NETA MTS Table 100.18] 주변 공기온도 대비 ΔT",
+   "deltaT_C": "21–40",
+   "severity": "Priority 2 (deficiency; 감시 단계)",
+   "action": "Monitor until corrective measures can be accomplished (시정조치 완료 시까지 감시)",
+   "source": "상동"
+  },
+  {
+   "reference": "[NETA MTS Table 100.18] 주변 공기온도 대비 ΔT",
+   "deltaT_C": ">40",
+   "severity": "Major discrepancy (Priority 1)",
+   "action": "Repair immediately",
+   "source": "상동. NETA 원문 주석: 'Temperature specifications vary depending on the exact type of equipment… In the absence of consensus standards for ΔT, the values in this table will provide reasonable guidelines' (Fluke 전재문)."
+  },
+  {
+   "reference": "[NFPA 70B-2016 §11.17.5.6] 유사 구성요소 대비 ΔT (구판, 권고실무 시절)",
+   "deltaT_C": "1–3",
+   "severity": "Possible deficiency",
+   "action": "Warrant investigation",
+   "source": "NFPA 70B Recommended Practice for Electrical Equipment Maintenance, 2016 Ed. §11.17.5.6 — 인용: https://hgi-fire.com/fire-prevention-through-infrared-scan-of-electrical-equipment/ ('Temperature differences of 1°C to 3°C indicate possible deficiency and warrant investigation'). NFPA 원문 직접 미열람(2차 인용)."
+  },
+  {
+   "reference": "[NFPA 70B-2016 §11.17.5.6] 유사 구성요소 대비 ΔT",
+   "deltaT_C": "4–15",
+   "severity": "Deficiency",
+   "action": "Repairs should be made as time permits",
+   "source": "상동 (hgi-fire 인용, 2차)"
+  },
+  {
+   "reference": "[NFPA 70B-2016 §11.17.5.6] 유사 구성요소 대비 ΔT",
+   "deltaT_C": "≥16",
+   "severity": "Major deficiency",
+   "action": "Repairs should be made immediately",
+   "source": "상동 (hgi-fire 인용, 2차)"
+  },
+  {
+   "reference": "[NFPA 70B-2023 §7.4.1/§7.4.3] (현행, 2023년부터 '표준'으로 격상) — 유사부품(동일부하) 대비 ΔT 및 주변공기 대비 ΔT 측정·기록 의무",
+   "deltaT_C": "수치 등급: 미확인 (공개 자료에서 2023판 수치표 확인 불가; 일부 업체 블로그의 'Class 1–4' 수치는 출처 불명)",
+   "severity": "미확인",
+   "action": "'temperature differences between the area of concern and the reference area shall be documented' (§7.4.3). 장비상태 Condition 1~4 및 점검주기(12/6개월, Condition 4 즉시조치)는 별도 개념",
+   "source": "NFPA 70B-2023 §7.4 — 인용: https://www.infraredtraining.com/en-US/home/free-learning/blog/reviewing-the-specific-thermography-regulations-within-nfpa-70b-2023/ ; https://www.flaitek.com/news/thermography-and-nfpa-70b-2023-what-you-need-to-know-for-electrical-preventive-maintenance"
+  },
+  {
+   "reference": "[MIL-STD-2194 (1988, 현재 폐지)] 주변온도 대비 ΔT (미 해군 선박용; 'severity codes based upon ambient versus component temperature differences')",
+   "deltaT_C": "10–25",
+   "severity": "Priority 4",
+   "action": "Component failure unlikely but corrective measure required at next scheduled routine maintenance period or as scheduling permits",
+   "source": "Infraspection Institute Standard(2008) §10.1 'Military Standard, for electrical equipment' 재인용 (https://www.motordoc.org/wp-content/uploads/2019/01/ElectricalIRStd.pdf); 원문 요약: http://everyspec.com/MIL-STD/MIL-STD-2000-2999/MIL-STD-2194_8687/ (12 Feb 1988, Cancelled)"
+  },
+  {
+   "reference": "[MIL-STD-2194] 주변온도 대비 ΔT",
+   "deltaT_C": "25–40",
+   "severity": "Priority 3",
+   "action": "Component failure probable unless corrected",
+   "source": "상동"
+  },
+  {
+   "reference": "[MIL-STD-2194] 주변온도 대비 ΔT",
+   "deltaT_C": "40–70",
+   "severity": "Priority 2",
+   "action": "Component failure almost certain unless corrected",
+   "source": "상동"
+  },
+  {
+   "reference": "[MIL-STD-2194] 주변온도 대비 ΔT",
+   "deltaT_C": "≥70",
+   "severity": "Priority 1",
+   "action": "Component failure imminent. Stop survey. Inform cognizant officers",
+   "source": "상동"
+  },
+  {
+   "reference": "[Infraspection Institute 경험기반(Experience-Based) 기준] 전기 및/또는 기계설비, 정의된 기준(주변/유사부품/최대허용) 대비 ΔT — §12.1에 따라 베어링·기어박스·펌프 등 회전기계에도 동일 적용",
+   "deltaT_C": "1–10",
+   "severity": "Priority 4",
+   "action": "Corrective measures should be taken at the next maintenance period",
+   "source": "Infraspection Institute, Standard for Infrared Inspection of Electrical Systems & Rotating Equipment (2008) §10.1, §12.1 (https://www.motordoc.org/wp-content/uploads/2019/01/ElectricalIRStd.pdf)"
+  },
+  {
+   "reference": "[Infraspection 경험기반] ΔT",
+   "deltaT_C": ">10–20",
+   "severity": "Priority 3",
+   "action": "Corrective measures required as scheduling permits",
+   "source": "상동"
+  },
+  {
+   "reference": "[Infraspection 경험기반] ΔT",
+   "deltaT_C": ">20–40",
+   "severity": "Priority 2",
+   "action": "Corrective measures required ASAP",
+   "source": "상동"
+  },
+  {
+   "reference": "[Infraspection 경험기반] ΔT",
+   "deltaT_C": ">40",
+   "severity": "Priority 1",
+   "action": "Corrective measures required immediately",
+   "source": "상동. §8.9 단서: 'use of these criteria is not an exact science and involves risking an unplanned failure… each exception be inspected for cause… as soon as possible'"
+  },
+  {
+   "reference": "[Infraspection] 전동기 철심(Motor cores, 시험대상, 운전 중 아님) ΔT",
+   "deltaT_C": "1–10 / >10–20 / >20",
+   "severity": "Priority 3 / 2 / 1",
+   "action": "No exception likely / Possible exception, consult motor core test data / Exception likely",
+   "source": "Infraspection Standard(2008) §10.1 'Motor Cores'"
+  },
+  {
+   "reference": "[IEC TS 62446-3:2017 Table 4] 태양광 모듈·플랜트 옥외 열화상 — 열적 이상 등급(CoA, Classes of Abnormalities). 기준 = 인접 정상 모듈/셀 대비 ΔT (1,000 W/m² 정규화)",
+   "deltaT_C": "CoA 1: 이상 없음. 참고 ΔT 예시(Table 4 matrix, 1,000 W/m²): 스트링 개방/단락 2–7 K, 단일셀 이상 평균 10–40 K, 셀 접속저항 >10 K, 정션박스 ≥3 K",
+   "severity": "CoA 1: No abnormalities – OK",
+   "action": "No imminent action",
+   "source": "IEC TS 62446-3:2017 Table 4 및 §5.3/Table 3 — 전문 열람: https://pdfcoffee.com/iec-62446-3-2017-photovoltaic-pv-systems-pdf-free.html ; 표준 개요: https://webstore.iec.ch/en/publication/28628"
+  },
+  {
+   "reference": "[IEC TS 62446-3:2017 Table 4] PV 열적 이상 등급",
+   "deltaT_C": "CoA 2: 패턴+ΔT 매트릭스로 판정 (규범적 단일 ΔT 임계값은 없음; 업계 해석은 '약 10 K 이상 → Class 2' — 비규범)",
+   "severity": "CoA 2: Thermal abnormality (tA)",
+   "action": "Checking the cause and, if necessary, rectification in a reasonable period",
+   "source": "상동; 업계 해석 출처(비규범 명시): https://thermalvariations.com/learn/iec-62446-3-thermal-inspection"
+  },
+  {
+   "reference": "[IEC TS 62446-3:2017 Table 4] PV 열적 이상 등급",
+   "deltaT_C": "CoA 3: 안전 관련 이상 (업계 해석 '약 40 K 이상 또는 화재·감전 위험 동반' — 비규범)",
+   "severity": "CoA 3: Safety relevant thermal abnormality (dtA)",
+   "action": "Prompt interruption of operation, checking the cause and rectification in a reasonable period",
+   "source": "상동. 측정조건(§5.3, Table 3): 경사면 일사 ≥600 W/m², 풍속 ≤4 Bft(28 km/h), 적운 ≤2 okta, 카메라-모듈면 각도 >30°, 셀당 ≥5×5 px, ≤3 cm/px"
+  },
+  {
+   "reference": "[한국 법정 서식] 산업통상자원부 고시 제2021-105호 「전기안전관리자의 직무에 관한 고시」 별지 제7호 서식 '적외선 열화상분포 측정기록표' — 판정기준(3상 비교법), 온도차 = 3상 중 최고치−최저치",
+   "deltaT_C": "≤5",
+   "severity": "정 상",
+   "action": "(서식상 조치 미기재) — 분기 필수 점검항목으로 기록·보존",
+   "source": "산업통상자원부 고시 제2021-105호(2021.6.15 개정) 별지 제7호 서식 원문(한국전기안전연합회 배포 PDF: https://www.kesa.or.kr/common/dialogue/file.html?section=board&name=2.+전기안전관리자의+직무에+관한+고시(전문).pdf&file=9WBLLEDRSL.pdf&folder=202106 ; 법령정보: https://www.law.go.kr/행정규칙/전기안전관리자의직무에관한고시). 최신 개정(고시 제2022-128호, 2022.7.27 시행)의 서식 수치 동일 여부는 미확인."
+  },
+  {
+   "reference": "[직무고시 별지 제7호] 3상 비교법 온도차",
+   "deltaT_C": ">5 ~ 10",
+   "severity": "요주의",
+   "action": "(서식상 조치 미기재; 전기안전공사/시설안전공단 해설: '주기적인 진단을 요하는 설비')",
+   "source": "상동"
+  },
+  {
+   "reference": "[직무고시 별지 제7호] 3상 비교법 온도차",
+   "deltaT_C": "≥10",
+   "severity": "이 상",
+   "action": "(해설: '정밀진단을 요하는 설비 — 각 상의 전류치를 확인')",
+   "source": "상동"
+  },
+  {
+   "reference": "[한국전기안전공사(KESCO) 자체기준 — 판정기준 1: 3상 비교법(정성적)] 상간 온도차",
+   "deltaT_C": "<5 / 5~<10 / ≥10",
+   "severity": "정상 / 요주의 / 이상 (※ 직무고시 서식은 경계를 '5℃ 이하 정상'으로 표기, 미세 차이)",
+   "action": "정상: 정상설비 / 요주의: 주기적 진단 / 이상: 정밀진단(각 상 전류치 확인). 단서: '판정기준에 의하여 이상, 요주의 등으로 판정할 경우, 부하율 및 불평형률을 고려하여야 한다'",
+   "source": "'적외선열화상 진단의 판정기준(한국전기안전공사, 한국시설안전공단)' 정리본 http://sunhome.pe.kr/apt/pdf/11jgjg.pdf (p.4–6; '국내외 각종 자료 및 문헌을 참고하여 제정된 한국전기안전공사 자체 기준임'); 동일 내용 https://sangu-life.com/전기설비-판정기준-3상비교법-온도패턴법/ ; https://inside114.com/entry/전기안전관리007적외선-열화상-측정"
+  },
+  {
+   "reference": "[KESCO 판정기준 2: 온도패턴법(정량적, 절대온도)] 설비별 기준온도 — 절연재 열화 개념",
+   "deltaT_C": "절대온도(℃): 유입변압기 표면 ≥50 → 이상(KS C 4306); GIS 외부표면 온도차 10~15 → 요주의, >15 → 이상(현장실측); 접촉부(동) ≥65 → 요주의(KS C 4502); 구조부(기기애자) ≥90 → 요주의; 리액터 권선 E종≥70/B종≥75/F종≥95 → 요주의(KS C 4806); 전선 IV ≥60·HIV ≥75 → 이상(내선규정); 케이블 EV 50~95 → 요주의, CV·CN-CV >95 → 이상",
+   "severity": "요주의 / 이상 (설비별 상이)",
+   "action": "요주의: 주기적 진단 / 이상: 정밀진단; 부하율·불평형률 고려",
+   "source": "http://sunhome.pe.kr/apt/pdf/11jgjg.pdf p.4 (KESCO 판정기준 2)"
+  },
+  {
+   "reference": "[한국시설안전공단(현 국토안전관리원) 기준 — 온도패턴법(절연물 재질별 온도상승법)] 설비별 절대온도",
+   "deltaT_C": "절대온도(℃): 변압기 표면 80~95 요주의 / ≥95 이상; 몰드변압기 철심 100~120 요주의 / ≥120 이상, 에폭시 표면(B종) 70~80 요주의 / ≥80 이상; 케이블 IV·VVF ≥60 이상, CV ≥90 이상; 콘덴서 단자부 ≥75 이상(본체 ≥65); MCCB 본체 ≥65 / 단자부 ≥60 이상; 전력퓨즈(COS·PF) 접속부 ≥75 / 기계적구조부 ≥90 이상; 계기용변성기(PT·CT) 단자부 ≥75 / 본체 ≥95 이상; 단로기·부스바 접촉부 ≥65 / 접속부 ≥80 / 구조부(자기애자) ≥90 이상",
+   "severity": "요주의 / 이상",
+   "action": "'일상의 운전상태에서는 기준온도의 80% 이하로 유지관리하도록 권장'; 3상비교법은 KESCO와 동일(<5/5~10/≥10)",
+   "source": "http://sunhome.pe.kr/apt/pdf/11jgjg.pdf p.5–6 (시설안전공단 판정기준 1·3, 보고서 붙임용 요약)"
+  },
+  {
+   "reference": "[절대온도 허용한도 — ANSI/IEEE/NEMA 기반, Infraspection §11.7] 형식: 정격주위/정격상승/최대허용(℃). 부하·주위온도 보정식 Tmax,corr = (I_meas/I_rated)²·T_rated_rise + T_amb,meas (§11.6)",
+   "deltaT_C": "접속부·단자 은/은합금 40/40/80, 동·동합금·알루미늄 40/50/90, 알루미늄합금 52/53/105; MCCB 40/20/60, 기타 차단기·퓨즈 40/30/70; 단로기·스위치(애자·지지물 포함) 40/30/70; 부싱 변압기 하단 40/55/95, 차단기 40/40/80, 외부단자 40/30/70; AC 전동기 권선 1.0SF A종 40/60/100·B종 40/80/120·F종 40/105/145·H종 40/125/165(케이싱은 이보다 낮을 수 있음); 변압기 유입 55℃상승 케이싱 30/55/85·65℃상승 30/65/95, 건식 class 150 권선 30/80/110·class 220 30/150/180; 절연전선 THW/XLPE 30/45/75, THH/XLPE/EPR 30/60/90",
+   "severity": "최대허용온도 초과 = exception (진단 등급이 아닌 절대한도)",
+   "action": "여러 인접부품 가열 시 최저 사양 부품 기준(§11.3); 등급 불명 시 최보수적 값(§11.5)",
+   "source": "Infraspection Institute Standard(2008) §11 (ANSI/IEEE C37.x, NEMA MG1, IEEE C57 등 인용) https://www.motordoc.org/wp-content/uploads/2019/01/ElectricalIRStd.pdf"
+  },
+  {
+   "reference": "[기계설비 절대온도 허용한도, Infraspection §13.6] 베어링·윤활유·씰 (100% 정격 부하/속도 기준)",
+   "deltaT_C": "구름베어링 궤도/전동체 125℃, 플라스틱 리테이너 120, 니트릴 립씰 100, 펠트씰 100; 미끄럼베어링 배빗 149, 알루미늄 121; 윤활유: 광유 120, EP 기어유 110, 하이포이드 100; 그리스(강/황동 리테이너) 리튬 110, 리튬컴플렉스 140, 나트륨 80, 칼슘 60",
+   "severity": "최대허용온도 초과 = exception",
+   "action": "베어링·씰·윤활유 중 최저 사양치를 기준(§13.2, 대개 윤활유가 최저); 표면 직접 측정 불가 시 주의(§13.4); ΔT 등급은 §10.1 경험기반표 사용(§12.1)",
+   "source": "Infraspection Standard(2008) §12–13"
+  },
+  {
+   "reference": "[IEC 62271-1:2017 Table 14 / KS C IEC 62271-1] 고압 개폐장치 부품 온도·온도상승 한도 (설계·형식시험 한도, 주위 ≤40℃; 진단 등급 아님)",
+   "deltaT_C": "접촉부 나동(공기 중, OG) 75℃/35 K; 볼트접속 나동·나알루미늄합금(OG) 100℃/60 K; 은·니켈도금 접속 115℃/75 K; 주석도금 접속 105℃/65 K (검색 요약 기반; 원문 표 직접 미열람 — 구판(2007) 값은 접촉 은도금 105/65, 볼트 나동 90/50)",
+   "severity": "한도 초과 = 설계한도 위반",
+   "action": "—",
+   "source": "IEC 62271-1:2017 Table 14 (검색 요약: https://www.eng-tips.com/threads/standard-defining-max-allowable-temperature-rise-busbars-and-busbar-connections.521222/ ; 해설: http://www.cognitor.com.br/IEC614391Table6.pdf — IEC 60943 '단자 허용온도상승 지침' 언급); KS 채택: https://www.kssn.net/search/stddetail.do?itemNo=K001010100812"
+  },
+  {
+   "reference": "[ISO 18434-1:2008] 기계 상태감시·진단 — 열화상 일반절차. §12 '온도 심각도 평가기준'(12.1 기준 수립, 12.2 온도차 기준, 12.3 최대허용온도 기준, 12.4 프로파일 기준)",
+   "deltaT_C": "규범적 수치 등급 없음(미리보기·목차 기준, 본문 §12 미열람 → 미확인). §5.2 예시: 동일환경·동일부하 유사기계 간 '5 °C differential would be considered minor, whereas a 100 °C differential may be considered to be critical'",
+   "severity": "사용자가 ΔT/절대온도/프로파일 기준을 자체 수립하도록 규정",
+   "action": "기준선(baseline) 측정 권고(§7); 비교 정량 열화상은 동일 방사율 설정(ε_default) 하 유사표면 간 ΔT 비교(§5.2)",
+   "source": "ISO 18434-1:2008 미리보기 https://cdn.standards.iteh.ai/samples/41648/b53d2d92be6746e893e7454a8fba6db0/ISO-18434-1-2008.pdf ; https://www.iso.org/standard/41648.html"
+  },
+  {
+   "reference": "[ASTM E1934-99a(2024)] 전기·기계설비 적외선 검사 표준 가이드",
+   "deltaT_C": "수치 등급 없음 (책임·문서화 항목 규정; 검색 요약 기준)",
+   "severity": "—",
+   "action": "정성/정량 검사 문서화 항목 규정",
+   "source": "https://store.astm.org/e1934-99ar18.html ; https://standards.iteh.ai/catalog/standards/astm/03ed4032-8b46-4cae-bd8e-c248c9ab4c5f/astm-e1934-99a2024"
+  }
+ ],
+ "korean_standards": "1) 법정 근거(가장 권위 있는 국내 문서): 산업통상자원부 고시 「전기안전관리자의 직무에 관한 고시」(제정 2016-16호, 개정 2018-226호, 2021-105호; 최신 2022-128호 2022.7.27 시행). 제3조 점검항목표에서 '적외선 열화상 측정'은 분기(○ 필수) 항목, 기록서식은 별지 제7호 '적외선 열화상분포 측정기록표(분기·반기·연차)'. 서식에 명시된 판정기준(3상 비교법): 온도차 5℃ 이하 정상 / 5℃ 초과~10℃ 요주의 / 10℃ 이상 이상, '온도차는 최고치와 최저치의 차이임'. 서식은 부위별 측정온도(Point 1~3, 온도차), 실화상·열화상, 측정부위 온도분포, 종합의견을 요구. 계측장비 권장 교정주기: 적외선열화상카메라 1년. (원문 확인: 2021-105호 전문 PDF, 별지 제7호 이미지 판독.)\n2) 한국전기안전공사(KESCO) 자체기준(국내외 문헌 참고 제정): 판정기준1 3상비교법 <5℃ 정상 / 5~<10℃ 요주의 / ≥10℃ 이상; 판정기준2 온도패턴법(절대온도, 절연재 열화 개념): 유입변압기 표면 ≥50℃ 이상(KS C 4306), GIS 외부표면 온도차 10~15 요주의·>15 이상, 접촉부(동) ≥65 요주의(KS C 4502), 구조부(기기애자) ≥90 요주의, 리액터 권선 E≥70/B≥75/F≥95 요주의(KS C 4806), 전선 IV≥60·HIV≥75 이상(내선규정), 케이블 EV 50~95 요주의·CV/CN-CV >95 이상. 단서: 이상·요주의 판정 시 부하율 및 불평형률 고려. 요주의=주기적 진단 대상, 이상=정밀진단 대상(각 상 전류 확인).\n3) 한국시설안전공단(현 국토안전관리원) 기준: 3상비교법 동일; 온도패턴법(절연물 재질별): 변압기 표면 80~95 요주의/≥95 이상, 몰드변압기 철심 100~120/≥120, 에폭시(B종) 70~80/≥80, 케이블 IV·VVF ≥60·CV ≥90 이상, 콘덴서 단자 ≥75, MCCB 본체 ≥65·단자 ≥60, COS·PF 접속부 ≥75·구조부 ≥90, PT·CT 단자 ≥75·본체 ≥95, 단로기·부스바 접촉부 ≥65·접속부 ≥80·구조부 ≥90 이상. 권장: 일상 운전 시 기준온도의 80% 이하 유지. 절연계급 최고허용온도 Y95/A105/E120/B130/F155/H180.\n4) 한국전력(KEPCO): 「배전설비 열화상 진단용역 관리기준」 제정(2016.4 개정예고, 배전운영처; 투입인력·장비·진단시간대 표준화)이 존재하나 붙임 HWP 비공개로 판정 ΔT 등급은 미확인. 사규(내부규정) 포털에서도 수치 미확인.\n5) KOSHA GUIDE: 열화상 전용 안전보건기술지침은 검색상 미확인. O-3-2011 「전기설비의 정비를 위한 일반 기술지침」 존재하나 열화상 ΔT 기준 포함 여부 미확인.\n6) KS: KS C IEC 62271-1(고압 개폐장치 공통시방서, 온도상승 한도표 포함 — 설계한도), KS B ISO 18436-7(열화상 요원 자격), KS B ISO 18251-1(적외선열화상검사 장비특성) 존재 확인. KS C IEC 62446-3(PV 옥외 열화상)의 KS 채택 여부는 미확인(kssn 검색 미노출). 검사·점검 방법 고시(산업부 고시 2021-78호/2024-83호 「전기설비 검사 및 점검의 방법·절차 등에 관한 고시」)에는 열화상 판정기준 없음(확인).\n7) 정리: 국내 실무의 ΔT 판정은 사실상 '3상 간 최고-최저 온도차 5/10℃' 단일 규칙(정상/요주의/이상 3등급)이며, 절대온도는 설비·절연재별 온도패턴법으로 보완. NETA(4등급, 유사부품 대비 3/15℃, 주변 대비 10/20/40℃)와 등급 수·기준(reference)이 다르므로 보고서에 병기할 때 기준 종류를 명시해야 함.",
+ "caveats": "1) 표준 자체의 지위: NETA 표는 '합의 표준이 없는 상황의 합리적 가이드라인'(NETA 주석), Infraspection §8.9는 '정확한 과학이 아니며 예기치 못한 고장 위험을 수반'한다고 명시. MIL-STD-2194는 1988년판이 폐지됨(역사적 참고). NFPA 70B-2023은 ΔT 측정·기록을 의무화했지만 공개 자료에서 수치표는 확인되지 않음(미확인). ISO 18434-1은 사용자가 기준을 수립하도록 하며 규범 수치 없음.\n2) 기준(reference)의 종류를 반드시 명시: (a) 동일 부하의 유사 구성요소(3상 비교), (b) 주변 공기온도, (c) 최대허용온도(절대). 같은 ΔT라도 등급이 다름(NETA: 유사부품 >15℃=즉시 vs 주변 >15℃=단순 결함). 한국 3상비교법은 '최고-최저'이며 NETA 유사부품 기준과 개념은 같지만 경계값(5/10 vs 3/15)이 다르다. 3상이 동시에 과열되면(과부하·냉각불량) 상간 ΔT≈0으로 놓치므로 절대온도(온도패턴법) 기준을 병행해야 함.\n3) 부하율 보정: 발열 ∝ I²이므로 저부하 시 ΔT가 크게 축소됨. NETA MTS는 최소 40% 부하(가능하면 최대 정상부하)에서 검사, Infraspection §11.6은 Tmax,corr=(I_meas/I_rated)²·T_rise+T_amb 보정식 제시(예: 100A 퓨즈 50A 부하·주위35℃→허용 42.5℃). KESCO 기준도 '부하율 및 불평형률 고려'를 명시. AI-Hub json의 '사양'(정격)과 부하 정보가 없으면 심각도는 보수적으로 해석하고 보고서에 '부하율 미확인'을 기재.\n4) 방사율·반사: 저방사율(광택 금속, Al ε≈0.3) 표면은 T·ΔT 모두 신뢰 불가(ISO 18434-1 §5.1); 비교 정량 열화상은 유사 표면에 동일 ε_default를 적용해 상대비교(§5.2); 반사 겉보기온도·투과매질 보정은 ISO Annex A. 이종 재질(동 접속부 vs 애자 vs 도장 함체) 간 ΔT 비교는 무의미할 수 있음.\n5) 거리·IFOV·스팟 크기: 거리가 멀수록 넓은 면적이 평균화되어 최고온이 과소평가됨(한국 교육자료·ISO 3.x '측정 스팟 크기'). IEC 62446-3는 셀당 ≥5×5 px, ≤3 cm/px 요구. 512×640 방사 CSV에서 bbox가 작은 부품(전자접촉기 단자 등)은 픽셀 최고값이 실제보다 낮을 수 있음 → 등급 상향 여지를 주석.\n6) 환경: 바람(대류냉각)·태양복사·강우·습도는 ΔT를 축소/왜곡(Infraspection, ISO §10, IEC 62446-3: 풍속 ≤4 Bft, 적운 ≤2 okta, 일사 ≥600 W/m²). 옥외 배전·PV 장면은 촬영 조건 기록 필수.\n7) '정상적으로 뜨거운' 설비: 변압기 본체·리액터·저항기·전동기 하우징·보일러·펌프 케이싱은 주변 대비 ΔT가 커도 정상일 수 있으므로 ΔT 등급이 아니라 설비별 절대허용온도(온도패턴법, 절연계급, 윤활유 한도) 및 동일기종 기준선(baseline) 대비로 판단해야 함 — 사용자의 RF가 걸러내는 '뜨겁지만 정상' 사례와 정합. 반대로 접속부·접촉부·단자 등 저항성 국부발열은 ΔT 기준이 적합.\n8) 설비별 정격 상이: 같은 부류(케이블)라도 절연종별 허용온도가 다르며(IV 60/HIV 75/CV 90), 인접부품 가열 시 최저 사양 부품을 기준으로 함(Infraspection §11.3). 등급 불명 시 가장 보수적 값 사용.\n9) 우선순위 번호 방향이 문헌마다 다름(NETA/Infraspection: Priority 1=최심각; 일부 ATS 전재본: Level 4=최심각) → VLM 출력에는 숫자 대신 '심각도 명칭+ΔT 범위+출처'를 함께 기재해야 환각·혼동 방지.\n10) 데이터셋 라벨과의 관계: AI-Hub '장면 중앙값 대비 ΔT>5.5℃' 규칙은 KESCO/직무고시 요주의 경계(5℃)에 근사하지만 기준이 '장면 중앙값'(표준에 없는 기준)이므로 보고서에서는 '동일부하 유사부품 대비' 또는 '주변 대비'로 재정의해 표준 등급표에 매핑해야 하며, ΔT<4℃ subtle 케이스는 모든 표준에서 '조사 필요' 최하 등급 이하이므로 단일 영상 판정이 원리적으로 불가함을 명시.\n11) 기타: 아크릴 커버·유리는 적외선 차단(제거 필요), IR 윈도우 투과율 보정; 카메라 교정 1년(직무고시), MRTD ≤0.3℃(Infraspection §7.1.3), 초점 불량 시 최고온 과소; 온도패턴법 절대기준은 '기준온도의 80% 이하 유지 권장'(시설안전공단)이므로 80~100% 구간을 '요주의'로 보는 것이 국내 관행."
+}
