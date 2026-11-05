@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-좌",
+  "my_part": "열화상은 균일한 보라색으로 상자 안에 뚜렷한 열점이나 구조가 보이지 않음(우측 바깥에 희미한 온난 점 존재). 가시광은 파란 케이블/파이프, 주황색 상자형 장치, 붉은 모터형 유닛이 보여 단로기 조작부 주변으로 추정되나 열화상과 정렬되지 않음. 세로로 긴 상자이므로 단로기 지지 애자 또는 단자 구간으로 추정",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "B",
+  "preference_reason": "판정·권고가 동일한 정상(L0) 사례에서 A는 기계 검증 3건 불합격으로 서술 대부분이 기본값으로 대체되어 부위·열 형태·원인 모두 '확인 불가/불명'인 반면, B는 조회표 기반이지만 부위와 원인 후보를 제시해 작업자에게 조금 더 참고가 됨.",
+  "usefulness_A_1to5": 2,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 2,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "최고온 십자 표식은 상자 중앙(약간 아래)에 있어 두 보고서의 '중앙' 서술은 계측과 일치함. A는 화질 보통·가시광 없음으로 이미지를 본 흔적이 있으나 결과적으로 아무 판독도 제공하지 못했고, B는 가시광 미판독·화질 확인 불가로 이미지 판독 기여가 없음. B의 '정상 부하 발열 근거: 열 형태'는 기계 검증에서 근거 항목이 기본값으로 대체된 것이므로 이미지 판독 결과로 보기 어려움. 형제 대비 -10.8°C는 형제가 더 뜨겁다는 뜻이므로 sibling_contaminated 한계가 적절히 기재됨."
+}

@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "계기용변성기(MOF) 본체 하단부 및 단자 영역",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "B",
+ "preference_reason": "보고서 A는 불확실한 이미지를 과도하게 추정하여 환각(Hallucination) 위험이 있는 반면, 보고서 B는 기계 검증 규칙에 따라 불확실한 부분을 솔직하게 '확인 불가'로 처리하여 신뢰성이 더 높습니다.",
+ "usefulness_A_1to5": 3,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 3,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 2,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [
+  "이미지 판독: 부위 본체(탱크) / 육안 가시광 미판독 / 화질 확인 불가",
+  "원인 후보(추정): 정상 부하 발열"
+ ],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "B",
+ "notes": "설비 진단 보고서에서는 불확실한 이미지 판독을 억지로 유추하는 것보다 B처럼 '확인 불가'로 명시하고 보수적으로 접근하는 것이 현장 작업자에게 훨씬 안전합니다.",
+ "case_id": "case010"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "배터리팩 내부 셀 또는 전원/통신 커넥터부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 이미지 판독에서 부위와 원인 후보를 유추하려 했으나 명확한 근거가 부족한 반면, 보고서 A는 불확실한 부분을 솔직하게 '확인 불가'로 처리하여 오탐지나 과도한 추정을 방지했습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 상단 우측에 있으며 조회표상 단자·접속부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 진단에서 불확실한 부위와 원인에 대해 무리한 추정보다는 보수적이고 사실적인 접근을 취한 보고서 A가 현장 엔지니어에게 더 신뢰성 있는 정보를 제공합니다.",
+ "case_id": "case074"
+}

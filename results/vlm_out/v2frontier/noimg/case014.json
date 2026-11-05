@@ -63,7 +63,7 @@
    "부하율·전류",
    "상(R/S/T) 구분"
   ],
-  "spatial_check": "adjacent",
+  "spatial_check": "exact",
   "pattern_check": "match",
   "vlm_pass1": {
    "equipment_plausible": "확인 불가",
@@ -74,7 +74,7 @@
     "가시광 없음"
    ],
    "image_quality": "보통",
-   "part_location_ko": ""
+   "part_location_ko": "계측상 열은 촬영 영역 아래쪽 가운데의 부품 전체에 고르게 퍼져 있으며, 형제 부품들도 비슷한 수준으로 계측되었다."
   },
   "vlm_pass2": {
    "cause_hypothesis": [
@@ -89,12 +89,10 @@
   },
   "validation": {
    "violations": [
-    "operator_note_ko:polarity_over",
-    "p_grid:overridden_by_measurement"
+    "operator_note_ko:polarity_over"
    ],
    "fallback_fields": [
-    "operator_note_ko",
-    "p_grid"
+    "operator_note_ko"
    ]
   }
  }

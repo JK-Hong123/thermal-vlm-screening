@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "하단-중",
+ "my_part": "차단기 하부 단자 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 화질이 불확실하고 단일 프레임 조건임에도 불구하고 세부 부위와 원인 후보를 단정적으로 추정하여 환각(Hallucination) 우려가 있는 반면, 보고서 A는 불확실성을 솔직히 인정하고 신뢰도를 낮게 평가하여 현장 작업자에게 더 안전하고 보수적인 가이드를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 하부 단자 접속부 / 열 형태 다점형 / 화질 확인 불가 / 최고온 지점은 대상 하단 중앙에 있으며 조회표상 하부 단자 접속부 부위로 추정됩니다.",
+  "원인 후보(추정): 정상 부하 발열 / 근거: 열 형태, 동종 부품 대비"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "게이트 경계 및 단일 프레임 조건에서는 B처럼 과도한 추정을 하는 것보다 A처럼 불확실성을 명시하고 재촬영을 권고하는 것이 진단 신뢰성 측면에서 우수합니다.",
+ "case_id": "case068"
+}

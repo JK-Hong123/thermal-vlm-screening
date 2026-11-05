@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "전자접촉기 상부 단자",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 마커 위치와 부위(상부 단자)를 정확하게 판독하여 서술한 반면, 보고서 B는 판독을 포기하고 기본값으로 대체하였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 시각적 분석 능력이 우수하며 계측 수치와 일관된 설명을 제공합니다.",
+ "case_id": "case026"
+}

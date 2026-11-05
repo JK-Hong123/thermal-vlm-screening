@@ -1,0 +1,24 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상이 거의 균일한 저대비 영상이라 부위 식별 불가. 가시광에는 구멍이 뚫린 세로 설치 레일과 좌상단의 단자대, 우하단의 소형 기기가 보이나 전자접촉기 본체나 단자를 특정할 수 없음",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "판정·권고는 동일하나 A는 게이트 확률 0.004를 두고 '게이트 확률 자체는 높으나'라고 서술해 자기모순이 있고, 부위 '상부 단자'도 조회표 추정일 뿐 이미지 근거가 없다. B는 판독 불가를 솔직히 밝히고 신뢰도 서술도 수치와 정합한다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 추가 정보 없음",
+  "ungrounded_claims_A": 2,
+  "ungrounded_claims_B": 1,
+  "ungrounded_examples_A": [
+    "신뢰도: low — 단일 영상 근거 부족/반사 의심 (게이트 확률 자체는 높으나 위 사유로 신뢰도를 낮춤) — 계측의 게이트 확률 0.004와 모순됨",
+    "작업자 메모: 단일 프레임에서 열적 근거가 없어 추가 판단은 유보합니다. — 세션 증거(40프레임 중 22프레임 매칭)와 모순됨"
+  ],
+  "ungrounded_examples_B": [
+    "작업자 메모: 단일 프레임에서 열적 근거가 없어 추가 판단은 유보합니다. — 세션 증거(40프레임 중 22프레임 매칭)와 모순됨"
+  ],
+  "trustworthy_for_operator": "B",
+  "notes": "열점 위치(상단 우측)는 열화상의 십자표(상자 우상단)와 일치함. A가 추가한 부위·원인 후보는 조회표 기반이며 실제 영상 판독이 아니므로 유용한 추가 정보로 보기 어려움. 두 보고서 모두 재촬영(반사 확인) 권고는 동일함."
+}

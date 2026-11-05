@@ -40,7 +40,9 @@ SPEC = [
    ('Frontier, NO image, facts only (n=80)', ('judge_crossfamily_gemini_noimg_full2', K80), None, PUR_L)]),
  ('Low-cost commercial subject (Gemini), judges without the facts', [
    ('Gemini subject, Claude judge (n=32)', ('judge_crossfamily_gemsubj_claude', K32), None, GRN),
-   ('Gemini subject, Gemini judge (n=80)', ('judge_crossfamily_gemini_gemsubj_full2', K80), None, GRN_L)])]
+   ('Gemini subject, Gemini judge (n=80)', ('judge_crossfamily_gemini_gemsubj_full2', K80), None, GRN_L),
+   ('Gemini, NO image, Claude judge (n=32)', ('judge_crossfamily_gemnoimg_claude', K32), None, GRN),
+   ('Gemini, NO image, Gemini judge (n=80)', ('judge_crossfamily_gemini_gemnoimg_full2', K80), None, GRN_L)])]
 J = []
 for group, bars in SPEC:
     for label, src, fixed, col in bars:

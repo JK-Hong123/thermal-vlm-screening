@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차륜 휠 림 및 답면 부근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내용을 더 적극적으로 판독하여 부위(휠 림·답면)를 특정하였으며, 기계 검증 불합격 시에도 충실한 현장 확인 항목을 제공하여 운영자에게 더 유용합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "두 보고서 모두 기계 검증 불합격으로 인해 기본값으로 대체된 항목들이 있으나, 보고서 A가 이미지 판독 내용 및 권고 조치 측면에서 현장 작업자에게 더 구체적인 정보를 제공합니다.",
+ "case_id": "case067"
+}

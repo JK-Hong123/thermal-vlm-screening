@@ -1,0 +1,201 @@
+80 locked judging cases selected
+case000 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case001 ok
+case002 ok
+case003 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case004 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case005 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case006 ok
+case007 ok
+case008 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case009 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case010 ok
+case011 ok
+case012 ok
+case013 ok
+case014 ok
+case015 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case016 ok
+case017 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case018 ok
+case019 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case020 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case021 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case022 ok
+case023 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case024 ok
+case025 ok
+case026 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case027 ok
+case028 ok
+case029 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case030 ok
+case031 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case032 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case033 ok
+case034 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case035 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case036 ok
+case037 ok
+case038 ok
+case039 ok
+case040 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case041 ok
+case042 ok
+case043 ok
+case044 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case045 ok
+case046 ok
+case047 ok
+case048 ok
+case049 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case050 ok
+case051 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case052 ok
+case053 ok
+case054 ok
+case055 ok
+case056 ok
+case057 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case058 ok
+case059 ok
+case060 ok
+case061 ok
+case062 ok
+case063 ok
+case064 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case065 ok
+case066 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case067 ok
+case068 ok
+case069 ok
+case070 ok
+case071 ok
+case072 ok
+case073 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case074 ok
+case075 ok
+case076 ok
+case077 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case078 ok
+case079 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+done: 52 ok, 28 failed, out_dir=G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (52/80케이스) ===
+선호: VLM 26/52 = 0.500 [0.365,0.635] | A0+ 26 | tie 0
+유용성 차이(A0+ - VLM): -0.04 [-0.33,+0.23] (VLM 3.50 vs A0+ 3.46)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 36, 'B': 15, 'tie': 1} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt
+80 locked judging cases selected
+case000 ok
+case003 ok
+case004 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case005 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case008 ok
+case009 ok
+case015 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case017 ok
+case019 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case020 ok
+case021 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case023 ok
+case026 ok
+case029 ok
+case031 ok
+case032 ok
+case034 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case035 ok
+case040 ok
+case044 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case049 ok
+case051 ok
+case057 ok
+case064 ok
+case066 ok
+case073 ok
+case077 ok
+case079 ok
+done: 73 ok, 7 failed, out_dir=G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (73/80케이스) ===
+선호: VLM 34/73 = 0.466 [0.356,0.575] | A0+ 38 | tie 1
+유용성 차이(A0+ - VLM): +0.00 [-0.25,+0.25] (VLM 3.51 vs A0+ 3.51)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 49, 'B': 21, 'tie': 3} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt
+80 locked judging cases selected
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (73/80케이스) ===
+선호: VLM 34/73 = 0.466 [0.356,0.575] | A0+ 38 | tie 1
+유용성 차이(A0+ - VLM): +0.00 [-0.25,+0.25] (VLM 3.51 vs A0+ 3.51)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 49, 'B': 21, 'tie': 3} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt
+80 locked judging cases selected
+case004 ok
+case005 ok
+case015 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case019 ok
+case021 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case034 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case044 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+done: 76 ok, 4 failed, out_dir=G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (76/80케이스) ===
+선호: VLM 36/76 = 0.474 [0.355,0.592] | A0+ 39 | tie 1
+유용성 차이(A0+ - VLM): -0.01 [-0.25,+0.21] (VLM 3.51 vs A0+ 3.50)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 52, 'B': 21, 'tie': 3} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt
+80 locked judging cases selected
+case015 ok
+case021 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+case034 ok
+case044 ok
+done: 79 ok, 1 failed, out_dir=G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (79/80케이스) ===
+선호: VLM 39/79 = 0.494 [0.380,0.608] | A0+ 39 | tie 1
+유용성 차이(A0+ - VLM): -0.06 [-0.30,+0.18] (VLM 3.54 vs A0+ 3.48)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 53, 'B': 23, 'tie': 3} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt
+80 locked judging cases selected
+case021 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+done: 79 ok, 1 failed, out_dir=G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (79/80케이스) ===
+선호: VLM 39/79 = 0.494 [0.380,0.608] | A0+ 39 | tie 1
+유용성 차이(A0+ - VLM): -0.06 [-0.30,+0.18] (VLM 3.54 vs A0+ 3.48)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 53, 'B': 23, 'tie': 3} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt
+80 locked judging cases selected
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (79/80케이스) ===
+선호: VLM 39/79 = 0.494 [0.380,0.608] | A0+ 39 | tie 1
+유용성 차이(A0+ - VLM): -0.06 [-0.30,+0.18] (VLM 3.54 vs A0+ 3.48)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 53, 'B': 23, 'tie': 3} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt
+80 locked judging cases selected
+case021 FAILED: RuntimeError('HTTP 503: {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually tempor
+done: 79 ok, 1 failed, out_dir=G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (79/80케이스) ===
+선호: VLM 39/79 = 0.494 [0.380,0.608] | A0+ 39 | tie 1
+유용성 차이(A0+ - VLM): -0.06 [-0.30,+0.18] (VLM 3.54 vs A0+ 3.48)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 53, 'B': 23, 'tie': 3} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt
+80 locked judging cases selected
+case021 ok
+done: 80 ok, 0 failed, out_dir=G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2
+=== 교차계열 판정자(gemini_gemnoimg_full2) — 프런티어 VLM(v2) vs A0+(코드전용), 잠금셋 재현 (80/80케이스) ===
+선호: VLM 40/80 = 0.500 [0.388,0.613] | A0+ 39 | tie 1
+유용성 차이(A0+ - VLM): -0.07 [-0.30,+0.15] (VLM 3.55 vs A0+ 3.48)
+'이미지를 더 읽은 것처럼 보이는 쪽' 판정자 추정: {'A': 54, 'B': 23, 'tie': 3} (실제 VLM arm과 일치 여부는 별도 확인 필요)
+
+비교 기준선 (동일 32케이스, 같은 계열 판정자=Claude): VLM 선호 21/32 = 0.656 [0.50,0.81]
+saved G:\thermal-industrial-vlm\results\judge_crossfamily_gemini_gemnoimg_full2_summary.txt

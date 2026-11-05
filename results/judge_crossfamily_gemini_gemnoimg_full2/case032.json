@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "케이블 연결개소 및 단말 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 가시광 및 열화상 이미지를 정확하게 판독하여 케이블 접속부로 올바르게 서술하였으며, 기계 검증도 통과한 반면 보고서 B는 부위를 탱크 표면으로 오인하고 기계 검증에서 불합격 처리되었습니다.",
+ "usefulness_A_1to5": 5,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 5,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 탱크 표면"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 실제 이미지의 설비 형태(케이블)를 정확히 반영하여 작성되었습니다.",
+ "case_id": "case032"
+}

@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-좌",
+ "my_part": "차축 베어링(액슬박스)",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 무리한 추정 대신 불확실성을 솔직하게 드러내고, 기계 검증을 통과하여 신뢰성이 더 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 중단 좌측에 있으며 조회표상 차축 본체 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 기계 검증에서 불합격 처리를 받았으나 일부 필드가 적절히 대체되지 않은 부분이 있어 보고서 A가 더 일관성 있습니다.",
+ "case_id": "case037"
+}

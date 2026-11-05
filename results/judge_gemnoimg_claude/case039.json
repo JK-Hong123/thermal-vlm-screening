@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "상자가 작고 내부에 식별 가능한 구조가 없으며 큰 십자 마커가 상자를 거의 덮고 있음. 상자 바로 오른쪽에 세로로 길고 매우 뜨거운(노란색) 띠가 있어 상자 밖의 강한 열원 또는 그 반사가 의심됨. 가시광은 밝은 배경 앞의 어두운 곡면(차륜/액슬박스 가장자리로 보임)만 보여 부위 특정 불가.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "판정·수치는 동일하나, B는 신뢰도 항목의 '반사 의심'과 정합하게 '각도 바꿔 재촬영(반사 확인)'을 현장 확인 항목에 포함했고, 상자 우측의 강한 외부 열원이 보이는 이 이미지에서 가장 필요한 조치임. A는 '열 형태 불명'으로 적고도 작업자 메모에서 '국부 열점 형상으로 플래그'라고 서술해 표현이 다소 어긋남.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 4,
+  "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열점 위치(중앙)는 두 보고서 모두 내 판독과 일치. 부위명은 A '차축 본체', B '차축 베어링(액슬박스)'로 갈리나 열화상에서 확인 불가하여 모순으로 세지 않음. A의 '국부 열점 형상' 문구는 케이스 유형(열 형상 근거로 플래그)과는 일치하므로 자기모순으로 집계하지 않았으나 '열 형태 불명'과의 표현 불일치는 있음. 형제 대비 ΔT -32.5°C와 sibling_contaminated 플래그는 상자 우측의 고온 띠와 부합하며, 이 경우 반사·외부 열원 확인이 우선이라 B의 권고가 더 적절함."
+}

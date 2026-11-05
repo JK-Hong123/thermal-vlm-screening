@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "고압전동기 본체의 방열핀이 있는 고정자 프레임(스테이터 하우징) 영역. 상자 하단 우측 모서리가 엔드실드(구동측 베어링 측) 플랜지에 걸쳐 있으며, 최고온 마커(청록 십자)는 상자 하단 우측 테두리 위에 있고 그 바로 바깥에 뜨거운 케이블/배관 라인이 지나감.",
+  "my_part_confidence": "medium",
+  "which_report_reads_image_more": "cannot_tell",
+  "preferred_report": "B",
+  "preference_reason": "두 보고서의 부위·열점 위치 서술은 동일하고 모두 계측값을 그대로 옮긴 수준이나, B는 가시광 미판독·화질 확인 불가로 정직하게 기재하고 작업자 메모가 세션 비일관(신뢰도 low)과 정합되게 재촬영을 지시한다. A는 가시광 사진이 실제로 존재함에도 '가시광 없음'으로 적었다.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 추가 정보 없음",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "육안 가시광 없음 / 화질 보통 — 가시광 사진이 존재하며 전동기 방열핀과 볼트가 식별 가능함"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "열화상에서 최고온점은 상자 하단 우측 테두리 위에 있고 바로 바깥에 밝은 선형 열원(케이블/배관)이 지나가므로 외부 열원 오염 가능성이 있는데, 한계 항목에 peak_on_box_border만 적혀 있을 뿐 두 보고서 모두 이를 소견·메모에서 언급하지 않는다. '구동측 베어링 하우징'이라는 부위 서술은 상자 하단 우측이 엔드실드 플랜지에 걸쳐 있어 완전히 틀렸다고 보기는 어려우나, 상자 대부분은 방열핀 프레임을 덮고 있어 확정적 표현은 과하다. A의 원인 후보 '냉각 불량'과 현장 확인 항목 '냉각·통풍 상태 확인'은 핀 부위 전동기라는 점에서 무리는 아니다."
+}

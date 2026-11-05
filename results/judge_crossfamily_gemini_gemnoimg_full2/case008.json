@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "차축베어링 또는 차륜 림 인근",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증 결과에 따라 이미지 판독에서 무리한 추정을 피하고 계측 기반 기본값으로 충실히 대체한 반면, 보고서 B는 불확실한 부위 판독을 강행하여 상대적으로 신뢰도가 떨어집니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 우측에 있으며 조회표상 휠 림·답면 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "기계 검증 실패 시그널을 충실히 반영하여 이미지 판독 오류를 방지한 보고서 A가 현장 작업자에게 더 안전하고 유용한 정보를 제공합니다.",
+ "case_id": "case008"
+}

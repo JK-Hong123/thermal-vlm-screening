@@ -1,0 +1,21 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "열화상은 거의 균일한 어두운 배경이라 설비 윤곽이 보이지 않음. 가시광은 변전소 큐비클 내부(녹색 케이블, 적색 단자/커버, 세로 레일)를 보여주어 단로기(DS) 주변으로 추정되지만 마커 부위를 특정하기 어려움. 열점은 상자 우상단 모서리 테두리에 위치.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "B",
+  "preferred_report": "B",
+  "preference_reason": "A는 게이트 확률이 0.022로 낮은데도 신뢰도 항목에 '게이트 확률 자체는 높으나'라고 적어 자기모순이 있고, 열점이 상자 테두리(peak_on_box_border)·반사 의심인 상황에서 '정상 부하 발열'이라는 원인을 붙였음. B는 같은 정보를 모순 없이 서술하고 기계 검증도 통과함.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 3,
+  "adds_value_relative_to_other": "둘 다 동등",
+  "ungrounded_claims_A": 1,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [
+    "신뢰도: low — 단일 영상 근거 부족/반사 의심 (게이트 확률 자체는 높으나 위 사유로 신뢰도를 낮춤) — 계측란의 게이트 확률은 0.022로 낮음"
+  ],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "B",
+  "notes": "열점 위치(상단 우측, 상자 우상단 테두리)는 두 보고서 모두 내 판독과 일치. 두 보고서 모두 부위를 '접촉부(블레이드·클립)'로 적었으나 열화상에서 식별 가능한 구조가 없어 조회표 기반 추정으로 보이며 검증 불가. A의 '정상 부하 발열' 원인 후보는 기계 검증에서 근거가 기본값으로 대체된 항목이라 실질적 가치가 낮음. 권고·현장 확인 항목은 양쪽 동일."
+}

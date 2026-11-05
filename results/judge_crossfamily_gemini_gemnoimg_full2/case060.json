@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-좌",
+ "my_part": "차축베어링 주변 휠 림 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "B",
+ "preferred_report": "A",
+ "preference_reason": "보고서 B는 이미지 판독을 시도했으나 가시광 사진이 완전히 노출 과다로 식별 불가능한 상태에서 부위를 단정하고 원인 후보를 추론하여 신뢰도가 떨어집니다. 보고서 A는 불확실성을 정직하게 명시하고 기본값으로 대체하여 더 안전합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "B가 A에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 휠 림·답면 / 최고온 지점은 대상 하단 좌측에 있으며 조회표상 휠 림·답면 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "가시광 이미지가 흰색으로 포화되어 판독이 불가능한 상태이므로, 임의로 부위와 원인을 단정하는 것보다 보고서 A처럼 불확실함을 명시하는 것이 산업 현장에서 더 신뢰할 수 있습니다.",
+ "case_id": "case060"
+}

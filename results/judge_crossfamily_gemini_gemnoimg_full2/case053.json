@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "차단기 단자 또는 연결 부위",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 단일 프레임 및 불확실한 화질에서 무리한 추정 대신 객관적인 계측 수치와 한계를 솔직하게 명시하여 신뢰도가 높습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "부위 상부 단자 접속부 / 열점 위치 판독 상단 우측 (계측 exact) / 열 형태 다점형"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 B는 불확실한 이미지 상태에서도 과도하게 상세한 부위 및 형태 추정을 시도하여 환각(hallucination) 위험이 있는 반면, 보고서 A는 기계 검증 실패를 투명하게 드러내며 보수적으로 작성되었습니다.",
+ "case_id": "case053"
+}

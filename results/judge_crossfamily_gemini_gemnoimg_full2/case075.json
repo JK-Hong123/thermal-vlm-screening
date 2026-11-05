@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "배터리팩 단자 및 배선부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 부위와 열 형태를 보다 상세히 기술하였으며, 보고서 B보다 현장 작업자에게 필요한 정보 구성이 충실함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "두 보고서 모두 기계 검증 항목에서 계측 기반 기본값으로 대체된 흔적이 있으나, A보고서의 이미지 판독 및 세부 설명이 좀 더 직관적임.",
+ "case_id": "case075"
+}

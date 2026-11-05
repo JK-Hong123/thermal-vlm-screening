@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "부스바 또는 케이블 연결부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 판독에서 부위 확인 불가 및 화질 보통으로 정직하게 기술하였으나, 보고서 B는 불확실한 부위와 원인 후보(정상 부하 발열)를 단정적으로 서술하여 신뢰성이 다소 떨어진다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열 — 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 기계 검증 결과와 한계를 명시하여 현장 작업자에게 더 객관적인 판단 근거를 제공함.",
+ "case_id": "case041"
+}

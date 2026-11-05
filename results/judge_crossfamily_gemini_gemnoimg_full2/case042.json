@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "CT 본체 중앙부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "tie",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A와 B는 동일한 계측 및 진단 결과를 공유하나, A는 작업자 메모와 권고 조치 측면에서 더 간결하고 명확한 논리 구조를 제공합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 4,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 4,
+ "adds_value_relative_to_other": "둘 다 동등",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "both",
+ "notes": "두 보고서 모두 기계적 측정값과 이미지 판독 내용이 일관적이며 오류가 없습니다.",
+ "case_id": "case042"
+}

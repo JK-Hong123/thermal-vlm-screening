@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "계기용변압기 본체 절연 몰드부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증에서 불합격된 항목을 정직하게 반영하여 기본값으로 대체하고 신중한 분석을 유지한 반면, 보고서 B는 불확실한 원인 후보를 과도하게 추정하였습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "접촉부 접촉저항 증가(체결 이완·산화), 과부하 또는 상 불평형"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 진단 시 명확한 근거가 없는 기계적 접촉저항 증가 등의 원인을 단정적으로 추정하는 것보다 상태 기반의 재확인을 권고하는 보고서 A가 현장 작업자에게 더 안전하고 신뢰성 높습니다.",
+ "case_id": "case061"
+}

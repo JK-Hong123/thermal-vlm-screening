@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "상단-우",
+ "my_part": "상부 단자 접속부",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증에서 불합격 처리되어 수치와 판독 간의 한계를 솔직하게 드러낸 반면, 보고서 B는 통과 처리되었으나 원인 후보에 근거가 부족한 추정을 포함하고 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열 — 근거: 열 형태, 세션 증거"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 기계 검증 실패 사실을 투명하게 공개하여 신뢰성이 높습니다.",
+ "case_id": "case052"
+}

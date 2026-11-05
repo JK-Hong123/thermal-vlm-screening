@@ -1,0 +1,106 @@
+{
+ "case_id": "case054",
+ "cond": "noimg",
+ "raw": {
+  "noimg": "{\n \"part\": \"확인 불가\",\n \"heat_pattern\": \"다점형\",\n \"part_location_ko\": \"하단 우측에 열점이 위치함\",\n \"cause_hypothesis\": [\n  \"베어링 손상·윤활 불량\",\n  \"확인 불가\"\n ],\n \"cause_basis\": [\n  \"열 형태\",\n  \"세션 증거\"\n ],\n \"field_checks\": [\n  \"윤활 상태·유량 확인\",\n  \"진동 측정\",\n  \"각도 바꿔 재촬영(반사 확인)\"\n ],\n \"operator_note_ko\": \"상자 경계의 외부 열원일 가능성이 있으므로 재촬영 후 재판정이 필요합니다.\"\n}"
+ },
+ "report": {
+  "case_id": "case054",
+  "equipment": "기어박스",
+  "site": "철도차량",
+  "spec": "기어박스",
+  "verdict": "이상 의심",
+  "severity": "L3 이상",
+  "severity_level": 3,
+  "severity_reference": "동종 설비 정상 분포(절대온도) 대비(잠정 기준)",
+  "severity_metric": "대상 최고온 88.4°C = 정상 프레임 분포 백분위 95.9 (정상 중앙값 59.0°C, P95 84.8°C); 장면 대비 ΔT 50.8°C",
+  "severity_source": "학습 데이터 동종 설비 정상 프레임 분포(잠정 기준, 표준 아님); ISO 18434-1 기준선 권고",
+  "scene_level": 4,
+  "gate_grade_conflict": false,
+  "abs_limit_line": "절대온도 한계 미초과 — 베어링·씰·윤활유 한계 100°C (잠정, 제조사 확인 필요)",
+  "measurements": {
+   "t_max": 88.4,
+   "t_mean": 43.5,
+   "scene_median": 37.6,
+   "dT_scene": 50.8,
+   "sibling_reference": null,
+   "dT_sibling": null,
+   "n_siblings": 0,
+   "hotspot_area_frac": 0.011,
+   "rf_prob": 0.783,
+   "t_max_eroded": 85.1,
+   "dT_scene_eroded": 47.5
+  },
+  "thermal_finding_ko": "대상 최고 온도 88.4°C, 장면 중앙값 37.6°C(장면 대비 50.8°C). 열점은 대상 내 하단 우측에 다점형 분포; 화면 최고온(131.5°C)은 대상 밖.",
+  "gate_reasons_ko": [
+   "장면 대비 ΔT가 동종 설비 정상 분포 상위 10% 이내",
+   "절대온도가 동종 설비 정상 분포 상위 4.1% 이내",
+   "열점이 국부에 집중"
+  ],
+  "caveats_ko": [
+   "화면 최고온(131.5°C)이 대상 밖에 있어 상자가 발열부를 온전히 포함하는지 확인 필요",
+   "최고온 지점이 상자 테두리에 있고 바로 바깥(89.1°C)이 더 뜨거움 — 인접 외부 열원이 상자 안으로 번진 값일 수 있음. 테두리 제외 시 최고온 85.1°C(장면 대비 47.5°C)로 3.4°C 하락"
+  ],
+  "case_type": "boundary_contaminated",
+  "case_type_ko": "최고온이 상자 경계의 외부 열원일 가능성 — 재촬영 후 재판정 필요",
+  "confidence": "low",
+  "confidence_reason": "최고온이 상자 경계의 외부 열원일 가능성 (게이트 확률 자체는 높으나 위 사유로 신뢰도를 낮춤)",
+  "action_ko": "상자 경계 외부 열원 오염 의심 — 촬영 각도·상자 범위를 조정해 재촬영 후 재판정(현 등급은 잠정)",
+  "field_checks_ko": [
+   "진동 측정",
+   "윤활 상태·유량 확인",
+   "각도 바꿔 재촬영(반사 확인)"
+  ],
+  "session_evidence_line": "같은 세션 40프레임 중 동일 부품 매칭 3프레임, 그중 3프레임 플래그",
+  "limitations_ko": [
+   "단일 촬영 기준",
+   "온도차 4°C 미만의 이상은 놓칠 수 있음",
+   "sibling_absent",
+   "calib_default",
+   "rgb_unaligned",
+   "boundary_contamination_suspect"
+  ],
+  "missing_ko": [
+   "주변 기온 실측(카메라 설정값만 존재)",
+   "운전 이력·이전 촬영",
+   "방사율 실측",
+   "운전 부하·회전수",
+   "진동·윤활 이력"
+  ],
+  "spatial_check": "exact",
+  "pattern_check": "differ",
+  "vlm_pass1": {
+   "equipment_plausible": "확인 불가",
+   "part": "확인 불가",
+   "p_grid": "하단 우측",
+   "heat_pattern": "다점형",
+   "visual_flags": [
+    "가시광 없음"
+   ],
+   "image_quality": "보통",
+   "part_location_ko": "하단 우측에 열점이 위치함"
+  },
+  "vlm_pass2": {
+   "cause_hypothesis": [
+    "확인 불가"
+   ],
+   "cause_basis": [],
+   "field_checks": [
+    "진동 측정",
+    "윤활 상태·유량 확인",
+    "각도 바꿔 재촬영(반사 확인)"
+   ],
+   "operator_note_ko": "상자 경계의 외부 열원일 가능성이 있으므로 재촬영 후 재판정이 필요합니다."
+  },
+  "validation": {
+   "violations": [
+    "cause:suppressed_boundary_contamination",
+    "heat_pattern:overridden_by_measurement"
+   ],
+   "fallback_fields": [
+    "cause",
+    "heat_pattern"
+   ]
+  }
+ }
+}

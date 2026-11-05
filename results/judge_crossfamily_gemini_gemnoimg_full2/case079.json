@@ -1,0 +1,20 @@
+{
+ "my_marker_cell": "상단-중",
+ "my_part": "부싱 또는 단자 접속부",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내용을 판독하여 구체적인 부위와 원인 후보를 제시한 반면, 보고서 B는 이미지 판독을 포기하고 기본값으로 대체하여 현장 엔지니어에게 유용한 정보가 부족합니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 2,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 2,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 0,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 열화상 이미지를 충실히 분석하여 실무적인 원인 추정 및 점검 항목을 제공함.",
+ "case_id": "case079"
+}

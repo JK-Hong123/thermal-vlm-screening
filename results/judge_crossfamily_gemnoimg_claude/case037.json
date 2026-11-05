@@ -1,0 +1,19 @@
+{
+  "my_marker_cell": "중단-중",
+  "my_part": "가시광에 큰 어두운 원통형 물체(철도차량 차륜 또는 액슬박스 하부로 보임)가 밝은 벽 앞에 있어 차축 베어링(액슬박스) 부근으로 추정되나, 열화상에서는 상자 내부에 뚜렷한 구조가 없고 상자 밖 우상단에 더 밝은 영역, 우하단에 매우 어두운(차가운) 영역이 보임. 열점은 상자 중단 좌측.",
+  "my_part_confidence": "low",
+  "which_report_reads_image_more": "A",
+  "preferred_report": "A",
+  "preference_reason": "판정·수치는 동일하고 양쪽 모두 자기모순은 없으나, A는 세션 8프레임 중 5프레임 플래그라는 비일관 상황에 맞게 진동·윤활 확인 항목을 제시해 실행 가능성이 더 높고 기계 검증도 통과함. B의 '차축 본체' 부위와 '정상 운전 발열' 원인은 열화상에서 확인할 수 없는 조회표/기본값 기반 서술임.",
+  "usefulness_A_1to5": 3,
+  "usefulness_B_1to5": 3,
+  "actionability_A_1to5": 3,
+  "actionability_B_1to5": 2,
+  "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+  "ungrounded_claims_A": 0,
+  "ungrounded_claims_B": 0,
+  "ungrounded_examples_A": [],
+  "ungrounded_examples_B": [],
+  "trustworthy_for_operator": "both",
+  "notes": "열점 위치(중단 좌측)는 두 보고서 모두 내 판독과 일치. 부위명은 A '차축 베어링(액슬박스)', B '차축 본체'로 갈리지만 열화상만으로는 어느 쪽도 확인 불가하며 둘 다 추정으로 한정하여 모순으로 세지 않음. B의 원인 후보 '정상 운전 발열'은 기계 검증에서 근거가 기본값으로 대체된 항목이라 가치가 제한적. L0 정상 범위인데 세션 내 5/8 프레임이 플래그된 점을 양쪽 모두 신뢰도 저하 사유로 일관되게 반영함."
+}

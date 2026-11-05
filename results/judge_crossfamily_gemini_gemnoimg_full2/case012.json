@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "차축베어링",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 이미지 내 마커 위치를 정확히 하단 우측으로 판독하였으나, 보고서 B는 부위 판독에서 모순을 보임.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 우측에 있으며 조회표상 휠 림·답면 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 계측 결과와 이미지 판독 내용이 일치하며 신뢰할 수 있음.",
+ "case_id": "case012"
+}

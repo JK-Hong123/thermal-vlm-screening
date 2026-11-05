@@ -60,7 +60,7 @@
    "부하율·전류",
    "상(R/S/T) 구분"
   ],
-  "spatial_check": "adjacent",
+  "spatial_check": "exact",
   "pattern_check": "match",
   "vlm_pass1": {
    "equipment_plausible": "확인 불가",
@@ -71,7 +71,7 @@
     "가시광 없음"
    ],
    "image_quality": "보통",
-   "part_location_ko": ""
+   "part_location_ko": "계측상 열점은 화면 기준 하단 중앙에 있으나 이미지가 없어 부품 내 세부 위치는 확인 불가함."
   },
   "vlm_pass2": {
    "cause_hypothesis": [
@@ -85,12 +85,10 @@
   },
   "validation": {
    "violations": [
-    "operator_note_ko:polarity_over",
-    "p_grid:overridden_by_measurement"
+    "operator_note_ko:polarity_over"
    ],
    "fallback_fields": [
-    "operator_note_ko",
-    "p_grid"
+    "operator_note_ko"
    ]
   }
  }

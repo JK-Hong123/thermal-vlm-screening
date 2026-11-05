@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "하단-우",
+ "my_part": "기어박스 하단 우측 경계부 (외부 발열체 인접)",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증 결과에 따라 이미지 판독에서 부위 추정을 생략하고 정직하게 '확인 불가'로 처리하여 신뢰도가 높으나, 보고서 B는 불확실한 부위(출력축 베어링부)를 단정적으로 서술하여 오류 가능성이 있음.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 우측에 있으며 조회표상 출력축 베어링부 부위로 추정됩니다."
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "기계 검증 불합격 시 이미지 판독을 통한 부위 추정을 제한하는 규칙을 보고서 A가 더 잘 반영함.",
+ "case_id": "case001"
+}

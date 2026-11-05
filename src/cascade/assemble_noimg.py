@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 """assemble_noimg.py — assemble full reports for the NO-IMAGE frontier control arm from results/vlm_out/frontier/noimg/<case>.json
 (raw model JSON with pass-1-style descriptive fields + pass-2 fields), using the SAME validators and assembly as every
-other arm; writes results/vlm_out/v2frontier/noimg/<case>.{json,txt}."""
-import json, os, sys, io, re
+other arm; writes results/vlm_out/<out>/noimg/<case>.{json,txt} (--src/--out select the frontier or the Gemini arm)."""
+import json, os, sys, io, re, argparse
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', line_buffering=True)
+_keep0 = sys.stdout
 import protocol_v2 as P
+_keep1 = sys.stdout
 from render_report import render
-L = r"<PROJECT_ROOT>\results\cases_lock"; F = r"<PROJECT_ROOT>\results\vlm_out\frontier\noimg"
-O = r"<PROJECT_ROOT>\results\vlm_out\v2frontier\noimg"; os.makedirs(O, exist_ok=True)
+ap = argparse.ArgumentParser(); ap.add_argument('--src', default='frontier', help="raw-output directory under results/vlm_out holding noimg/ (frontier | subject_gemini_3_5_flash_lite)")
+ap.add_argument('--out', default='v2frontier', help="assembled-report directory under results/vlm_out (writes <out>/noimg/)"); a = ap.parse_args()
+L = r"<PROJECT_ROOT>\results\cases_lock"; F = os.path.join(r"<PROJECT_ROOT>\results\vlm_out", a.src, 'noimg')
+O = os.path.join(r"<PROJECT_ROOT>\results\vlm_out", a.out, 'noimg'); os.makedirs(O, exist_ok=True)
 def parse_json(txt):
     m = re.search(r'\{.*\}', txt or '', re.S)
     if not m: return None

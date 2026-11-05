@@ -64,7 +64,7 @@
    "부하율·전류",
    "상(R/S/T) 구분"
   ],
-  "spatial_check": "adjacent",
+  "spatial_check": "exact",
   "pattern_check": "differ",
   "vlm_pass1": {
    "equipment_plausible": "확인 불가",
@@ -75,7 +75,7 @@
     "가시광 없음"
    ],
    "image_quality": "보통",
-   "part_location_ko": ""
+   "part_location_ko": "계측 기록상 열점들은 차단기 영역의 아래쪽 가운데에 여러 지점으로 분포하나, 하부 단자 접속부인지 케이블 접속부인지는 영상이 없어 확인 불가합니다."
   },
   "vlm_pass2": {
    "cause_hypothesis": [
@@ -93,12 +93,10 @@
   },
   "validation": {
    "violations": [
-    "heat_pattern:overridden_by_measurement",
-    "p_grid:overridden_by_measurement"
+    "heat_pattern:overridden_by_measurement"
    ],
    "fallback_fields": [
-    "heat_pattern",
-    "p_grid"
+    "heat_pattern"
    ]
   }
  }

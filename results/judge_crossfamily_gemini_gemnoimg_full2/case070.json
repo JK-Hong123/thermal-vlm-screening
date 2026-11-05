@@ -1,0 +1,22 @@
+{
+ "my_marker_cell": "중단-우",
+ "my_part": "배터리팩/모듈 부위",
+ "my_part_confidence": "high",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 기계 검증에서 불합격된 항목을 투명하게 명시하고 이미지 판독의 한계를 솔직히 드러낸 반면, 보고서 B는 통과 처리하며 원인 추정을 다소 무리하게 단정함.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 1,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "원인 후보(추정): 정상 부하 발열"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "보고서 A는 메타데이터와 검증 실패 내역을 정직하게 담고 있어 현장 엔지니어가 신뢰하고 참고하기에 더 적합합니다.",
+ "case_id": "case070"
+}

@@ -60,7 +60,7 @@
    "부하율·전류",
    "상(R/S/T) 구분"
   ],
-  "spatial_check": "adjacent",
+  "spatial_check": "exact",
   "pattern_check": "differ",
   "vlm_pass1": {
    "equipment_plausible": "확인 불가",
@@ -71,7 +71,7 @@
     "가시광 없음"
    ],
    "image_quality": "보통",
-   "part_location_ko": ""
+   "part_location_ko": "계측된 열점은 촬영 화면 기준 아래쪽 가운데에 여러 개로 분포하며, 이미지가 없어 접촉기의 어느 부위 위인지는 특정할 수 없다."
   },
   "vlm_pass2": {
    "cause_hypothesis": [
@@ -85,12 +85,10 @@
   },
   "validation": {
    "violations": [
-    "heat_pattern:overridden_by_measurement",
-    "p_grid:overridden_by_measurement"
+    "heat_pattern:overridden_by_measurement"
    ],
    "fallback_fields": [
-    "heat_pattern",
-    "p_grid"
+    "heat_pattern"
    ]
   }
  }

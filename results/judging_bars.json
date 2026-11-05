@@ -115,5 +115,23 @@
   "lo": 0.45,
   "hi": 0.662,
   "color": "#98df8a"
+ },
+ {
+  "group": "Low-cost commercial subject (Gemini), judges without the facts",
+  "label": "Gemini, NO image, Claude judge (n=32)",
+  "k": 21,
+  "n": 32,
+  "lo": 0.5,
+  "hi": 0.812,
+  "color": "#2ca02c"
+ },
+ {
+  "group": "Low-cost commercial subject (Gemini), judges without the facts",
+  "label": "Gemini, NO image, Gemini judge (n=80)",
+  "k": 40,
+  "n": 80,
+  "lo": 0.388,
+  "hi": 0.613,
+  "color": "#98df8a"
  }
 ]

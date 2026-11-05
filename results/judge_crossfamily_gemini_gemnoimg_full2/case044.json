@@ -1,0 +1,23 @@
+{
+ "my_marker_cell": "중단-중",
+ "my_part": "전자접촉기 중앙부 단자",
+ "my_part_confidence": "medium",
+ "which_report_reads_image_more": "A",
+ "preferred_report": "A",
+ "preference_reason": "보고서 A는 화질이 낮고 가시광 정렬이 불확실한 상태에서 섣부른 추정을 피하고 '확인 불가'로 처리하여 기계 검증의 신뢰성을 지켰습니다. 반면 보고서 B는 불확실한 이미지에서 근거 없는 부위 추정과 원인 추정을 시도하여 환각(hallucination) 소지가 있습니다.",
+ "usefulness_A_1to5": 4,
+ "usefulness_B_1to5": 3,
+ "actionability_A_1to5": 4,
+ "actionability_B_1to5": 3,
+ "adds_value_relative_to_other": "A가 B에 없는 유용한 정보를 더함",
+ "ungrounded_claims_A": 0,
+ "ungrounded_claims_B": 2,
+ "ungrounded_examples_A": [],
+ "ungrounded_examples_B": [
+  "최고온 지점은 대상 하단 중앙에 있으며 조회표상 하부 단자 부위로 추정됩니다.",
+  "원인 후보(추정): 정상 부하 발열 / 근거: 열 형태"
+ ],
+ "trustworthy_for_operator": "A",
+ "notes": "열화상 진단에서 불확실한 이미지에 대해 억지로 부위나 원인을 유추하는 것보다 솔직하게 '확인 불가'로 명시하는 것이 현장 작업자의 오진을 방지하는 데 훨씬 안전하고 신뢰성 높습니다.",
+ "case_id": "case044"
+}

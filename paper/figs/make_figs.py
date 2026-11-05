@@ -21,7 +21,7 @@ labels = ['Radiometric\nCSV + JSON\n(512×640,\nbboxes)',
           'Radiometric\n+ spatial\nfeatures (26)\n+ equipment',
           'Equipment-\nconditioned\ngate\n(tree\nensemble)',
           'Code-owned\nseverity:\nS/A/P axes,\nlimits,\nreview queue,\nflags',
-          'Qualified VLM:\nblind\nobservation,\nnumber-free\nreasoning',
+          'Language model\ntier 1: narrative\nfrom facts, no image\ntier 2: blind image\nobservation\n(screened only)',
           'Validated\nauditable\nreport']
 is_model = [False, False, False, False, True, False]
 GREY, GREY_EDGE, ACC, ACC_EDGE = '#efefef', '#444444', '#fde9d9', '#c0504d'
@@ -53,7 +53,7 @@ for i in range(len(edges) - 1):
 xv0, xv1 = edges[4][1], edges[5][0]
 ax.text((xv0 + xv1) / 2, yc + 0.16, 'validation', ha='center', va='bottom', fontsize=FS - 1.5, color='#333333')
 fig.legend(handles=[Patch(fc=GREY, ec=GREY_EDGE, lw=1.1, label='owned by deterministic code (verdict, severity, every number)'),
-                    Patch(fc=ACC, ec=ACC_EDGE, lw=1.1, ls='--', label='language model (descriptive fields only, after passing the screening protocol)')],
+                    Patch(fc=ACC, ec=ACC_EDGE, lw=1.1, ls='--', label='language model (descriptive fields only; tier 2 only after passing the screening protocol)')],
            loc='lower center', bbox_to_anchor=(0.5, 0.0), ncol=2, fontsize=FS - 1, frameon=False, handlelength=1.6, columnspacing=1.5)
 save(fig, 'fig1_pipeline')
 

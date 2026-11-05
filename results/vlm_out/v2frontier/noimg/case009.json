@@ -60,7 +60,7 @@
    "운전 부하·회전수",
    "진동·윤활 이력"
   ],
-  "spatial_check": "adjacent",
+  "spatial_check": "exact",
   "pattern_check": "match",
   "vlm_pass1": {
    "equipment_plausible": "확인 불가",
@@ -71,7 +71,7 @@
     "가시광 없음"
    ],
    "image_quality": "보통",
-   "part_location_ko": ""
+   "part_location_ko": "계측상 열은 전동기 몸체 아래쪽 가운데 부위에 넓게 퍼져 있으며, 특정 국부에 집중된 형태는 아니다."
   },
   "vlm_pass2": {
    "cause_hypothesis": [
@@ -91,13 +91,11 @@
   "validation": {
    "violations": [
     "checks:out_of_group",
-    "operator_note_ko:out_of_group",
-    "p_grid:overridden_by_measurement"
+    "operator_note_ko:out_of_group"
    ],
    "fallback_fields": [
     "checks",
-    "operator_note_ko",
-    "p_grid"
+    "operator_note_ko"
    ]
   }
  }
